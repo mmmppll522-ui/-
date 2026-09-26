@@ -1,0 +1,16 @@
+{
+  "name": "shu-atbokh",
+  "version": "0.1.0",
+  "private": true,
+  "description": "شو أطبخ؟ — find recipes from the ingredients you have, and buy what is missing from stores in your country.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "stats": "node scripts/stats.mjs",
+    "format": "node scripts/format-data.mjs",
+    "check": "node scripts/format-data.mjs --check && node scripts/validate.mjs"
+  }
+}

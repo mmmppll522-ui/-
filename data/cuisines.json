@@ -1,0 +1,505 @@
+{
+  "groups": [
+    {
+      "id": "arab",
+      "name": { "ar": "المطابخ العربية", "tr": "Arap mutfakları", "en": "Arab cuisines" },
+      "order": 1,
+      "target_per_cuisine": 40
+    },
+    {
+      "id": "asian",
+      "name": { "ar": "المطابخ الآسيوية", "tr": "Asya mutfakları", "en": "Asian cuisines" },
+      "order": 2,
+      "target_per_cuisine": 20
+    },
+    {
+      "id": "european",
+      "name": { "ar": "المطابخ الأوروبية", "tr": "Avrupa mutfakları", "en": "European cuisines" },
+      "order": 3,
+      "target_per_cuisine": 20
+    },
+    {
+      "id": "latin",
+      "name": { "ar": "مطابخ أمريكا اللاتينية", "tr": "Latin Amerika mutfakları", "en": "Latin American cuisines" },
+      "order": 4,
+      "target_per_cuisine": 20
+    }
+  ],
+  "regions": {
+    "levant": { "ar": "بلاد الشام", "tr": "Levant (Şam bölgesi)", "en": "Levant" },
+    "iraq": { "ar": "العراق", "tr": "Irak", "en": "Iraq" },
+    "gulf": { "ar": "الخليج العربي", "tr": "Körfez", "en": "Gulf" },
+    "yemen": { "ar": "اليمن", "tr": "Yemen", "en": "Yemen" },
+    "nile_valley": { "ar": "وادي النيل", "tr": "Nil vadisi", "en": "Nile Valley" },
+    "maghreb": { "ar": "المغرب العربي", "tr": "Mağrip", "en": "Maghreb" },
+    "anatolia": { "ar": "الأناضول", "tr": "Anadolu", "en": "Anatolia" },
+    "iran": { "ar": "إيران", "tr": "İran", "en": "Iran" },
+    "south_asia": { "ar": "جنوب آسيا", "tr": "Güney Asya", "en": "South Asia" },
+    "east_asia": { "ar": "شرق آسيا", "tr": "Doğu Asya", "en": "East Asia" },
+    "southeast_asia": { "ar": "جنوب شرق آسيا", "tr": "Güneydoğu Asya", "en": "Southeast Asia" },
+    "europe": { "ar": "أوروبا", "tr": "Avrupa", "en": "Europe" },
+    "latin_america": { "ar": "أمريكا اللاتينية", "tr": "Latin Amerika", "en": "Latin America" }
+  },
+  "cuisines": [
+    {
+      "id": "syrian",
+      "name": { "ar": "سوري", "tr": "Suriye", "en": "Syrian" },
+      "group": "arab",
+      "region": "levant",
+      "country_code": "SY",
+      "flag": "🇸🇾",
+      "order": 1,
+      "target": 40
+    },
+    {
+      "id": "lebanese",
+      "name": { "ar": "لبناني", "tr": "Lübnan", "en": "Lebanese" },
+      "group": "arab",
+      "region": "levant",
+      "country_code": "LB",
+      "flag": "🇱🇧",
+      "order": 2,
+      "target": 40
+    },
+    {
+      "id": "palestinian",
+      "name": { "ar": "فلسطيني", "tr": "Filistin", "en": "Palestinian" },
+      "group": "arab",
+      "region": "levant",
+      "country_code": "PS",
+      "flag": "🇵🇸",
+      "order": 3,
+      "target": 40
+    },
+    {
+      "id": "jordanian",
+      "name": { "ar": "أردني", "tr": "Ürdün", "en": "Jordanian" },
+      "group": "arab",
+      "region": "levant",
+      "country_code": "JO",
+      "flag": "🇯🇴",
+      "order": 4,
+      "target": 40
+    },
+    {
+      "id": "iraqi",
+      "name": { "ar": "عراقي", "tr": "Irak", "en": "Iraqi" },
+      "group": "arab",
+      "region": "iraq",
+      "country_code": "IQ",
+      "flag": "🇮🇶",
+      "order": 5,
+      "target": 40
+    },
+    {
+      "id": "saudi",
+      "name": { "ar": "سعودي", "tr": "Suudi", "en": "Saudi" },
+      "group": "arab",
+      "region": "gulf",
+      "country_code": "SA",
+      "flag": "🇸🇦",
+      "order": 6,
+      "target": 40
+    },
+    {
+      "id": "emirati",
+      "name": { "ar": "إماراتي", "tr": "Emirlik", "en": "Emirati" },
+      "group": "arab",
+      "region": "gulf",
+      "country_code": "AE",
+      "flag": "🇦🇪",
+      "order": 7,
+      "target": 40
+    },
+    {
+      "id": "kuwaiti",
+      "name": { "ar": "كويتي", "tr": "Kuveyt", "en": "Kuwaiti" },
+      "group": "arab",
+      "region": "gulf",
+      "country_code": "KW",
+      "flag": "🇰🇼",
+      "order": 8,
+      "target": 40
+    },
+    {
+      "id": "qatari",
+      "name": { "ar": "قطري", "tr": "Katar", "en": "Qatari" },
+      "group": "arab",
+      "region": "gulf",
+      "country_code": "QA",
+      "flag": "🇶🇦",
+      "order": 9,
+      "target": 40
+    },
+    {
+      "id": "bahraini",
+      "name": { "ar": "بحريني", "tr": "Bahreyn", "en": "Bahraini" },
+      "group": "arab",
+      "region": "gulf",
+      "country_code": "BH",
+      "flag": "🇧🇭",
+      "order": 10,
+      "target": 40
+    },
+    {
+      "id": "omani",
+      "name": { "ar": "عُماني", "tr": "Umman", "en": "Omani" },
+      "group": "arab",
+      "region": "gulf",
+      "country_code": "OM",
+      "flag": "🇴🇲",
+      "order": 11,
+      "target": 40
+    },
+    {
+      "id": "yemeni",
+      "name": { "ar": "يمني", "tr": "Yemen", "en": "Yemeni" },
+      "group": "arab",
+      "region": "yemen",
+      "country_code": "YE",
+      "flag": "🇾🇪",
+      "order": 12,
+      "target": 40
+    },
+    {
+      "id": "egyptian",
+      "name": { "ar": "مصري", "tr": "Mısır", "en": "Egyptian" },
+      "group": "arab",
+      "region": "nile_valley",
+      "country_code": "EG",
+      "flag": "🇪🇬",
+      "order": 13,
+      "target": 40
+    },
+    {
+      "id": "sudanese",
+      "name": { "ar": "سوداني", "tr": "Sudan", "en": "Sudanese" },
+      "group": "arab",
+      "region": "nile_valley",
+      "country_code": "SD",
+      "flag": "🇸🇩",
+      "order": 14,
+      "target": 40
+    },
+    {
+      "id": "moroccan",
+      "name": { "ar": "مغربي", "tr": "Fas", "en": "Moroccan" },
+      "group": "arab",
+      "region": "maghreb",
+      "country_code": "MA",
+      "flag": "🇲🇦",
+      "order": 15,
+      "target": 40
+    },
+    {
+      "id": "algerian",
+      "name": { "ar": "جزائري", "tr": "Cezayir", "en": "Algerian" },
+      "group": "arab",
+      "region": "maghreb",
+      "country_code": "DZ",
+      "flag": "🇩🇿",
+      "order": 16,
+      "target": 40
+    },
+    {
+      "id": "tunisian",
+      "name": { "ar": "تونسي", "tr": "Tunus", "en": "Tunisian" },
+      "group": "arab",
+      "region": "maghreb",
+      "country_code": "TN",
+      "flag": "🇹🇳",
+      "order": 17,
+      "target": 40
+    },
+    {
+      "id": "libyan",
+      "name": { "ar": "ليبي", "tr": "Libya", "en": "Libyan" },
+      "group": "arab",
+      "region": "maghreb",
+      "country_code": "LY",
+      "flag": "🇱🇾",
+      "order": 18,
+      "target": 40
+    },
+    {
+      "id": "turkish",
+      "name": { "ar": "تركي", "tr": "Türk", "en": "Turkish" },
+      "group": "asian",
+      "region": "anatolia",
+      "country_code": "TR",
+      "flag": "🇹🇷",
+      "order": 19,
+      "target": 20
+    },
+    {
+      "id": "persian",
+      "name": { "ar": "إيراني (فارسي)", "tr": "İran", "en": "Persian" },
+      "group": "asian",
+      "region": "iran",
+      "country_code": "IR",
+      "flag": "🇮🇷",
+      "order": 20,
+      "target": 20
+    },
+    {
+      "id": "indian",
+      "name": { "ar": "هندي", "tr": "Hint", "en": "Indian" },
+      "group": "asian",
+      "region": "south_asia",
+      "country_code": "IN",
+      "flag": "🇮🇳",
+      "order": 21,
+      "target": 20
+    },
+    {
+      "id": "pakistani",
+      "name": { "ar": "باكستاني", "tr": "Pakistan", "en": "Pakistani" },
+      "group": "asian",
+      "region": "south_asia",
+      "country_code": "PK",
+      "flag": "🇵🇰",
+      "order": 22,
+      "target": 20
+    },
+    {
+      "id": "chinese",
+      "name": { "ar": "صيني", "tr": "Çin", "en": "Chinese" },
+      "group": "asian",
+      "region": "east_asia",
+      "country_code": "CN",
+      "flag": "🇨🇳",
+      "order": 23,
+      "target": 20
+    },
+    {
+      "id": "japanese",
+      "name": { "ar": "ياباني", "tr": "Japon", "en": "Japanese" },
+      "group": "asian",
+      "region": "east_asia",
+      "country_code": "JP",
+      "flag": "🇯🇵",
+      "order": 24,
+      "target": 20
+    },
+    {
+      "id": "korean",
+      "name": { "ar": "كوري", "tr": "Kore", "en": "Korean" },
+      "group": "asian",
+      "region": "east_asia",
+      "country_code": "KR",
+      "flag": "🇰🇷",
+      "order": 25,
+      "target": 20
+    },
+    {
+      "id": "thai",
+      "name": { "ar": "تايلندي", "tr": "Tayland", "en": "Thai" },
+      "group": "asian",
+      "region": "southeast_asia",
+      "country_code": "TH",
+      "flag": "🇹🇭",
+      "order": 26,
+      "target": 20
+    },
+    {
+      "id": "vietnamese",
+      "name": { "ar": "فيتنامي", "tr": "Vietnam", "en": "Vietnamese" },
+      "group": "asian",
+      "region": "southeast_asia",
+      "country_code": "VN",
+      "flag": "🇻🇳",
+      "order": 27,
+      "target": 20
+    },
+    {
+      "id": "indonesian",
+      "name": { "ar": "إندونيسي", "tr": "Endonezya", "en": "Indonesian" },
+      "group": "asian",
+      "region": "southeast_asia",
+      "country_code": "ID",
+      "flag": "🇮🇩",
+      "order": 28,
+      "target": 20
+    },
+    {
+      "id": "malaysian",
+      "name": { "ar": "ماليزي", "tr": "Malezya", "en": "Malaysian" },
+      "group": "asian",
+      "region": "southeast_asia",
+      "country_code": "MY",
+      "flag": "🇲🇾",
+      "order": 29,
+      "target": 20
+    },
+    {
+      "id": "filipino",
+      "name": { "ar": "فلبيني", "tr": "Filipin", "en": "Filipino" },
+      "group": "asian",
+      "region": "southeast_asia",
+      "country_code": "PH",
+      "flag": "🇵🇭",
+      "order": 30,
+      "target": 20
+    },
+    {
+      "id": "italian",
+      "name": { "ar": "إيطالي", "tr": "İtalyan", "en": "Italian" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "IT",
+      "flag": "🇮🇹",
+      "order": 31,
+      "target": 20
+    },
+    {
+      "id": "french",
+      "name": { "ar": "فرنسي", "tr": "Fransız", "en": "French" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "FR",
+      "flag": "🇫🇷",
+      "order": 32,
+      "target": 20
+    },
+    {
+      "id": "spanish",
+      "name": { "ar": "إسباني", "tr": "İspanyol", "en": "Spanish" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "ES",
+      "flag": "🇪🇸",
+      "order": 33,
+      "target": 20
+    },
+    {
+      "id": "greek",
+      "name": { "ar": "يوناني", "tr": "Yunan", "en": "Greek" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "GR",
+      "flag": "🇬🇷",
+      "order": 34,
+      "target": 20
+    },
+    {
+      "id": "portuguese",
+      "name": { "ar": "برتغالي", "tr": "Portekiz", "en": "Portuguese" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "PT",
+      "flag": "🇵🇹",
+      "order": 35,
+      "target": 20
+    },
+    {
+      "id": "german",
+      "name": { "ar": "ألماني", "tr": "Alman", "en": "German" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "DE",
+      "flag": "🇩🇪",
+      "order": 36,
+      "target": 20
+    },
+    {
+      "id": "british",
+      "name": { "ar": "بريطاني", "tr": "İngiliz", "en": "British" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "GB",
+      "flag": "🇬🇧",
+      "order": 37,
+      "target": 20
+    },
+    {
+      "id": "russian",
+      "name": { "ar": "روسي", "tr": "Rus", "en": "Russian" },
+      "group": "european",
+      "region": "europe",
+      "country_code": "RU",
+      "flag": "🇷🇺",
+      "order": 38,
+      "target": 20
+    },
+    {
+      "id": "mexican",
+      "name": { "ar": "مكسيكي", "tr": "Meksika", "en": "Mexican" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "MX",
+      "flag": "🇲🇽",
+      "order": 39,
+      "target": 20
+    },
+    {
+      "id": "brazilian",
+      "name": { "ar": "برازيلي", "tr": "Brezilya", "en": "Brazilian" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "BR",
+      "flag": "🇧🇷",
+      "order": 40,
+      "target": 20
+    },
+    {
+      "id": "peruvian",
+      "name": { "ar": "بيروفي", "tr": "Peru", "en": "Peruvian" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "PE",
+      "flag": "🇵🇪",
+      "order": 41,
+      "target": 20
+    },
+    {
+      "id": "argentinian",
+      "name": { "ar": "أرجنتيني", "tr": "Arjantin", "en": "Argentinian" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "AR",
+      "flag": "🇦🇷",
+      "order": 42,
+      "target": 20
+    },
+    {
+      "id": "colombian",
+      "name": { "ar": "كولومبي", "tr": "Kolombiya", "en": "Colombian" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "CO",
+      "flag": "🇨🇴",
+      "order": 43,
+      "target": 20
+    },
+    {
+      "id": "cuban",
+      "name": { "ar": "كوبي", "tr": "Küba", "en": "Cuban" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "CU",
+      "flag": "🇨🇺",
+      "order": 44,
+      "target": 20
+    },
+    {
+      "id": "venezuelan",
+      "name": { "ar": "فنزويلي", "tr": "Venezuela", "en": "Venezuelan" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "VE",
+      "flag": "🇻🇪",
+      "order": 45,
+      "target": 20
+    },
+    {
+      "id": "chilean",
+      "name": { "ar": "تشيلي", "tr": "Şili", "en": "Chilean" },
+      "group": "latin",
+      "region": "latin_america",
+      "country_code": "CL",
+      "flag": "🇨🇱",
+      "order": 46,
+      "target": 20
+    }
+  ]
+}

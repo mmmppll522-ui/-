@@ -1,0 +1,95 @@
+{
+  "languages": ["ar", "tr", "en"],
+  "search_languages": ["ar", "tr", "en", "de", "fr"],
+  "categories": {
+    "vegetables": { "ar": "خضار", "tr": "Sebzeler", "en": "Vegetables", "icon": "🥕", "order": 1 },
+    "fruits": { "ar": "فواكه", "tr": "Meyveler", "en": "Fruits", "icon": "🍋", "order": 2 },
+    "meat": { "ar": "لحوم", "tr": "Et", "en": "Meat", "icon": "🥩", "order": 3 },
+    "poultry": { "ar": "دواجن", "tr": "Tavuk", "en": "Poultry", "icon": "🍗", "order": 4 },
+    "seafood": {
+      "ar": "أسماك وبحريات",
+      "tr": "Balık ve deniz ürünleri",
+      "en": "Fish & seafood",
+      "icon": "🐟",
+      "order": 5
+    },
+    "dairy": { "ar": "ألبان وأجبان", "tr": "Süt ürünleri ve peynir", "en": "Dairy & cheese", "icon": "🧀", "order": 6 },
+    "eggs": { "ar": "بيض", "tr": "Yumurta", "en": "Eggs", "icon": "🥚", "order": 7 },
+    "grains": {
+      "ar": "حبوب ونشويات",
+      "tr": "Tahıllar ve nişastalılar",
+      "en": "Grains & starches",
+      "icon": "🌾",
+      "order": 8
+    },
+    "legumes": { "ar": "بقوليات", "tr": "Baklagiller", "en": "Legumes", "icon": "🫘", "order": 9 },
+    "spices": { "ar": "بهارات", "tr": "Baharatlar", "en": "Spices", "icon": "🧂", "order": 10 },
+    "herbs": { "ar": "أعشاب", "tr": "Yeşillikler", "en": "Herbs", "icon": "🌿", "order": 11 },
+    "sauces": {
+      "ar": "صلصات ومعلبات",
+      "tr": "Soslar ve salçalar",
+      "en": "Sauces & condiments",
+      "icon": "🥫",
+      "order": 12
+    },
+    "nuts": { "ar": "مكسرات وبذور", "tr": "Kuruyemiş ve tohumlar", "en": "Nuts & seeds", "icon": "🥜", "order": 13 },
+    "oils": { "ar": "زيوت ودهون", "tr": "Yağlar", "en": "Oils & fats", "icon": "🫒", "order": 14 },
+    "other": { "ar": "أخرى", "tr": "Diğer", "en": "Other", "icon": "🧺", "order": 15 }
+  },
+  "units": {
+    "g": { "ar": "غ", "tr": "g", "en": "g", "scalable": true },
+    "kg": { "ar": "كغ", "tr": "kg", "en": "kg", "scalable": true },
+    "ml": { "ar": "مل", "tr": "ml", "en": "ml", "scalable": true },
+    "l": { "ar": "لتر", "tr": "litre", "en": "l", "scalable": true },
+    "cup": { "ar": "كوب", "tr": "su bardağı", "en": "cup", "scalable": true },
+    "tbsp": { "ar": "ملعقة كبيرة", "tr": "yemek kaşığı", "en": "tbsp", "scalable": true },
+    "tsp": { "ar": "ملعقة صغيرة", "tr": "tatlı kaşığı", "en": "tsp", "scalable": true },
+    "piece": { "ar": "حبة", "tr": "adet", "en": "piece", "scalable": true },
+    "clove": { "ar": "فص", "tr": "diş", "en": "clove", "scalable": true },
+    "head": { "ar": "رأس", "tr": "baş", "en": "head", "scalable": true },
+    "bunch": { "ar": "ضمة", "tr": "demet", "en": "bunch", "scalable": true },
+    "can": { "ar": "علبة", "tr": "kutu", "en": "can", "scalable": true },
+    "leaf": { "ar": "ورقة", "tr": "yaprak", "en": "leaf", "scalable": true },
+    "sheet": { "ar": "ورقة عجين", "tr": "yaprak yufka", "en": "sheet", "scalable": true },
+    "slice": { "ar": "شريحة", "tr": "dilim", "en": "slice", "scalable": true },
+    "pinch": { "ar": "رشة", "tr": "tutam", "en": "pinch", "scalable": false },
+    "to_taste": { "ar": "حسب الرغبة", "tr": "göz kararı", "en": "to taste", "scalable": false }
+  },
+  "meal_types": {
+    "breakfast": { "ar": "فطور", "tr": "Kahvaltı", "en": "Breakfast" },
+    "lunch": { "ar": "غداء", "tr": "Öğle yemeği", "en": "Lunch" },
+    "dinner": { "ar": "عشاء", "tr": "Akşam yemeği", "en": "Dinner" },
+    "snack": { "ar": "وجبة خفيفة", "tr": "Ara öğün", "en": "Snack" },
+    "dessert": { "ar": "تحلية", "tr": "Tatlı", "en": "Dessert" },
+    "drink": { "ar": "مشروب", "tr": "İçecek", "en": "Drink" }
+  },
+  "courses": {
+    "main": { "ar": "طبق رئيسي", "tr": "Ana yemek", "en": "Main", "icon": "🍲" },
+    "side": { "ar": "طبق جانبي", "tr": "Yan yemek", "en": "Side", "icon": "🍚" },
+    "appetizer": { "ar": "مقبلات", "tr": "Meze", "en": "Appetizer", "icon": "🫓" },
+    "soup": { "ar": "شوربة", "tr": "Çorba", "en": "Soup", "icon": "🥣" },
+    "salad": { "ar": "سلطة", "tr": "Salata", "en": "Salad", "icon": "🥗" },
+    "dessert": { "ar": "حلويات", "tr": "Tatlı", "en": "Dessert", "icon": "🍮" },
+    "pastry": { "ar": "معجنات", "tr": "Hamur işi", "en": "Pastry", "icon": "🥟" },
+    "bread": { "ar": "خبز", "tr": "Ekmek", "en": "Bread", "icon": "🍞" },
+    "sauce": { "ar": "صلصة", "tr": "Sos", "en": "Sauce", "icon": "🫙" },
+    "drink": { "ar": "مشروبات", "tr": "İçecekler", "en": "Drinks", "icon": "🥤" }
+  },
+  "difficulties": {
+    "easy": { "ar": "سهل", "tr": "Kolay", "en": "Easy" },
+    "medium": { "ar": "متوسط", "tr": "Orta", "en": "Medium" },
+    "hard": { "ar": "صعب", "tr": "Zor", "en": "Hard" }
+  },
+  "contains": {
+    "meat": { "ar": "لحوم", "tr": "Et", "en": "Meat" },
+    "poultry": { "ar": "دواجن", "tr": "Kanatlı", "en": "Poultry" },
+    "seafood": { "ar": "أسماك/بحريات", "tr": "Deniz ürünü", "en": "Seafood" },
+    "pork": { "ar": "لحم خنزير", "tr": "Domuz eti", "en": "Pork" },
+    "alcohol": { "ar": "كحول", "tr": "Alkol", "en": "Alcohol" },
+    "gelatin": { "ar": "جيلاتين حيواني", "tr": "Hayvansal jelatin", "en": "Animal gelatin" },
+    "dairy": { "ar": "ألبان", "tr": "Süt ürünü", "en": "Dairy" },
+    "egg": { "ar": "بيض", "tr": "Yumurta", "en": "Egg" },
+    "honey": { "ar": "عسل", "tr": "Bal", "en": "Honey" },
+    "gluten": { "ar": "غلوتين", "tr": "Gluten", "en": "Gluten" }
+  }
+}
