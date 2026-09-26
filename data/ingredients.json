@@ -1211,7 +1211,7 @@
     "id": "zaatar",
     "names": { "ar": "زعتر", "tr": "zahter", "en": "za'atar" },
     "synonyms": {
-      "ar": ["زعتر أخضر", "زعتر مطحون", "زعتر بلدي", "خلطة الزعتر", "صعتر"],
+      "ar": ["زعتر مطحون", "زعتر بلدي", "خلطة الزعتر", "صعتر"],
       "tr": ["zahter karışımı", "za'atar"],
       "en": ["zaatar", "zatar", "thyme mix"]
     },
@@ -2179,5 +2179,332 @@
     "contains": [],
     "substitutes": ["cornstarch"],
     "search_term": { "ar": "سحلب", "tr": "salep", "en": "sahlab powder", "de": "Salep", "fr": "sahlab" }
+  },
+  {
+    "id": "maftoul",
+    "names": { "ar": "مفتول", "tr": "maftul", "en": "maftoul" },
+    "synonyms": {
+      "ar": ["مفتول فلسطيني", "مغربية فلسطينية", "كسكس فلسطيني"],
+      "tr": ["filistin kuskusu"],
+      "en": ["palestinian couscous", "hand-rolled couscous"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["moghrabieh"],
+    "search_term": { "ar": "مفتول", "tr": "maftul", "en": "maftoul", "de": "Maftoul", "fr": "maftoul" }
+  },
+  {
+    "id": "nabulsi_cheese",
+    "names": { "ar": "جبنة نابلسية", "tr": "nablus peyniri", "en": "Nabulsi cheese" },
+    "synonyms": {
+      "ar": ["جبنة نابلسي", "جبنة بيضاء نابلسية", "جبنة مغلية"],
+      "tr": [],
+      "en": ["nablus cheese", "brined white cheese"]
+    },
+    "category": "dairy",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["cheese"],
+    "contains": ["dairy"],
+    "substitutes": ["akkawi_cheese", "mozzarella"],
+    "search_term": {
+      "ar": "جبنة نابلسية",
+      "tr": "künefe peyniri",
+      "en": "nabulsi cheese",
+      "de": "Nabulsi Käse",
+      "fr": "fromage nabulsi"
+    }
+  },
+  {
+    "id": "shrimp",
+    "names": { "ar": "جمبري", "tr": "karides", "en": "shrimp" },
+    "synonyms": { "ar": ["روبيان", "قريدس", "إربيان", "جمبري مقشر"], "tr": [], "en": ["prawns"] },
+    "category": "seafood",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["seafood"],
+    "substitutes": [],
+    "search_term": { "ar": "جمبري", "tr": "karides", "en": "shrimp", "de": "Garnelen", "fr": "crevettes" }
+  },
+  {
+    "id": "dill",
+    "names": { "ar": "شبت", "tr": "dereotu", "en": "dill" },
+    "synonyms": { "ar": ["شبث", "شبت أخضر", "سلطانة", "شبت طازج"], "tr": ["taze dereotu"], "en": ["fresh dill"] },
+    "category": "herbs",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "شبت", "tr": "dereotu", "en": "fresh dill", "de": "Dill", "fr": "aneth" }
+  },
+  {
+    "id": "dill_seed",
+    "names": { "ar": "بذور الشبت", "tr": "dereotu tohumu", "en": "dill seed" },
+    "synonyms": { "ar": ["حب الشبت", "شبت ناشف", "بزر الشبت"], "tr": [], "en": ["dill seeds"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["caraway"],
+    "search_term": {
+      "ar": "بذور شبت",
+      "tr": "dereotu tohumu",
+      "en": "dill seed",
+      "de": "Dillsamen",
+      "fr": "graines d'aneth"
+    }
+  },
+  {
+    "id": "sage",
+    "names": { "ar": "مريمية", "tr": "adaçayı", "en": "sage" },
+    "synonyms": { "ar": ["ميرمية", "مرمية", "قصعين"], "tr": ["kuru adaçayı"], "en": ["dried sage"] },
+    "category": "herbs",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "مريمية", "tr": "adaçayı", "en": "sage", "de": "Salbei", "fr": "sauge" }
+  },
+  {
+    "id": "black_tea",
+    "names": { "ar": "شاي", "tr": "çay", "en": "black tea" },
+    "synonyms": {
+      "ar": ["شاي أسود", "شاي سيلاني", "أكياس شاي"],
+      "tr": ["siyah çay", "demlik çay"],
+      "en": ["tea", "tea bags", "loose tea"]
+    },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "شاي أسود", "tr": "siyah çay", "en": "black tea", "de": "Schwarztee", "fr": "thé noir" }
+  },
+  {
+    "id": "coffee",
+    "names": { "ar": "قهوة", "tr": "kahve", "en": "ground coffee" },
+    "synonyms": {
+      "ar": ["بن", "قهوة مطحونة", "قهوة عربية", "قهوة تركية", "بن محمص"],
+      "tr": ["Türk kahvesi", "öğütülmüş kahve"],
+      "en": ["coffee", "arabic coffee", "turkish coffee"]
+    },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "قهوة مطحونة",
+      "tr": "Türk kahvesi",
+      "en": "ground coffee",
+      "de": "Kaffee gemahlen",
+      "fr": "café moulu"
+    }
+  },
+  {
+    "id": "carob",
+    "names": { "ar": "خروب", "tr": "keçiboynuzu", "en": "carob pods" },
+    "synonyms": { "ar": ["قرون الخروب", "خرنوب", "خروب ناشف"], "tr": [], "en": ["carob", "dried carob"] },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "خروب", "tr": "keçiboynuzu", "en": "carob pods", "de": "Johannisbrot", "fr": "caroube" }
+  },
+  {
+    "id": "licorice_root",
+    "names": { "ar": "عرق سوس", "tr": "meyan kökü", "en": "licorice root" },
+    "synonyms": { "ar": ["سوس", "جذور عرق السوس", "عرقسوس"], "tr": [], "en": ["liquorice root"] },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "عرق سوس",
+      "tr": "meyan kökü",
+      "en": "licorice root",
+      "de": "Süßholzwurzel",
+      "fr": "racine de réglisse"
+    }
+  },
+  {
+    "id": "nigella_seeds",
+    "names": { "ar": "حبة البركة", "tr": "çörek otu", "en": "nigella seeds" },
+    "synonyms": { "ar": ["حبة سوداء", "شونيز", "كمون أسود"], "tr": [], "en": ["black seed", "black cumin", "kalonji"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "حبة البركة", "tr": "çörek otu", "en": "nigella seeds", "de": "Schwarzkümmel", "fr": "nigelle" }
+  },
+  {
+    "id": "qizha_paste",
+    "names": { "ar": "قزحة", "tr": "çörek otu ezmesi", "en": "qizha (black seed paste)" },
+    "synonyms": {
+      "ar": ["معجون القزحة", "طحينة سوداء", "معجون حبة البركة"],
+      "tr": ["siyah tahin"],
+      "en": ["black seed paste", "nigella paste"]
+    },
+    "category": "sauces",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["nigella_seeds"],
+    "search_term": {
+      "ar": "قزحة",
+      "tr": "çörek otu ezmesi",
+      "en": "black seed paste",
+      "de": "Schwarzkümmelpaste",
+      "fr": "pâte de nigelle"
+    }
+  },
+  {
+    "id": "fenugreek",
+    "names": { "ar": "حلبة", "tr": "çemen tohumu", "en": "fenugreek seeds" },
+    "synonyms": { "ar": ["حلبة حب", "بذور الحلبة"], "tr": ["çemen otu"], "en": ["fenugreek"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "حلبة", "tr": "çemen tohumu", "en": "fenugreek seeds", "de": "Bockshornklee", "fr": "fenugrec" }
+  },
+  {
+    "id": "wheat_berries",
+    "names": { "ar": "قمح مقشور", "tr": "aşurelik buğday", "en": "wheat berries" },
+    "synonyms": {
+      "ar": ["قمح", "قمح بليلة", "قمح حب", "سليقة"],
+      "tr": ["dövme buğday"],
+      "en": ["hulled wheat", "whole wheat grains"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": [],
+    "search_term": {
+      "ar": "قمح مقشور",
+      "tr": "aşurelik buğday",
+      "en": "wheat berries",
+      "de": "Weizenkörner",
+      "fr": "blé entier"
+    }
+  },
+  {
+    "id": "mallow",
+    "names": { "ar": "خبيزة", "tr": "ebegümeci", "en": "mallow leaves" },
+    "synonyms": { "ar": ["خبيزه", "خبازى", "خبيز"], "tr": [], "en": ["common mallow", "khobeizeh"] },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["spinach", "swiss_chard"],
+    "search_term": { "ar": "خبيزة", "tr": "ebegümeci", "en": "mallow leaves", "de": "Malvenblätter", "fr": "mauve" }
+  },
+  {
+    "id": "arugula",
+    "names": { "ar": "جرجير", "tr": "roka", "en": "arugula" },
+    "synonyms": { "ar": ["روكا", "جرجير أخضر"], "tr": [], "en": ["rocket", "roquette"] },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "جرجير", "tr": "roka", "en": "arugula", "de": "Rucola", "fr": "roquette" }
+  },
+  {
+    "id": "zaatar_fresh",
+    "names": { "ar": "زعتر أخضر", "tr": "taze zahter", "en": "fresh za'atar leaves" },
+    "synonyms": {
+      "ar": ["زعتر بري", "ورق زعتر", "زعتر طازج"],
+      "tr": ["taze kekik", "yeşil zahter"],
+      "en": ["wild thyme", "fresh oregano"]
+    },
+    "category": "herbs",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "زعتر أخضر",
+      "tr": "taze kekik",
+      "en": "fresh oregano",
+      "de": "frischer Oregano",
+      "fr": "origan frais"
+    }
+  },
+  {
+    "id": "whole_wheat_flour",
+    "names": { "ar": "طحين أسمر", "tr": "tam buğday unu", "en": "whole wheat flour" },
+    "synonyms": {
+      "ar": ["دقيق القمح الكامل", "طحين قمح كامل", "طحين نخالة"],
+      "tr": ["kepekli un"],
+      "en": ["wholemeal flour"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["flour"],
+    "search_term": {
+      "ar": "طحين أسمر",
+      "tr": "tam buğday unu",
+      "en": "whole wheat flour",
+      "de": "Vollkornmehl",
+      "fr": "farine complète"
+    }
+  },
+  {
+    "id": "saffron",
+    "names": { "ar": "زعفران", "tr": "safran", "en": "saffron" },
+    "synonyms": { "ar": ["زعفران حر", "شعيرات زعفران"], "tr": [], "en": ["saffron threads"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["turmeric"],
+    "search_term": { "ar": "زعفران", "tr": "safran", "en": "saffron", "de": "Safran", "fr": "safran" }
   }
 ]
