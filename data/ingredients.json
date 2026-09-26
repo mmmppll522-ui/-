@@ -3050,5 +3050,45 @@
       "de": "Fenchelsamen",
       "fr": "graines de fenouil"
     }
+  },
+  {
+    "id": "milk_powder",
+    "names": { "ar": "حليب بودرة", "tr": "süt tozu", "en": "milk powder" },
+    "synonyms": {
+      "ar": ["حليب مجفف", "حليب جاف", "حليب ناشف", "بودرة حليب"],
+      "tr": [],
+      "en": ["powdered milk", "dry milk"]
+    },
+    "category": "dairy",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["milk"],
+    "contains": ["dairy"],
+    "substitutes": ["milk"],
+    "search_term": { "ar": "حليب بودرة", "tr": "süt tozu", "en": "milk powder", "de": "Milchpulver", "fr": "lait en poudre" }
+  },
+  {
+    "id": "desert_truffle",
+    "names": { "ar": "فقع", "tr": "keme mantarı", "en": "desert truffles" },
+    "synonyms": {
+      "ar": ["كمأة", "كمء", "كما", "ترفاس", "فقع زبيدي", "فقع خلاسي", "جبا"],
+      "tr": ["keme", "çöl mantarı"],
+      "en": ["desert truffle", "terfez", "kama", "fagga", "faqaa"]
+    },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["potato"],
+    "search_term": {
+      "ar": "فقع",
+      "tr": "keme mantarı",
+      "en": "desert truffles",
+      "de": "Wüstentrüffel",
+      "fr": "truffes du désert"
+    }
   }
 ]
