@@ -1366,7 +1366,7 @@
     },
     "cuisine": "syrian",
     "region": "levant",
-    "also_cuisines": ["lebanese", "palestinian", "jordanian", "iraqi"],
+    "also_cuisines": ["lebanese", "palestinian", "jordanian", "iraqi", "egyptian", "sudanese"],
     "meal_type": ["lunch", "dinner"],
     "course": "main",
     "prep_minutes": 20,

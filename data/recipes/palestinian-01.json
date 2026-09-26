@@ -1000,7 +1000,7 @@
     },
     "cuisine": "palestinian",
     "region": "levant",
-    "also_cuisines": ["jordanian", "lebanese", "syrian", "iraqi"],
+    "also_cuisines": ["jordanian", "lebanese", "syrian", "iraqi", "egyptian"],
     "meal_type": ["dessert"],
     "course": "dessert",
     "prep_minutes": 130,

@@ -2015,13 +2015,7 @@
           "en": "pitted, for date fatta"
         }
       },
-      {
-        "ingredient_id": "heavy_cream",
-        "amount": 0.25,
-        "unit": "cup",
-        "optional": true,
-        "note": { "ar": "قشطة", "tr": "Kaymak", "en": "clotted cream" }
-      },
+      { "ingredient_id": "ashta", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
       { "ingredient_id": "nigella_seeds", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
     ],
     "steps": {

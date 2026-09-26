@@ -871,7 +871,7 @@
     "id": "pita_bread",
     "names": { "ar": "خبز عربي", "tr": "Arap ekmeği", "en": "pita bread" },
     "synonyms": {
-      "ar": ["خبز", "خبز شامي", "خبز لبناني", "خبز صاج", "خبز مرقوق", "كماج", "خبز بيتا", "عيش شامي", "خبز تنور", "خبز عراقي", "صمون"],
+      "ar": ["خبز", "خبز شامي", "خبز لبناني", "خبز صاج", "خبز مرقوق", "كماج", "خبز بيتا", "عيش شامي", "خبز تنور", "خبز عراقي", "صمون", "عيش بلدي"],
       "tr": ["lavaş", "pide ekmeği", "pita", "tandır ekmeği"],
       "en": ["flatbread", "arabic bread", "lebanese bread", "bread"]
     },
@@ -3223,6 +3223,84 @@
       "en": "coffee cascara",
       "de": "Cascara Kaffeekirschen",
       "fr": "cascara de café"
+    }
+  },
+  {
+    "id": "fava_split",
+    "names": { "ar": "فول مدشوش", "tr": "kırık kuru bakla", "en": "split dried fava beans" },
+    "synonyms": {
+      "ar": ["فول مقشر", "فول ناشف مقشور", "فول طعمية", "فول أبيض مجروش", "فول مجروش"],
+      "tr": ["kabuksuz kuru bakla", "kırık bakla"],
+      "en": ["skinless fava beans", "peeled dried fava", "split broad beans"]
+    },
+    "category": "legumes",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["fava_beans"],
+    "contains": [],
+    "substitutes": ["chickpeas"],
+    "search_term": {
+      "ar": "فول مدشوش",
+      "tr": "kuru bakla",
+      "en": "split fava beans",
+      "de": "geschälte Saubohnen",
+      "fr": "fèves cassées"
+    }
+  },
+  {
+    "id": "hibiscus",
+    "names": { "ar": "كركديه", "tr": "hibiskus", "en": "dried hibiscus" },
+    "synonyms": {
+      "ar": ["كركدي", "كركدية", "زهرة الكركديه", "كركديه مجفف", "بنت القنصل"],
+      "tr": ["hibiskus çayı", "bamya çiçeği"],
+      "en": ["hibiscus flowers", "roselle", "karkade", "sorrel"]
+    },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "كركديه",
+      "tr": "kurutulmuş hibiskus",
+      "en": "dried hibiscus flowers",
+      "de": "Hibiskusblüten",
+      "fr": "fleurs d'hibiscus séchées"
+    }
+  },
+  {
+    "id": "pigeon",
+    "names": { "ar": "حمام", "tr": "güvercin", "en": "pigeon (squab)" },
+    "synonyms": { "ar": ["زغاليل", "حمام بلدي", "زغلول"], "tr": ["yavru güvercin"], "en": ["squab", "pigeons"] },
+    "category": "poultry",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["poultry"],
+    "substitutes": ["chicken"],
+    "search_term": { "ar": "حمام", "tr": "güvercin", "en": "squab", "de": "Taube", "fr": "pigeonneau" }
+  },
+  {
+    "id": "puff_pastry",
+    "names": { "ar": "عجينة بف باستري", "tr": "milföy hamuru", "en": "puff pastry" },
+    "synonyms": { "ar": ["بف باستري", "عجينة الميل فوي", "عجين مورق"], "tr": ["milföy"], "en": ["puff pastry sheets"] },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["phyllo_dough"],
+    "search_term": {
+      "ar": "عجينة بف باستري",
+      "tr": "milföy hamuru",
+      "en": "puff pastry",
+      "de": "Blätterteig",
+      "fr": "pâte feuilletée"
     }
   }
 ]

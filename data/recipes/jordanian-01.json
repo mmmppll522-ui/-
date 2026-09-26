@@ -1433,7 +1433,7 @@
     },
     "cuisine": "jordanian",
     "region": "levant",
-    "also_cuisines": ["palestinian", "syrian", "iraqi"],
+    "also_cuisines": ["palestinian", "syrian", "iraqi", "egyptian"],
     "meal_type": ["dessert"],
     "course": "dessert",
     "prep_minutes": 50,
