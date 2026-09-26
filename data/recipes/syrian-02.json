@@ -1844,7 +1844,7 @@
     "name": { "ar": "مهلبية", "tr": "Muhallebi", "en": "Muhallabia (Milk Pudding)", "native": "مهلّبية" },
     "cuisine": "syrian",
     "region": "levant",
-    "also_cuisines": ["lebanese", "palestinian", "jordanian", "iraqi"],
+    "also_cuisines": ["lebanese", "palestinian", "jordanian", "iraqi", "qatari", "kuwaiti", "emirati"],
     "meal_type": ["dessert"],
     "course": "dessert",
     "prep_minutes": 5,

@@ -1,0 +1,651 @@
+[
+  {
+    "id": "qat-madrouba",
+    "name": {
+      "ar": "مضروبة دجاج",
+      "tr": "Madruba (Dövülmüş Tavuklu Pirinç)",
+      "en": "Madrouba (Spiced Beaten Chicken & Rice)",
+      "native": "مضروبة"
+    },
+    "cuisine": "qatari",
+    "region": "gulf",
+    "also_cuisines": ["omani"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 90,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chicken",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "قطع بالعظم", "tr": "Kemikli parçalar", "en": "bone-in pieces" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "قصير الحبة، منقوع ٣٠ دقيقة",
+          "tr": "Kısa taneli, 30 dk ıslatılmış",
+          "en": "short-grain, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      { "ingredient_id": "yogurt", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      { "ingredient_id": "cloves", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "dill",
+        "amount": 0.25,
+        "unit": "bunch",
+        "optional": true,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 7,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ساخن", "tr": "Sıcak", "en": "hot" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "للتقديم", "tr": "Servis için", "en": "to serve" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "حمّر البصل في ملعقتي سمن، ثم أضف الثوم والزنجبيل والدجاج وقلّب حتى يتلوّن.",
+        "أضف الكركم والكمون والهيل والقرفة والقرنفل والفلفل واللومي، ثم الطماطم ونصف الكزبرة والشبت.",
+        "أضف الماء الساخن والملح واطبخ ٣٠ دقيقة، ثم أخرج الدجاج وانزع العظم وقطّع اللحم.",
+        "أعد اللحم إلى المرق مع الأرز المصفّى والزبادي، واطبخ على نار هادئة ٤٥–٦٠ دقيقة مع التحريك المتكرر وإضافة ماء ساخن عند الحاجة حتى يتهرّى الأرز.",
+        "اضرب الخليط بالملعقة الخشبية بقوة ٨–١٠ دقائق حتى يصير كالعصيدة، ثم اسكبه واسكب فوقه باقي السمن ورشّ الكزبرة، وقدّمه مع الليمون."
+      ],
+      "tr": [
+        "Soğanı 2 kaşık sade yağda kavurun; sarımsak, zencefil ve tavuğu ekleyip renk alana kadar çevirin.",
+        "Zerdeçal, kimyon, kakule, tarçın, karanfil, karabiber ve kuru limonu, ardından domates, kişnişin yarısı ve dereotunu ekleyin.",
+        "Sıcak su ve tuzu ekleyip 30 dakika pişirin; tavuğu çıkarıp kemiklerini ayıklayın ve etini parçalayın.",
+        "Eti süzülmüş pirinç ve yoğurtla birlikte suya geri koyun; sık sık karıştırarak ve gerektikçe sıcak su ekleyerek pirinç dağılana kadar kısık ateşte 45–60 dakika pişirin.",
+        "Tahta kaşıkla 8–10 dakika kuvvetle döverek lapa kıvamına getirin; tabağa alıp kalan sade yağı gezdirin, kişniş serpip limonla servis edin."
+      ],
+      "en": [
+        "Brown the onions in 2 tbsp ghee, add the garlic, ginger and chicken and cook until coloured.",
+        "Add the turmeric, cumin, cardamom, cinnamon, cloves, pepper and dried limes, then the tomatoes, half the coriander and the dill.",
+        "Add the hot water and salt and cook for 30 minutes; lift out the chicken, remove the bones and shred the meat.",
+        "Return the meat to the broth with the drained rice and yogurt and cook on low heat for 45–60 minutes, stirring often and adding hot water as needed, until the rice breaks down.",
+        "Beat hard with a wooden spoon for 8–10 minutes to a porridge, spoon out, pour over the remaining ghee, sprinkle with coriander and serve with lemon."
+      ]
+    },
+    "tips": {
+      "ar": ["طبق رمضاني قطري؛ الضرب بالملعقة الخشبية هو ما يعطيه اسمه وقوامه."],
+      "tr": ["Katar'ın Ramazan yemeğidir; adını ve dokusunu tahta kaşıkla dövülmesinden alır."],
+      "en": ["A Qatari Ramadan dish; beating it with a wooden spoon gives it its name and texture."]
+    },
+    "tags": ["ramadan", "comfort_food", "family"],
+    "sources": [
+      "https://theodehlicious.com/chicken-madrouba-recipe/",
+      "https://khaleejkitchen.com/h/%D9%88%D8%B5%D9%81%D8%A9-%D8%A7%D9%84%D9%85%D8%B6%D8%B1%D9%88%D8%A8%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9",
+      "https://www.jamila.qa/Article/Id/26051/%D8%A7%D9%84%D9%85%D8%B6%D8%B1%D9%88%D8%A8%D8%A9-%D8%B7%D8%A8%D9%82-%D9%82%D8%B7%D8%B1%D9%8A-%D9%85%D9%85%D9%8A%D8%B2"
+    ]
+  },
+  {
+    "id": "qat-rangina",
+    "name": {
+      "ar": "رنگينة",
+      "tr": "Rangina (Kavrulmuş Unlu Taze Hurma)",
+      "en": "Rangina (Dates in Toasted Flour & Ghee)",
+      "native": "رنگينة"
+    },
+    "cuisine": "qatari",
+    "region": "gulf",
+    "also_cuisines": ["emirati", "bahraini", "kuwaiti"],
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "dates",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "طازج ناضج (رطب) منزوع النوى",
+          "tr": "Taze olgun (rutab), çekirdeksiz",
+          "en": "fresh ripe (rutab), pitted"
+        }
+      },
+      { "ingredient_id": "flour", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ghee",
+        "amount": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "أو زبدة", "tr": "veya tereyağı", "en": "or butter" }
+      },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 0.33,
+        "unit": "cup",
+        "optional": true,
+        "note": {
+          "ar": "لجعل الخليط سائلاً",
+          "tr": "Karışımı akışkan yapmak için",
+          "en": "to make the mixture pourable"
+        }
+      },
+      {
+        "ingredient_id": "pistachios",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "للتزيين", "tr": "Süslemek için", "en": "to garnish" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "رصّ التمر في صحن تقديم عميق.",
+        "حمّص الطحين في مقلاة على نار متوسطة مع التحريك المستمر حتى يصير بنياً ذهبياً وتفوح رائحته.",
+        "أضف السمن والقرفة والهيل وحرّك حتى يصير عجينة، ثم أضف الزيت تدريجياً حتى يصير الخليط قابلاً للسكب.",
+        "اسكب الخليط الساخن فوق التمر ليغطّيه، وزيّنه بالفستق.",
+        "قدّمه دافئاً طرياً، أو اتركه يبرد ويتماسك ويقطّع مربعات."
+      ],
+      "tr": [
+        "Hurmaları derin bir servis tabağına dizin.",
+        "Unu tavada orta ateşte sürekli karıştırarak altın kahverengi olup kokusu çıkana kadar kavurun.",
+        "Sade yağ, tarçın ve kakuleyi ekleyip macun olana kadar karıştırın; ardından yağı azar azar ekleyerek dökülebilir kıvama getirin.",
+        "Sıcak karışımı hurmaların üzerine döküp kaplayın ve fıstıkla süsleyin.",
+        "Ilık ve yumuşakken servis edin ya da soğuyup donmasını bekleyip kare kesin."
+      ],
+      "en": [
+        "Arrange the dates in a deep serving dish.",
+        "Toast the flour in a pan over medium heat, stirring constantly, until golden brown and fragrant.",
+        "Add the ghee, cinnamon and cardamom and stir to a paste, then add the oil gradually until pourable.",
+        "Pour the hot mixture over the dates to cover them and garnish with pistachios.",
+        "Serve warm and soft, or let it cool and set and cut into squares."
+      ]
+    },
+    "tips": {
+      "ar": ["لا يحتاج سكراً؛ الرطب الطازج في موسمه (الصيف) يكفي للحلاوة."],
+      "tr": ["Şeker gerekmez; mevsiminde (yaz) taze rutab hurma yeterince tatlıdır."],
+      "en": ["No sugar needed; fresh rutab dates in season (summer) are sweet enough."]
+    },
+    "tags": ["sweet", "summer", "quick"],
+    "sources": [
+      "https://cultureatz.com/rangina-sweet-buttered-dates/",
+      "https://maryamsculinarywonders.blogspot.com/2014/09/677qatari-rangina-fresh-date-sweet.html",
+      "https://www.bbcgoodfoodme.com/recipes/20289-ruttab-rangina-traditional-date-dessert/"
+    ]
+  },
+  {
+    "id": "qat-mafrooka",
+    "name": {
+      "ar": "مفروكة (قرص مفروك)",
+      "tr": "Mafruka (Hurmalı Ekmek Ufalaması)",
+      "en": "Mafrooka (Bread Crumbled with Dates & Ghee)",
+      "native": "قرص مفروك"
+    },
+    "cuisine": "qatari",
+    "region": "gulf",
+    "also_cuisines": ["emirati"],
+    "meal_type": ["breakfast", "snack"],
+    "course": "dessert",
+    "prep_minutes": 70,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "whole_wheat_flour", "amount": 2.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "دافئ", "tr": "Ilık", "en": "warm" }
+      },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dates",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "منزوع النوى", "tr": "Çekirdeksiz", "en": "pitted" }
+      },
+      { "ingredient_id": "ghee", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp",
+        "optional": true,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "اعجن الطحين مع الخميرة والسكر والملح والماء حتى تحصل على عجينة طرية، وقسّمها ٤ كرات واتركها ساعة.",
+        "افرد كل كرة قرصاً سميكاً، واخبزه في مقلاة مدهونة على نار متوسطة إلى هادئة حتى ينضج من الجهتين.",
+        "قطّع الأقراص وفتّتها في محضّرة الطعام أو باليد حتى تصير فتاتاً خشناً.",
+        "سخّن التمر مع السمن والهيل على نار هادئة مع التحريك حتى يلين.",
+        "اخلط الفتات مع التمر والسمن وافركه بيديك جيداً حتى يتجانس، وقدّمه دافئاً مع الشاي."
+      ],
+      "tr": [
+        "Unu maya, şeker, tuz ve suyla yumuşak bir hamur olana kadar yoğurun; 4 bezeye bölüp bir saat bekletin.",
+        "Her bezeyi kalınca açıp yağlanmış tavada orta-kısık ateşte iki yüzü de pişene kadar pişirin.",
+        "Ekmekleri doğrayıp mutfak robotunda veya elle iri kırıntı haline getirin.",
+        "Hurmayı sade yağ ve kakuleyle kısık ateşte karıştırarak yumuşatın.",
+        "Kırıntıları hurma ve yağla karıştırıp elinizle iyice ovarak harmanlayın; çayla ılık servis edin."
+      ],
+      "en": [
+        "Knead the flour with the yeast, sugar, salt and water into a soft dough; divide into 4 balls and leave for an hour.",
+        "Roll each into a thick round and cook in an oiled pan over medium-low heat until done on both sides.",
+        "Cut up the breads and crumble them in a food processor or by hand into coarse crumbs.",
+        "Warm the dates with the ghee and cardamom over low heat, stirring, until soft.",
+        "Mix the crumbs with the dates and ghee and rub together well with your hands; serve warm with tea."
+      ]
+    },
+    "tips": {
+      "ar": ["فطور شتوي قديم في قطر والإمارات، ويُعدّ أيضاً ببقايا الخبز."],
+      "tr": ["Katar ve BAE'de eski bir kış kahvaltısıdır; artan ekmekle de yapılır."],
+      "en": ["An old winter breakfast in Qatar and the UAE, also made with leftover bread."]
+    },
+    "tags": ["breakfast_classic", "winter", "budget"],
+    "sources": [
+      "https://www.webteb.com/diet/recipes/%D9%82%D8%B1%D8%B5-%D9%85%D9%81%D8%B1%D9%88%D9%83_921",
+      "https://www.atyabtabkha.com/recipe/%D9%85%D9%81%D8%B1%D9%88%D9%83%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D8%B1",
+      "https://dlwaqty.com/recipes/tryk-aaml-krs-mfrok-b-ltmr"
+    ]
+  },
+  {
+    "id": "qat-aseeda",
+    "name": {
+      "ar": "عصيدة قطرية",
+      "tr": "Katar Usulü Asida",
+      "en": "Qatari Aseeda (Saffron Flour Pudding)",
+      "native": "عصيدة"
+    },
+    "cuisine": "qatari",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "bahraini"],
+    "meal_type": ["breakfast", "dessert"],
+    "course": "dessert",
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 3.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "دافئ", "tr": "Ilık", "en": "warm" }
+      },
+      { "ingredient_id": "ghee", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ginger",
+        "amount": 0.25,
+        "unit": "tsp",
+        "optional": true,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "honey",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "للتقديم", "tr": "Servis için", "en": "to serve" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "حمّص الطحين في قدر ثقيل على نار هادئة بملعقة خشبية حتى يتغيّر لونه قليلاً وتتصاعد رائحته.",
+        "ذوّب السكر في الماء الدافئ مع الزعفران والهيل والزنجبيل.",
+        "اسكب الماء المحلّى على الطحين تدريجياً مع التحريك القوي المستمر حتى لا يتكتّل.",
+        "أضف نصف السمن واستمر في التقليب على نار هادئة ٥–١٠ دقائق حتى تثخن العصيدة وتلمع وتنفصل عن القدر.",
+        "اسكبها في صحن، واعمل حفرة في وسطها واملأها بباقي السمن والعسل، وقدّمها ساخنة."
+      ],
+      "tr": [
+        "Unu kalın dipli tencerede kısık ateşte tahta kaşıkla rengi hafif dönüp kokusu çıkana kadar kavurun.",
+        "Şekeri safran, kakule ve zencefille birlikte ılık suda eritin.",
+        "Şekerli suyu una azar azar dökerken topaklanmaması için kuvvetle ve durmadan karıştırın.",
+        "Sade yağın yarısını ekleyip asida koyulaşıp parlayana ve tencereden ayrılana kadar kısık ateşte 5–10 dakika karıştırın.",
+        "Tabağa alın, ortasını çukurlaştırıp kalan sade yağ ve balla doldurun; sıcak servis edin."
+      ],
+      "en": [
+        "Toast the flour in a heavy pot over low heat with a wooden spoon until lightly coloured and fragrant.",
+        "Dissolve the sugar in the warm water with the saffron, cardamom and ginger.",
+        "Pour the sweetened water into the flour gradually, stirring hard and constantly so it doesn't lump.",
+        "Add half the ghee and keep stirring on low heat for 5–10 minutes until the aseeda thickens, turns glossy and leaves the pot.",
+        "Spoon onto a plate, make a well in the centre, fill with the remaining ghee and honey and serve hot."
+      ]
+    },
+    "tips": {
+      "ar": ["تُقدَّم صباح العيد وفي ليالي الشتاء، ويُكثَّر الزعفران في النسخة القطرية."],
+      "tr": ["Bayram sabahı ve kış gecelerinde ikram edilir; Katar usulünde bol safran kullanılır."],
+      "en": ["Served on Eid mornings and winter nights; the Qatari version is generous with saffron."]
+    },
+    "tags": ["sweet", "eid", "winter"],
+    "sources": [
+      "https://read.opensooq.com/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9/",
+      "https://recipes.qassimy.com/%D8%A7%D9%84%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9/",
+      "https://www.iloveqatar.net/dining/reviews/top-arabic-dishes-to-try-when-you-visit-qatar"
+    ]
+  },
+  {
+    "id": "qat-hissu",
+    "name": {
+      "ar": "حسو",
+      "tr": "Hisu (Tere Tohumlu Sıcak Süt)",
+      "en": "Hissu (Garden Cress Seed Milk)",
+      "native": "حسو"
+    },
+    "cuisine": "qatari",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "bahraini"],
+    "meal_type": ["breakfast", "drink"],
+    "course": "drink",
+    "prep_minutes": 60,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "garden_cress_seeds",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": {
+          "ar": "منقّى ومغسول ومنقوع ساعة",
+          "tr": "Ayıklanmış, yıkanmış, 1 saat ıslatılmış",
+          "en": "picked over, rinsed and soaked 1 hour"
+        }
+      },
+      { "ingredient_id": "milk", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cornstarch",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "أو كاسترد", "tr": "veya muhallebi tozu", "en": "or custard powder" }
+      },
+      { "ingredient_id": "sugar", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع حب الرشاد في كوب ماء ساعة حتى ينتفخ ويصير هلامياً.",
+        "ذوّب النشا في نصف كوب من الحليب البارد.",
+        "ضع باقي الحليب مع السكر والهيل والزعفران على نار متوسطة حتى يقارب الغليان.",
+        "أضف النشا المذاب وحب الرشاد مع ماء نقعه، واخفق باستمرار على نار هادئة ١٥–٢٠ دقيقة حتى يثخن قليلاً وتتوزّع الحبوب.",
+        "قدّمه ساخناً في أكواب."
+      ],
+      "tr": [
+        "Tere tohumunu bir bardak suda bir saat, şişip jöleleşene kadar bekletin.",
+        "Nişastayı yarım bardak soğuk sütte eritin.",
+        "Kalan sütü şeker, kakule ve safranla orta ateşte kaynamaya yakın ısıtın.",
+        "Eritilmiş nişastayı ve tere tohumunu ıslatma suyuyla birlikte ekleyip hafifçe koyulaşana ve taneler dağılana kadar kısık ateşte 15–20 dakika sürekli çırpın.",
+        "Bardaklarda sıcak servis edin."
+      ],
+      "en": [
+        "Soak the cress seeds in a cup of water for an hour until swollen and jelly-like.",
+        "Dissolve the cornstarch in ½ cup of the cold milk.",
+        "Heat the rest of the milk with the sugar, cardamom and saffron over medium heat until almost boiling.",
+        "Add the dissolved starch and the seeds with their soaking water and whisk constantly on low heat for 15–20 minutes until slightly thickened and the seeds are evenly spread.",
+        "Serve hot in cups."
+      ]
+    },
+    "tips": {
+      "ar": ["يُقدَّم تقليدياً للنفساء ولمن يشعر بالبرد، ويُعرف حب الرشاد في قطر بالحب الأحمر."],
+      "tr": ["Geleneksel olarak lohusalara ve üşüyenlere ikram edilir; tere tohumu Katar'da \"kırmızı tane\" diye bilinir."],
+      "en": ["Traditionally given to new mothers and on cold days; the seeds are known in Qatar as \"red seeds\"."]
+    },
+    "tags": ["winter", "comfort_food"],
+    "sources": [
+      "https://maryamsculinarywonders.blogspot.com/2013/10/482-qatari-hissu-drink.html",
+      "https://www.atyabtabkha.com/recipe/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%B3%D9%88-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A",
+      "http://www.encyclopediacooking.com/arabic/lesson-18506-1.html"
+    ]
+  },
+  {
+    "id": "qat-shorbat-shofan",
+    "name": {
+      "ar": "شوربة شوفان باللحم",
+      "tr": "Etli Yulaf Çorbası",
+      "en": "Shorbat Shofan (Oat & Lamb Soup)",
+      "native": "شوربة شوفان"
+    },
+    "cuisine": "qatari",
+    "region": "gulf",
+    "also_cuisines": ["saudi", "kuwaiti", "emirati", "bahraini"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "soup",
+    "prep_minutes": 15,
+    "cook_minutes": 70,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 400,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "مكعبات صغيرة بالعظم", "tr": "Küçük kemikli küpler", "en": "small bone-in cubes" }
+      },
+      { "ingredient_id": "oats", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 2,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مكعبات صغيرة", "tr": "Küçük küp", "en": "small cubes" }
+      },
+      { "ingredient_id": "cardamom", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "للتقديم", "tr": "Servis için", "en": "to serve" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "حمّر البصل في الزيت، ثم أضف اللحم والثوم والكركم والفلفل وقلّب حتى يتلوّن.",
+        "أضف الطماطم ومعجونها والهيل والقرفة واللومي، ثم الماء والملح، واتركه يغلي وأزل الرغوة.",
+        "خفّف النار واطبخه ٤٥ دقيقة حتى ينضج اللحم، وأضف الجزر في آخر ١٥ دقيقة.",
+        "أضف الشوفان واطبخه ١٠–١٥ دقيقة مع التحريك حتى تثخن الشوربة.",
+        "انزع القرفة واللومي، ورشّ الكزبرة وقدّمها مع الليمون."
+      ],
+      "tr": [
+        "Soğanı yağda kavurun; et, sarımsak, zerdeçal ve karabiberi ekleyip renk alana kadar çevirin.",
+        "Domates, salça, kakule, tarçın ve kuru limonu, ardından su ve tuzu ekleyip kaynatın ve köpüğünü alın.",
+        "Ateşi kısıp et yumuşayana kadar 45 dakika pişirin; son 15 dakikada havucu ekleyin.",
+        "Yulafı ekleyip çorba koyulaşana kadar karıştırarak 10–15 dakika pişirin.",
+        "Tarçın ve kuru limonu çıkarın, kişniş serpip limonla servis edin."
+      ],
+      "en": [
+        "Brown the onion in the oil, add the lamb, garlic, turmeric and pepper and cook until coloured.",
+        "Add the tomatoes, tomato paste, cardamom, cinnamon and dried lime, then the water and salt; bring to a boil and skim.",
+        "Lower the heat and cook for 45 minutes until the meat is tender, adding the carrot for the last 15.",
+        "Add the oats and cook for 10–15 minutes, stirring, until the soup thickens.",
+        "Remove the cinnamon and dried lime, sprinkle with coriander and serve with lemon."
+      ]
+    },
+    "tips": {
+      "ar": ["من شوربات الإفطار الثابتة في رمضان بالخليج.", "الشوفان خالٍ طبيعياً من الغلوتين لكنه غالباً يتلوّث به، فاستعمل شوفاناً مضموناً إن كنت تتجنّب الغلوتين."],
+      "tr": [
+        "Körfez'de Ramazan iftarlarının vazgeçilmez çorbalarındandır.",
+        "Yulaf doğal olarak glutensizdir ama sıklıkla bulaşır; glutenden kaçınıyorsanız sertifikalı yulaf kullanın."
+      ],
+      "en": ["A fixture of Ramadan iftar tables across the Gulf.", "Oats are naturally gluten-free but often contaminated; use certified oats if you avoid gluten."]
+    },
+    "tags": ["ramadan", "one_pot", "winter"],
+    "sources": [
+      "https://kitchen.sayidaty.net/node/37308/%D8%B4%D9%88%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D9%84%D8%AD%D9%85/%D8%A3%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%AD%D9%88%D9%85/%D9%88%D8%B5%D9%81%D8%A7%D8%AA",
+      "https://www.hellooha.com/recipes/dish/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%B4%D9%88%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D9%84%D8%AD%D9%85_472",
+      "https://www.webteb.com/diet/recipes/%D8%B4%D9%88%D8%B1%D8%A8%D8%A9-%D9%84%D8%AD%D9%85-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%81%D8%A7%D9%86_1099"
+    ]
+  }
+]

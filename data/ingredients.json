@@ -3090,5 +3090,51 @@
       "de": "Wüstentrüffel",
       "fr": "truffes du désert"
     }
+  },
+  {
+    "id": "garden_cress_seeds",
+    "names": { "ar": "حب الرشاد", "tr": "tere tohumu", "en": "garden cress seeds" },
+    "synonyms": {
+      "ar": ["رشاد", "حبة حمراء", "الحبة الحمراء", "حب الحسو", "حسو", "حب الثفاء", "ثفاء"],
+      "tr": ["kara tere tohumu"],
+      "en": ["cress seeds", "halim seeds", "haleem seeds", "hissu seeds"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "حب الرشاد",
+      "tr": "tere tohumu",
+      "en": "garden cress seeds",
+      "de": "Gartenkresse Samen",
+      "fr": "graines de cresson alénois"
+    }
+  },
+  {
+    "id": "oats",
+    "names": { "ar": "شوفان", "tr": "yulaf", "en": "oats" },
+    "synonyms": {
+      "ar": ["شوفان مجروش", "رقائق الشوفان", "شوفان سريع", "كويكر"],
+      "tr": ["yulaf ezmesi"],
+      "en": ["rolled oats", "oatmeal", "quick oats"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": [],
+    "search_term": {
+      "ar": "شوفان",
+      "tr": "yulaf ezmesi",
+      "en": "rolled oats",
+      "de": "Haferflocken",
+      "fr": "flocons d'avoine"
+    }
   }
 ]
