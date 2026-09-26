@@ -29,13 +29,16 @@ const header = (...cells) => {
 // ---- per cuisine vs target
 h('Recipes per cuisine');
 const byCuisine = count(recipes.map((r) => r.cuisine));
-header('cuisine', 'recipes', 'target', 'status');
+const shared = count(recipes.flatMap((r) => r.also_cuisines ?? []));
+header('cuisine', 'own', 'shared', 'in filter', 'target', 'status');
 let started = 0;
 for (const c of cuisines.cuisines) {
-  const n = byCuisine.get(c.id) ?? 0;
-  if (n === 0) continue;
+  const own = byCuisine.get(c.id) ?? 0;
+  const sh = shared.get(c.id) ?? 0;
+  if (own === 0) continue;
   started++;
-  row(`${c.flag} ${c.name.en} (${c.name.ar})`, n, c.target, n >= c.target ? '✅' : `${c.target - n} to go`);
+  const total = own + sh;
+  row(`${c.flag} ${c.name.en} (${c.name.ar})`, own, sh, total, c.target, total >= c.target ? '✅' : `${c.target - total} to go`);
 }
 const totalTarget = cuisines.cuisines.reduce((s, c) => s + c.target, 0);
 out.push(`${md ? '\n' : ''}Total: ${recipes.length} recipes across ${started}/${cuisines.cuisines.length} cuisines (v1 target ${totalTarget}).`);

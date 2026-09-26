@@ -100,6 +100,16 @@ for (const r of recipes) {
   const cuisine = CUISINES.get(r.cuisine);
   if (!cuisine) err(where, `unknown cuisine "${r.cuisine}"`);
   else if (cuisine.region !== r.region) err(where, `region "${r.region}" does not match cuisine region "${cuisine.region}"`);
+  if (r.also_cuisines !== undefined) {
+    if (!Array.isArray(r.also_cuisines)) err(where, 'also_cuisines must be an array');
+    else {
+      if (new Set(r.also_cuisines).size !== r.also_cuisines.length) err(where, 'also_cuisines has duplicates');
+      for (const c of r.also_cuisines) {
+        if (!CUISINES.has(c)) err(where, `unknown also_cuisines entry "${c}"`);
+        if (c === r.cuisine) err(where, 'also_cuisines must not repeat the main cuisine');
+      }
+    }
+  }
 
   if (!Array.isArray(r.meal_type) || r.meal_type.length === 0) err(where, 'meal_type must be a non-empty array');
   else for (const m of r.meal_type) if (!MEAL_TYPES.has(m)) err(where, `unknown meal_type "${m}"`);

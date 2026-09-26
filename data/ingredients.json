@@ -2506,5 +2506,71 @@
     "contains": [],
     "substitutes": ["turmeric"],
     "search_term": { "ar": "زعفران", "tr": "safran", "en": "saffron", "de": "Safran", "fr": "safran" }
+  },
+  {
+    "id": "jameed",
+    "names": { "ar": "جميد", "tr": "kurut", "en": "jameed (dried yogurt)" },
+    "synonyms": {
+      "ar": ["جميد كركي", "جميد سائل", "لبن جميد", "كشك جميد"],
+      "tr": ["kuru yoğurt"],
+      "en": ["jameed", "dried yogurt", "kurut"]
+    },
+    "category": "dairy",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["dairy"],
+    "substitutes": ["yogurt"],
+    "search_term": { "ar": "جميد", "tr": "kurut", "en": "jameed", "de": "Jameed", "fr": "jameed" }
+  },
+  {
+    "id": "turnip",
+    "names": { "ar": "لفت", "tr": "şalgam", "en": "turnip" },
+    "synonyms": { "ar": ["لفت أبيض", "شلغم", "لفتة"], "tr": [], "en": ["turnips"] },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "لفت", "tr": "şalgam", "en": "turnips", "de": "Speiserüben", "fr": "navets" }
+  },
+  {
+    "id": "beetroot",
+    "names": { "ar": "شمندر", "tr": "pancar", "en": "beetroot" },
+    "synonyms": { "ar": ["بنجر", "شوندر", "شمندر أحمر"], "tr": ["kırmızı pancar"], "en": ["beets", "beet"] },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "شمندر", "tr": "kırmızı pancar", "en": "beets", "de": "Rote Bete", "fr": "betterave" }
+  },
+  {
+    "id": "dried_thyme",
+    "names": { "ar": "صعتر ناشف (ورق زعتر مجفف)", "tr": "kuru kekik", "en": "dried thyme (za'atar leaves)" },
+    "synonyms": {
+      "ar": ["ورق زعتر يابس", "صعتر مجفف", "زعتر ورق ناشف"],
+      "tr": ["kekik"],
+      "en": ["dried thyme", "dried oregano"]
+    },
+    "category": "herbs",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["zaatar"],
+    "search_term": {
+      "ar": "زعتر مجفف",
+      "tr": "kuru kekik",
+      "en": "dried thyme",
+      "de": "getrockneter Thymian",
+      "fr": "thym séché"
+    }
   }
 ]

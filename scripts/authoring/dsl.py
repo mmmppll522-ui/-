@@ -51,7 +51,7 @@ def flags(items, which):
     return any(set(ING[i["ingredient_id"]]["contains"]) & which for i in items)
 
 
-def R(id, names, course, meals, t, diff, pop, ing, ar, tr, en, tips, tags, src, halal_note=None):
+def R(id, names, course, meals, t, diff, pop, ing, ar, tr, en, tips, tags, src, halal_note=None, also=""):
     items = parse_ing(ing)
     req = [i for i in items if not i["optional"]]
     if not (len(ar) == len(tr) == len(en)):
@@ -63,6 +63,7 @@ def R(id, names, course, meals, t, diff, pop, ing, ar, tr, en, tips, tags, src, 
         "name": {"ar": names[0], "tr": names[1], "en": names[2], "native": names[3]},
         "cuisine": CUISINE,
         "region": CUIS[CUISINE]["region"],
+        **({"also_cuisines": also.split()} if also else {}),
         "meal_type": meals.split(),
         "course": course,
         "prep_minutes": t[0], "cook_minutes": t[1], "servings": t[2],

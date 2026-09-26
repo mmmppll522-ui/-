@@ -20,7 +20,8 @@ UI languages are `ar` (default), `tr`, `en`. Store-search languages add `de` and
 {
   "id": "syr-kibbeh-bil-sanieh",          // <cuisine prefix>-<dish>, unique
   "name": { "ar": "…", "tr": "…", "en": "…", "native": "…" },
-  "cuisine": "syrian",                    // id from cuisines.json
+  "cuisine": "syrian",                    // id from cuisines.json (where the dish is recorded)
+  "also_cuisines": ["lebanese", "jordanian"],   // optional: other cuisines where the same dish is a household staple
   "region": "levant",                     // must equal the cuisine's region
   "meal_type": ["lunch", "dinner"],       // breakfast | lunch | dinner | snack | dessert | drink
   "course": "main",                       // main | side | appetizer | soup | salad | dessert | pastry | bread | sauce | drink
@@ -52,6 +53,8 @@ Rules enforced by the validator:
   Flags may not be under-claimed either (e.g. `vegan: false` with no animal ingredient is an error).
   Optional ingredients do not break a flag (e.g. optional bread in a gluten-free soup).
 - Steps are written in our own words (no copying from source sites).
+- A dish is written once. When it is equally at home in neighbouring cuisines (hummus, maqluba, mansaf…)
+  list them in `also_cuisines` instead of duplicating the recipe; the cuisine filter includes these.
 
 ## Ingredient
 
