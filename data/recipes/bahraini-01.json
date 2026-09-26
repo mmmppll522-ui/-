@@ -1,0 +1,594 @@
+[
+  {
+    "id": "bah-muhammar",
+    "name": {
+      "ar": "محمّر",
+      "tr": "Muhammer (Hurma Pekmezli Tatlı Pilav)",
+      "en": "Muhammar (Sweet Date-Syrup Rice)",
+      "native": "عيش محمّر"
+    },
+    "cuisine": "bahraini",
+    "region": "gulf",
+    "also_cuisines": ["emirati", "qatari", "kuwaiti"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "side",
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ١٥ دقيقة",
+          "tr": "Basmati, 15 dk ıslatılmış",
+          "en": "basmati, soaked 15 minutes"
+        }
+      },
+      { "ingredient_id": "date_syrup", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "أو سكر بني", "tr": "veya esmer şeker", "en": "or brown sugar" }
+      },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "rose_water", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 12,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للسلق", "tr": "Haşlamak için", "en": "for boiling" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tbsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع الزعفران والهيل في ماء الورد.",
+        "اغلِ الماء مع الملح، وأضف الأرز واسلقه ٨ دقائق بالضبط، ثم صفّه.",
+        "اخلط الدبس مع السكر ونصف ماء الزعفران.",
+        "ادهن قاع قدر ثقيل بالسمن، وضع طبقات من الأرز وخليط الدبس، وانتهِ بالأرز ثم رشّ باقي ماء الزعفران والسمن.",
+        "غطّ القدر بإحكام واتركه على أقل نار ٢٥ دقيقة حتى تتكوّن في القاع قشرة حلوة داكنة، ثم قلّبه برفق وقدّمه مع السمك المقلي أو المشوي."
+      ],
+      "tr": [
+        "Safran ve kakuleyi gül suyunda bekletin.",
+        "Tuzlu suyu kaynatın, pirinci ekleyip tam 8 dakika haşlayın ve süzün.",
+        "Hurma pekmezini şekerle ve safranlı suyun yarısıyla karıştırın.",
+        "Kalın dipli tencerenin tabanını sade yağla yağlayın; pirinç ve pekmez karışımını kat kat dizip pirinçle bitirin, kalan safranlı su ve sade yağı gezdirin.",
+        "Kapağı sıkıca kapatıp en kısık ateşte, dipte koyu tatlı bir kabuk oluşana kadar 25 dakika demlendirin; hafifçe karıştırıp kızarmış veya ızgara balıkla servis edin."
+      ],
+      "en": [
+        "Steep the saffron and cardamom in the rose water.",
+        "Bring the salted water to a boil, add the rice and boil for exactly 8 minutes, then drain.",
+        "Mix the date syrup with the sugar and half the saffron water.",
+        "Grease the bottom of a heavy pot with ghee, layer the rice with the date-syrup mixture, finish with rice and drizzle with the remaining saffron water and ghee.",
+        "Cover tightly and steam on the lowest heat for 25 minutes until a dark, sweet crust forms on the bottom; fold gently and serve with fried or grilled fish."
+      ]
+    },
+    "tips": {
+      "ar": ["الحلو مع المالح: المحمّر يُقدَّم دائماً مع سمك الصافي أو الربيب المقلي المتبّل."],
+      "tr": ["Tatlıyla tuzlu: muhammer her zaman baharatlı kızarmış safi veya rabib balığıyla yenir."],
+      "en": ["Sweet meets salty: muhammar is always served with spiced fried safi or rabib fish."]
+    },
+    "tags": ["ramadan", "family"],
+    "sources": [
+      "https://www.food.com/recipe/bahraini-sweet-rice-muhammar-443553",
+      "https://foreignfork.com/muhammar/",
+      "https://grandprixgastronomy.substack.com/p/no-bahrain-gp-but-we-can-still-eat"
+    ]
+  },
+  {
+    "id": "bah-machboos-rubyan",
+    "name": {
+      "ar": "مچبوس ربيان",
+      "tr": "Karidesli Mahbus",
+      "en": "Machboos Rubyan (Shrimp & Spiced Rice)",
+      "native": "مچبوس ربيان"
+    },
+    "cuisine": "bahraini",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "qatari", "emirati"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "shrimp",
+        "amount": 800,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "مقشّر", "tr": "Ayıklanmış", "en": "peeled" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ٣٠ دقيقة",
+          "tr": "Basmati, 30 dk ıslatılmış",
+          "en": "basmati, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 2, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "baharat",
+        "amount": 1.5,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "بهارات مجبوس", "tr": "Mahbus baharatı", "en": "machboos spice mix" }
+      },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      { "ingredient_id": "cardamom", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "cloves", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 1,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 5, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 4.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ساخن", "tr": "Sıcak", "en": "hot" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عصير", "tr": "Suyu", "en": "juice" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "تبّل الربيان بنصف الكركم ونصف ملعقة بهارات والليمون والملح، واتركه ١٥ دقيقة، ثم قلّبه في ملعقتي زيت دقيقتين وارفعه.",
+        "حمّر البصل في باقي الزيت، ثم أضف الثوم والزنجبيل والفلفل والقرفة والهيل والقرنفل واللومي.",
+        "أضف الطماطم ومعجونها وباقي البهارات والكركم ونصف الكزبرة، واطبخ حتى تثخن الصلصة.",
+        "أضف الماء الساخن والملح واتركه يغلي ٥ دقائق، ثم أضف الأرز المصفّى واطبخه حتى يمتصّ معظم الماء.",
+        "وزّع الربيان وباقي الكزبرة على الأرز، وغطّه بإحكام واتركه على نار هادئة جداً ٢٠ دقيقة، وقدّمه مع صلصة الزبادي أو الدقوس."
+      ],
+      "tr": [
+        "Karidesi zerdeçalın yarısı, yarım kaşık baharat, limon suyu ve tuzla 15 dakika marine edin; 2 kaşık yağda 2 dakika çevirip alın.",
+        "Kalan yağda soğanı kavurun; sarımsak, zencefil, biber, tarçın, kakule, karanfil ve kuru limonu ekleyin.",
+        "Domates, salça, kalan baharat, zerdeçal ve kişnişin yarısını ekleyip sos koyulaşana kadar pişirin.",
+        "Sıcak su ve tuzu ekleyip 5 dakika kaynatın; süzülmüş pirinci ekleyip suyun çoğunu çekene kadar pişirin.",
+        "Karidesi ve kalan kişnişi pilavın üzerine yayın, kapağı sıkıca kapatıp çok kısık ateşte 20 dakika demlendirin; yoğurt sosu veya dakkusla servis edin."
+      ],
+      "en": [
+        "Season the shrimp with half the turmeric, ½ tbsp baharat, the lemon juice and salt; leave for 15 minutes, then sauté in 2 tbsp oil for 2 minutes and set aside.",
+        "Brown the onions in the remaining oil, then add the garlic, ginger, chillies, cinnamon, cardamom, cloves and dried limes.",
+        "Add the tomatoes, tomato paste, remaining baharat and turmeric and half the coriander, and cook until the sauce thickens.",
+        "Add the hot water and salt and boil for 5 minutes, then add the drained rice and cook until most of the water is absorbed.",
+        "Scatter the shrimp and remaining coriander over the rice, cover tightly and steam on very low heat for 20 minutes; serve with yogurt sauce or dakkous."
+      ]
+    },
+    "tips": {
+      "ar": ["الطبق الوطني في البحرين؛ طبخ الربيان بسرعة في البداية يحفظ طراوته."],
+      "tr": ["Bahreyn'in ulusal yemeğidir; karidesi başta kısa pişirmek yumuşak kalmasını sağlar."],
+      "en": ["Bahrain's national dish; searing the shrimp briefly at the start keeps it tender."]
+    },
+    "tags": ["family", "feast"],
+    "sources": [
+      "https://butfirstchai.com/machboos-rubyan-prawns-and-rice/",
+      "https://www.dimasharif.com/recipes/machboos-rubyan/",
+      "https://www.f1cookbook.com/blog/machboos-rubyan"
+    ]
+  },
+  {
+    "id": "bah-nashif-rubyan",
+    "name": {
+      "ar": "ربيان نشيف",
+      "tr": "Neşif Karides (Demirhindili Kuru Karides)",
+      "en": "Nashif Rubyan (Tangy Dry Shrimp)",
+      "native": "ربيان نشيف"
+    },
+    "cuisine": "bahraini",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "shrimp",
+        "amount": 700,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "مقشّر", "tr": "Ayıklanmış", "en": "peeled" }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tamarind",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": {
+          "ar": "منقوع في نصف كوب ماء ومصفّى",
+          "tr": "Yarım bardak suda ıslatılıp süzülmüş",
+          "en": "soaked in ½ cup water and strained"
+        }
+      },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "coriander_ground", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "curry_powder", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عصير", "tr": "Suyu", "en": "juice" }
+      },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "تبّل الربيان بالليمون والفلفل الأسود والملح.",
+        "حمّر البصل في الزيت حتى يذهب لونه، ثم أضف الثوم والزنجبيل والفلفل الحار دقيقة.",
+        "أضف الكركم والكمون والكزبرة الناشفة والكاري، ثم الطماطم والسكر، واطبخها حتى تتهرّى.",
+        "أضف ماء التمر الهندي واتركه يغلي حتى تثخن الصلصة جداً (نشيف = ناشف).",
+        "أضف الربيان وقلّبه ٤–٥ دقائق فقط حتى ينضج، ورشّ الكزبرة وقدّمه مع الخبز أو الأرز."
+      ],
+      "tr": [
+        "Karidesi limon suyu, karabiber ve tuzla marine edin.",
+        "Soğanı yağda iyice kavurun; sarımsak, zencefil ve acı biberi ekleyip bir dakika çevirin.",
+        "Zerdeçal, kimyon, toz kişniş ve köriyi, ardından domates ve şekeri ekleyip domates dağılana kadar pişirin.",
+        "Demirhindi suyunu ekleyip sos iyice koyulaşana kadar kaynatın (neşif = kuru).",
+        "Karidesi ekleyip pişene kadar yalnızca 4–5 dakika çevirin; kişniş serpip ekmek veya pilavla servis edin."
+      ],
+      "en": [
+        "Season the shrimp with the lemon juice, black pepper and salt.",
+        "Brown the onions well in the oil, then add the garlic, ginger and chilli for a minute.",
+        "Add the turmeric, cumin, ground coriander and curry powder, then the tomatoes and sugar, and cook until they break down.",
+        "Add the tamarind water and simmer until the sauce is very thick (nashif means dry).",
+        "Add the shrimp and cook for just 4–5 minutes until done; scatter with coriander and serve with bread or rice."
+      ]
+    },
+    "tips": {
+      "ar": ["الحموضة من التمر الهندي والتوابل الهندية أثر من تجارة البحرين القديمة مع الهند."],
+      "tr": ["Demirhindi ekşiliği ve Hint baharatları, Bahreyn'in Hindistan'la eski ticaretinin izidir."],
+      "en": ["The tamarind tang and Indian spices are a legacy of Bahrain's old trade with India."]
+    },
+    "tags": ["quick", "family"],
+    "sources": [
+      "https://cultureatz.com/ro-be-yann-nashif/",
+      "https://www.arabicook.com/2024/10/dry-shrimp-nashif-rubiyan-recipe-for.html",
+      "https://www.copymethat.com/r/7bufe8gx1s/nashif-rubian-tamarind-tomato-shrimp/"
+    ]
+  },
+  {
+    "id": "bah-chebeh-rubyan",
+    "name": {
+      "ar": "جباب ربيان (كبة ربيان)",
+      "tr": "Karides Köftesi (Çebeh Rubyan)",
+      "en": "Chebeh Rubyan (Stuffed Shrimp Balls in Tamarind Sauce)",
+      "native": "چبه ربيان"
+    },
+    "cuisine": "bahraini",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 45,
+    "cook_minutes": 35,
+    "servings": 5,
+    "difficulty": "hard",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "shrimp",
+        "amount": 700,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "مقشّر", "tr": "Ayıklanmış", "en": "peeled" }
+      },
+      { "ingredient_id": "rice_flour", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 1,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "dill",
+        "amount": 0.25,
+        "unit": "bunch",
+        "optional": true,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": {
+          "ar": "مفروم ناعماً (اثنان للحشو وواحد للصلصة)",
+          "tr": "İnce doğranmış (ikisi iç, biri sos için)",
+          "en": "finely chopped (two for filling, one for sauce)"
+        }
+      },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "ghee", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tomato",
+        "amount": 4,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tamarind",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "منقوع ومصفّى", "tr": "Islatılıp süzülmüş", "en": "soaked and strained" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اطحن الربيان في محضّرة الطعام مع الكزبرة والشبت ونصف الكركم والملح، ثم أضف طحين الأرز حتى تصير عجينة متماسكة، وبرّدها ٣٠ دقيقة.",
+        "للحشو: قلّب بصلتين في السمن حتى تذبلا، وأضف ملعقة بهارات واللومي المطحون، واتركه يبرد.",
+        "للصلصة: حمّر البصلة الباقية في الزيت، وأضف الطماطم ومعجونها وباقي البهارات والكركم والفلفل والتمر الهندي والسكر والماء، واتركها تغلي ١٠ دقائق.",
+        "بيدين مبلّلتين افرد ملعقة كبيرة من عجينة الربيان، وضع في وسطها ملعقة صغيرة من الحشو، وأغلقها كرة.",
+        "أنزل الكرات في الصلصة المغلية بهدوء، وغطّها واطبخها ٢٠ دقيقة على نار هادئة دون تحريك، وقدّمها مع الأرز الأبيض."
+      ],
+      "tr": [
+        "Karidesi kişniş, dereotu, zerdeçalın yarısı ve tuzla robotta çekin; pirinç ununu ekleyip toparlanmış bir hamur yapın ve 30 dakika soğutun.",
+        "İç harç: iki soğanı sade yağda yumuşatın, bir tatlı kaşığı baharat ve toz kuru limonu ekleyip soğutun.",
+        "Sos: kalan soğanı yağda kavurun; domates, salça, kalan baharat ve zerdeçal, biber, demirhindi, şeker ve suyu ekleyip 10 dakika kaynatın.",
+        "Islak ellerle bir yemek kaşığı karides hamurunu yayın, ortasına bir tatlı kaşığı harç koyup top şeklinde kapatın.",
+        "Topları kaynayan sosa yavaşça bırakın, kapağı kapatıp karıştırmadan kısık ateşte 20 dakika pişirin; beyaz pilavla servis edin."
+      ],
+      "en": [
+        "Grind the shrimp in a food processor with the coriander, dill, half the turmeric and salt, then add the rice flour to a firm paste; chill for 30 minutes.",
+        "Filling: soften two onions in the ghee, add 1 tsp baharat and the ground dried lime, and let cool.",
+        "Sauce: brown the remaining onion in the oil, add the tomatoes, tomato paste, remaining baharat and turmeric, chilli, tamarind, sugar and water, and simmer for 10 minutes.",
+        "With wet hands flatten a tablespoon of shrimp paste, put a teaspoon of filling in the centre and close into a ball.",
+        "Lower the balls gently into the simmering sauce, cover and cook on low heat for 20 minutes without stirring; serve with white rice."
+      ]
+    },
+    "tips": {
+      "ar": ["لا تحرّك الكرات في أول ١٠ دقائق حتى تتماسك؛ حرّك القدر بهزّه برفق."],
+      "tr": ["İlk 10 dakika topları karıştırmayın ki toparlansınlar; tencereyi hafifçe sallayın."],
+      "en": ["Don't stir for the first 10 minutes so the balls can set; shake the pot gently instead."]
+    },
+    "tags": ["family"],
+    "sources": [
+      "https://globaltableadventure.com/recipe/recipe-bahraini-shrimp-balls-chebeh-rubyan/",
+      "https://www.arabamerica.com/shrimp-balls-in-a-tangy-sauce-chebeh-rubyan/",
+      "https://spicetraveller.com/prawn-meaballs-tomato-sauce/"
+    ]
+  },
+  {
+    "id": "bah-halwa",
+    "name": {
+      "ar": "حلوى بحرينية",
+      "tr": "Bahreyn Helvası (Safranlı Nişasta Helvası)",
+      "en": "Halwa Bahraini (Saffron Starch Sweet)",
+      "native": "حلوى"
+    },
+    "cuisine": "bahraini",
+    "region": "gulf",
+    "also_cuisines": ["qatari", "kuwaiti"],
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 75,
+    "servings": 12,
+    "difficulty": "hard",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "cornstarch", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 5,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "كوب للنشا والباقي للقطر",
+          "tr": "1 bardağı nişasta için, kalanı şurup için",
+          "en": "1 cup for the starch, the rest for the syrup"
+        }
+      },
+      { "ingredient_id": "sugar", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "lemon",
+        "amount": 0.5,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عصير", "tr": "Suyu", "en": "juice" }
+      },
+      { "ingredient_id": "ghee", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "optional": false,
+        "note": {
+          "ar": "منقوع ساعة في ملعقتين ماء مغلي",
+          "tr": "2 kaşık kaynar suda 1 saat bekletilmiş",
+          "en": "steeped 1 hour in 2 tbsp boiling water"
+        }
+      },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "rose_water", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "almonds",
+        "amount": 0.33,
+        "unit": "cup",
+        "optional": true,
+        "note": { "ar": "مقشّر ومحمّص", "tr": "Kabuksuz, kavrulmuş", "en": "blanched and toasted" }
+      },
+      { "ingredient_id": "pistachios", "amount": 0.25, "unit": "cup", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ذوّب النشا في كوب ماء مع ملعقة ماء ورد، واتركه جانباً.",
+        "في قدر كبير ثقيل كرمل نصف كوب من السكر حتى يصير ذهبياً غامقاً، ثم أضف بحذر باقي الماء وباقي السكر والليمون واتركه يغلي حتى يذوب الكراميل.",
+        "أضف خليط النشا تدريجياً مع التحريك المستمر، واستمر في التحريك على نار متوسطة ٤٥–٦٠ دقيقة حتى يثخن ويصير شفافاً لامعاً.",
+        "أضف السمن على دفعات مع التحريك حتى يتشرّبه الخليط ويبدأ يفرز السمن على الأطراف، ثم أضف الزعفران والهيل وباقي ماء الورد والمكسرات.",
+        "اسكبها في صحون أو قوالب مدهونة، واتركها تبرد وتتماسك، وقدّمها مع القهوة العربية."
+      ],
+      "tr": [
+        "Nişastayı bir bardak su ve bir kaşık gül suyunda eritip bekletin.",
+        "Büyük, kalın dipli bir tencerede yarım bardak şekeri koyu altın rengi olana kadar karamelize edin; kalan su, kalan şeker ve limon suyunu dikkatle ekleyip karamel eriyene kadar kaynatın.",
+        "Nişasta karışımını sürekli karıştırarak azar azar ekleyin; koyulaşıp şeffaf ve parlak olana kadar orta ateşte 45–60 dakika karıştırmaya devam edin.",
+        "Sade yağı parti parti ekleyip karışım çekene ve kenarlardan yağ salmaya başlayana kadar karıştırın; sonra safran, kakule, kalan gül suyu ve kuruyemişi ekleyin.",
+        "Yağlanmış tabak veya kalıplara döküp soğuyup donmaya bırakın; Arap kahvesiyle servis edin."
+      ],
+      "en": [
+        "Dissolve the cornstarch in 1 cup water with 1 tbsp rose water and set aside.",
+        "In a large heavy pot caramelise ½ cup of the sugar until deep golden, then carefully add the remaining water, the rest of the sugar and the lemon juice and boil until the caramel dissolves.",
+        "Add the starch mixture gradually, stirring constantly, and keep stirring over medium heat for 45–60 minutes until thick, translucent and glossy.",
+        "Add the ghee in batches, stirring until absorbed and it starts to release at the edges, then add the saffron, cardamom, remaining rose water and the nuts.",
+        "Pour into greased dishes or moulds, leave to cool and set, and serve with Arabic coffee."
+      ]
+    },
+    "tips": {
+      "ar": ["التحريك المستمر هو سرّ القوام المطاطي؛ استعمل ملعقة خشبية طويلة وقدراً عميقاً لأن الخليط يطرطش."],
+      "tr": ["Lastiksi dokunun sırrı sürekli karıştırmaktır; karışım sıçradığı için uzun tahta kaşık ve derin tencere kullanın."],
+      "en": ["Constant stirring is the key to the chewy texture; use a long wooden spoon and a deep pot, as it spatters."]
+    },
+    "tags": ["sweet", "eid", "celebration", "make_ahead"],
+    "sources": [
+      "https://www.196flavors.com/bahrain-halwa-bahraini/",
+      "https://saraniyapt.blogspot.com/2015/12/bahraini-halwa-halwa-bahraini.html",
+      "https://maryamsculinarywonders.blogspot.com/2014/08/662-bahraini-halawa.html"
+    ]
+  }
+]
