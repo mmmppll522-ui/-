@@ -1,0 +1,2068 @@
+[
+  {
+    "id": "emi-khameer",
+    "name": {
+      "ar": "خمير",
+      "tr": "Hamir Ekmeği (Hurmalı Emirlik Ekmeği)",
+      "en": "Khameer (Emirati Date Bread)",
+      "native": "خبز خمير"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["breakfast", "snack"],
+    "course": "bread",
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dates",
+        "amount": 6,
+        "unit": "piece",
+        "optional": false,
+        "note": {
+          "ar": "منزوعة النوى ومنقوعة ومهروسة",
+          "tr": "Çekirdeksiz, ıslatılıp ezilmiş",
+          "en": "pitted, soaked and mashed"
+        }
+      },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "milk",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "فاتر", "tr": "Ilık", "en": "lukewarm" }
+      },
+      {
+        "ingredient_id": "water",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "فاتر، حسب الحاجة", "tr": "Ilık, gerektiği kadar", "en": "lukewarm, as needed" }
+      },
+      { "ingredient_id": "sugar", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "fennel_seeds",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "sesame_seeds", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "nigella_seeds", "amount": 1, "unit": "tsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اهرس التمر المنقوع حتى يصير عجينة ناعمة.",
+        "اخلط الطحين والخميرة والسكر والهيل والشمر والملح، ثم أضف التمر والزيت والحليب واعجن مع إضافة الماء تدريجياً حتى تحصل على عجينة طرية لا تلتصق.",
+        "غطّ العجينة واتركها تتخمّر ساعة إلى ساعة ونصف حتى يتضاعف حجمها.",
+        "قسّمها إلى ٨ كرات، وافرد كل كرة قرصاً بسماكة ١ سم، ثم ادهن سطحه بالحليب المنقوع فيه الزعفران ورشّ السمسم وحبة البركة.",
+        "اخبز الأقراص على صاج أو مقلاة حديد على نار متوسطة، أو في فرن ٢٢٠° نحو ١٢–١٥ دقيقة حتى تنتفخ ويصير لونها ذهبياً."
+      ],
+      "tr": [
+        "Islatılmış hurmaları pürüzsüz bir macun olana kadar ezin.",
+        "Unu, mayayı, şekeri, kakuleyi, rezeneyi ve tuzu karıştırın; hurma, yağ ve sütü ekleyip suyu azar azar katarak yapışmayan yumuşak bir hamur yoğurun.",
+        "Hamurun üzerini örtüp iki katına çıkana kadar 1–1,5 saat mayalandırın.",
+        "8 bezeye bölün, her birini 1 cm kalınlığında açın; yüzeyine safranlı süt sürüp susam ve çörek otu serpin.",
+        "Orta ateşte sac ya da döküm tavada veya 220°C fırında 12–15 dakika kabarıp altın rengi olana kadar pişirin."
+      ],
+      "en": [
+        "Mash the soaked dates into a smooth paste.",
+        "Mix the flour, yeast, sugar, cardamom, fennel and salt; add the dates, oil and milk and knead, adding the water little by little, into a soft, non-sticky dough.",
+        "Cover and leave to rise for 1–1½ hours until doubled.",
+        "Divide into 8 balls and flatten each into a 1 cm (½ in) disc; brush with saffron-infused milk and sprinkle with sesame and nigella seeds.",
+        "Cook on a griddle or cast-iron pan over medium heat, or bake at 220°C (425°F) for 12–15 minutes, until puffed and golden."
+      ]
+    },
+    "tips": {
+      "ar": ["يُقدَّم الخمير على الفطور مع الجبن أو العسل أو دبس التمر، وينفصل عادةً إلى طبقتين.", "يمكن استبدال نصف الحليب بحليب البودرة المذاب لطعم أقرب لخمير البيوت."],
+      "tr": [
+        "Hamir kahvaltıda peynir, bal veya hurma pekmeziyle yenir; genellikle iki kata ayrılır.",
+        "Sütün yarısı yerine suda eritilmiş süt tozu kullanmak ev usulüne daha yakın bir tat verir."
+      ],
+      "en": [
+        "Served at breakfast with cheese, honey or date syrup; it usually splits into two layers.",
+        "Swapping half the milk for reconstituted milk powder gives a more home-style flavour."
+      ]
+    },
+    "tags": ["breakfast_classic", "baked"],
+    "sources": ["https://theodehlicious.com/emirati-khameer-bread/", "https://www.cooking4allseasons.com/emirati-khameer-bread/", "https://worldchefs.org/khameer-bread/"]
+  },
+  {
+    "id": "emi-chebab",
+    "name": {
+      "ar": "چباب",
+      "tr": "Çebab (Safranlı Emirlik Pankeki)",
+      "en": "Chebab (Emirati Saffron Pancakes)",
+      "native": "چباب"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["qatari", "bahraini"],
+    "meal_type": ["breakfast"],
+    "course": "bread",
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "eggs", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "milk",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "فاتر", "tr": "Ilık", "en": "lukewarm" }
+      },
+      { "ingredient_id": "sugar", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "optional": false,
+        "note": {
+          "ar": "منقوع في ملعقتين ماء دافئ",
+          "tr": "2 kaşık ılık suda bekletilmiş",
+          "en": "steeped in 2 tbsp warm water"
+        }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ghee",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "للقلي والدهن", "tr": "Pişirmek ve üzerine sürmek için", "en": "for the pan and brushing" }
+      },
+      {
+        "ingredient_id": "date_syrup",
+        "amount": 4,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "للتقديم", "tr": "Servis için", "en": "to serve" }
+      },
+      {
+        "ingredient_id": "cheese",
+        "amount": 100,
+        "unit": "g",
+        "optional": true,
+        "note": { "ar": "جبن كريمي للتقديم", "tr": "Servis için krem peynir", "en": "cream cheese, to serve" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "اخفق البيض مع السكر، ثم أضف الحليب والزعفران بمائه.",
+        "أضف الطحين والخميرة والهيل والملح واخفق حتى يصير الخليط ناعماً وأثقل قليلاً من خليط الكريب.",
+        "غطّه واتركه ساعة حتى تظهر فقاعات على سطحه.",
+        "ادهن مقلاة غير لاصقة بقليل من السمن على نار متوسطة، واسكب مغرفة صغيرة من الخليط، واتركها حتى تظهر الثقوب على الوجه ثم اقلبها دقيقة.",
+        "ادهن كل قرص بالسمن وهو ساخن، وقدّمه مع دبس التمر والجبن الكريمي."
+      ],
+      "tr": [
+        "Yumurtayı şekerle çırpın, sonra sütü ve suyuyla birlikte safranı ekleyin.",
+        "Un, maya, kakule ve tuzu ekleyip krep hamurundan biraz daha koyu, pürüzsüz bir hamur olana kadar çırpın.",
+        "Üzerini örtüp yüzeyinde kabarcıklar oluşana kadar bir saat bekletin.",
+        "Yapışmaz tavayı orta ateşte az sade yağla yağlayın, küçük bir kepçe hamur dökün; üstünde delikler oluşunca çevirip bir dakika daha pişirin.",
+        "Sıcakken her birine sade yağ sürün; hurma pekmezi ve krem peynirle servis edin."
+      ],
+      "en": [
+        "Whisk the eggs with the sugar, then add the milk and the saffron with its water.",
+        "Add the flour, yeast, cardamom and salt and whisk into a smooth batter slightly thicker than crêpe batter.",
+        "Cover and leave for an hour until bubbles form on the surface.",
+        "Grease a non-stick pan with a little ghee over medium heat, pour in a small ladle of batter, cook until holes appear on top, then flip for a minute.",
+        "Brush each pancake with ghee while hot and serve with date syrup and cream cheese."
+      ]
+    },
+    "tips": {
+      "ar": ["الطعم الحلو المالح (دبس التمر مع الجبن) هو أساس هذا الفطور الإماراتي."],
+      "tr": ["Bu Emirlik kahvaltısının özü tatlı-tuzlu dengesidir: hurma pekmezi ve peynir."],
+      "en": ["The sweet-savoury pairing of date syrup and cheese is the heart of this Emirati breakfast."]
+    },
+    "tags": ["breakfast_classic", "kids"],
+    "sources": [
+      "https://www.spinneys.com/en-ae/recipes/chebab-emirati-saffron-pancakes/",
+      "https://www.munatycooking.com/chebab/",
+      "https://festival.si.edu/blog/emirati-recipes-chai-karak-and-chbaab"
+    ]
+  },
+  {
+    "id": "emi-regag",
+    "name": {
+      "ar": "رقاق",
+      "tr": "Rekak (İncecik Emirlik Ekmeği)",
+      "en": "Regag (Emirati Paper-Thin Bread)",
+      "native": "خبز رقاق"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["omani"],
+    "meal_type": ["breakfast", "snack"],
+    "course": "bread",
+    "prep_minutes": 35,
+    "cook_minutes": 15,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "تقريباً", "tr": "Yaklaşık", "en": "approximately" }
+      },
+      { "ingredient_id": "salt", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "للحشو", "tr": "İç için", "en": "for topping" }
+      },
+      {
+        "ingredient_id": "cheese",
+        "amount": 100,
+        "unit": "g",
+        "optional": true,
+        "note": {
+          "ar": "جبن مبشور أو قابل للدهن",
+          "tr": "Rendelenmiş ya da sürülebilir peynir",
+          "en": "grated or spreadable"
+        }
+      },
+      {
+        "ingredient_id": "honey",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "note": {
+          "ar": "بديل حلو للبيض والجبن",
+          "tr": "Yumurta-peynire tatlı alternatif",
+          "en": "sweet alternative topping"
+        }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الطحين والملح وأضف الماء تدريجياً مع الخفق حتى تحصل على خليط سائل ناعم بلا كتل بقوام خليط الكريب.",
+        "غطّه واتركه ٣٠ دقيقة ليرتاح.",
+        "سخّن صاجاً أو مقلاة كبيرة مسطحة جيداً وادهنها بطبقة خفيفة جداً من الزيت.",
+        "اسكب قليلاً من الخليط وافرده بسرعة بظهر المغرفة في دوائر حتى يصير رقيقاً كالورق، ولا تقلبه.",
+        "حين يجفّ سطحه اكسر عليه بيضة مخفوقة أو رشّ الجبن أو ادهنه بالعسل، ثم اطوه عندما تتحمّص الحواف وقدّمه فوراً."
+      ],
+      "tr": [
+        "Unu ve tuzu karıştırıp suyu azar azar ekleyerek krep kıvamında, topaksız, pürüzsüz akışkan bir hamur yapın.",
+        "Üzerini örtüp 30 dakika dinlendirin.",
+        "Sacı veya geniş düz tavayı iyice ısıtın ve çok ince bir yağ tabakasıyla yağlayın.",
+        "Biraz hamur döküp kepçenin arkasıyla hızla daireler çizerek kâğıt inceliğinde yayın; ters çevirmeyin.",
+        "Yüzeyi kuruyunca üzerine çırpılmış yumurta dökün, peynir serpin ya da bal sürün; kenarları kızarınca katlayıp hemen servis edin."
+      ],
+      "en": [
+        "Mix the flour and salt and gradually whisk in the water to a smooth, lump-free batter the consistency of crêpe batter.",
+        "Cover and rest for 30 minutes.",
+        "Heat a griddle or large flat pan until very hot and wipe with a very thin film of oil.",
+        "Pour in a little batter and spread it quickly in circles with the back of a ladle until paper-thin; do not flip.",
+        "When the surface looks dry, add a beaten egg, some cheese or a drizzle of honey, fold once the edges crisp and serve immediately."
+      ]
+    },
+    "tips": {
+      "ar": ["الأشهر في الإمارات رقاق بالبيض والجبن ورشة كركم، ويُباع في المقاهي الشعبية."],
+      "tr": ["BAE'de en sevileni yumurtalı, peynirli ve bir tutam zerdeçallı rekaktır; halk kafelerinde satılır."],
+      "en": ["The favourite in the UAE is regag with egg, cheese and a pinch of turmeric, sold at roadside cafés."]
+    },
+    "tags": ["breakfast_classic", "street_food", "budget"],
+    "sources": ["https://theodehlicious.com/regag-bread-recipe/", "https://worldchefs.org/regag-bread/", "https://uaeuniverse.com/regag/"]
+  },
+  {
+    "id": "emi-khanfaroosh",
+    "name": {
+      "ar": "خنفروش",
+      "tr": "Hanfaruş (Safranlı Kızarmış Kek)",
+      "en": "Khanfaroosh (Saffron Cardamom Fritters)",
+      "native": "خنفروش"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["qatari", "bahraini"],
+    "meal_type": ["breakfast", "snack", "dessert"],
+    "course": "dessert",
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "eggs", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 0.66, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "flour", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "rice_flour", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "baking_powder", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "optional": false,
+        "note": {
+          "ar": "منقوع في ملعقتين ماء ورد",
+          "tr": "2 kaşık gül suyunda bekletilmiş",
+          "en": "steeped in 2 tbsp rose water"
+        }
+      },
+      { "ingredient_id": "rose_water", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "turmeric",
+        "amount": 1,
+        "unit": "pinch",
+        "optional": true,
+        "note": { "ar": "للون", "tr": "Renk için", "en": "for colour" }
+      },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "اخفق البيض مع السكر حتى يبيضّ ويتضاعف حجمه.",
+        "أضف الزعفران بماء الورد والهيل والكركم.",
+        "اخلط الطحين وطحين الأرز والبيكنج باودر، وأضفها بالتدريج مع التقليب حتى يصير الخليط كثيفاً لزجاً.",
+        "سخّن الزيت على نار متوسطة، واسقط الخليط بملعقة كبيرة أقراصاً صغيرة، واقلها ٢–٣ دقائق على كل وجه حتى تنتفخ وتتحمّر.",
+        "صفّها على ورق ماص وقدّمها دافئة مع الشاي."
+      ],
+      "tr": [
+        "Yumurtayı şekerle beyazlaşıp iki katına çıkana kadar çırpın.",
+        "Gül suyundaki safranı, kakuleyi ve zerdeçalı ekleyin.",
+        "Unu, pirinç ununu ve kabartma tozunu karıştırıp azar azar ekleyin; koyu ve yapışkan bir hamur olsun.",
+        "Yağı orta ateşte ısıtın, hamuru yemek kaşığıyla küçük pogaçalar halinde bırakıp her yüzünü 2–3 dakika kabarıp kızarana kadar kızartın.",
+        "Kâğıt havluya alın ve çayla ılık servis edin."
+      ],
+      "en": [
+        "Whisk the eggs with the sugar until pale and doubled in volume.",
+        "Add the saffron in rose water, the cardamom and the turmeric.",
+        "Mix the flour, rice flour and baking powder and fold them in gradually to a thick, sticky batter.",
+        "Heat the oil over medium heat, drop in tablespoons of batter and fry for 2–3 minutes a side until puffed and browned.",
+        "Drain on paper towels and serve warm with tea."
+      ]
+    },
+    "tips": {
+      "ar": ["تحلية قديمة في الإمارات وقطر كانت تُعدّ للأعراس وصباح العيد."],
+      "tr": ["BAE ve Katar'da düğünlerde ve bayram sabahı yapılan eski bir tatlıdır."],
+      "en": ["An old sweet in the UAE and Qatar made for weddings and Eid mornings."]
+    },
+    "tags": ["sweet", "fried", "eid"],
+    "sources": [
+      "https://www.munatycooking.com/khanfaroosh/",
+      "https://www.fitnut-uae.com/emirati-saffron-cardamom-cake-aka-khanfaroush/",
+      "https://www.sbs.com.au/food/recipes/cardamom-and-saffron-cakes-khanfaroush"
+    ]
+  },
+  {
+    "id": "emi-aseeda-bobbar",
+    "name": {
+      "ar": "عصيدة بوبر",
+      "tr": "Balkabaklı Asida",
+      "en": "Aseedat Bobbar (Pumpkin Aseeda)",
+      "native": "عصيدة بوبر"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["dessert", "breakfast"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "pumpkin",
+        "amount": 600,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "مقشر ومقطع مكعبات", "tr": "Soyulmuş, küp doğranmış", "en": "peeled and cubed" }
+      },
+      {
+        "ingredient_id": "flour",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ويفضّل الأسمر", "tr": "Tercihen kepekli", "en": "preferably wholewheat" }
+      },
+      { "ingredient_id": "sugar", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "pistachios",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "للتزيين", "tr": "Süslemek için", "en": "to garnish" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "حمّص الطحين في مقلاة جافة على نار هادئة مع التحريك المستمر حتى يصير بنياً فاتحاً وتفوح رائحته، ثم انخله.",
+        "اسلق مكعبات اليقطين في الماء ١٥–٢٠ دقيقة حتى تطرى ويتبخّر معظم الماء، ثم اهرسها.",
+        "أضف السكر والزعفران والهيل وماء الورد وملعقة من السمن، وحرّك حتى يذوب السكر.",
+        "أضف الطحين المحمّص تدريجياً مع التحريك القوي، ثم باقي السمن، واطبخ على نار هادئة ١٠–١٥ دقيقة حتى تتماسك العصيدة وتنفصل عن جوانب القدر.",
+        "اسكبها في صحن، واعمل حفرة في وسطها واملأها بالسمن، وزيّنها بالفستق وقدّمها دافئة."
+      ],
+      "tr": [
+        "Unu kuru tavada kısık ateşte sürekli karıştırarak açık kahverengi olup kokusu çıkana kadar kavurun, sonra eleyin.",
+        "Balkabağı küplerini suda 15–20 dakika yumuşayıp suyun çoğu çekilene kadar haşlayın ve ezin.",
+        "Şekeri, safranı, kakuleyi, gül suyunu ve bir kaşık sade yağı ekleyip şeker eriyene kadar karıştırın.",
+        "Kavrulmuş unu kuvvetle karıştırarak azar azar ekleyin, sonra kalan yağı katın ve asida toparlanıp tencerenin kenarından ayrılana kadar 10–15 dakika kısık ateşte pişirin.",
+        "Tabağa alın, ortasını çukurlaştırıp sade yağla doldurun; antep fıstığıyla süsleyip ılık servis edin."
+      ],
+      "en": [
+        "Toast the flour in a dry pan over low heat, stirring constantly, until light brown and nutty, then sift.",
+        "Simmer the pumpkin cubes in the water for 15–20 minutes until soft and most of the water has evaporated, then mash.",
+        "Add the sugar, saffron, cardamom, rose water and a spoonful of ghee and stir until the sugar dissolves.",
+        "Add the toasted flour gradually, stirring hard, then the rest of the ghee, and cook on low heat for 10–15 minutes until the aseeda comes together and leaves the sides of the pot.",
+        "Spoon onto a plate, make a well in the centre and fill it with ghee; garnish with pistachios and serve warm."
+      ]
+    },
+    "tips": {
+      "ar": ["«بوبر» هو اسم اليقطين في اللهجة الإماراتية، والطبق يكثر في الشتاء والعيد."],
+      "tr": ["\"Bobbar\" Emirlik lehçesinde balkabağı demektir; tatlı kışın ve bayramda sık yapılır."],
+      "en": ["\"Bobbar\" is the Emirati word for pumpkin; the dish is a winter and Eid favourite."]
+    },
+    "tags": ["sweet", "winter", "eid"],
+    "sources": [
+      "https://worldchefs.org/aseeda-bobbar/",
+      "https://gulfnews.com/food/cooking-cuisines/aseeda-bobbar-or-emirati-pumpkin-pudding-1.1610889453086",
+      "https://www.kitchenpostcards.com/2018/11/19/emirati-pumpkin-halwa/"
+    ]
+  },
+  {
+    "id": "emi-sago",
+    "name": {
+      "ar": "ساقو",
+      "tr": "Sago Tatlısı (Safranlı Tapyoka)",
+      "en": "Sago (Saffron Tapioca Pudding)",
+      "native": "ساقو"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["qatari", "bahraini", "kuwaiti"],
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 35,
+    "cook_minutes": 30,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "sago_pearls",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "صغيرة الحجم", "tr": "Küçük taneli", "en": "small pearls" }
+      },
+      { "ingredient_id": "sugar", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "pistachios",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "مجروش للتزيين", "tr": "Süslemek için dövülmüş", "en": "chopped, to garnish" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "انقع الساقو في الماء ٣٠ دقيقة ثم صفّه.",
+        "كرمل السكر في قدر على نار متوسطة حتى يصير ذهبياً غامقاً، ثم أضف الماء بحذر وحرّك حتى يذوب الكراميل.",
+        "أضف الساقو والهيل واطبخ مع التحريك ٢٠–٢٥ دقيقة حتى تصير الحبات شفافة ويثخن الخليط.",
+        "أضف الزعفران وماء الورد في منتصف الطبخ، ثم السمن في النهاية وحرّك جيداً.",
+        "اسكبه في صحن وزيّنه بالفستق، ويقدَّم دافئاً أو بارداً."
+      ],
+      "tr": [
+        "Sagoyu 30 dakika suda bekletip süzün.",
+        "Şekeri tencerede orta ateşte koyu altın rengi olana kadar karamelize edin; suyu dikkatle ekleyip karamel eriyene kadar karıştırın.",
+        "Sago ve kakuleyi ekleyip taneler şeffaflaşıp karışım koyulaşana kadar 20–25 dakika karıştırarak pişirin.",
+        "Pişirmenin ortasında safran ve gül suyunu, sonunda sade yağı ekleyip iyice karıştırın.",
+        "Tabağa alıp fıstıkla süsleyin; ılık ya da soğuk servis edin."
+      ],
+      "en": [
+        "Soak the sago in water for 30 minutes, then drain.",
+        "Caramelise the sugar in a pot over medium heat until deep golden, then carefully add the water and stir until the caramel dissolves.",
+        "Add the sago and cardamom and cook, stirring, for 20–25 minutes until the pearls turn clear and the mixture thickens.",
+        "Stir in the saffron and rose water halfway through, and the ghee at the end.",
+        "Pour into a dish, garnish with pistachios and serve warm or cold."
+      ]
+    },
+    "tips": {
+      "ar": ["الكراميل هو ما يعطي الساقو الإماراتي لونه الكهرماني، فلا تستعجل فيه."],
+      "tr": ["Emirlik sagosuna kehribar rengini veren karameldir; acele etmeyin."],
+      "en": ["The caramel gives Emirati sago its amber colour, so don't rush it."]
+    },
+    "tags": ["sweet", "ramadan"],
+    "sources": [
+      "https://www.thebigsweettooth.com/sago-emirati-tapioca-pearl-pudding-with-saffron/",
+      "https://www.munatycooking.com/sago/",
+      "https://maryamsculinarywonders.blogspot.com/2013/06/397-qatari-sago-halawa.html"
+    ]
+  },
+  {
+    "id": "emi-khabeesa",
+    "name": {
+      "ar": "خبيصة",
+      "tr": "Habisa (Kavrulmuş Un Helvası)",
+      "en": "Khabeesa (Toasted Flour Sweet)",
+      "native": "خبيصة"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "qatari", "bahraini", "omani"],
+    "meal_type": ["breakfast", "dessert"],
+    "course": "dessert",
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1.25, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "almonds",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "للتزيين", "tr": "Süslemek için", "en": "to garnish" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "حمّص الطحين في مقلاة جافة على نار هادئة ١٥ دقيقة مع التحريك المستمر حتى يصير بنياً ذهبياً.",
+        "في قدر آخر كرمل السكر حتى يصير ذهبياً، ثم أضف الماء بحذر مع الزعفران والهيل وماء الورد واتركه يغلي حتى يذوب الكراميل.",
+        "أضف السمن إلى الطحين المحمّص وحرّك دقيقة.",
+        "صبّ الشراب على الطحين تدريجياً مع التحريك السريع حتى يتفتّت الخليط ويصير حبيبات متماسكة ولامعة.",
+        "اسكبه في صحن وزيّنه باللوز، ويقدَّم دافئاً مع القهوة."
+      ],
+      "tr": [
+        "Unu kuru tavada kısık ateşte sürekli karıştırarak 15 dakika altın kahverengi olana kadar kavurun.",
+        "Başka bir tencerede şekeri altın rengi olana kadar karamelize edin; suyu safran, kakule ve gül suyuyla dikkatle ekleyip karamel eriyene kadar kaynatın.",
+        "Kavrulmuş una sade yağı ekleyip bir dakika karıştırın.",
+        "Şurubu azar azar dökerken hızla karıştırın; karışım parlak ve tane tane olsun.",
+        "Tabağa alın, badem ile süsleyip kahveyle ılık servis edin."
+      ],
+      "en": [
+        "Toast the flour in a dry pan over low heat for about 15 minutes, stirring constantly, until golden brown.",
+        "In another pot caramelise the sugar until golden, then carefully add the water with the saffron, cardamom and rose water and boil until the caramel dissolves.",
+        "Add the ghee to the toasted flour and stir for a minute.",
+        "Pour the syrup over the flour gradually while stirring fast, until the mixture turns into glossy, clumpy crumbs.",
+        "Spoon onto a plate, garnish with almonds and serve warm with coffee."
+      ]
+    },
+    "tips": {
+      "ar": ["الخبيصة من حلويات صباح العيد في الخليج، والفرق بينها وبين الخبيص البحريني في القوام الأكثر تفتّتاً."],
+      "tr": ["Habisa Körfez'de bayram sabahının tatlısıdır; Bahreyn habisinden farkı daha taneli dokusudur."],
+      "en": ["An Eid-morning sweet across the Gulf; it is more crumbly than Bahraini khabees."]
+    },
+    "tags": ["sweet", "eid", "quick"],
+    "sources": ["https://www.munatycooking.com/khabeesa/", "https://uaeuniverse.com/khabeesa/", "https://butfirstchai.com/bahraini-khabees-wheat-flour-sweet-breakfast/"]
+  },
+  {
+    "id": "emi-arseeyah",
+    "name": {
+      "ar": "عرسية",
+      "tr": "Arsiye (Tavuklu Pirinç Lapası)",
+      "en": "Arseeyah (Chicken & Rice Porridge)",
+      "native": "عرسية"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["omani"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chicken",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "قطع بالعظم", "tr": "Kemikli parçalar", "en": "bone-in pieces" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "قصير الحبة", "tr": "Kısa taneli", "en": "short-grain" }
+      },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق الدجاج في الماء مع عود القرفة والملح، وأزل الرغوة، واطبخه ساعة حتى ينفصل عن العظم.",
+        "أخرج الدجاج وانزع العظم والجلد وافرم اللحم بالشوكة، واحتفظ بالمرق.",
+        "أضف الأرز المغسول والهيل والفلفل إلى المرق واتركه يغلي، ثم أعد الدجاج واطبخ على نار هادئة ٤٥–٦٠ دقيقة مع التحريك المتكرر حتى يتهرّى الأرز.",
+        "اضرب الخليط بالمضرب الخشبي أو الخلاط اليدوي حتى يصير كريمياً متجانساً، وأضف ماءً ساخناً إن ثقل.",
+        "اسكبه في صحن وافرده، واسكب السمن الساخن على السطح كله."
+      ],
+      "tr": [
+        "Tavuğu tarçın çubuğu ve tuzla suda haşlayın, köpüğünü alıp kemikten ayrılana kadar bir saat pişirin.",
+        "Tavuğu çıkarın, kemik ve derisini ayıklayıp etini çatalla didikleyin; suyunu saklayın.",
+        "Yıkanmış pirinç, kakule ve karabiberi suya ekleyip kaynatın; tavuğu geri koyup sık sık karıştırarak pirinç dağılana kadar kısık ateşte 45–60 dakika pişirin.",
+        "Tahta tokmak veya el blenderıyla kremsi ve homojen olana kadar dövün; koyulaşırsa sıcak su ekleyin.",
+        "Tabağa yayın ve tüm yüzeyine sıcak sade yağ gezdirin."
+      ],
+      "en": [
+        "Simmer the chicken in the water with the cinnamon stick and salt, skimming, for about an hour until it falls off the bone.",
+        "Lift out the chicken, discard bones and skin and shred the meat with a fork; keep the broth.",
+        "Add the rinsed rice, cardamom and pepper to the broth and bring to a boil; return the chicken and cook on low heat for 45–60 minutes, stirring often, until the rice breaks down.",
+        "Beat with a wooden masher or hand blender until creamy and smooth, adding hot water if it gets too thick.",
+        "Spread on a platter and spoon hot ghee over the whole surface."
+      ]
+    },
+    "tips": {
+      "ar": ["من أطباق الأعراس والعيد، وقوامها أنعم من الهريس لأنها بالأرز لا القمح."],
+      "tr": ["Düğün ve bayram yemeğidir; buğday yerine pirinçle yapıldığı için heristen daha yumuşaktır."],
+      "en": ["A wedding and Eid dish; smoother than harees because it uses rice instead of wheat."]
+    },
+    "tags": ["eid", "comfort_food", "celebration"],
+    "sources": [
+      "https://www.thebigsweettooth.com/arseeyah-emirati-rice-chicken-gruel/",
+      "https://emiraticankitchen.wordpress.com/2012/07/30/arseeyah/",
+      "https://www.encyclopediacooking.com/recipes_in_english/recipe-10116-1.html"
+    ]
+  },
+  {
+    "id": "emi-karak",
+    "name": { "ar": "شاي كرك", "tr": "Karak Çayı", "en": "Karak Chai", "native": "چاي كرك" },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "qatari", "bahraini", "omani", "saudi"],
+    "meal_type": ["breakfast", "snack", "drink"],
+    "course": "drink",
+    "prep_minutes": 2,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "black_tea",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "أوراق سائبة قوية", "tr": "Güçlü dökme çay", "en": "strong loose-leaf" }
+      },
+      { "ingredient_id": "water", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "evaporated_milk", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 6,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مدقوق", "tr": "Ezilmiş", "en": "crushed pods" }
+      },
+      { "ingredient_id": "ginger", "amount": 3, "unit": "slice", "optional": true, "note": "" },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ضع الشاي والهيل والزنجبيل والزعفران مع الماء في قدر، واتركها تغلي.",
+        "خفّف النار واتركه ١٠ دقائق حتى يصير لونه غامقاً جداً.",
+        "أضف السكر والحليب المبخّر، واتركه يغلي على نار هادئة ٥–١٠ دقائق أخرى، واسكبه بين الإبريق والكوب مرات ليتجانس.",
+        "صفّه وقدّمه ساخناً في أكواب صغيرة."
+      ],
+      "tr": [
+        "Çay, kakule, zencefil ve safranı suyla tencereye koyup kaynatın.",
+        "Ateşi kısın ve çok koyu renk alana kadar 10 dakika demleyin.",
+        "Şekeri ve evapore sütü ekleyip kısık ateşte 5–10 dakika daha kaynatın; bir kaptan diğerine birkaç kez dökerek harmanlayın.",
+        "Süzüp küçük bardaklarda sıcak servis edin."
+      ],
+      "en": [
+        "Put the tea, cardamom, ginger and saffron in a pot with the water and bring to a boil.",
+        "Lower the heat and simmer for 10 minutes until very dark.",
+        "Add the sugar and evaporated milk and simmer for another 5–10 minutes, pouring back and forth between pot and cup a few times to blend.",
+        "Strain and serve hot in small cups."
+      ]
+    },
+    "tips": {
+      "ar": ["«كرك» يعني المطبوخ طويلاً؛ والحليب المبخّر هو سرّ قوامه الكريمي."],
+      "tr": ["\"Karak\" uzun kaynatılmış demektir; kremsi dokunun sırrı evapore süttür."],
+      "en": ["\"Karak\" means strong or long-brewed; evaporated milk gives it its creamy body."]
+    },
+    "tags": ["street_food", "quick"],
+    "sources": ["https://amiraspantry.com/middle-eastern-spiced-tea/", "https://foodess.com/karak-chai/", "https://festival.si.edu/blog/emirati-recipes-chai-karak-and-chbaab"]
+  },
+  {
+    "id": "emi-machboos-samak",
+    "name": {
+      "ar": "مچبوس سمك",
+      "tr": "Balıklı Mahbus",
+      "en": "Machboos Samak (Fish & Spiced Rice)",
+      "native": "مچبوس سمك"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["bahraini", "kuwaiti", "qatari"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 25,
+    "cook_minutes": 50,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "شرائح سميكة من الهامور أو الكنعد",
+          "tr": "Kalın dilim (orfoz veya uskumru türü)",
+          "en": "thick steaks, e.g. hammour or kingfish"
+        }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ٣٠ دقيقة",
+          "tr": "Basmati, 30 dk ıslatılmış",
+          "en": "basmati, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مقطع", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 2, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "bzar", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      { "ingredient_id": "cardamom", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 4.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ساخن", "tr": "Sıcak", "en": "hot" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "تبّل السمك بملعقة بزار والكركم والملح، واتركه ١٥ دقيقة ثم اقله في الزيت دقيقتين على كل وجه وارفعه.",
+        "في الزيت نفسه حمّر البصل، ثم أضف الثوم والفلفل والقرفة والهيل واللومي، وبعدها الطماطم وباقي البزار ونصف الكزبرة، وقلّب حتى تذبل الطماطم.",
+        "أضف الماء الساخن والملح واتركه يغلي ٥ دقائق، ثم أضف الأرز المصفّى.",
+        "حين يمتصّ الأرز معظم الماء، رصّ السمك على وجهه، وغطّ القدر بإحكام واطبخ على نار هادئة جداً ٢٠ دقيقة.",
+        "قدّم الأرز في صينية والسمك فوقه، ورشّ باقي الكزبرة."
+      ],
+      "tr": [
+        "Balığı bir kaşık bezar, zerdeçal ve tuzla ovup 15 dakika bekletin; yağda her yüzünü 2 dakika kızartıp alın.",
+        "Aynı yağda soğanı kızartın; sarımsak, biber, tarçın, kakule ve kuru limonu, ardından domatesi, kalan bezarı ve kişnişin yarısını ekleyip domates yumuşayana kadar çevirin.",
+        "Sıcak su ve tuzu ekleyip 5 dakika kaynatın, sonra süzülmüş pirinci ekleyin.",
+        "Pirinç suyun çoğunu çekince balığı üzerine dizin, kapağı sıkıca kapatıp çok kısık ateşte 20 dakika pişirin.",
+        "Pilavı tepsiye alıp balığı üstüne koyun ve kalan kişnişi serpin."
+      ],
+      "en": [
+        "Rub the fish with 1 tbsp bzar, the turmeric and salt, leave for 15 minutes, then fry in the oil for 2 minutes a side and set aside.",
+        "In the same oil brown the onions, then add the garlic, chilli, cinnamon, cardamom and dried limes, followed by the tomatoes, the rest of the bzar and half the coriander; cook until the tomatoes soften.",
+        "Add the hot water and salt, boil for 5 minutes, then add the drained rice.",
+        "When the rice has absorbed most of the water, lay the fish on top, cover tightly and cook on very low heat for 20 minutes.",
+        "Serve the rice on a platter with the fish on top and the remaining coriander scattered over."
+      ]
+    },
+    "tips": {
+      "ar": ["في الساحل الشرقي (الفجيرة) يُضاف قليل من الروبيان المجفف لنكهة أعمق."],
+      "tr": ["Doğu kıyısında (Fuceyre) daha derin tat için biraz kurutulmuş karides eklenir."],
+      "en": ["On the east coast (Fujairah) a little dried shrimp is added for depth."]
+    },
+    "tags": ["family", "feast"],
+    "sources": [
+      "https://www.spinneys.com/en-ae/recipes/fish-machboos/",
+      "https://www.thebigsweettooth.com/machboos-samak-emirati-fish-majboos/",
+      "https://unitedfish.ae/a-step-by-step-guide-to-making-emirati-style-fish-machboos/"
+    ]
+  },
+  {
+    "id": "emi-jesheed",
+    "name": {
+      "ar": "جشيد",
+      "tr": "Ceşid (Baharatlı Didiklenmiş Balık)",
+      "en": "Jesheed (Spiced Shredded Fish)",
+      "native": "جشيد"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["omani"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 800,
+        "unit": "g",
+        "optional": false,
+        "note": {
+          "ar": "قرش صغير تقليدياً، أو سمك أبيض متماسك",
+          "tr": "Geleneksel olarak yavru köpekbalığı ya da sıkı etli beyaz balık",
+          "en": "traditionally baby shark, or any firm white fish"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم ناعماً", "tr": "İnce doğranmış", "en": "finely chopped" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      { "ingredient_id": "bzar", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مطحون أو مهروس", "tr": "Toz veya ezilmiş", "en": "ground or crushed" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "للسلق", "tr": "Haşlama için", "en": "for poaching" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "coriander_fresh", "amount": 0.25, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق السمك في ماء مع نصف ملعقة كركم وشرائح الليمون ١٠–١٥ دقيقة، ثم صفّه واتركه يبرد.",
+        "انزع العظم والجلد وفتّت السمك بأصابعك إلى خيوط ناعمة، واعصره من الماء الزائد.",
+        "حمّر البصل في الزيت حتى يذهب لونه الذهبي، ثم أضف الثوم وقلّب دقيقة.",
+        "أضف البزار والكمون وباقي الكركم واللومي، ثم السمك المفتّت، واطبخ على نار هادئة ١٠–١٥ دقيقة مع التقليب حتى يتشرّب البهارات ويجفّ قليلاً.",
+        "عدّل الملح ورشّ الكزبرة، وقدّمه مع الأرز الأبيض أو خبز الخمير."
+      ],
+      "tr": [
+        "Balığı yarım kaşık zerdeçal ve limon dilimleriyle suda 10–15 dakika haşlayın, süzüp soğutun.",
+        "Kemik ve derisini ayıklayıp parmaklarınızla ince ince didikleyin ve fazla suyunu sıkın.",
+        "Soğanı yağda altın rengini geçene kadar kavurun, sarımsağı ekleyip bir dakika çevirin.",
+        "Bezar, kimyon, kalan zerdeçal ve kuru limonu, ardından balığı ekleyin; baharatı çekip biraz kuruyana kadar kısık ateşte 10–15 dakika karıştırarak pişirin.",
+        "Tuzunu ayarlayıp kişniş serpin; beyaz pilav ya da hamir ekmeğiyle servis edin."
+      ],
+      "en": [
+        "Poach the fish in water with ½ tsp turmeric and the lemon slices for 10–15 minutes, then drain and cool.",
+        "Remove bones and skin, shred the fish finely with your fingers and squeeze out excess water.",
+        "Fry the onions in the oil until deep golden, then add the garlic for a minute.",
+        "Add the bzar, cumin, remaining turmeric and dried lime, then the fish, and cook on low heat for 10–15 minutes, stirring, until it absorbs the spices and dries slightly.",
+        "Adjust the salt, scatter with coriander and serve with white rice or khameer bread."
+      ]
+    },
+    "tips": {
+      "ar": ["يمكن صنعه بالتونة المعلبة المصفّاة كنسخة سريعة."],
+      "tr": ["Hızlı bir versiyon için süzülmüş konserve ton balığı kullanılabilir."],
+      "en": ["Drained canned tuna makes a quick version."]
+    },
+    "tags": ["family", "budget"],
+    "sources": [
+      "https://www.thebigsweettooth.com/jesheed-emirati-minced-shark/",
+      "https://gulfnews.com/food/cooking-cuisines/recipe-for-emirati-jisheed-or-spiced-fish-and-rice-1.1610878895517",
+      "https://uaeuniverse.com/jesheed/"
+    ]
+  },
+  {
+    "id": "emi-mashkoul",
+    "name": { "ar": "مشخول", "tr": "Maşhul (Soğanlı Pilav)", "en": "Mashkhoul (Gulf Onion Rice)", "native": "مشخول" },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["saudi", "kuwaiti", "qatari", "bahraini"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "side",
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ٣٠ دقيقة",
+          "tr": "Basmati, 30 dk ıslatılmış",
+          "en": "basmati, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح رفيعة", "tr": "İnce dilim", "en": "thinly sliced" }
+      },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 4, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 12,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للسلق", "tr": "Haşlamak için", "en": "for boiling" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tbsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغلِ الماء مع الملح، وأضف الأرز المصفّى واسلقه ٨ دقائق حتى ينضج ثلاثة أرباع، ثم صفّه.",
+        "حمّر البصل في السمن مع الهيل على نار متوسطة حتى يصير ذهبياً مقرمشاً.",
+        "ضع نصف البصل مع سمنه في قاع قدر، ثم الأرز، ثم اخلطه بالشوكة برفق ووزّع باقي البصل على الوجه.",
+        "غطّ القدر بإحكام (يمكن لفّ الغطاء بقطعة قماش) واتركه على نار هادئة جداً ١٥–٢٠ دقيقة حتى تنضج الحبات وتنفصل."
+      ],
+      "tr": [
+        "Tuzlu suyu kaynatın, süzülmüş pirinci ekleyip dörtte üçü pişene kadar 8 dakika haşlayın ve süzün.",
+        "Soğanı kakuleyle birlikte sade yağda orta ateşte altın rengi ve çıtır olana kadar kavurun.",
+        "Soğanın yarısını yağıyla tencerenin dibine koyun, üstüne pirinci ekleyin, çatalla hafifçe karıştırıp kalan soğanı üstüne yayın.",
+        "Kapağı sıkıca kapatın (bir bezle sarabilirsiniz) ve taneler pişip ayrılana kadar çok kısık ateşte 15–20 dakika demlendirin."
+      ],
+      "en": [
+        "Bring the salted water to a boil, add the drained rice and boil for 8 minutes until three-quarters cooked, then drain.",
+        "Fry the onions with the cardamom in the ghee over medium heat until golden and crisp.",
+        "Put half the onions with their ghee in the bottom of a pot, add the rice, fork through gently and spread the remaining onions on top.",
+        "Cover tightly (wrap the lid in a cloth if you like) and steam on very low heat for 15–20 minutes until the grains are tender and separate."
+      ]
+    },
+    "tips": {
+      "ar": ["أرز البيت الأبيض في الخليج، يُقدَّم مع الصالونة والجشيد والسمك المقلي."],
+      "tr": ["Körfez'in günlük beyaz pilavıdır; salona, ceşid ve kızarmış balıkla yenir."],
+      "en": ["The everyday white rice of the Gulf, served with saloona, jesheed or fried fish."]
+    },
+    "tags": ["budget", "family"],
+    "sources": [
+      "https://www.aramcoworld.com/articles/2026/online-only/for-pure-bliss-master-mashkhoul-a-gulf-fragrant-white-rice-dish",
+      "https://www.boldsky.com/cookery/vegetarian/maincourse/rice/mashkoul-rice-with-onions-recipe-for-ramzan-041117.html",
+      "https://recipes.fandom.com/wiki/Mashkoul"
+    ]
+  },
+  {
+    "id": "emi-dango",
+    "name": {
+      "ar": "دنقو (نخي)",
+      "tr": "Dango (Baharatlı Haşlanmış Nohut)",
+      "en": "Dango (Spiced Boiled Chickpeas)",
+      "native": "دنقو"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["omani", "kuwaiti", "bahraini", "qatari"],
+    "meal_type": ["snack", "breakfast"],
+    "course": "appetizer",
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chickpeas",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "منقوع ليلة", "tr": "Bir gece ıslatılmış", "en": "soaked overnight" }
+      },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "hot_pepper",
+        "amount": 1,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "للتقديم", "tr": "Servis için", "en": "to serve" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "صفِّ الحمص المنقوع وضعه في قدر مع الماء والملح والكركم.",
+        "اتركه يغلي ثم خفّف النار واطبخه ٤٥–٦٠ دقيقة حتى يطرى تماماً دون أن يتفتّت.",
+        "صفّه (واحتفظ بمائه للشوربات)، ثم رشّ عليه الكمون والفلفل الأسود والفلفل الحار وقلّبه.",
+        "قدّمه ساخناً في أكواب مع عصرة ليمون."
+      ],
+      "tr": [
+        "Islatılmış nohudu süzüp su, tuz ve zerdeçalla tencereye koyun.",
+        "Kaynayınca ateşi kısın ve dağılmadan tamamen yumuşayana kadar 45–60 dakika pişirin.",
+        "Süzün (suyunu çorbalar için saklayın), kimyon, karabiber ve acı biberi serpip karıştırın.",
+        "Bardaklarda limon sıkarak sıcak servis edin."
+      ],
+      "en": [
+        "Drain the soaked chickpeas and put them in a pot with the water, salt and turmeric.",
+        "Bring to a boil, then simmer for 45–60 minutes until completely tender but not falling apart.",
+        "Drain (keep the liquid for soups), then toss with the cumin, black pepper and chilli.",
+        "Serve hot in cups with a squeeze of lemon."
+      ]
+    },
+    "tips": {
+      "ar": ["يؤكل في رمضان وعند ولادة طفل أو ظهور سنّه الأولى، ويباع على عربات الشارع في الشتاء."],
+      "tr": ["Ramazan'da ve bebeğin doğumu ya da ilk dişi çıktığında yenir; kışın sokak arabalarında satılır."],
+      "en": ["Eaten in Ramadan and to celebrate a birth or a baby's first tooth; sold from street carts in winter."]
+    },
+    "tags": ["ramadan", "street_food", "budget", "winter"],
+    "sources": [
+      "https://www.washingtonpost.com/recipes/dango-omani-chickpeas/",
+      "http://www.uaeforever.com/Dishes/Veg/dango.html",
+      "https://blog.suvie.com/dango-omani-style-chickpea-stew"
+    ]
+  },
+  {
+    "id": "emi-samak-mashwi",
+    "name": {
+      "ar": "سمك مشوي إماراتي",
+      "tr": "Emirlik Usulü Izgara Balık",
+      "en": "Samak Mashwi (Emirati Grilled Fish)",
+      "native": "سمك مشوي"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 70,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1.2,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "سمكة كاملة منظفة (هامور أو شعري أو صافي)",
+          "tr": "Bütün, temizlenmiş (orfoz, çipura vb.)",
+          "en": "whole, cleaned (hammour, sheri or safi)"
+        }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 5,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عصير + شرائح", "tr": "Suyu + dilimleri", "en": "juice + slices" }
+      },
+      { "ingredient_id": "bzar", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "paprika", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اعمل ٣–٤ شقوق عميقة على جانبي السمكة.",
+        "اخلط الثوم وعصير ليمونة والبزار والكركم والكمون والبابريكا والفلفل والزيت والملح حتى تصير عجينة.",
+        "ادهن السمكة من الداخل والخارج وداخل الشقوق بالعجينة، واحشُ بطنها بشرائح الليمون، واتركها ساعة على الأقل.",
+        "اشوِها على فحم متوسط الحرارة أو تحت شواية الفرن ٨–١٠ دقائق على كل جانب حتى يتفتّت اللحم بسهولة.",
+        "قدّمها مع الأرز الأبيض والليمون وصلصة الدقوس."
+      ],
+      "tr": [
+        "Balığın iki yanına 3–4 derin çizik atın.",
+        "Sarımsak, bir limonun suyu, bezar, zerdeçal, kimyon, pul biber, acı biber, yağ ve tuzu macun olana kadar karıştırın.",
+        "Balığın içine, dışına ve çiziklere macunu sürün, karnına limon dilimleri koyup en az bir saat bekletin.",
+        "Orta ateşli kömürde veya fırın ızgarasında her yüzünü 8–10 dakika, eti kolayca ayrılana kadar pişirin.",
+        "Beyaz pilav, limon ve dakkus sosuyla servis edin."
+      ],
+      "en": [
+        "Cut 3–4 deep slashes on both sides of the fish.",
+        "Mix the garlic, juice of one lemon, bzar, turmeric, cumin, paprika, chilli, oil and salt into a paste.",
+        "Rub the paste inside and out and into the slashes, stuff the belly with lemon slices and marinate for at least an hour.",
+        "Grill over medium charcoal or under the oven grill for 8–10 minutes a side until the flesh flakes easily.",
+        "Serve with white rice, lemon and dakkous sauce."
+      ]
+    },
+    "tips": {
+      "ar": ["اطلب من بائع السمك تنظيفها وإبقاء الرأس؛ الشوي بالعظم يحفظ طراوة اللحم."],
+      "tr": ["Balıkçıdan temizlemesini ve başını bırakmasını isteyin; kemikli pişirmek eti sulu tutar."],
+      "en": ["Ask the fishmonger to clean it and keep the head on; cooking on the bone keeps it moist."]
+    },
+    "tags": ["grilled", "family", "summer"],
+    "sources": [
+      "https://unitedfish.ae/how-to-make-samak-mashwi-dubais-classic-grilled-fish-dish/",
+      "https://cookpad.com/eng/recipes/8952424",
+      "https://yummymideast.com/fish-dishes/samak-mashwi/"
+    ]
+  },
+  {
+    "id": "emi-aish-laham",
+    "name": {
+      "ar": "عيش ولحم",
+      "tr": "Ayş ve Lahm (Emirlik Etli Pilavı)",
+      "en": "Aish-u-Laham (Emirati Lamb & Rice)",
+      "native": "عيش ولحم"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["lunch"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 1.5,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "قطع بالعظم", "tr": "Kemikli parçalar", "en": "bone-in pieces" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 4,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ٣٠ دقيقة",
+          "tr": "Basmati, 30 dk ıslatılmış",
+          "en": "basmati, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مقطع", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 6,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "bzar", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "sticks" }
+      },
+      { "ingredient_id": "cardamom", "amount": 6, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "cloves", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "saffron",
+        "amount": 1,
+        "unit": "pinch",
+        "optional": false,
+        "note": {
+          "ar": "منقوع في ملعقتين ماء ورد",
+          "tr": "2 kaşık gül suyunda",
+          "en": "steeped in 2 tbsp rose water"
+        }
+      },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 1,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مسلوق للتزيين", "tr": "Haşlanmış, süslemek için", "en": "hard-boiled, to garnish" }
+      },
+      { "ingredient_id": "water", "amount": 10, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق اللحم في الماء ١٠ دقائق وأزل الرغوة، ثم أضف نصف البصل والهيل والقرفة والقرنفل والملح واطبخه نحو ساعة ونصف حتى ينضج.",
+        "في مقلاة حمّر باقي البصل في السمن، ثم أضف الثوم والزنجبيل والفلفل حتى يذبل، ثم الطماطم ونصف الكزبرة والبزار، واطبخ حتى تصير صلصة كثيفة.",
+        "ارفع اللحم وصفِّ المرق، واسلق الأرز في المرق ٨–١٠ دقائق حتى ينضج ثلاثة أرباع، ثم صفّه.",
+        "في قدر كبير رصّ طبقة أرز ثم اللحم والصلصة واللومي، وكرّر الطبقات، ورشّ الزعفران وباقي الكزبرة وملعقة سمن.",
+        "غطّه بإحكام واتركه على نار هادئة جداً ١٥–٢٠ دقيقة، ثم اقلبه في صينية وزيّنه بالبيض المسلوق."
+      ],
+      "tr": [
+        "Eti suda 10 dakika haşlayıp köpüğünü alın; soğanın yarısını, kakule, tarçın, karanfil ve tuzu ekleyip yaklaşık 1,5 saat yumuşayana kadar pişirin.",
+        "Tavada kalan soğanı sade yağda kızartın; sarımsak, zencefil ve biberi ekleyip yumuşatın, sonra domates, kişnişin yarısı ve bezarı ekleyip koyu bir sos olana kadar pişirin.",
+        "Eti çıkarıp suyunu süzün; pirinci bu suda dörtte üçü pişene kadar 8–10 dakika haşlayıp süzün.",
+        "Büyük bir tencereye kat kat pirinç, et, sos ve kuru limon dizin; üzerine safran, kalan kişniş ve bir kaşık sade yağ serpin.",
+        "Kapağı sıkıca kapatıp çok kısık ateşte 15–20 dakika demlendirin; tepsiye ters çevirip haşlanmış yumurtayla süsleyin."
+      ],
+      "en": [
+        "Boil the lamb in the water for 10 minutes and skim, then add half the onions, the cardamom, cinnamon, cloves and salt and cook for about 1½ hours until tender.",
+        "In a pan fry the remaining onions in the ghee, add the garlic, ginger and chillies until soft, then the tomatoes, half the coriander and the bzar, and cook into a thick sauce.",
+        "Lift out the meat and strain the broth; boil the rice in the broth for 8–10 minutes until three-quarters cooked, then drain.",
+        "In a large pot layer rice, meat, sauce and dried limes, repeat, and top with the saffron, remaining coriander and a spoon of ghee.",
+        "Cover tightly and steam on very low heat for 15–20 minutes, then turn out onto a platter and garnish with boiled eggs."
+      ]
+    },
+    "tips": {
+      "ar": ["طبق الولائم الإماراتي، ويُزيَّن تقليدياً بـ«الحشوة» (بصل مكرمل بالزبيب والبزار)."],
+      "tr": ["Emirlik ziyafet yemeğidir; geleneksel olarak kuru üzümlü karamelize soğan \"haşva\" ile süslenir."],
+      "en": ["The Emirati feast dish, traditionally topped with hashwa (onions caramelised with raisins and bzar)."]
+    },
+    "tags": ["feast", "eid", "family"],
+    "sources": [
+      "https://gulfnews.com/going-out/emirati-recipes-green-mango-an-humeidh-salad-aish-u-laham-aseedat-bobbar-and-more-1.1242671",
+      "https://www.ajinomoto.com/umami/umami_recipes/aish-and-lahem"
+    ]
+  },
+  {
+    "id": "emi-marrag-samak",
+    "name": {
+      "ar": "مرق سمك",
+      "tr": "Balık Marağı (Emirlik Balık Yahnisi)",
+      "en": "Marrag Samak (Emirati Fish Stew)",
+      "native": "مرق سمك"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "servings": 5,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilim", "en": "steaks" }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "bzar", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      {
+        "ingredient_id": "tamarind",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "منقوع في نصف كوب ماء", "tr": "Yarım bardak suda ıslatılmış", "en": "soaked in ½ cup water" }
+      },
+      {
+        "ingredient_id": "potato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مكعبات", "tr": "Küp", "en": "cubed" }
+      },
+      {
+        "ingredient_id": "carrot",
+        "amount": 1,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "حلقات", "tr": "Halka", "en": "sliced" }
+      },
+      { "ingredient_id": "okra", "amount": 150, "unit": "g", "optional": true, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "تبّل السمك بملعقة بزار ونصف الكركم والملح، واقله سريعاً في الزيت حتى يتلوّن وارفعه.",
+        "في الزيت نفسه حمّر البصل، ثم أضف الثوم والفلفل وباقي البزار والكركم، ثم الطماطم ومعجون الطماطم وقلّب ٥ دقائق.",
+        "أضف الماء واللومي ومنقوع التمر الهندي المصفّى والخضار، واتركه يغلي ١٥ دقيقة حتى تنضج الخضار.",
+        "أعد السمك مع نصف الكزبرة واطبخ على نار هادئة ١٠ دقائق حتى ينضج السمك.",
+        "رشّ باقي الكزبرة وقدّمه مع الأرز الأبيض."
+      ],
+      "tr": [
+        "Balığı bir kaşık bezar, zerdeçalın yarısı ve tuzla ovup yağda hızlıca renk alana kadar kızartın ve alın.",
+        "Aynı yağda soğanı kavurun; sarımsak, biber, kalan bezar ve zerdeçalı, ardından domates ve salçayı ekleyip 5 dakika çevirin.",
+        "Su, kuru limon, süzülmüş demirhindi suyu ve sebzeleri ekleyip sebzeler pişene kadar 15 dakika kaynatın.",
+        "Balığı kişnişin yarısıyla geri koyun ve kısık ateşte balık pişene kadar 10 dakika pişirin.",
+        "Kalan kişnişi serpip beyaz pilavla servis edin."
+      ],
+      "en": [
+        "Season the fish with 1 tbsp bzar, half the turmeric and salt, sear quickly in the oil until coloured and set aside.",
+        "In the same oil brown the onions, then add the garlic, chilli, remaining bzar and turmeric, followed by the tomatoes and tomato paste; cook for 5 minutes.",
+        "Add the water, dried limes, strained tamarind water and the vegetables and simmer for 15 minutes until the vegetables are tender.",
+        "Return the fish with half the coriander and simmer gently for 10 minutes until cooked through.",
+        "Scatter over the rest of the coriander and serve with white rice."
+      ]
+    },
+    "tips": {
+      "ar": ["التمر الهندي واللومي يعطيان المرق الحموضة المميزة للمطبخ الساحلي الإماراتي."],
+      "tr": ["Demirhindi ve kuru limon, Emirlik kıyı mutfağına özgü ekşiliği verir."],
+      "en": ["Tamarind and dried lime give the broth the tang typical of Emirati coastal cooking."]
+    },
+    "tags": ["family", "one_pot", "ramadan"],
+    "sources": [
+      "https://www.thebigsweettooth.com/marrag-samak-emirati-fish-stew/",
+      "https://emiraticankitchen.wordpress.com/2012/07/17/marak-samak-fish-stew-with-halwayoh/",
+      "https://www.iccadubai.ae/stockpot/seafoodthe-marak-samak"
+    ]
+  },
+  {
+    "id": "emi-baid-tamat",
+    "name": {
+      "ar": "بيض وطماط",
+      "tr": "Domatesli Yumurta (Emirlik Usulü)",
+      "en": "Baid Tamat (Emirati Eggs with Tomatoes)",
+      "native": "بيض وطماط"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "qatari", "bahraini", "omani"],
+    "meal_type": ["breakfast"],
+    "course": "main",
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "servings": 3,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "eggs", "amount": 5, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.25, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 0.25, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.25, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "parsley",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "مفروم للتزيين", "tr": "Süslemek için kıyılmış", "en": "chopped, to garnish" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "سخّن الزيت وقلّب البصل والفلفل حتى يذبلا.",
+        "أضف الطماطم واطبخها على نار عالية مع التحريك حتى يتبخّر ماؤها تقريباً.",
+        "اخفق البيض مع الكركم والكمون والفلفل الأسود والملح، واسكبه على الطماطم.",
+        "حرّك على نار متوسطة حتى ينضج البيض ويصير مخفوقاً طرياً، ورشّ البقدونس وقدّمه مع الرقاق أو الخمير."
+      ],
+      "tr": [
+        "Yağı ısıtıp soğan ve biberi yumuşayana kadar çevirin.",
+        "Domatesi ekleyip yüksek ateşte suyu neredeyse çekilene kadar karıştırarak pişirin.",
+        "Yumurtayı zerdeçal, kimyon, karabiber ve tuzla çırpıp domateslerin üzerine dökün.",
+        "Orta ateşte yumurta pişip yumuşak bir çırpma olana kadar karıştırın; maydanoz serpip rekak veya hamirle servis edin."
+      ],
+      "en": [
+        "Heat the oil and soften the onion and chilli.",
+        "Add the tomatoes and cook on high heat, stirring, until their liquid has almost evaporated.",
+        "Beat the eggs with the turmeric, cumin, black pepper and salt and pour over the tomatoes.",
+        "Stir over medium heat until softly scrambled, sprinkle with parsley and serve with regag or khameer."
+      ]
+    },
+    "tips": {
+      "ar": ["تبخير ماء الطماطم أولاً يمنع البيض من أن يصير مائياً."],
+      "tr": ["Önce domatesin suyunu çektirmek yumurtanın sulanmasını önler."],
+      "en": ["Cooking off the tomato juice first keeps the eggs from turning watery."]
+    },
+    "tags": ["breakfast_classic", "quick", "budget"],
+    "sources": [
+      "https://www.thebigsweettooth.com/baid-tamat-baith-thamath-emirati-scrambled-eggs-tomatoes/",
+      "https://www.recipezazz.com/recipe/emirati-scrambled-eggs-with-tomatoes-43685",
+      "https://cookpad.com/eng/recipes/15529659"
+    ]
+  },
+  {
+    "id": "emi-samak-bil-fern",
+    "name": {
+      "ar": "سمك بالفرن إماراتي",
+      "tr": "Emirlik Usulü Fırında Balık",
+      "en": "Samak bil Fern (Emirati Baked Fish)",
+      "native": "سمك بالفرن"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "شرائح سميكة أو سمكة كاملة",
+          "tr": "Kalın dilim veya bütün balık",
+          "en": "thick steaks or a whole fish"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      { "ingredient_id": "bzar", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عصير", "tr": "Suyu", "en": "juice" }
+      },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "سخّن الفرن على ٢٠٠°. تبّل السمك بنصف البزار والكركم والملح وعصير الليمون.",
+        "قلّب البصل في الزيت حتى يذبل، ثم أضف الثوم ومعجون الطماطم وباقي البزار واللومي ونصف الكزبرة وقلّب دقيقتين.",
+        "افرد نصف خليط البصل في صينية، وضع السمك فوقه، ثم شرائح الطماطم وباقي الخليط.",
+        "غطّ الصينية بورق القصدير واخبزها ٢٥ دقيقة، ثم اكشفها ١٠ دقائق حتى يتحمّر الوجه وينضج السمك.",
+        "رشّ الكزبرة وقدّمه مع الأرز."
+      ],
+      "tr": [
+        "Fırını 200°C'ye ısıtın. Balığı bezarın yarısı, zerdeçal, tuz ve limon suyuyla ovun.",
+        "Soğanı yağda yumuşayana kadar çevirin; sarımsak, salça, kalan bezar, kuru limon ve kişnişin yarısını ekleyip 2 dakika kavurun.",
+        "Soğanlı karışımın yarısını tepsiye yayın, üzerine balığı, sonra domates dilimlerini ve kalan karışımı koyun.",
+        "Tepsiyi folyoyla kapatıp 25 dakika pişirin, sonra folyoyu açıp üstü kızarana ve balık pişene kadar 10 dakika daha pişirin.",
+        "Kişniş serpip pilavla servis edin."
+      ],
+      "en": [
+        "Heat the oven to 200°C (400°F). Season the fish with half the bzar, the turmeric, salt and lemon juice.",
+        "Soften the onions in the oil, then add the garlic, tomato paste, remaining bzar, dried lime and half the coriander and fry for 2 minutes.",
+        "Spread half the onion mixture in a baking dish, lay the fish on top, then the tomato slices and the rest of the mixture.",
+        "Cover with foil and bake for 25 minutes, then uncover for 10 minutes until browned on top and the fish is cooked.",
+        "Scatter with coriander and serve with rice."
+      ]
+    },
+    "tips": {
+      "ar": ["طريقة سهلة للعائلة تحافظ على طراوة السمك أكثر من القلي."],
+      "tr": ["Kızartmaya göre balığı daha sulu tutan kolay bir aile yemeğidir."],
+      "en": ["An easy family method that keeps the fish moister than frying."]
+    },
+    "tags": ["baked", "family"],
+    "sources": ["https://www.thebigsweettooth.com/samak-bil-fern-emirati-baked-fish/", "https://gingerandscotch.com/emirati-baked-fish/"]
+  },
+  {
+    "id": "emi-malleh-fogah",
+    "name": {
+      "ar": "فوقة مالح",
+      "tr": "Fuga Maleh (Tuzlu Balıklı Pilav)",
+      "en": "Malleh Fogah (Rice with Salted Fish)",
+      "native": "فوقة مالح"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["lunch"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "servings": 5,
+    "difficulty": "medium",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "salted_fish",
+        "amount": 500,
+        "unit": "g",
+        "optional": false,
+        "note": {
+          "ar": "منقوع ٢–٣ ساعات مع تغيير الماء",
+          "tr": "2–3 saat ıslatılıp suyu değiştirilmiş",
+          "en": "soaked 2–3 hours, changing the water"
+        }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 2.5,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ٣٠ دقيقة",
+          "tr": "Basmati, 30 dk ıslatılmış",
+          "en": "basmati, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      { "ingredient_id": "tamarind", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "bzar", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 0.5,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 4, "unit": "cup", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "صفِّ السمك المالح بعد النقع وقطّعه قطعاً كبيرة وانزع ما تستطيع من العظم.",
+        "حمّر البصل في السمن، ثم أضف السمك واللومي والتمر الهندي وقلّب ٣–٥ دقائق.",
+        "أضف البزار والكركم والطماطم والفلفل ونصف الكزبرة، وقلّب حتى يتشرّب السمك البهارات.",
+        "أضف الماء واتركه يغلي، ثم أضف الأرز المصفّى، وحين يمتصّ الماء غطّه واتركه على نار هادئة جداً ٢٠ دقيقة.",
+        "تذوّق قبل إضافة أي ملح، ثم رشّ باقي الكزبرة وقدّمه."
+      ],
+      "tr": [
+        "Islatılmış tuzlu balığı süzüp iri parçalara bölün ve kılçıklarını olabildiğince ayıklayın.",
+        "Soğanı sade yağda kavurun; balık, kuru limon ve demirhindiyi ekleyip 3–5 dakika çevirin.",
+        "Bezar, zerdeçal, domates, biber ve kişnişin yarısını ekleyip balık baharatı çekene kadar karıştırın.",
+        "Suyu ekleyip kaynatın, süzülmüş pirinci ekleyin; su çekilince kapağı kapatıp çok kısık ateşte 20 dakika demlendirin.",
+        "Tuz eklemeden önce tadına bakın; kalan kişnişi serpip servis edin."
+      ],
+      "en": [
+        "Drain the soaked salted fish, cut into large pieces and remove as many bones as you can.",
+        "Fry the onions in the ghee, then add the fish, dried limes and tamarind and cook for 3–5 minutes.",
+        "Add the bzar, turmeric, tomatoes, chillies and half the coriander and stir until the fish absorbs the spices.",
+        "Add the water and bring to a boil, then add the drained rice; once the water is absorbed, cover and steam on very low heat for 20 minutes.",
+        "Taste before adding any salt, then scatter with the remaining coriander and serve."
+      ]
+    },
+    "tips": {
+      "ar": ["«المالح» كنعد أو تونة مملّحة تُحفظ لأشهر، وكان مخزون البيوت الساحلية للشتاء. لا تضف ملحاً قبل التذوّق."],
+      "tr": ["\"Maleh\" aylarca saklanan tuzlanmış uskumru veya ton balığıdır; kıyı evlerinin kış erzakıydı. Tatmadan tuz eklemeyin."],
+      "en": ["Malleh is kingfish or tuna salted to keep for months, once the coastal household's winter store. Don't salt before tasting."]
+    },
+    "tags": ["eid", "winter"],
+    "sources": [
+      "https://gulfnews.com/food/cooking-cuisines/traditional-emirati-recipe-for-malleh-fogah-or-slow-cooked-rice-with-salted-fish-1.1638268348564",
+      "https://iliveinafryingpan.com/tahtah-malleh-preserved-fish-and-rice-emirati/"
+    ]
+  },
+  {
+    "id": "emi-samak-maqli",
+    "name": {
+      "ar": "سمك مقلي إماراتي",
+      "tr": "Emirlik Usulü Kızarmış Balık",
+      "en": "Samak Maqli (Emirati Fried Fish)",
+      "native": "سمك مقلي"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "also_cuisines": ["kuwaiti", "bahraini", "qatari", "omani"],
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 35,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "سمك صافي أو شعري أو شرائح", "tr": "Safi, çipura veya dilim", "en": "safi, sheri or steaks" }
+      },
+      {
+        "ingredient_id": "garlic",
+        "amount": 4,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      { "ingredient_id": "bzar", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "paprika", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "lemon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عصير", "tr": "Suyu", "en": "juice" }
+      },
+      {
+        "ingredient_id": "flour",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "للتغليف الخفيف", "tr": "Hafifçe bulamak için", "en": "for light dusting" }
+      },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اعمل شقوقاً على السمك إن كان كاملاً.",
+        "اخلط الثوم والبزار والكركم والبابريكا وعصير الليمون والملح، وادهن بها السمك جيداً واتركه ٣٠ دقيقة.",
+        "غلّف السمك بطبقة خفيفة من الطحين لمن يحب قرمشة أكثر.",
+        "سخّن الزيت واقلِ السمك على نار متوسطة إلى عالية ٥–٧ دقائق على كل جانب حتى يتحمّر وينضج.",
+        "صفّه على ورق ماص، وقدّمه مع المشخول أو المحمّر والليمون."
+      ],
+      "tr": [
+        "Balık bütünse üzerine çizikler atın.",
+        "Sarımsak, bezar, zerdeçal, pul biber, limon suyu ve tuzu karıştırıp balığa iyice sürün ve 30 dakika bekletin.",
+        "Daha çıtır isterseniz balığı hafifçe una bulayın.",
+        "Yağı ısıtıp balığı orta-yüksek ateşte her yüzü 5–7 dakika kızarıp pişene kadar kızartın.",
+        "Kâğıt havluya alın; maşhul pilavı ya da tatlı pilav ve limonla servis edin."
+      ],
+      "en": [
+        "Slash the fish if using whole fish.",
+        "Mix the garlic, bzar, turmeric, paprika, lemon juice and salt, rub all over the fish and leave for 30 minutes.",
+        "Dust lightly with flour if you want extra crunch.",
+        "Heat the oil and fry the fish over medium-high heat for 5–7 minutes a side until browned and cooked through.",
+        "Drain on paper towels and serve with mashkhoul or sweet rice and lemon."
+      ]
+    },
+    "tips": {
+      "ar": ["السمك المقلي المتبّل مع الأرز الحلو (المحمّر) ثنائي كلاسيكي في رمضان."],
+      "tr": ["Baharatlı kızarmış balıkla tatlı pilav (muhammar) Ramazan'ın klasik ikilisidir."],
+      "en": ["Spiced fried fish with sweet rice (muhammar) is a classic Ramadan pairing."]
+    },
+    "tags": ["fried", "family", "ramadan"],
+    "sources": [
+      "https://gingerandscotch.com/emirati-fried-fish/",
+      "https://www.arabamerica.com/recipe/samak-maqli-fried-fish/",
+      "https://app.ckbk.com/recipe/newb37788c08s001r007/samak-maqli"
+    ]
+  },
+  {
+    "id": "emi-biryani-samak",
+    "name": {
+      "ar": "برياني سمك إماراتي",
+      "tr": "Emirlik Usulü Balıklı Biryani",
+      "en": "Biryani Samak (Emirati Fish Biryani)",
+      "native": "برياني سمك"
+    },
+    "cuisine": "emirati",
+    "region": "gulf",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "شرائح سميكة", "tr": "Kalın dilim", "en": "thick steaks" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "بسمتي، منقوع ٣٠ دقيقة",
+          "tr": "Basmati, 30 dk ıslatılmış",
+          "en": "basmati, soaked 30 minutes"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Dilimlenmiş", "en": "sliced" }
+      },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Doğranmış", "en": "chopped" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "garlic",
+        "amount": 5,
+        "unit": "clove",
+        "optional": false,
+        "note": { "ar": "مهروس", "tr": "Ezilmiş", "en": "crushed" }
+      },
+      {
+        "ingredient_id": "ginger",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مبشور", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "hot_pepper", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "bzar", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مثقوبة", "tr": "Delinmiş", "en": "pierced" }
+      },
+      {
+        "ingredient_id": "coriander_fresh",
+        "amount": 1,
+        "unit": "bunch",
+        "optional": false,
+        "note": { "ar": "مفروم", "tr": "Kıyılmış", "en": "chopped" }
+      },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": true, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 12,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "لسلق الأرز", "tr": "Pirinci haşlamak için", "en": "for boiling the rice" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "تبّل السمك بملعقة بزار والملح، واتركه ١٥ دقيقة ثم اقله قليًا خفيفاً وارفعه.",
+        "حمّر البصل في الزيت حتى يصير ذهبياً غامقاً، ثم أضف الزنجبيل والثوم والفلفل، ثم الطماطم ومعجونها ونصف الكزبرة، ثم باقي البزار والكركم ونصف القرفة واللومي والملح، واطبخ ٥ دقائق حتى تصير صلصة كثيفة، ثم ضع السمك فيها.",
+        "اسلق الأرز في ماء مملّح غزير ٦–٧ دقائق حتى ينضج نصف نضج، وصفّه.",
+        "في قدر ثقيل ضع قليلاً من الزيت، ثم ثلث الأرز، ثم السمك بصلصته، ثم باقي الأرز، ورشّ الزعفران وباقي القرفة والكزبرة وملعقتين زيت.",
+        "غطّه بإحكام واتركه على نار هادئة جداً ٢٠ دقيقة، ثم ارفعه عن النار ١٠ دقائق قبل التقديم."
+      ],
+      "tr": [
+        "Balığı bir kaşık bezar ve tuzla ovup 15 dakika bekletin, hafifçe kızartıp alın.",
+        "Soğanı yağda koyu altın rengi olana kadar kavurun; zencefil, sarımsak ve biberi, ardından domates, salça ve kişnişin yarısını, sonra kalan bezar, zerdeçal, tarçının yarısı, kuru limon ve tuzu ekleyip koyu bir sos olana kadar 5 dakika pişirin; balığı sosa yerleştirin.",
+        "Pirinci bol tuzlu suda 6–7 dakika yarı pişene kadar haşlayıp süzün.",
+        "Kalın dipli tencereye biraz yağ, pirincin üçte biri, soslu balık ve kalan pirinci koyun; safran, kalan tarçın, kişniş ve iki kaşık yağ serpin.",
+        "Kapağı sıkıca kapatıp çok kısık ateşte 20 dakika demlendirin; servisten önce ateşten alıp 10 dakika dinlendirin."
+      ],
+      "en": [
+        "Rub the fish with 1 tbsp bzar and salt, leave for 15 minutes, then fry lightly and set aside.",
+        "Fry the onions in the oil until deep golden; add the ginger, garlic and chillies, then the tomatoes, tomato paste and half the coriander, then the remaining bzar, turmeric, half the cinnamon, dried limes and salt; cook for 5 minutes into a thick masala and nestle the fish in it.",
+        "Boil the rice in plenty of salted water for 6–7 minutes until half cooked and drain.",
+        "In a heavy pot put a little oil, a third of the rice, the fish with its masala, then the rest of the rice; sprinkle with saffron, the remaining cinnamon and coriander and 2 tbsp oil.",
+        "Cover tightly and cook on very low heat for 20 minutes, then rest off the heat for 10 minutes before serving."
+      ]
+    },
+    "tips": {
+      "ar": ["يشبه البرياني الهندي لكن البزار واللومي يعطيانه طابعه الإماراتي."],
+      "tr": ["Hint biryanisine benzer ama bezar ve kuru limon ona Emirlik karakterini verir."],
+      "en": ["Close to Indian biryani, but bzar and dried lime give it its Emirati character."]
+    },
+    "tags": ["feast", "family"],
+    "sources": [
+      "https://www.thebigsweettooth.com/biryani-samak-emirati-fish-biriyani/",
+      "https://gulfnews.com/food/guide-cooking/how-to-make-emirati-fish-biryani-from-dubais-bayt-al-wakeels-kitchen-1.1623769681242"
+    ]
+  }
+]

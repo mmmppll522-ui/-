@@ -2945,5 +2945,110 @@
       "de": "Frühlingsrollenteig",
       "fr": "feuilles de brick"
     }
+  },
+  {
+    "id": "bzar",
+    "names": { "ar": "بزار", "tr": "bezar baharatı", "en": "bzar (Emirati spice mix)" },
+    "synonyms": {
+      "ar": ["بزار إماراتي", "بهارات إماراتية", "بهارات خليجية", "بزار خليجي"],
+      "tr": ["bzar", "Emirlik baharatı"],
+      "en": ["bezar", "bizar", "bzar spice", "emirati spice mix", "gulf spice mix"]
+    },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["baharat", "curry_powder"],
+    "search_term": {
+      "ar": "بزار",
+      "tr": "bezar baharatı",
+      "en": "bzar spice mix",
+      "de": "Bzar Gewürzmischung",
+      "fr": "mélange d'épices bzar"
+    }
+  },
+  {
+    "id": "sago_pearls",
+    "names": { "ar": "ساقو", "tr": "sago incisi", "en": "sago pearls" },
+    "synonyms": {
+      "ar": ["ساغو", "سيقو", "لؤلؤ التابيوكا", "حبيبات التابيوكا"],
+      "tr": ["tapyoka incisi"],
+      "en": ["sago", "tapioca pearls", "small tapioca pearls"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "ساقو",
+      "tr": "tapyoka incisi",
+      "en": "sago pearls",
+      "de": "Sago Perlen",
+      "fr": "perles de sagou"
+    }
+  },
+  {
+    "id": "evaporated_milk",
+    "names": { "ar": "حليب مبخر", "tr": "evapore süt", "en": "evaporated milk" },
+    "synonyms": {
+      "ar": ["حليب مبخّر", "حليب علب", "حليب مركز غير محلى", "حليب أبو قوس"],
+      "tr": ["konsantre süt"],
+      "en": ["canned milk"]
+    },
+    "category": "dairy",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["milk"],
+    "contains": ["dairy"],
+    "substitutes": ["milk"],
+    "search_term": {
+      "ar": "حليب مبخر",
+      "tr": "evapore süt",
+      "en": "evaporated milk",
+      "de": "Kondensmilch ungesüßt",
+      "fr": "lait concentré non sucré"
+    }
+  },
+  {
+    "id": "salted_fish",
+    "names": { "ar": "سمك مالح", "tr": "tuzlu balık", "en": "salted fish" },
+    "synonyms": {
+      "ar": ["مالح", "ملّيح", "سمك مملح", "مالح إماراتي", "فسيخ"],
+      "tr": ["salamura balık"],
+      "en": ["maleh", "malleh", "salt fish", "salted dried fish"]
+    },
+    "category": "seafood",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["fish"],
+    "contains": ["seafood"],
+    "substitutes": [],
+    "search_term": { "ar": "سمك مالح", "tr": "tuzlu balık", "en": "salted fish", "de": "Salzfisch", "fr": "poisson salé" }
+  },
+  {
+    "id": "fennel_seeds",
+    "names": { "ar": "شمر", "tr": "rezene tohumu", "en": "fennel seeds" },
+    "synonyms": { "ar": ["بذور الشمر", "شمرة", "بذور الشمرة"], "tr": ["rezene"], "en": ["fennel", "ground fennel"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["anise"],
+    "search_term": {
+      "ar": "بذور الشمر",
+      "tr": "rezene tohumu",
+      "en": "fennel seeds",
+      "de": "Fenchelsamen",
+      "fr": "graines de fenouil"
+    }
   }
 ]
