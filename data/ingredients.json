@@ -675,7 +675,7 @@
     "id": "ashta",
     "names": { "ar": "قشطة", "tr": "kaymak", "en": "clotted cream (ashta)" },
     "synonyms": {
-      "ar": ["قشطة عربية", "قشطة بلدية", "قيمر", "قيمق", "كيمر"],
+      "ar": ["قشطة عربية", "قشطة بلدية", "قيمر", "قيمق", "كيمر", "قشطة معلبة"],
       "tr": [],
       "en": ["ashta", "qashta", "clotted cream", "geymar", "gaimar", "kaymak"]
     },
@@ -1111,9 +1111,9 @@
     "id": "baharat",
     "names": { "ar": "بهارات مشكلة", "tr": "yedi baharat", "en": "seven spice (baharat)" },
     "synonyms": {
-      "ar": ["بهارات", "سبع بهارات", "بهار مشكل", "بهارات عربية", "البهارات السبعة", "بهارات لحمة"],
+      "ar": ["بهارات", "سبع بهارات", "بهار مشكل", "بهارات عربية", "البهارات السبعة", "بهارات لحمة", "بهارات كبسة", "بهارات رز", "بهارات مندي"],
       "tr": ["baharat karışımı", "Arap baharatı", "karışık baharat"],
-      "en": ["baharat", "7 spice", "seven spice", "arabic spice mix", "spices", "mixed spices"]
+      "en": ["baharat", "7 spice", "seven spice", "arabic spice mix", "spices", "mixed spices", "kabsa spice"]
     },
     "category": "spices",
     "pantry_staple": false,
@@ -1262,7 +1262,7 @@
     "synonyms": { "ar": ["حب هال", "هال", "حبهان", "هيل مطحون"], "tr": [], "en": ["cardamom pods"] },
     "category": "spices",
     "pantry_staple": false,
-    "basic_spice": false,
+    "basic_spice": true,
     "generic": false,
     "parents": [],
     "contains": [],
@@ -2299,9 +2299,9 @@
     "id": "coffee",
     "names": { "ar": "قهوة", "tr": "kahve", "en": "ground coffee" },
     "synonyms": {
-      "ar": ["بن", "قهوة مطحونة", "قهوة عربية", "قهوة تركية", "بن محمص"],
+      "ar": ["بن", "قهوة مطحونة", "قهوة عربية", "قهوة تركية", "بن محمص", "قهوة شقراء", "بن عربي", "قهوة سعودية"],
       "tr": ["Türk kahvesi", "öğütülmüş kahve"],
-      "en": ["coffee", "arabic coffee", "turkish coffee"]
+      "en": ["coffee", "arabic coffee", "turkish coffee", "light roast arabic coffee", "gahwa", "qahwa"]
     },
     "category": "other",
     "pantry_staple": false,
@@ -2475,7 +2475,7 @@
     "id": "whole_wheat_flour",
     "names": { "ar": "طحين أسمر", "tr": "tam buğday unu", "en": "whole wheat flour" },
     "synonyms": {
-      "ar": ["دقيق القمح الكامل", "طحين قمح كامل", "طحين نخالة"],
+      "ar": ["دقيق القمح الكامل", "طحين قمح كامل", "طحين نخالة", "بر", "دقيق بر", "طحين بر", "دقيق أسمر"],
       "tr": ["kepekli un"],
       "en": ["wholemeal flour"]
     },
@@ -2716,5 +2716,234 @@
     "contains": ["meat"],
     "substitutes": [],
     "search_term": { "ar": "كرشة", "tr": "işkembe", "en": "lamb tripe", "de": "Kutteln", "fr": "tripes" }
+  },
+  {
+    "id": "cloves",
+    "names": { "ar": "قرنفل", "tr": "karanfil", "en": "cloves" },
+    "synonyms": {
+      "ar": ["مسمار", "عويدي", "كبش قرنفل", "قرنفل حب"],
+      "tr": ["karanfil tanesi"],
+      "en": ["clove", "whole cloves"]
+    },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": true,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["allspice"],
+    "search_term": { "ar": "قرنفل", "tr": "karanfil", "en": "whole cloves", "de": "Gewürznelken", "fr": "clous de girofle" }
+  },
+  {
+    "id": "ginger",
+    "names": { "ar": "زنجبيل", "tr": "zencefil", "en": "ginger" },
+    "synonyms": {
+      "ar": ["زنجبيل مطحون", "زنجبيل طازج", "جنزبيل"],
+      "tr": ["toz zencefil", "taze zencefil"],
+      "en": ["ground ginger", "fresh ginger", "ginger root"]
+    },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": true,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "زنجبيل", "tr": "zencefil", "en": "ginger", "de": "Ingwer", "fr": "gingembre" }
+  },
+  {
+    "id": "cracked_wheat",
+    "names": { "ar": "جريش", "tr": "yarma", "en": "crushed wheat" },
+    "synonyms": {
+      "ar": ["قمح مجروش", "حب مجروش", "جريش أبيض", "جريش أحمر"],
+      "tr": ["kırık buğday", "yarma buğday"],
+      "en": ["jareesh", "jareesh wheat", "harees wheat"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["bulgur_coarse", "wheat_berries"],
+    "search_term": {
+      "ar": "جريش",
+      "tr": "yarma buğday",
+      "en": "crushed wheat jareesh",
+      "de": "geschroteter Weizen",
+      "fr": "blé concassé"
+    }
+  },
+  {
+    "id": "barley",
+    "names": { "ar": "شعير", "tr": "arpa", "en": "barley" },
+    "synonyms": {
+      "ar": ["شعير مقشور", "حب الشعير", "شعير لؤلؤي"],
+      "tr": ["arpa şehriye", "inci arpa"],
+      "en": ["pearl barley", "pearled barley"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["cracked_wheat", "wheat_berries"],
+    "search_term": { "ar": "شعير", "tr": "arpa", "en": "pearl barley", "de": "Perlgraupen", "fr": "orge perlé" }
+  },
+  {
+    "id": "banana",
+    "names": { "ar": "موز", "tr": "muz", "en": "banana" },
+    "synonyms": { "ar": ["موزة", "موز ناضج"], "tr": [], "en": ["bananas", "ripe bananas"] },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "موز", "tr": "muz", "en": "bananas", "de": "Bananen", "fr": "bananes" }
+  },
+  {
+    "id": "apple",
+    "names": { "ar": "تفاح", "tr": "elma", "en": "apple" },
+    "synonyms": {
+      "ar": ["تفاحة", "تفاح أحمر", "تفاح أخضر"],
+      "tr": ["kırmızı elma", "yeşil elma"],
+      "en": ["apples", "red apple", "green apple"]
+    },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "تفاح", "tr": "elma", "en": "apples", "de": "Äpfel", "fr": "pommes" }
+  },
+  {
+    "id": "orange",
+    "names": { "ar": "برتقال", "tr": "portakal", "en": "orange" },
+    "synonyms": { "ar": ["برتقالة", "برتقال أبو سرة"], "tr": [], "en": ["oranges"] },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "برتقال", "tr": "portakal", "en": "oranges", "de": "Orangen", "fr": "oranges" }
+  },
+  {
+    "id": "apple_juice",
+    "names": { "ar": "عصير تفاح", "tr": "elma suyu", "en": "apple juice" },
+    "synonyms": { "ar": ["عصير التفاح"], "tr": [], "en": [] },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "عصير تفاح", "tr": "elma suyu", "en": "apple juice", "de": "Apfelsaft", "fr": "jus de pomme" }
+  },
+  {
+    "id": "sparkling_water",
+    "names": { "ar": "مياه غازية", "tr": "maden suyu", "en": "sparkling water" },
+    "synonyms": {
+      "ar": ["ماء فوار", "صودا", "مياه معدنية فوارة", "ماء غازي"],
+      "tr": ["soda", "sade soda"],
+      "en": ["soda water", "club soda", "seltzer"]
+    },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "مياه فوارة",
+      "tr": "maden suyu",
+      "en": "sparkling water",
+      "de": "Mineralwasser mit Kohlensäure",
+      "fr": "eau gazeuse"
+    }
+  },
+  {
+    "id": "liver",
+    "names": { "ar": "كبدة", "tr": "ciğer", "en": "liver" },
+    "synonyms": {
+      "ar": ["كبد", "كبدة غنم", "كبدة عجل", "كبدة ضاني", "سودة"],
+      "tr": ["kuzu ciğeri", "dana ciğeri", "arnavut ciğeri"],
+      "en": ["lamb liver", "calf liver", "beef liver"]
+    },
+    "category": "meat",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["meat"],
+    "substitutes": [],
+    "search_term": { "ar": "كبدة غنم", "tr": "kuzu ciğeri", "en": "lamb liver", "de": "Lammleber", "fr": "foie d'agneau" }
+  },
+  {
+    "id": "leek",
+    "names": { "ar": "كراث", "tr": "pırasa", "en": "leek" },
+    "synonyms": { "ar": ["كرّاث", "كراث أبو شوشة"], "tr": [], "en": ["leeks"] },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["green_onion"],
+    "search_term": { "ar": "كراث", "tr": "pırasa", "en": "leeks", "de": "Lauch", "fr": "poireaux" }
+  },
+  {
+    "id": "apricot_paste",
+    "names": { "ar": "قمر الدين", "tr": "kayısı pestili", "en": "apricot paste" },
+    "synonyms": {
+      "ar": ["قمردين", "لفائف المشمش", "عجينة المشمش المجفف"],
+      "tr": ["kamerüddin"],
+      "en": ["qamar al-din", "apricot leather", "amardeen"]
+    },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "قمر الدين",
+      "tr": "kayısı pestili",
+      "en": "apricot leather qamar al din",
+      "de": "Aprikosenleder",
+      "fr": "pâte d'abricot"
+    }
+  },
+  {
+    "id": "spring_roll_sheets",
+    "names": { "ar": "رقائق سمبوسة", "tr": "spring roll yufkası", "en": "spring roll wrappers" },
+    "synonyms": {
+      "ar": ["ورق سمبوسة", "عجينة سمبوسة", "رقائق سبرينغ رول", "ورق سبرنق رول"],
+      "tr": ["samosa yufkası"],
+      "en": ["samosa sheets", "samosa pastry", "sambosa wrappers"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["phyllo_dough"],
+    "search_term": {
+      "ar": "رقائق سمبوسة",
+      "tr": "spring roll yufkası",
+      "en": "spring roll pastry",
+      "de": "Frühlingsrollenteig",
+      "fr": "feuilles de brick"
+    }
   }
 ]

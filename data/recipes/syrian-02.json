@@ -9,7 +9,7 @@
     },
     "cuisine": "syrian",
     "region": "levant",
-    "also_cuisines": ["lebanese", "palestinian", "jordanian", "iraqi"],
+    "also_cuisines": ["lebanese", "palestinian", "jordanian", "iraqi", "saudi", "kuwaiti", "emirati"],
     "meal_type": ["lunch", "dinner"],
     "course": "soup",
     "prep_minutes": 10,

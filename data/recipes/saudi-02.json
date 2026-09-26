@@ -1,0 +1,202 @@
+[
+  {
+    "id": "sau-aish-abu-laham",
+    "name": {
+      "ar": "عيش أبو لحم",
+      "tr": "Ayş Ebu Lahm (Tahinli Kıymalı Tart Ekmek)",
+      "en": "Aish Abu Laham (Saudi Meat & Tahini Pie)",
+      "native": "عيش أبو لحم"
+    },
+    "cuisine": "saudi",
+    "region": "gulf",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "pastry",
+    "prep_minutes": 90,
+    "cook_minutes": 25,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "yeast", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "eggs", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "milk",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "دافئ", "tr": "Ilık", "en": "warm" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "nigella_seeds", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "leek",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "أو بصل أخضر", "tr": "veya taze soğan", "en": "or green onions" }
+      },
+      { "ingredient_id": "tahini", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 1, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "sesame_seeds", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الطحين والخميرة والسكر والملح وحبة البركة ونصف الكمون، وأضف البيضة والزيت والحليب واعجنه طرياً، واتركه يختمر ساعة.",
+        "حمّر اللحم مع البصل والبهارات وباقي الكمون والفلفل والملح، وأضف الكراث المفروم، واتركه يبرد.",
+        "اخفق الطحينة مع الليمون والثوم والملح والماء حتى تصبح صلصة سائلة.",
+        "افرد العجين في صينية دائرية مدهونة (أو ٤ أقراص صغيرة) وارفع أطرافه كالقشرة.",
+        "وزّع اللحم ثم اسكب صلصة الطحينة فوقه ورشّ السمسم.",
+        "اخبزه على ٢٠٠ درجة مئوية ٢٠–٢٥ دقيقة حتى تذهّب القاعدة، وقطّعه مثلثات."
+      ],
+      "tr": [
+        "Un, maya, şeker, tuz, çörek otu ve kimyonun yarısını karıştırın; yumurta, yağ ve sütü ekleyip yumuşak bir hamur yoğurun ve bir saat mayalandırın.",
+        "Kıymayı soğan, baharat, kalan kimyon, karabiber ve tuzla kavurun; kıyılmış pırasayı ekleyip soğutun.",
+        "Tahini limon, sarımsak, tuz ve suyla akışkan bir sos olana kadar çırpın.",
+        "Hamuru yağlanmış yuvarlak bir kalıba (veya 4 küçük diske) yayıp kenarlarını kabuk gibi kaldırın.",
+        "Kıymayı yayın, üzerine tahin sosunu dökün ve susam serpin.",
+        "200°C'de tabanı altın rengi olana kadar 20–25 dakika pişirip dilimleyin."
+      ],
+      "en": [
+        "Mix the flour, yeast, sugar, salt, nigella and half the cumin; add the egg, oil and milk, knead into a soft dough and let rise for an hour.",
+        "Brown the meat with the onion, baharat, remaining cumin, pepper and salt; add the chopped leek and let cool.",
+        "Whisk the tahini with the lemon juice, garlic, salt and water into a pourable sauce.",
+        "Press the dough into a greased round pan (or 4 small rounds), raising the edges like a shell.",
+        "Spread the meat over it, pour on the tahini sauce and sprinkle with sesame.",
+        "Bake at 200°C (400°F) for 20–25 minutes until the base is golden, and cut into wedges."
+      ]
+    },
+    "tips": {
+      "ar": ["يُسمّى «البيتزا السعودية»، ويشتهر في القصيم والحجاز."],
+      "tr": ["'Suudi pizzası' diye anılır; Kasim ve Hicaz'da meşhurdur."],
+      "en": ["Nicknamed 'Saudi pizza', it's a speciality of Qassim and the Hejaz."]
+    },
+    "tags": ["baked", "family"],
+    "sources": [
+      "https://chefindisguise.com/2016/07/01/saudi-aysh-abu-laham-meat-galette/",
+      "https://globaltableadventure.com/recipe/recipe-saudi-lamb-pizza-aysh-abu-laham/",
+      "https://tarasmulticulturaltable.com/the-arabian-nights-cookbook-and-aysh-abu-laham-mini-saudi-pizzas/"
+    ]
+  },
+  {
+    "id": "sau-mathlouthah",
+    "name": {
+      "ar": "مثلوثة",
+      "tr": "Maslusa (Üç Katlı Necd Ziyafet Yemeği)",
+      "en": "Mathlouthah (Najdi Three-Layer Feast)",
+      "native": "مثلوثة"
+    },
+    "cuisine": "saudi",
+    "region": "gulf",
+    "meal_type": ["lunch"],
+    "course": "main",
+    "prep_minutes": 60,
+    "cook_minutes": 150,
+    "servings": 10,
+    "difficulty": "hard",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 1.5,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "بالعظم", "tr": "Kemikli", "en": "bone-in" }
+      },
+      {
+        "ingredient_id": "cracked_wheat",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "جريش أبيض منقوع", "tr": "Islatılmış beyaz yarma", "en": "white jareesh, soaked" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "بسمتي", "tr": "Basmati", "en": "basmati" }
+      },
+      {
+        "ingredient_id": "whole_wheat_flour",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "لخبز القرصان", "tr": "Kursan ekmeği için", "en": "for the qursan bread" }
+      },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "zucchini", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "carrot", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "pumpkin", "amount": 250, "unit": "g", "optional": true, "note": "" },
+      { "ingredient_id": "dried_lime", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "cloves", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "milk", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 13, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق اللحم مع بصلة والبهارات الكاملة واللومي والملح ساعة ونصف، وصفِّ المرق واحتفظ باللحم.",
+        "الجريش: اطبخه في ٣ أكواب من المرق على نار هادئة ساعة مع التحريك، ثم أضف الحليب واتركه حتى يصبح كريمياً.",
+        "القرصان: اعجن الدقيق مع الملح وقليل من الماء، وافرده رقيقاً جداً واخبزه على صاج جاف، ثم قطّعه.",
+        "مرق الخضار: حمّر البصلة الثانية وأضف رب الطماطم والطماطم والخضار و٤ أكواب من المرق، واتركها ٢٠ دقيقة، ثم أنزل فيها القرصان حتى يطرى.",
+        "الرز: اطبخه في ٣٫٥ أكواب من المرق مع البهارات حتى ينضج.",
+        "رتّب في صينية كبيرة: الجريش في القاع، ثم القرصان، ثم الرز في الأعلى، وضع اللحم فوقه.",
+        "اسكب عليه السمن المذوّب وقدّمه."
+      ],
+      "tr": [
+        "Eti bir soğan, bütün baharatlar, kuru limon ve tuzla 1,5 saat haşlayın; suyunu süzüp eti saklayın.",
+        "Cerîş: yarmayı 3 bardak et suyunda karıştırarak kısık ateşte bir saat pişirin, sütü ekleyip kremsi olana kadar pişirin.",
+        "Kursan: unu tuz ve biraz suyla yoğurun, çok ince açıp kuru sacda pişirin ve parçalayın.",
+        "Sebze yahnisi: ikinci soğanı kavurun; salça, domates, sebzeler ve 4 bardak et suyunu ekleyip 20 dakika pişirin, sonra kursanı ekleyip yumuşatın.",
+        "Pilav: pirinci baharatla 3,5 bardak et suyunda pişirin.",
+        "Büyük bir tepsiye dizin: en altta cerîş, üstünde kursan, en üstte pilav; eti pilavın üzerine koyun.",
+        "Eritilmiş sade yağ gezdirip servis edin."
+      ],
+      "en": [
+        "Simmer the lamb with one onion, the whole spices, dried limes and salt for 1½ hours; strain the broth and keep the meat.",
+        "Jareesh: cook the crushed wheat in 3 cups of broth on low heat for an hour, stirring, then add the milk and cook until creamy.",
+        "Qursan: knead the flour with salt and a little water, roll paper-thin, cook on a dry griddle and tear into pieces.",
+        "Vegetable stew: fry the second onion, add the tomato paste, tomatoes, vegetables and 4 cups of broth, cook for 20 minutes, then add the qursan until soft.",
+        "Rice: cook the rice in 3½ cups of broth with the baharat until done.",
+        "Layer on a large tray: jareesh on the bottom, then the qursan, then the rice on top, with the lamb over it.",
+        "Pour melted ghee over and serve."
+      ]
+    },
+    "tips": {
+      "ar": ["«المثلوثة» تجمع ثلاثة أطباق نجدية في صحن واحد، وتُقدَّم في الولائم الكبيرة."],
+      "tr": ["Maslusa üç Necd yemeğini tek tabakta birleştirir; büyük ziyafetlerde sunulur."],
+      "en": ["Mathlouthah combines three Najdi dishes on one platter and is served at large banquets."]
+    },
+    "tags": ["feast", "celebration"],
+    "sources": [
+      "https://saudipedia.com/en/article/705/society/food-and-drinks/mathloutha",
+      "https://atayeb.io/en/en-saudi-mathlotha/",
+      "https://wasila.blog/mathlotha-rice-traditional-saudi-layered-dish/"
+    ]
+  }
+]

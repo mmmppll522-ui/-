@@ -310,6 +310,7 @@
     },
     "cuisine": "iraqi",
     "region": "iraq",
+    "also_cuisines": ["saudi", "kuwaiti", "bahraini"],
     "meal_type": ["dessert", "snack"],
     "course": "dessert",
     "prep_minutes": 45,
