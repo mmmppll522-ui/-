@@ -528,7 +528,7 @@
     },
     "cuisine": "qatari",
     "region": "gulf",
-    "also_cuisines": ["saudi", "kuwaiti", "emirati", "bahraini", "omani"],
+    "also_cuisines": ["saudi", "kuwaiti", "emirati", "bahraini", "omani", "yemeni"],
     "meal_type": ["lunch", "dinner"],
     "course": "soup",
     "prep_minutes": 15,

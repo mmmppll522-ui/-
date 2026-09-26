@@ -9,7 +9,7 @@
     },
     "cuisine": "emirati",
     "region": "gulf",
-    "also_cuisines": ["saudi", "kuwaiti", "qatari", "bahraini", "omani"],
+    "also_cuisines": ["saudi", "kuwaiti", "qatari", "bahraini", "omani", "yemeni"],
     "meal_type": ["lunch", "dinner"],
     "course": "main",
     "prep_minutes": 15,

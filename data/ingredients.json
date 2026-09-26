@@ -3155,5 +3155,74 @@
       "de": "Kokosmilch",
       "fr": "lait de coco"
     }
+  },
+  {
+    "id": "hawaij",
+    "names": { "ar": "حوايج", "tr": "havayiç", "en": "hawaij (Yemeni spice mix)" },
+    "synonyms": {
+      "ar": ["حوائج", "بهارات يمنية", "حوايج يمني", "بهارات مندي يمنية", "حوايج مرق"],
+      "tr": ["Yemen baharatı"],
+      "en": ["hawayej", "hawayij", "yemeni spice mix"]
+    },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["baharat", "curry_powder"],
+    "search_term": {
+      "ar": "حوايج",
+      "tr": "Yemen baharatı",
+      "en": "hawaij spice",
+      "de": "Hawaij Gewürz",
+      "fr": "épices hawaij"
+    }
+  },
+  {
+    "id": "black_eyed_peas",
+    "names": { "ar": "لوبيا بيضاء", "tr": "börülce", "en": "black-eyed peas" },
+    "synonyms": {
+      "ar": ["فاصوليا عين سوداء", "لوبياء ناشفة", "لوبيا مجففة", "دجرة"],
+      "tr": ["kuru börülce"],
+      "en": ["black eyed beans", "cowpeas"]
+    },
+    "category": "legumes",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["chickpeas"],
+    "search_term": {
+      "ar": "لوبيا بيضاء",
+      "tr": "kuru börülce",
+      "en": "black-eyed peas",
+      "de": "Augenbohnen",
+      "fr": "doliques à œil noir"
+    }
+  },
+  {
+    "id": "coffee_husk",
+    "names": { "ar": "قشر البن", "tr": "kahve kabuğu", "en": "coffee husks (qishr)" },
+    "synonyms": {
+      "ar": ["قشر", "قشر قهوة", "قشر يمني"],
+      "tr": ["kaskara"],
+      "en": ["qishr", "cascara", "coffee cherry husks"]
+    },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["coffee"],
+    "search_term": {
+      "ar": "قشر البن",
+      "tr": "kahve kabuğu",
+      "en": "coffee cascara",
+      "de": "Cascara Kaffeekirschen",
+      "fr": "cascara de café"
+    }
   }
 ]
