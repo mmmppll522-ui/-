@@ -1,0 +1,2174 @@
+[
+  {
+    "id": "irq-masgouf",
+    "name": {
+      "ar": "مسكوف",
+      "tr": "Mesgûf (Irak Usulü Közde Sazan)",
+      "en": "Masgouf (Iraqi Butterflied Grilled Carp)",
+      "native": "مسگوف"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1.5,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "سمكة شبوط أو كارب كاملة مفتوحة من الظهر",
+          "tr": "Sırtından açılmış bütün sazan",
+          "en": "whole carp, split open along the back"
+        }
+      },
+      { "ingredient_id": "olive_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tamarind",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": {
+          "ar": "مذاب في ربع كوب ماء",
+          "tr": "çeyrek su bardağı suda eritilmiş",
+          "en": "dissolved in ¼ cup water"
+        }
+      },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 1,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "pita_bread",
+        "amount": 4,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "خبز تنور", "tr": "Tandır ekmeği", "en": "Iraqi tannour bread" }
+      },
+      {
+        "ingredient_id": "pickles",
+        "amount": null,
+        "unit": "to_taste",
+        "optional": true,
+        "note": { "ar": "أو عمبة", "tr": "veya amba", "en": "or amba" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "نظّف السمكة وافتحها من جهة الظهر حتى تنبسط مثل الفراشة مع إبقاء جلد البطن سليماً، ثم جفّفها.",
+        "اخلط الزيت ومنقوع التمر الهندي والكركم والنومي المطحون والملح، وادهن به لحم السمكة كله واتركها نصف ساعة.",
+        "على الطريقة التقليدية تُثبّت السمكة على أوتاد بجانب نار الحطب ولحمها مواجه للجمر نحو ساعة. في الفرن: ضعها على صينية مبطّنة وجلدها للأسفل واخبزها على ٢٠٠ درجة مئوية ٢٥ دقيقة.",
+        "غطِّ السمكة بشرائح الطماطم والبصل وأعدها إلى الفرن أو الشواية ١٥–٢٠ دقيقة حتى يتفتّت لحمها وتتحمّر أطرافها.",
+        "قدّمها مع الليمون والخبز والعمبة أو المخلل."
+      ],
+      "tr": [
+        "Balığı temizleyip sırtından kelebek gibi açın, karın derisini bütün bırakın ve kurulayın.",
+        "Yağ, demirhindi suyu, zerdeçal, toz kuru limon ve tuzu karıştırıp tüm etine sürün, yarım saat bekletin.",
+        "Geleneksel yöntemde balık kazıklara geçirilip eti közlere dönük şekilde odun ateşinin yanında yaklaşık bir saat pişirilir. Fırında: derisi alta gelecek şekilde kağıt serili tepsiye koyup 200°C'de 25 dakika pişirin.",
+        "Üzerini domates ve soğan dilimleriyle kaplayıp fırına veya ızgaraya geri koyun; eti kolayca ayrılana ve kenarları kızarana kadar 15–20 dakika pişirin.",
+        "Limon, ekmek ve amba veya turşuyla servis edin."
+      ],
+      "en": [
+        "Clean the fish and split it along the back so it opens flat like a butterfly, keeping the belly skin intact; pat dry.",
+        "Mix the oil, tamarind water, turmeric, ground dried lime and salt, rub it all over the flesh and leave for 30 minutes.",
+        "Traditionally the fish is staked beside a wood fire, flesh facing the embers, for about an hour. In the oven: lay it skin-side down on a lined tray and bake at 200°C (400°F) for 25 minutes.",
+        "Cover with sliced tomatoes and onions and return to the oven or grill for 15–20 minutes, until the flesh flakes and the edges char.",
+        "Serve with lemon, bread and amba or pickles."
+      ]
+    },
+    "tips": {
+      "ar": ["المسكوف يُعدّ الطبق الوطني في العراق، ويشتهر به شارع أبو نواس في بغداد.", "يمكن استعمال سمك الدنيس أو القاروص إن لم يتوفّر الشبوط."],
+      "tr": ["Mesgûf Irak'ın milli yemeği sayılır; Bağdat'taki Ebu Nuvas caddesi bununla ünlüdür.", "Sazan yoksa çipura veya levrek kullanılabilir."],
+      "en": ["Masgouf is often called Iraq's national dish; Baghdad's Abu Nuwas Street is famous for it.", "Sea bream or sea bass work if you can't find carp."]
+    },
+    "tags": ["grilled", "baghdad", "family", "feast"],
+    "sources": [
+      "https://hildaskitchenblog.com/recipe/masgouf-iraqi-fish/",
+      "https://www.middleeasteye.net/discover/how-make-iraqi-grilled-fish-dine-discover",
+      "https://littlelostcook.com/2017/04/08/95-iraq/"
+    ]
+  },
+  {
+    "id": "irq-quzi",
+    "name": {
+      "ar": "قوزي",
+      "tr": "Kuzu Tandır Pilavı (Irak Kuzisi)",
+      "en": "Quzi (Iraqi Lamb over Spiced Rice)",
+      "native": "قوزي"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 1.5,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "موزات أو كتف بالعظم",
+          "tr": "Kuzu incik veya kemikli kol",
+          "en": "lamb shanks or bone-in shoulder"
+        }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "بسمتي", "tr": "Basmati", "en": "basmati" }
+      },
+      { "ingredient_id": "vermicelli", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 5, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "bay_leaves", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "عود", "tr": "Çubuk", "en": "stick" }
+      },
+      { "ingredient_id": "dried_lime", "amount": 2, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "raisins", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "almonds", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "peas", "amount": 1, "unit": "cup", "optional": true, "note": "" },
+      {
+        "ingredient_id": "potato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مكعبات مقلية", "tr": "Küp doğranıp kızartılmış", "en": "cubed and fried" }
+      },
+      {
+        "ingredient_id": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مسلوق", "tr": "Haşlanmış", "en": "hard-boiled" }
+      },
+      { "ingredient_id": "ghee", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": true,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "water", "amount": 10, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغسل اللحم وضعه في الماء حتى يغلي، وأزل الرغوة، ثم أضف البصل والهيل وورق الغار والقرفة والنومي المثقوب والملح، واتركه على نار هادئة ساعة ونصف إلى ساعتين حتى ينضج.",
+        "أخرج اللحم وادهنه بملعقة بهارات وقليل من السمن، وحمّره في فرن ٢٢٠ درجة مئوية ١٥–٢٠ دقيقة. صفِّ المرق.",
+        "حمّر الشعرية في السمن، ثم أضف الرز المغسول والكركم وباقي البهارات والملح و٤٫٥ أكواب من المرق، واتركه يغلي ثم غطّه واطبخه على نار هادئة ٢٠ دقيقة.",
+        "في هذه الأثناء اقلِ مكعبات البطاطا، وحمّر اللوز في السمن وأضف الزبيب في آخر نصف دقيقة، وسخّن البزاليا في قليل من المرق.",
+        "افرد الرز في صينية كبيرة وضع اللحم فوقه، ثم وزّع البزاليا والبطاطا واللوز والزبيب وأنصاف البيض والبقدونس.",
+        "قدّمه مع باقي المرق والسلطة واللبن."
+      ],
+      "tr": [
+        "Eti yıkayıp suda kaynatın, köpüğünü alın; soğan, kakule, defne, tarçın, delinmiş kuru limon ve tuzu ekleyip kısık ateşte 1,5–2 saat yumuşayana kadar pişirin.",
+        "Eti çıkarıp bir kaşık baharat ve biraz sade yağla ovun, 220°C fırında 15–20 dakika kızartın. Et suyunu süzün.",
+        "Şehriyeyi sade yağda kavurun; yıkanmış pirinç, zerdeçal, kalan baharat, tuz ve 4,5 su bardağı et suyunu ekleyin. Kaynayınca kapağı kapatıp kısık ateşte 20 dakika pişirin.",
+        "Bu arada patates küplerini kızartın; bademi sade yağda kavurup son yarım dakikada kuru üzümü ekleyin; bezelyeyi biraz et suyunda ısıtın.",
+        "Pilavı büyük bir tepsiye yayıp eti üzerine koyun; bezelye, patates, badem, kuru üzüm, yumurta yarımları ve maydanozu dağıtın.",
+        "Kalan et suyu, salata ve yoğurtla servis edin."
+      ],
+      "en": [
+        "Rinse the lamb and bring it to a boil in the water, skimming the foam; add the onions, cardamom, bay, cinnamon, pierced dried limes and salt and simmer for 1½–2 hours until tender.",
+        "Lift out the lamb, rub it with 1 tsp baharat and a little ghee and brown it in a 220°C (430°F) oven for 15–20 minutes. Strain the broth.",
+        "Toast the vermicelli in ghee until golden, add the rinsed rice, turmeric, remaining baharat, salt and 4½ cups of broth; bring to a boil, cover and cook on low for 20 minutes.",
+        "Meanwhile fry the potato cubes; toast the almonds in ghee, adding the raisins for the last 30 seconds; warm the peas in a little broth.",
+        "Spread the rice on a large platter, set the lamb on top and scatter over the peas, potatoes, almonds, raisins, halved eggs and parsley.",
+        "Serve with the remaining broth, salad and yogurt."
+      ]
+    },
+    "tips": {
+      "ar": ["في الولائم يُحشى خروف كامل بالرز والمكسرات ويُطهى ببطء، وهذه نسخة البيت.", "يمكن تجهيز المرق واللحم في قدر الضغط خلال ٤٥ دقيقة."],
+      "tr": [
+        "Ziyafetlerde bütün kuzu pilav ve kuruyemişle doldurulup yavaşça pişirilir; bu ev usulü versiyonudur.",
+        "Et ve et suyu düdüklü tencerede 45 dakikada hazırlanabilir."
+      ],
+      "en": [
+        "For banquets a whole lamb is stuffed with the rice and nuts and slow-roasted; this is the home version.",
+        "A pressure cooker gets the lamb and broth done in about 45 minutes."
+      ]
+    },
+    "tags": ["feast", "celebration", "eid", "family"],
+    "sources": ["https://www.196flavors.com/iraq-quzi/", "https://www.hungrypaprikas.com/iraqi-quzi/", "https://travelfoodatlas.com/iraqi-quzi-recipe"]
+  },
+  {
+    "id": "irq-tepsi-baytinijan",
+    "name": {
+      "ar": "تبسي باذنجان",
+      "tr": "Irak Usulü Patlıcan Tepsisi (Tepsi Beytinicen)",
+      "en": "Tepsi Baytinijan (Iraqi Eggplant & Meatball Bake)",
+      "native": "تبسي بيتنجان"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 75,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "eggplant",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "كبيرة", "tr": "Büyük", "en": "large" }
+      },
+      { "ingredient_id": "potato", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "bell_pepper", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 500, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 3, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "قشّر الباذنجان على شكل خطوط وقطّعه حلقات بسماكة ٢ سم، ورشّه بالملح ٢٠ دقيقة ثم جفّفه. قطّع البطاطا والبصل والطماطم حلقات.",
+        "اقلِ الباذنجان حتى يتحمّر، ثم اقلِ البطاطا قليلاً دون أن تنضج تماماً (أو ادهنهما بالزيت واشوِهما في الفرن لنسخة أخف).",
+        "اعجن اللحم مع الثوم المهروس ونصف بصلة مبشورة والبهارات والملح والفلفل، وشكّله كرات صغيرة وحمّرها في مقلاة.",
+        "في صينية عميقة رتّب طبقة الباذنجان ثم البطاطا ثم البصل والفلفل ثم الطماطم، ووزّع كرات اللحم بين شرائح الطماطم.",
+        "ذوّب رب الطماطم في الماء مع الملح والفلفل واسكبه فوق الصينية.",
+        "غطّها بورق الألمنيوم واخبزها على ١٨٠ درجة مئوية ٤٥ دقيقة، ثم اكشفها ١٥ دقيقة. قدّمها مع التمن أو الخبز."
+      ],
+      "tr": [
+        "Patlıcanları alacalı soyup 2 cm kalınlığında halkalar kesin, 20 dakika tuzlayıp kurulayın. Patates, soğan ve domatesleri halka doğrayın.",
+        "Patlıcanları kızarana kadar, patatesleri ise tam pişmeden hafifçe kızartın (daha hafif bir versiyon için yağlayıp fırında közleyin).",
+        "Kıymayı ezilmiş sarımsak, yarım rendelenmiş soğan, baharat, tuz ve karabiberle yoğurun; küçük köfteler yapıp tavada kızartın.",
+        "Derin bir tepsiye sırasıyla patlıcan, patates, soğan ve biber, en üste domates dizin; köfteleri domates dilimlerinin arasına yerleştirin.",
+        "Salçayı tuz ve karabiberle suda eritip tepsinin üzerine dökün.",
+        "Folyoyla kapatıp 180°C'de 45 dakika, sonra açık olarak 15 dakika pişirin. Pilav veya ekmekle servis edin."
+      ],
+      "en": [
+        "Peel the eggplants in stripes and cut into 2 cm rounds; salt for 20 minutes and pat dry. Slice the potatoes, onions and tomatoes into rounds.",
+        "Fry the eggplant until golden, then fry the potatoes briefly without cooking them through (or brush both with oil and roast for a lighter version).",
+        "Knead the meat with the crushed garlic, half a grated onion, baharat, salt and pepper; shape small meatballs and brown them in a pan.",
+        "In a deep dish layer the eggplant, then potatoes, onion and pepper, and tomatoes on top; tuck the meatballs between the tomato slices.",
+        "Dissolve the tomato paste in the water with salt and pepper and pour it over.",
+        "Cover with foil and bake at 180°C (350°F) for 45 minutes, then uncover for 15 minutes. Serve with rice or bread."
+      ]
+    },
+    "tips": {
+      "ar": ["يُحضَّر عادة يوم الجمعة ويُقدَّم مع التمن الأبيض والطرشي."],
+      "tr": ["Genellikle cuma günü yapılır, beyaz pilav ve turşuyla sunulur."],
+      "en": ["A classic Friday lunch, served with white rice and pickles."]
+    },
+    "tags": ["baked", "family", "comfort_food"],
+    "sources": [
+      "https://www.kitchenfrau.com/tepsi-baytinijan/",
+      "https://www.food.com/recipe/traditional-iraqi-casserole-tepsi-baytinijan-288850",
+      "https://deborahotoole.com/FoodFare/tepsibay.htm"
+    ]
+  },
+  {
+    "id": "irq-dolma",
+    "name": {
+      "ar": "دولمة عراقية",
+      "tr": "Irak Usulü Karışık Dolma",
+      "en": "Iraqi Dolma (Mixed Stuffed Vegetables)",
+      "native": "دولمة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 90,
+    "cook_minutes": 90,
+    "servings": 8,
+    "difficulty": "hard",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "grape_leaves", "amount": 250, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "swiss_chard", "amount": 1, "unit": "bunch", "optional": true, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 6,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "كبيرة للحشو", "tr": "İri, dolmalık", "en": "large, for stuffing" }
+      },
+      {
+        "ingredient_id": "eggplant",
+        "amount": 4,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "صغيرة", "tr": "Küçük", "en": "small" }
+      },
+      {
+        "ingredient_id": "zucchini",
+        "amount": 4,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "صغيرة", "tr": "Küçük", "en": "small" }
+      },
+      { "ingredient_id": "bell_pepper", "amount": 4, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "tomato", "amount": 4, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "lamb",
+        "amount": 500,
+        "unit": "g",
+        "optional": true,
+        "note": {
+          "ar": "ريش غنم لقاع القدر",
+          "tr": "Tencere dibi için kuzu pirzola",
+          "en": "lamb ribs to line the pot"
+        }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "قصير الحبة", "tr": "Kısa taneli", "en": "short-grain" }
+      },
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "pomegranate_molasses", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "tamarind", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 4, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 1, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "dill", "amount": 0.5, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "water", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الرز المغسول مع اللحم المفروم وملعقتين من رب الطماطم ونصف دبس الرمان والتمر الهندي وعصير ليمونة والزيت والأعشاب المفرومة والبهارات والملح والفلفل.",
+        "جهّز الخضار: اشقق البصل حتى منتصفه واسلقه ١٠ دقائق ثم افصل طبقاته، وافرغ الباذنجان والكوسا والفلفل والطماطم، واسلق ورق العنب والسلق سلقاً خفيفاً.",
+        "احشُ الخضار ثلاثة أرباعها، ولفّ طبقات البصل حول ملعقة من الحشوة، ولفّ ورق العنب والسلق أصابع.",
+        "حمّر ريش الغنم وافرشها في قاع القدر، ثم رتّب فوقها ورق العنب والباذنجان والكوسا والبصل والفلفل بإحكام، والطماطم في الأعلى.",
+        "اخلط الماء مع باقي رب الطماطم ودبس الرمان والتمر الهندي وعصير الليمون والثوم والملح، واسكبه فوق الدولمة وضع صحناً مقلوباً فوقها.",
+        "اتركها تغلي ثم اطبخها مغطاة على نار هادئة ساعة إلى ساعة ونصف حتى ينضج الرز ويتشرّب معظم المرق.",
+        "اتركها ١٥ دقيقة ثم اقلب القدر في صينية كبيرة."
+      ],
+      "tr": [
+        "Yıkanmış pirinci kıyma, iki kaşık salça, nar ekşisi ve demirhindinin yarısı, bir limonun suyu, yağ, kıyılmış otlar, baharat, tuz ve karabiberle karıştırın.",
+        "Sebzeleri hazırlayın: soğanları ortasına kadar yarıp 10 dakika haşlayın ve katmanlarını ayırın; patlıcan, kabak, biber ve domatesleri oyun; asma ve pazı yapraklarını hafifçe haşlayın.",
+        "Sebzeleri dörtte üç oranında doldurun, soğan katmanlarını bir kaşık iç etrafına sarın, asma ve pazı yapraklarını parmak gibi sarın.",
+        "Kuzu pirzolaları kızartıp tencerenin dibine dizin; üzerine yaprak sarmaları, patlıcan, kabak, soğan ve biberleri sıkıca, en üste domatesleri yerleştirin.",
+        "Suyu kalan salça, nar ekşisi, demirhindi, limon suyu, sarımsak ve tuzla karıştırıp dolmaların üzerine dökün, üstüne ters bir tabak kapatın.",
+        "Kaynayınca kapağı kapalı, kısık ateşte pirinç pişip suyun çoğunu çekene kadar 1–1,5 saat pişirin.",
+        "15 dakika dinlendirip tencereyi büyük bir tepsiye ters çevirin."
+      ],
+      "en": [
+        "Mix the rinsed rice with the minced meat, 2 tbsp tomato paste, half the pomegranate molasses and tamarind, the juice of 1 lemon, the oil, chopped herbs, baharat, salt and pepper.",
+        "Prepare the vegetables: slit the onions to the centre, boil for 10 minutes and separate the layers; hollow out the eggplants, zucchini, peppers and tomatoes; blanch the vine and chard leaves.",
+        "Fill the vegetables three-quarters full, wrap onion layers around a spoonful of filling, and roll the vine and chard leaves into fingers.",
+        "Brown the lamb ribs and lay them in the bottom of the pot, then pack in the leaves, eggplants, zucchini, onions and peppers tightly, with the tomatoes on top.",
+        "Mix the water with the remaining tomato paste, molasses, tamarind, lemon juice, garlic and salt; pour it over and weigh everything down with an upturned plate.",
+        "Bring to a boil, then cook covered on low for 1–1½ hours, until the rice is tender and most of the liquid is absorbed.",
+        "Rest for 15 minutes, then flip the pot onto a large platter."
+      ]
+    },
+    "tips": {
+      "ar": ["الدولمة غداء يوم الجمعة عند كثير من العائلات العراقية، وقلبها في الصينية جزء من طقسها.", "للنسخة النباتية استغنِ عن اللحم وزد الرز والطماطم وزيت الزيتون."],
+      "tr": [
+        "Dolma birçok Iraklı ailenin cuma yemeğidir; tepsiye ters çevirmek ritüelin parçasıdır.",
+        "Etsiz versiyon için eti çıkarıp pirinç, domates ve zeytinyağını artırın."
+      ],
+      "en": [
+        "Dolma is the Friday lunch for many Iraqi families, and flipping the pot is part of the ritual.",
+        "For a meatless version skip the meat and add more rice, tomato and olive oil."
+      ]
+    },
+    "tags": ["feast", "family", "celebration"],
+    "sources": ["https://www.hungrypaprikas.com/iraqi-dolma/", "https://hildaskitchenblog.com/recipe/mixed-vegetable-iraqi-dolma/", "https://www.mob.co.uk/recipes/lamb-dolma"]
+  },
+  {
+    "id": "irq-kubba-mosul",
+    "name": {
+      "ar": "كبة موصلية",
+      "tr": "Musul Kebbesi (Büyük Yassı İçli Köfte)",
+      "en": "Kubbat Mosul (Flat Bulgur & Meat Pie)",
+      "native": "كبة موصل"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 60,
+    "cook_minutes": 30,
+    "servings": 6,
+    "difficulty": "hard",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "bulgur_fine", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "minced_meat",
+        "amount": 800,
+        "unit": "g",
+        "optional": false,
+        "note": {
+          "ar": "٣٠٠ غ قليل الدهن للعجينة و٥٠٠ غ دسم للحشوة",
+          "tr": "300 g yağsız hamur için, 500 g yağlı iç için",
+          "en": "300 g lean for the shell, 500 g fatty for the filling"
+        }
+      },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع البرغل ٣٠ دقيقة ثم صفّه واعصره، واعجنه مع اللحم قليل الدهن والملح وملعقة بهارات وقليل من الماء (أو افرمه في محضّرة الطعام) حتى يصبح عجينة ناعمة مرنة.",
+        "للحشوة: حمّر اللحم الدسم مع البصل المفروم والبهارات والملح والفلفل، وأطفئ النار وأضف البقدونس والصنوبر، واتركها تبرد.",
+        "قسّم العجينة كرات، وافرد كل كرة بين كيسين من النايلون قرصاً رقيقاً بقطر ٢٠–٢٥ سم مستعيناً بصحن.",
+        "وزّع الحشوة على قرص وغطّه بقرص آخر، واضغط الأطراف لإغلاقها، وقصّها دائرة منتظمة.",
+        "اسلق الأقراص واحداً واحداً في ماء مغلي مملّح مع قليل من الزيت ٥–٧ دقائق حتى تطفو، وارفعها بحذر بملعقة مسطحة واسعة.",
+        "قدّمها دافئة مقطّعة مثلثات، ويمكن تحميرها في المقلاة بعد السلق، مع العمبة والطرشي."
+      ],
+      "tr": [
+        "Bulguru 30 dakika ıslatıp süzün ve sıkın; yağsız kıyma, tuz, bir kaşık baharat ve biraz suyla (veya mutfak robotunda) pürüzsüz ve esnek bir hamur olana kadar yoğurun.",
+        "İç için yağlı kıymayı doğranmış soğan, baharat, tuz ve karabiberle kavurun; ocaktan alıp maydanoz ve çam fıstığını ekleyin, soğutun.",
+        "Hamuru toplara bölün, her birini iki naylon arasında bir tabak yardımıyla 20–25 cm çapında ince diskler halinde açın.",
+        "İçi bir diskin üzerine yayıp başka bir diskle kapatın, kenarlarını bastırarak kapatın ve düzgün bir daire şeklinde kesin.",
+        "Diskleri birer birer tuzlu ve az yağlı kaynar suda yüzeye çıkana kadar 5–7 dakika haşlayın, geniş bir spatulayla dikkatlice alın.",
+        "Üçgen dilimler halinde ılık servis edin; haşladıktan sonra tavada da kızartılabilir; amba ve turşuyla sunun."
+      ],
+      "en": [
+        "Soak the bulgur for 30 minutes, drain and squeeze dry, then knead with the lean meat, salt, 1 tsp baharat and a splash of water (or pulse in a food processor) into a smooth, pliable dough.",
+        "For the filling, brown the fatty meat with the chopped onion, baharat, salt and pepper; take off the heat, stir in the parsley and pine nuts and let cool.",
+        "Divide the dough into balls and press each between two plastic sheets into a thin 20–25 cm (8–10 in) disc, using a plate as a guide.",
+        "Spread filling over one disc, cover with another, press the edges to seal and trim into a neat circle.",
+        "Boil the discs one at a time in salted water with a little oil for 5–7 minutes, until they float; lift out carefully with a wide spatula.",
+        "Serve warm, cut into wedges; they can also be pan-fried after boiling. Serve with amba and pickles."
+      ]
+    },
+    "tips": {
+      "ar": ["اسمها نسبة إلى الموصل ثاني أكبر مدن العراق، وتُجمَّد جيداً قبل السلق.", "يمكن خبزها صينية كاملة بطبقتين بدل الأقراص."],
+      "tr": ["Adını Irak'ın ikinci büyük şehri Musul'dan alır; haşlanmadan önce dondurulabilir.", "Diskler yerine iki katlı tepsi kebbesi olarak da fırınlanabilir."],
+      "en": ["Named after Mosul, Iraq's second city; the discs freeze well before boiling.", "You can also bake it as a two-layer tray instead of discs."]
+    },
+    "tags": ["mosul", "feast", "family", "make_ahead"],
+    "sources": [
+      "https://hildaskitchenblog.com/recipe/kubba-mosul-middle-eastern-meat-pie/",
+      "https://spicetraveller.com/kubba-mosul/",
+      "http://iraqifamilycookbook.blogspot.com/2012/12/kibbi-mosul-kubbat-mosul.html"
+    ]
+  },
+  {
+    "id": "irq-kubbat-halab",
+    "name": {
+      "ar": "كبة حلب",
+      "tr": "Pirinç Kebbesi (Kubbet Halep)",
+      "en": "Kubbat Halab (Iraqi Rice Kubba)",
+      "native": "كبة حلب"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "appetizer",
+    "prep_minutes": 45,
+    "cook_minutes": 40,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "rice", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 300, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "raisins", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "almonds",
+        "amount": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مقطّع", "tr": "Doğranmış", "en": "slivered" }
+      },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "لتغميس الكبة", "tr": "Kaplamak için", "en": "for an egg wash" }
+      },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": null,
+        "unit": "to_taste",
+        "optional": false,
+        "note": { "ar": "للقلي العميق", "tr": "Kızartmak için", "en": "for deep-frying" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق الرز في ماء مملّح مع الكركم حتى يطرى تماماً، ثم صفّه جيداً واتركه يبرد.",
+        "اهرس الرز أو افرمه في محضّرة الطعام حتى يصبح عجينة لزجة ناعمة، واعجنه بيدين مبلّلتين.",
+        "للحشوة: حمّر اللحم مع البصل المفروم، وأضف البهارات والملح والفلفل ثم الزبيب واللوز والبقدونس، واتركها تبرد.",
+        "خذ قطعة بحجم كرة الغولف، واحفر فيها بإصبعك وارقق الجوانب، واحشها بملعقة من الحشوة، وأغلقها كرة أو قرصاً مسطحاً.",
+        "اغمسها في البيض المخفوق إن أردت، واقلها في زيت غزير ساخن حتى تتحمّر وتقرمش.",
+        "قدّمها ساخنة مقبّلات أو مع السلطة."
+      ],
+      "tr": [
+        "Pirinci zerdeçallı tuzlu suda iyice yumuşayana kadar haşlayın, süzüp soğumaya bırakın.",
+        "Pirinci ezin veya mutfak robotunda yapışkan ve pürüzsüz bir hamur olana kadar çekin, ıslak ellerle yoğurun.",
+        "İç için kıymayı doğranmış soğanla kavurun; baharat, tuz ve karabiber, ardından kuru üzüm, badem ve maydanozu ekleyip soğutun.",
+        "Golf topu büyüklüğünde parça alın, parmağınızla oyup kenarlarını inceltin, bir kaşık iç koyup top veya yassı disk şeklinde kapatın.",
+        "İsterseniz çırpılmış yumurtaya bulayın ve bol kızgın yağda altın rengi ve çıtır olana kadar kızartın.",
+        "Meze olarak veya salatayla sıcak servis edin."
+      ],
+      "en": [
+        "Boil the rice in salted water with the turmeric until very soft; drain well and let cool.",
+        "Mash the rice or pulse it in a food processor into a smooth, sticky dough, kneading with wet hands.",
+        "For the filling, brown the meat with the chopped onion; add the baharat, salt and pepper, then the raisins, almonds and parsley, and let cool.",
+        "Take a golf-ball-sized piece, hollow it with your finger and thin the walls, add a spoonful of filling and close into a ball or flat disc.",
+        "Dip in beaten egg if you like and deep-fry in hot oil until golden and crisp.",
+        "Serve hot as a starter or with salad."
+      ]
+    },
+    "tips": {
+      "ar": ["رغم اسمها «حلب» فهي عراقية بامتياز، وعجينتها من الرز لا البرغل."],
+      "tr": ["Adında Halep geçse de tamamen Iraklıdır; hamuru bulgurdan değil pirinçtendir."],
+      "en": ["Despite the name ('Aleppo kubba') it's thoroughly Iraqi, with a rice shell instead of bulgur."]
+    },
+    "tags": ["fried", "mezze", "ramadan"],
+    "sources": [
+      "https://hildaskitchenblog.com/recipe/kubba-halab-meat-filled-rice-balls/",
+      "http://iraqifamilycookbook.blogspot.com/2013/03/fried-rice-kibbi-kubbat-halab.html",
+      "http://www.addalittlelemon.com/blog/2015/4/30/mamas-iraqi-kubbat-hallab"
+    ]
+  },
+  {
+    "id": "irq-kubba-hamuth",
+    "name": {
+      "ar": "كبة حامض شلغم",
+      "tr": "Şalgamlı Ekşi Çorbada Kebbe (Kubbe Hamuth)",
+      "en": "Kubba Hamuth (Kubba in Sour Turnip Soup)",
+      "native": "كبة حامض"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "soup",
+    "prep_minutes": 60,
+    "cook_minutes": 70,
+    "servings": 6,
+    "difficulty": "hard",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "semolina", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "turnip", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "swiss_chard", "amount": 1, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 4, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "dried_mint", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط السميد مع الملح وأضف قرابة كوب من الماء الدافئ تدريجياً، واعجنه حتى يصبح عجيناً ليّناً، واتركه يرتاح ٢٠ دقيقة.",
+        "للحشوة: حمّر اللحم مع البصل والبهارات والملح والفلفل، وأضف البقدونس المفروم واتركها تبرد.",
+        "خذ قطعاً بحجم الجوزة، وافردها في كفٍّ مبلّلة، واحشها وأغلقها كرات أو أقراصاً، وضعها في الثلاجة ريثما تجهز الشوربة.",
+        "في قدر حمّر الثوم قليلاً في الزيت، وأضف رب الطماطم ثم الماء واللفت المقطّع قطعاً كبيرة والملح، واتركه ينضج ٣٠–٤٠ دقيقة.",
+        "أضف السلق المقطّع وعصير الليمون والسكر، وعدّل الحموضة حسب الذوق.",
+        "أنزل الكبة في الشوربة واحدة واحدة بهدوء، واتركها مغطاة على نار هادئة ١٥–٢٠ دقيقة حتى تطفو وتنضج.",
+        "رشّ النعناع اليابس المقلي بقليل من الزيت على الوجه، وقدّمها مع التمن الأبيض."
+      ],
+      "tr": [
+        "İrmiği tuzla karıştırıp yaklaşık bir su bardağı ılık suyu yavaş yavaş ekleyin, yumuşak bir hamur olana kadar yoğurup 20 dakika dinlendirin.",
+        "İç için kıymayı soğan, baharat, tuz ve karabiberle kavurun, kıyılmış maydanozu ekleyip soğutun.",
+        "Ceviz büyüklüğünde parçalar alıp ıslak avuçta yayın, iç koyup top veya disk şeklinde kapatın; çorba hazırlanırken buzdolabında bekletin.",
+        "Bir tencerede sarımsağı yağda hafifçe çevirin, salçayı ardından suyu, iri doğranmış şalgamları ve tuzu ekleyip 30–40 dakika pişirin.",
+        "Doğranmış pazıyı, limon suyunu ve şekeri ekleyin; ekşiliği damak zevkine göre ayarlayın.",
+        "Kebbeleri çorbaya tek tek yavaşça bırakın, kapağı kapalı kısık ateşte yüzeye çıkıp pişene kadar 15–20 dakika pişirin.",
+        "Üzerine biraz yağda çevrilmiş kuru nane gezdirin ve beyaz pilavla servis edin."
+      ],
+      "en": [
+        "Mix the semolina with salt and gradually add about 1 cup of warm water, kneading into a soft dough; rest for 20 minutes.",
+        "For the filling, brown the meat with the onion, baharat, salt and pepper, stir in the chopped parsley and let cool.",
+        "Take walnut-sized pieces, flatten them in a wet palm, fill and seal into balls or discs; chill while you make the soup.",
+        "In a pot, fry the garlic briefly in the oil, add the tomato paste, then the water, the turnips cut into large chunks and salt; simmer for 30–40 minutes.",
+        "Add the chopped chard, lemon juice and sugar, and adjust the sourness to taste.",
+        "Lower the kubba into the soup one by one and simmer, covered, for 15–20 minutes, until they float and are cooked.",
+        "Finish with dried mint fried in a little oil and serve with white rice."
+      ]
+    },
+    "tips": {
+      "ar": ["طبق شتوي؛ ويستبدل اليهود العراقيون اللفت بالشمندر في «كبة حامض شوندر».", "يمكن صنع قشرة الكبة من الرز المطحون المسلوق بدل السميد."],
+      "tr": ["Bir kış yemeğidir; Iraklı Yahudiler şalgam yerine pancar kullanır.", "Kebbe hamuru irmik yerine haşlanıp çekilmiş pirinçle de yapılabilir."],
+      "en": ["A winter dish; Iraqi Jewish cooks make it with beetroot instead of turnip.", "The shell can be made from cooked ground rice instead of semolina."]
+    },
+    "tags": ["winter", "comfort_food", "baghdad"],
+    "sources": [
+      "https://worldliteraturetoday.org/2023/may/kubbat-hamud-shalgham-turnip-and-swiss-chard-chowder-iraqi-style-nawal-nasrallah",
+      "https://www.internationalcuisine.com/iraqi-turnip-soup/",
+      "https://nawalcooking.blogspot.com/2021/10/its-soup-time-kubbat-hamud-shalgham.html"
+    ]
+  },
+  {
+    "id": "irq-timman-bagilla",
+    "name": {
+      "ar": "تمن باقلاء",
+      "tr": "Taze Baklalı Dereotlu Pilav (Timman Bagilla)",
+      "en": "Timman Bagilla (Dill & Fava Bean Rice)",
+      "native": "تمن باگلة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "بسمتي", "tr": "Basmati", "en": "basmati" }
+      },
+      {
+        "ingredient_id": "fava_fresh",
+        "amount": 500,
+        "unit": "g",
+        "optional": false,
+        "note": {
+          "ar": "مقشّر، طازج أو مجمّد",
+          "tr": "Taze veya dondurulmuş, ayıklanmış",
+          "en": "shelled, fresh or frozen"
+        }
+      },
+      {
+        "ingredient_id": "dill",
+        "amount": 2,
+        "unit": "bunch",
+        "optional": false,
+        "note": {
+          "ar": "أو ٣ ملاعق شبنت يابس",
+          "tr": "veya 3 yemek kaşığı kuru dereotu",
+          "en": "or 3 tbsp dried dill"
+        }
+      },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "lamb",
+        "amount": 1,
+        "unit": "kg",
+        "optional": true,
+        "note": {
+          "ar": "موزات مسلوقة للتقديم",
+          "tr": "Servis için haşlanmış incik",
+          "en": "boiled shanks to serve on top"
+        }
+      },
+      { "ingredient_id": "ghee", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 4,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "أو مرق", "tr": "veya et suyu", "en": "or broth" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "yogurt", "amount": 2, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "garlic", "amount": 1, "unit": "clove", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "إن استعملت اللحم فاسلق الموزات مع البصل والهيل والقرفة ساعة ونصف، واحتفظ بالمرق.",
+        "اغسل الرز وانقعه ٣٠ دقيقة.",
+        "حمّر البصل المفروم في الزيت والسمن حتى يذبل، ثم أضف الباقلاء والشبنت والكركم وقلّبها ٢–٣ دقائق.",
+        "أضف الرز المصفّى وقلّبه دقيقة، ثم أضف الماء أو المرق (كوبين لكل كوب رز) والملح.",
+        "اتركه يغلي حتى يختفي الماء عن سطحه، ثم غطّه واطبخه على أهدأ نار ٢٥–٣٠ دقيقة.",
+        "قدّمه في صينية مع الموزات فوقه، ومع لبن مخلوط بالثوم والشبنت."
+      ],
+      "tr": [
+        "Et kullanıyorsanız incikleri soğan, kakule ve tarçınla 1,5 saat haşlayın, suyunu saklayın.",
+        "Pirinci yıkayıp 30 dakika ıslatın.",
+        "Doğranmış soğanı zeytinyağı ve sade yağda yumuşayana kadar kavurun; bakla, dereotu ve zerdeçalı ekleyip 2–3 dakika çevirin.",
+        "Süzülmüş pirinci ekleyip bir dakika kavurun, ardından su veya et suyunu (her bardak pirince iki bardak) ve tuzu ekleyin.",
+        "Yüzeydeki su çekilene kadar kaynatın, sonra kapağı kapatıp en kısık ateşte 25–30 dakika pişirin.",
+        "Tepsiye alıp incikleri üstüne koyun; sarımsaklı ve dereotlu yoğurtla servis edin."
+      ],
+      "en": [
+        "If using lamb, simmer the shanks with an onion, cardamom and cinnamon for 1½ hours and keep the broth.",
+        "Rinse the rice and soak for 30 minutes.",
+        "Soften the chopped onion in the oil and ghee, then add the fava beans, dill and turmeric and stir for 2–3 minutes.",
+        "Add the drained rice and stir for a minute, then add the water or broth (2 cups per cup of rice) and salt.",
+        "Boil until the surface water disappears, then cover and cook on the lowest heat for 25–30 minutes.",
+        "Serve on a platter topped with the shanks, with yogurt mixed with garlic and dill."
+      ]
+    },
+    "tips": {
+      "ar": ["من أشهر أطباق الربيع في العراق عند موسم الباقلاء الخضراء.", "بدون اللحم يصبح طبقاً نباتياً كاملاً مع اللبن."],
+      "tr": ["Taze bakla mevsiminde Irak'ın en sevilen bahar yemeklerindendir.", "Etsiz haliyle yoğurtla birlikte tam bir vejetaryen öğündür."],
+      "en": ["One of Iraq's favourite spring dishes, made when fresh fava beans are in season.", "Without the lamb it's a complete vegetarian meal with yogurt."]
+    },
+    "tags": ["family", "comfort_food"],
+    "sources": [
+      "https://www.196flavors.com/iraq-timman-bagilla/",
+      "http://iraqifamilycookbook.blogspot.com/2008/03/fava-beans-with-rice-timman-bagila.html",
+      "https://www.hungrypaprikas.com/baghali-polo-dill-rice/"
+    ]
+  },
+  {
+    "id": "irq-timman-ahmar",
+    "name": {
+      "ar": "تمن أحمر",
+      "tr": "Salçalı Irak Pilavı (Timman Ahmar)",
+      "en": "Timman Ahmar (Iraqi Red Rice)",
+      "native": "تمن أحمر"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "side",
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "بسمتي", "tr": "Basmati", "en": "basmati" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "dried_lime", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 3, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "bay_leaves", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 3.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "أو مرق دجاج", "tr": "veya tavuk suyu", "en": "or chicken broth" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغسل الرز وانقعه ٢٠ دقيقة.",
+        "حمّر البصل المفروم في الزيت، وأضف رب الطماطم وقلّبه دقيقتين، ثم أضف الماء أو المرق والملح والفلفل والهيل وورق الغار والنومي المثقوب، واتركه يغلي.",
+        "أضف الرز المصفّى واتركه يغلي حتى ينزل الماء إلى مستوى الرز، ثم غطّه واطبخه على أهدأ نار ٢٠–٢٥ دقيقة.",
+        "قلّبه بالشوكة وقدّمه مع الدجاج المشوي أو المرق."
+      ],
+      "tr": [
+        "Pirinci yıkayıp 20 dakika ıslatın.",
+        "Doğranmış soğanı yağda kavurun, salçayı ekleyip iki dakika çevirin; ardından su veya et suyu, tuz, karabiber, kakule, defne ve delinmiş kuru limonu ekleyip kaynatın.",
+        "Süzülmüş pirinci ekleyin, su pirinç seviyesine inene kadar kaynatın, sonra kapağı kapatıp en kısık ateşte 20–25 dakika pişirin.",
+        "Çatalla kabartıp fırın tavuk veya sulu yemekle servis edin."
+      ],
+      "en": [
+        "Rinse the rice and soak for 20 minutes.",
+        "Fry the chopped onion in the oil, add the tomato paste and stir for 2 minutes, then add the water or broth, salt, pepper, cardamom, bay leaf and pierced dried lime and bring to a boil.",
+        "Add the drained rice and boil until the liquid drops to the level of the rice, then cover and cook on the lowest heat for 20–25 minutes.",
+        "Fluff with a fork and serve with roast chicken or a stew."
+      ]
+    },
+    "tips": {
+      "ar": ["يُقدَّم غالباً مع دجاج مسلوق ثم محمّر في الفرن فوقه."],
+      "tr": ["Genellikle üstüne haşlanıp fırında kızartılmış tavukla sunulur."],
+      "en": ["Usually served topped with chicken that's been simmered and then browned in the oven."]
+    },
+    "tags": ["quick", "budget", "family"],
+    "sources": [
+      "http://iraqifamilycookbook.blogspot.com/2012/05/rice-with-tomato-sauce-red-rice.html",
+      "https://www.cbc.ca/life/video/timman-ahmar-iraqi-red-rice-and-chicken-recipe-amina-al-saigh-9.7112472",
+      "https://excitedfood.com/recipes/timman-ahmar"
+    ]
+  },
+  {
+    "id": "irq-biryani",
+    "name": { "ar": "برياني عراقي", "tr": "Irak Usulü Biryani", "en": "Iraqi Chicken Biryani", "native": "برياني" },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 70,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "chicken",
+        "amount": 1.2,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "قطع", "tr": "Parçalar", "en": "pieces" }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 3,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "بسمتي", "tr": "Basmati", "en": "basmati" }
+      },
+      { "ingredient_id": "vermicelli", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "potato", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "peas", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "carrot", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "almonds", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "raisins", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 3,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مسلوق", "tr": "Haşlanmış", "en": "hard-boiled" }
+      },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": true, "note": "" },
+      { "ingredient_id": "curry_powder", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "ghee", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق الدجاج مع بصلة والهيل والملح وأزل الرغوة، واتركه ٤٠ دقيقة، ثم صفِّ المرق وقطّع الدجاج أو اتركه قطعاً.",
+        "اقلِ مكعبات البطاطا حتى تتحمّر، وحمّر اللوز وأضف الزبيب في آخر نصف دقيقة.",
+        "حمّر البصلة الثانية في ملعقة سمن، وأضف البهارات والكركم والكاري، ثم البزاليا والجزر والدجاج، وقلّب ٥ دقائق.",
+        "في قدر كبير حمّر الشعرية في باقي السمن، وأضف الرز و٤٫٥ أكواب من المرق والزعفران والملح، واتركه يغلي ثم غطّه على نار هادئة ٢٠ دقيقة.",
+        "اخلط خليط الدجاج والخضار والبطاطا مع الرز بلطف.",
+        "افرده في صينية وزيّنه باللوز والزبيب والبيض، وقدّمه مع اللبن والسلطة."
+      ],
+      "tr": [
+        "Tavuğu bir soğan, kakule ve tuzla haşlayın, köpüğünü alıp 40 dakika pişirin; suyunu süzüp tavuğu didikleyin veya parça bırakın.",
+        "Patates küplerini kızarana kadar kızartın; bademi kavurup son yarım dakikada kuru üzümü ekleyin.",
+        "İkinci soğanı bir kaşık sade yağda kavurun; baharat, zerdeçal ve köriyi, ardından bezelye, havuç ve tavuğu ekleyip 5 dakika çevirin.",
+        "Büyük bir tencerede şehriyeyi kalan sade yağda kavurun; pirinç, 4,5 su bardağı tavuk suyu, safran ve tuzu ekleyin, kaynayınca kapağı kapatıp kısık ateşte 20 dakika pişirin.",
+        "Tavuklu sebze karışımını ve patatesleri pilava nazikçe karıştırın.",
+        "Tepsiye yayıp badem, kuru üzüm ve yumurtayla süsleyin; yoğurt ve salatayla servis edin."
+      ],
+      "en": [
+        "Simmer the chicken with an onion, the cardamom and salt, skimming, for 40 minutes; strain the broth and shred the chicken or leave it in pieces.",
+        "Fry the potato cubes until golden; toast the almonds, adding the raisins for the last 30 seconds.",
+        "Fry the second onion in 1 tbsp ghee, add the baharat, turmeric and curry powder, then the peas, carrot and chicken, and stir for 5 minutes.",
+        "In a large pot toast the vermicelli in the remaining ghee, add the rice, 4½ cups of broth, the saffron and salt; bring to a boil, cover and cook on low for 20 minutes.",
+        "Gently fold the chicken mixture and potatoes into the rice.",
+        "Spread on a platter, garnish with the almonds, raisins and eggs, and serve with yogurt and salad."
+      ]
+    },
+    "tips": {
+      "ar": ["البرياني العراقي يختلف عن الهندي: أقل حرارة ويعتمد على الشعرية والبزاليا والمكسرات."],
+      "tr": ["Irak biryanisi Hint biryanisinden farklıdır: daha az acıdır; şehriye, bezelye ve kuruyemişe dayanır."],
+      "en": ["Iraqi biryani differs from the Indian kind: milder, built on vermicelli, peas and nuts."]
+    },
+    "tags": ["feast", "family", "eid"],
+    "sources": [
+      "https://www.hungrypaprikas.com/arabic-biryani-with-chicken/",
+      "https://www.maggiarabia.com/en/recipes/iraqi-biryani",
+      "https://tastecanada.org/weeknight-iraqi-chicken-biryani/"
+    ]
+  },
+  {
+    "id": "irq-tashreeb",
+    "name": {
+      "ar": "تشريب لحم",
+      "tr": "Etli Nohutlu Tirit (Taşrib)",
+      "en": "Tashreeb (Lamb & Chickpea Broth over Bread)",
+      "native": "تشريب"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "بالعظم", "tr": "Kemikli", "en": "bone-in" }
+      },
+      {
+        "ingredient_id": "chickpeas",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مسلوق", "tr": "Haşlanmış", "en": "cooked" }
+      },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "dried_lime", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "curry_powder", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 3, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "pita_bread",
+        "amount": 4,
+        "unit": "piece",
+        "optional": false,
+        "note": {
+          "ar": "خبز عراقي أو صمون يابس",
+          "tr": "Tandır ekmeği veya bayat ekmek",
+          "en": "Iraqi flatbread or day-old bread"
+        }
+      },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "حمّر قطع اللحم في الزيت، وأضف البصل والكركم والبهارات والكاري والهيل، ثم اغمرها بالماء واتركها تغلي وأزل الرغوة.",
+        "أضف النومي بعد ثقبه والملح، واتركه على نار هادئة ساعة ونصف حتى ينضج اللحم.",
+        "أضف الحمص ورب الطماطم في آخر نصف ساعة، وعدّل الملح والحموضة.",
+        "قطّع الخبز في صينية عميقة واسكب عليه المرق حتى يتشرّبه.",
+        "ضع اللحم والحمص فوق الخبز وقدّمه ساخناً مع البصل والخضرة والطرشي."
+      ],
+      "tr": [
+        "Et parçalarını yağda kızartın; soğan, zerdeçal, baharat, köri ve kakuleyi ekleyin, üzerini suyla örtüp kaynatın ve köpüğünü alın.",
+        "Delinmiş kuru limonları ve tuzu ekleyip et yumuşayana kadar kısık ateşte 1,5 saat pişirin.",
+        "Son yarım saatte nohut ve salçayı ekleyin, tuzunu ve ekşiliğini ayarlayın.",
+        "Ekmeği derin bir tepsiye doğrayıp üzerine et suyunu dökün ve çekmesini bekleyin.",
+        "Et ve nohudu ekmeğin üzerine koyup soğan, yeşillik ve turşuyla sıcak servis edin."
+      ],
+      "en": [
+        "Brown the lamb in the oil, add the onion, turmeric, baharat, curry powder and cardamom, cover with water, bring to a boil and skim.",
+        "Add the pierced dried limes and salt and simmer for 1½ hours, until the meat is tender.",
+        "Add the chickpeas and tomato paste for the last 30 minutes and adjust the salt and sourness.",
+        "Tear the bread into a deep platter and ladle the broth over so it soaks in.",
+        "Top with the meat and chickpeas and serve hot with raw onion, herbs and pickles."
+      ]
+    },
+    "tips": {
+      "ar": ["كان التشريب طعام الفقراء لاستغلال الخبز اليابس، وصار اليوم من أشهر أطباق رمضان.", "«تشريب دجاج» بالطريقة نفسها مع دجاجة كاملة."],
+      "tr": [
+        "Taşrib, bayat ekmeği değerlendiren bir fakir yemeğiydi; bugün Ramazan'ın en sevilen yemeklerindendir.",
+        "Aynı yöntemle bütün tavukla 'taşrib tavuk' yapılır."
+      ],
+      "en": ["Tashreeb began as a thrifty way to use stale bread and is now a Ramadan favourite.", "Make tashreeb dajaj the same way with a whole chicken."]
+    },
+    "tags": ["winter", "comfort_food", "ramadan", "budget", "one_pot"],
+    "sources": [
+      "http://iraqifamilycookbook.blogspot.com/2013/05/lamb-with-chickpeas-soup-tashreeb-laham.html",
+      "https://www.whats4eats.com/poultry/tashreeb-djaj-recipe",
+      "https://visitiraqnow.com/articles/66fe7e66ef8f54ae66959bf9"
+    ]
+  },
+  {
+    "id": "irq-pacha",
+    "name": {
+      "ar": "باجة",
+      "tr": "Paça (Kelle, Paça ve Dolmalı İşkembe)",
+      "en": "Pacha (Head, Trotters & Stuffed Tripe)",
+      "native": "پاچة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "lunch"],
+    "course": "main",
+    "prep_minutes": 90,
+    "cook_minutes": 300,
+    "servings": 8,
+    "difficulty": "hard",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb_head",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "منظّف ومشقوق", "tr": "Temizlenmiş, ikiye bölünmüş", "en": "cleaned and split" }
+      },
+      {
+        "ingredient_id": "lamb_trotters",
+        "amount": 4,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "منظّفة", "tr": "Temizlenmiş", "en": "cleaned" }
+      },
+      {
+        "ingredient_id": "tripe",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "منظّفة ومقطّعة مربعات",
+          "tr": "Temizlenmiş, kare kesilmiş",
+          "en": "cleaned, cut into squares"
+        }
+      },
+      {
+        "ingredient_id": "rice",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للحشوة", "tr": "İç için", "en": "for the stuffing" }
+      },
+      { "ingredient_id": "minced_meat", "amount": 250, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "chickpeas", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 1, "unit": "head", "optional": false, "note": "" },
+      { "ingredient_id": "bay_leaves", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "vinegar",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للتنظيف", "tr": "Temizlik için", "en": "for cleaning" }
+      },
+      { "ingredient_id": "lemon", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "pita_bread", "amount": 6, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 5, "unit": "l", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "نظّف الرأس والمقادم والكرشة جيداً: اكشطها واغسلها مرات عدة بالماء والخل، ثم اسلقها ١٠ دقائق وتخلّص من الماء.",
+        "اخلط الرز واللحم المفروم وبصلة مفرومة والبهارات والملح والفلفل، واثنِ كل مربع من الكرشة على شكل كيس، واحشه حشواً غير محكم وخِطه بخيط.",
+        "ضع الرأس والمقادم في قدر كبير واغمرها بالماء، واتركها تغلي وأزل الرغوة، ثم أضف الثوم والبصلة الثانية وورق الغار والملح، واتركها على نار هادئة ٣ ساعات.",
+        "أضف أكياس الكرشة المحشوة والحمص، واتركها ساعة ونصف إلى ساعتين حتى ينضج كل شيء تماماً.",
+        "قطّع الخبز في صحون عميقة واسكب عليه المرق، ثم ضع فوقه قطع اللحم واللسان والمقادم والكرشة المحشوة.",
+        "قدّمها مع الليمون وخل بالثوم والطرشي."
+      ],
+      "tr": [
+        "Kelle, paça ve işkembeyi iyice temizleyin: kazıyıp su ve sirkeyle birkaç kez yıkayın, 10 dakika haşlayıp suyunu dökün.",
+        "Pirinç, kıyma, doğranmış bir soğan, baharat, tuz ve karabiberi karıştırın; her işkembe karesini kese gibi katlayıp gevşekçe doldurun ve iple dikin.",
+        "Kelle ve paçaları büyük bir tencereye koyup suyla örtün, kaynatıp köpüğünü alın; sarımsak, ikinci soğan, defne ve tuzu ekleyip kısık ateşte 3 saat pişirin.",
+        "Dolmalı işkembeleri ve nohudu ekleyip her şey iyice yumuşayana kadar 1,5–2 saat daha pişirin.",
+        "Ekmeği derin kaselere doğrayıp üzerine suyunu dökün; üstüne et parçaları, dil, paça ve işkembe dolmalarını koyun.",
+        "Limon, sarımsaklı sirke ve turşuyla servis edin."
+      ],
+      "en": [
+        "Clean the head, trotters and tripe thoroughly: scrape and rinse several times in water and vinegar, then blanch for 10 minutes and discard the water.",
+        "Mix the rice, minced meat, one chopped onion, baharat, salt and pepper; fold each tripe square into a pouch, stuff loosely and sew shut with thread.",
+        "Put the head and trotters in a large pot, cover with water, bring to a boil and skim; add the garlic, the second onion, bay leaves and salt and simmer for 3 hours.",
+        "Add the stuffed tripe pouches and the chickpeas and simmer for another 1½–2 hours, until everything is very tender.",
+        "Tear the bread into deep bowls and ladle the broth over, then top with the meat, tongue, trotters and stuffed tripe.",
+        "Serve with lemon, garlic vinegar and pickles."
+      ]
+    },
+    "tips": {
+      "ar": ["تُؤكل الباجة في مطاعم بغداد المتخصصة فطوراً شتوياً منذ الفجر.", "اطلب من القصّاب تنظيف الرأس والكرشة لتوفير الوقت."],
+      "tr": ["Paça, Bağdat'taki paçacılarda şafaktan itibaren kış kahvaltısı olarak yenir.", "Zaman kazanmak için kelle ve işkembeyi kasaba temizletin."],
+      "en": ["In Baghdad pacha is eaten at specialist restaurants as a winter breakfast from dawn.", "Ask the butcher to clean the head and tripe to save time."]
+    },
+    "tags": ["winter", "feast", "baghdad"],
+    "sources": [
+      "https://www.jidlonacestach.cz/en/pacha/",
+      "https://app.samsungfood.com/recipes/107018ca006d91c751c924643bcf3070b94",
+      "https://discover.texasrealfood.com/strange-eats/pacha"
+    ]
+  },
+  {
+    "id": "irq-qeema",
+    "name": {
+      "ar": "قيمة",
+      "tr": "Kıyme (Irak Usulü Etli Nohut Ezmesi)",
+      "en": "Qeema (Mashed Lamb & Chickpea Stew)",
+      "native": "قيمة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 200,
+    "servings": 10,
+    "difficulty": "hard",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "أو لحم بقر، مكعبات", "tr": "veya dana, küp", "en": "or beef, cubed" }
+      },
+      {
+        "ingredient_id": "chickpeas",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "يابس، منقوع ليلة", "tr": "Kuru, bir gece ıslatılmış", "en": "dried, soaked overnight" }
+      },
+      { "ingredient_id": "onion", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "dried_lime",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "cinnamon", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "bay_leaves", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "ghee", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 10, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع الحمص ليلة كاملة، وقشّره إن أمكن.",
+        "حمّر نصف البصل المفروم في السمن، وأضف اللحم حتى يتغيّر لونه، ثم الحمص وورق الغار، واغمره بالماء المغلي وأزل الرغوة، واتركه على نار هادئة ٢٫٥–٣ ساعات حتى يطرى جداً.",
+        "انزع العظم، وصفِّ المرق واحتفظ به، واهرس اللحم والحمص والبصل يدوياً أو بالهاون حتى تبقى ألياف اللحم طويلة.",
+        "في قدر نظيف حمّر باقي البصل، وأضف رب الطماطم دقيقتين، ثم البهارات والنومي المطحون.",
+        "أضف الخليط المهروس، ثم المرق تدريجياً مع التحريك حتى يصبح قوامه كثيفاً كالعصيدة، وتبّله بالملح.",
+        "اتركه على النار دقائق قليلة، وقدّمه مع التمن الأبيض أو الخبز."
+      ],
+      "tr": [
+        "Nohudu bir gece ıslatın, mümkünse kabuklarını soyun.",
+        "Doğranmış soğanın yarısını sade yağda kavurun, eti rengi dönene kadar çevirin; nohut ve defneyi ekleyip üzerini kaynar suyla örtün, köpüğünü alın ve çok yumuşayana kadar 2,5–3 saat kısık ateşte pişirin.",
+        "Kemikleri ayıklayın, suyunu süzüp saklayın; eti, nohudu ve soğanı et lifleri uzun kalacak şekilde elle veya havanla ezin.",
+        "Temiz bir tencerede kalan soğanı kavurun, salçayı ekleyip iki dakika çevirin, ardından baharatları ve toz kuru limonu ekleyin.",
+        "Ezilmiş karışımı ekleyin, sonra et suyunu karıştırarak azar azar ilave edip lapa kıvamına getirin; tuzlayın.",
+        "Birkaç dakika pişirip beyaz pilav veya ekmekle servis edin."
+      ],
+      "en": [
+        "Soak the chickpeas overnight and skin them if you can.",
+        "Fry half the chopped onion in the ghee, add the meat until it changes colour, then the chickpeas and bay leaves; cover with boiling water, skim, and simmer for 2½–3 hours until very soft.",
+        "Remove any bones, strain and keep the broth, and mash the meat, chickpeas and onion by hand or with a pestle so the meat fibres stay long.",
+        "In a clean pot fry the remaining onion, add the tomato paste for 2 minutes, then the spices and ground dried lime.",
+        "Add the mashed mixture, then the broth a little at a time, stirring, until it's thick like porridge; season with salt.",
+        "Simmer for a few minutes and serve with white rice or bread."
+      ]
+    },
+    "tips": {
+      "ar": ["تُطبخ القيمة في قدور كبيرة وتوزَّع نذراً في محرّم وعاشوراء، وأشهرها القيمة النجفية.", "لا تستعمل الخلاط كي لا تتحوّل إلى معجون ناعم."],
+      "tr": ["Muharrem ve Aşure'de büyük kazanlarda pişirilip adak olarak dağıtılır; en ünlüsü Necef usulüdür.", "Pürüzsüz bir macuna dönmemesi için blender kullanmayın."],
+      "en": [
+        "Cooked in huge pots and handed out as a votive offering during Muharram and Ashura; the Najaf style is the most famous.",
+        "Don't use a blender, or it turns into a smooth paste."
+      ]
+    },
+    "tags": ["muharram", "make_ahead", "family"],
+    "sources": [
+      "https://newlinesmag.com/spotlight/qeema-confidential/",
+      "https://www.arabizitranslations.com/blog/that-translator-can-cook-timman-ou-qeema",
+      "https://en.wikipedia.org/wiki/Qeema_Najafi"
+    ]
+  },
+  {
+    "id": "irq-tbit",
+    "name": {
+      "ar": "تبيت",
+      "tr": "Tbit (Pirinç Dolgulu Gece Boyu Pişen Tavuk)",
+      "en": "T'bit (Overnight Chicken & Spiced Rice)",
+      "native": "تبيت"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 180,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chicken",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "دجاجة كاملة ١٫٥ كغ", "tr": "Bütün tavuk, 1,5 kg", "en": "whole chicken, about 1.5 kg" }
+      },
+      { "ingredient_id": "rice", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tomato",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مبشورة", "tr": "Rendelenmiş", "en": "grated" }
+      },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 6,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "بقشرها", "tr": "Kabuklu", "en": "in their shells" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغسل الرز وانقعه ٣٠ دقيقة. حمّر البصل في الزيت، وأضف الطماطم المبشورة ورب الطماطم والبهارات والهيل والكركم.",
+        "اخلط ثلث الرز مع نصف خليط الطماطم واحشُ به الدجاجة، وأغلق فتحتها بعود.",
+        "حمّر الدجاجة من كل الجهات في القدر نفسه ثم ارفعها.",
+        "أضف باقي الرز وخليط الطماطم والماء والملح إلى القدر، وضع الدجاجة فوقه، ووزّع البيض حولها.",
+        "اتركه يغلي، ثم غطّه بإحكام واخبزه على ١٠٠ درجة مئوية طوال الليل (١٠–١٢ ساعة)، أو على ١٦٠ درجة مئوية ساعتين ونصف.",
+        "قدّم الدجاجة فوق الرز مع الطبقة المقرمشة من قاع القدر (الحكاكة)."
+      ],
+      "tr": [
+        "Pirinci yıkayıp 30 dakika ıslatın. Soğanı yağda kavurun; rendelenmiş domates, salça, baharat, kakule ve zerdeçalı ekleyin.",
+        "Pirincin üçte birini domates karışımının yarısıyla karıştırıp tavuğun içine doldurun, ağzını kürdanla kapatın.",
+        "Tavuğu aynı tencerede her yönden kızartıp çıkarın.",
+        "Kalan pirinç, domates karışımı, su ve tuzu tencereye koyun; tavuğu üstüne yerleştirip yumurtaları etrafına dizin.",
+        "Kaynayınca kapağı sıkıca kapatın ve 100°C fırında gece boyunca (10–12 saat) ya da 160°C'de 2,5 saat pişirin.",
+        "Tavuğu, tencerenin dibindeki çıtır kabukla (hkaka) birlikte pilavın üzerinde servis edin."
+      ],
+      "en": [
+        "Rinse the rice and soak for 30 minutes. Fry the onion in the oil and add the grated tomato, tomato paste, baharat, cardamom and turmeric.",
+        "Mix a third of the rice with half the tomato mixture, stuff it into the chicken and close the opening with a toothpick.",
+        "Brown the chicken on all sides in the same pot, then lift it out.",
+        "Add the remaining rice, tomato mixture, water and salt to the pot, set the chicken on top and nestle the eggs around it.",
+        "Bring to a boil, cover tightly and bake at 100°C (212°F) overnight (10–12 hours), or at 160°C (320°F) for 2½ hours.",
+        "Serve the chicken on the rice with the crispy crust from the bottom of the pot (hkaka)."
+      ]
+    },
+    "tips": {
+      "ar": ["طبق يهود العراق لغداء السبت، يُطهى من مساء الجمعة ببطء."],
+      "tr": ["Iraklı Yahudilerin cumartesi öğle yemeğidir; cuma akşamından yavaşça pişer."],
+      "en": ["The Iraqi Jewish Sabbath lunch, left to cook slowly from Friday evening."]
+    },
+    "tags": ["family", "make_ahead", "baked", "one_pot", "baghdad"],
+    "sources": [
+      "https://www.jewishfoodsociety.org/recipes/tbit-whole-chicken-stuffed-with-rice-and-spices",
+      "https://veredguttman.com/tbeet-a-jewish-iraqi-shabbat-overnight-stew-of-chicken-and-rice/",
+      "https://www.myjewishlearning.com/the-nosher/iraqi-chicken-stuffed-with-spiced-rice-recipe/"
+    ]
+  },
+  {
+    "id": "irq-kebab",
+    "name": { "ar": "كباب عراقي", "tr": "Irak Kebabı", "en": "Iraqi Kebab", "native": "كباب" },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "minced_meat",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "لحم غنم دسم مفروم خشن",
+          "tr": "Yağlı kuzu kıyma, iri çekilmiş",
+          "en": "fatty lamb, coarsely ground"
+        }
+      },
+      { "ingredient_id": "onion", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 1, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "sumac", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tomato",
+        "amount": 6,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "للشوي", "tr": "Izgara için", "en": "for grilling" }
+      },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "pita_bread",
+        "amount": 6,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "خبز تنور أو صمون", "tr": "Tandır ekmeği veya samun", "en": "tannour bread or samoon" }
+      },
+      { "ingredient_id": "salt", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ابشر بصلة واعصر ماءها، واعجنها مع اللحم والملح والفلفل ٥ دقائق حتى يصبح لزجاً، ثم ضعه في الثلاجة ٣٠ دقيقة.",
+        "بيدين مبلّلتين اضغط كميات من اللحم على أسياخ عريضة مسطّحة على شكل أصابع طويلة رفيعة.",
+        "اشوِها على فحم ساخن ٨–١٠ دقائق مع التقليب، واشوِ الطماطم وبعض البصل بجانبها.",
+        "قطّع البصل الباقي شرائح رفيعة، واخلطه مع السماق والبقدونس المفروم.",
+        "قدّم الكباب ملفوفاً بالخبز مع الطماطم المشوية وبصل السماق والعمبة."
+      ],
+      "tr": [
+        "Bir soğanı rendeleyip suyunu sıkın; kıyma, tuz ve karabiberle 5 dakika yapışkan olana kadar yoğurun ve 30 dakika buzdolabında bekletin.",
+        "Islak ellerle kıymayı geniş yassı şişlere uzun ince parmaklar halinde bastırın.",
+        "Kızgın mangal kömüründe çevirerek 8–10 dakika pişirin; yanında domates ve biraz soğan da közleyin.",
+        "Kalan soğanı ince doğrayıp sumak ve kıyılmış maydanozla karıştırın.",
+        "Kebabı közlenmiş domates, sumaklı soğan ve ambayla ekmeğe sarılı servis edin."
+      ],
+      "en": [
+        "Grate one onion and squeeze out the juice; knead it with the meat, salt and pepper for 5 minutes until sticky, then chill for 30 minutes.",
+        "With wet hands, press portions of meat onto wide flat skewers into long, thin kebabs.",
+        "Grill over hot charcoal for 8–10 minutes, turning, and grill the tomatoes and some onions alongside.",
+        "Slice the remaining onions thinly and toss with the sumac and chopped parsley.",
+        "Serve the kebabs wrapped in bread with the grilled tomatoes, sumac onions and amba."
+      ]
+    },
+    "tips": {
+      "ar": ["الكباب العراقي لا يُتبَّل إلا بالملح والفلفل ليبرز طعم اللحم ودخان الفحم."],
+      "tr": ["Irak kebabı et ve kömür tadı öne çıksın diye yalnızca tuz ve karabiberle yapılır."],
+      "en": ["Iraqi kebab is seasoned only with salt and pepper so the meat and charcoal smoke shine."]
+    },
+    "tags": ["grilled", "street_food", "baghdad", "family"],
+    "sources": [
+      "https://www.hungrypaprikas.com/authentic-iraqi-kabab/",
+      "https://www.abouther.com/node/22731/Food/main-dishes/iraqi-kebab",
+      "https://howtomakeakebab.com/kebab/iraqi-kebab"
+    ]
+  },
+  {
+    "id": "irq-tikka",
+    "name": { "ar": "تكة لحم", "tr": "Irak Usulü Kuzu Tikka (Şiş)", "en": "Iraqi Lamb Tikka", "native": "تِكّة" },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "من الفخذ أو الفتيل، مكعبات",
+          "tr": "But veya bonfile, küp",
+          "en": "leg or tenderloin, cubed"
+        }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مبشورة لعصارتها", "tr": "Suyu için rendelenmiş", "en": "grated, for the juice" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "tomato", "amount": 4, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "sumac", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "pita_bread", "amount": 6, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "قطّع اللحم مكعبات ٣ سم، وابشر البصل واعصر ماءه، ثم تبّل اللحم بماء البصل والملح والفلفل والزيت، واتركه في الثلاجة ٢–٤ ساعات.",
+        "اشبك المكعبات على أسياخ مسطّحة (وتقليدياً تتخلّلها قطع من الليّة).",
+        "اشوِها على فحم ساخن ٨–١٠ دقائق مع التقليب.",
+        "قدّمها مع الخبز والطماطم المشوية والبصل بالسماق."
+      ],
+      "tr": [
+        "Eti 3 cm küpler halinde doğrayın; soğanı rendeleyip suyunu sıkın; eti soğan suyu, tuz, karabiber ve yağla ovup buzdolabında 2–4 saat marine edin.",
+        "Küpleri yassı şişlere dizin (geleneksel olarak aralarına kuyruk yağı konur).",
+        "Kızgın kömürde çevirerek 8–10 dakika pişirin.",
+        "Ekmek, közlenmiş domates ve sumaklı soğanla servis edin."
+      ],
+      "en": [
+        "Cut the lamb into 3 cm cubes; grate the onions and squeeze out the juice; rub the meat with the onion juice, salt, pepper and oil and refrigerate for 2–4 hours.",
+        "Thread the cubes onto flat skewers (traditionally alternated with cubes of tail fat).",
+        "Grill over hot charcoal for 8–10 minutes, turning.",
+        "Serve with bread, grilled tomatoes and sumac onions."
+      ]
+    },
+    "tips": {
+      "ar": ["سرّ التكة العراقية جودة اللحم وماء البصل، لا كثرة البهارات."],
+      "tr": ["Irak tikkasının sırrı çok baharat değil, etin kalitesi ve soğan suyudur."],
+      "en": ["The secret of Iraqi tikka is good meat and onion juice, not a heavy spice rub."]
+    },
+    "tags": ["grilled", "street_food"],
+    "sources": [
+      "https://howtomakeakebab.com/kebab/iraqi-tikka",
+      "https://sahhawhana.com/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%B9%D9%85%D9%84_%D8%AA%D9%83%D8%A9_%D9%84%D8%AD%D9%85"
+    ]
+  },
+  {
+    "id": "irq-shifta",
+    "name": {
+      "ar": "شفتة",
+      "tr": "Şifte (Irak Usulü Yassı Köfte)",
+      "en": "Shifta (Iraqi Flat Meat Patties)",
+      "native": "شفتة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "minced_meat", "amount": 500, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "flour", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ابشر البصل وافرم البقدونس ناعماً، واعجنهما مع اللحم والطحين ورب الطماطم والكمون والبهارات والملح والفلفل.",
+        "شكّل كرات ثم اضغطها أقراصاً رفيعة مستطيلة على شكل ورقة الشجر.",
+        "اقلها في زيت ساخن ٣–٤ دقائق لكل جهة حتى تتحمّر.",
+        "قدّمها مع الخبز والخضرة والطماطم والطرشي، أو في السندويش."
+      ],
+      "tr": [
+        "Soğanı rendeleyin, maydanozu ince kıyın; kıyma, un, salça, kimyon, baharat, tuz ve karabiberle yoğurun.",
+        "Toplar yapıp yaprak şeklinde ince, uzun köfteler halinde bastırın.",
+        "Kızgın yağda her yüzünü 3–4 dakika kızarana kadar pişirin.",
+        "Ekmek, yeşillik, domates ve turşuyla veya sandviç içinde servis edin."
+      ],
+      "en": [
+        "Grate the onion and finely chop the parsley; knead them with the meat, flour, tomato paste, cumin, baharat, salt and pepper.",
+        "Roll into balls, then press into thin, elongated leaf-shaped patties.",
+        "Shallow-fry in hot oil for 3–4 minutes per side until browned.",
+        "Serve with bread, greens, tomatoes and pickles, or in sandwiches."
+      ]
+    },
+    "tips": {
+      "ar": ["تصلح للرحلات وعلب المدرسة، ويمكن طبخها بعد القلي في صلصة الطماطم."],
+      "tr": ["Piknik ve okul beslenmesi için idealdir; kızarttıktan sonra domates sosunda da pişirilebilir."],
+      "en": ["Great for picnics and lunch boxes; they can also be simmered in tomato sauce after frying."]
+    },
+    "tags": ["quick", "kids", "fried"],
+    "sources": [
+      "https://www.jewishfoodsociety.org/recipes/shiftas-ground-beef-koftas",
+      "http://www.adventuressheart.com/2011/08/shfta-kurdish-meat-patties.html",
+      "https://www.kurdish-history.com/post/shifta-kurdish-meatball-patty"
+    ]
+  },
+  {
+    "id": "irq-uruq",
+    "name": {
+      "ar": "عروق",
+      "tr": "Uruk (Irak Usulü Otlu Etli Fırın Köftesi)",
+      "en": "Uruq (Iraqi Herb & Meat Patties)",
+      "native": "عروك"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "lunch", "dinner", "snack"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "flour", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "baking_powder", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "green_onion", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 1, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "eggs", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "curry_powder", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "افرم البصل والبصل الأخضر والبقدونس والطماطم والفلفل الحار فرماً ناعماً.",
+        "اخلطها مع اللحم والكاري والكركم والملح والفلفل، ثم أضف الطحين والبيكنج باودر والبيضة والماء تدريجياً حتى يصبح عجيناً طرياً كثيفاً.",
+        "بيدين مبلّلتين افرده أقراصاً بسماكة ١ سم.",
+        "اخبزها في صينية مدهونة بالزيت على ٢٠٠ درجة مئوية ١٥–٢٠ دقيقة (أو اقلها في قليل من الزيت) حتى تتحمّر.",
+        "قدّمها في الصمون مع الباذنجان المقلي والعمبة."
+      ],
+      "tr": [
+        "Soğan, taze soğan, maydanoz, domates ve acı biberi ince kıyın.",
+        "Bunları kıyma, köri, zerdeçal, tuz ve karabiberle karıştırın; sonra un, kabartma tozu, yumurta ve suyu azar azar ekleyerek yumuşak, koyu bir hamur elde edin.",
+        "Islak ellerle 1 cm kalınlığında diskler halinde yayın.",
+        "Yağlanmış tepside 200°C'de 15–20 dakika (veya az yağda) kızarana kadar pişirin.",
+        "Kızarmış patlıcan ve ambayla samun ekmeği içinde servis edin."
+      ],
+      "en": [
+        "Finely chop the onion, green onions, parsley, tomato and chili.",
+        "Mix with the meat, curry powder, turmeric, salt and pepper, then add the flour, baking powder, egg and water gradually to make a soft, thick dough.",
+        "With wet hands, pat into 1 cm-thick discs.",
+        "Bake on an oiled tray at 200°C (400°F) for 15–20 minutes (or shallow-fry) until golden.",
+        "Serve in samoon with fried eggplant and amba."
+      ]
+    },
+    "tips": {
+      "ar": ["من أكلات الشارع في بغداد، وتُخبز أيضاً رغيفاً كاملاً بالخميرة (خبز عروق)."],
+      "tr": ["Bağdat'ın sokak lezzetlerindendir; mayalı hamurla bütün ekmek olarak da pişirilir."],
+      "en": ["A Baghdad street food; it's also baked as a whole yeasted loaf (khubz uruq)."]
+    },
+    "tags": ["street_food", "baked", "baghdad"],
+    "sources": ["https://hildaskitchenblog.com/recipe/arook-iraqi-meat-patties/", "https://maryamsculinarywonders.blogspot.com/2012/07/106-iraqi-iroog-bread.html"]
+  },
+  {
+    "id": "irq-chap",
+    "name": {
+      "ar": "جاب بطاطا",
+      "tr": "Patates Çap (İçli Patates Köftesi)",
+      "en": "Potato Chap (Meat-Stuffed Potato Cakes)",
+      "native": "چاپ"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "appetizer",
+    "prep_minutes": 40,
+    "cook_minutes": 30,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "potato", "amount": 1, "unit": "kg", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "eggs", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "breadcrumbs", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": null,
+        "unit": "to_taste",
+        "optional": false,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق البطاطا بقشرها، ثم قشّرها واهرسها ناعمة مع الملح والكركم، واتركها تبرد.",
+        "للحشوة: حمّر اللحم مع البصل والبهارات والملح والفلفل، وأضف البقدونس.",
+        "خذ كرة من البطاطا واحفرها، واحشها بملعقة من اللحم، وأغلقها واضغطها قرصاً.",
+        "اغمسها في البيض المخفوق ثم في البقسماط.",
+        "اقلها في زيت ساخن حتى تتحمّر من الجهتين، وقدّمها مع العمبة والسلطة."
+      ],
+      "tr": [
+        "Patatesleri kabuklarıyla haşlayın, soyup tuz ve zerdeçalla pürüzsüzce ezin ve soğutun.",
+        "İç için kıymayı soğan, baharat, tuz ve karabiberle kavurun, maydanozu ekleyin.",
+        "Patates hamurundan bir top alıp oyun, bir kaşık iç koyup kapatın ve disk şeklinde bastırın.",
+        "Önce çırpılmış yumurtaya, sonra galeta ununa bulayın.",
+        "Kızgın yağda iki yüzü de kızarana kadar kızartın; amba ve salatayla servis edin."
+      ],
+      "en": [
+        "Boil the potatoes in their skins, peel and mash smoothly with salt and turmeric; let cool.",
+        "For the filling, brown the meat with the onion, baharat, salt and pepper and add the parsley.",
+        "Take a ball of potato, hollow it, fill with a spoonful of meat, seal and flatten into a patty.",
+        "Dip in beaten egg, then in breadcrumbs.",
+        "Fry in hot oil until golden on both sides; serve with amba and salad."
+      ]
+    },
+    "tips": {
+      "ar": ["من مقبلات رمضان المفضّلة، وتُجمَّد قبل القلي."],
+      "tr": ["Ramazan'ın sevilen mezelerindendir; kızartmadan önce dondurulabilir."],
+      "en": ["A Ramadan favourite; freeze them before frying."]
+    },
+    "tags": ["fried", "ramadan", "kids", "street_food"],
+    "sources": [
+      "https://www.internationalcuisine.com/iraqi-potato-chap/",
+      "http://iraqifamilycookbook.blogspot.com/2015/03/potato-chap.html",
+      "https://www.madamasr.com/en/2021/04/21/feature/lifestyle/iraqi-potato-chaps-are-the-ultimate-snack/"
+    ]
+  },
+  {
+    "id": "irq-mash-timman",
+    "name": {
+      "ar": "تمن ماش",
+      "tr": "Maş Fasulyeli Pilav (Timman Maş)",
+      "en": "Timman Mash (Mung Bean Rice)",
+      "native": "تمن ماش"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "mung_beans", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "rice", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Piyazlık", "en": "sliced" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 7,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "٣٫٥ للماش و٣٫٥ للرز",
+          "tr": "3,5'i maş, 3,5'i pirinç için",
+          "en": "3½ for the beans, 3½ for the rice"
+        }
+      },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "yogurt", "amount": 1, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "date_syrup", "amount": null, "unit": "to_taste", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع الماش ساعتين إن أمكن، ثم اسلقه في الماء ٣٠–٤٠ دقيقة حتى ينضج دون أن يتهرّى، وصفّه.",
+        "حمّر شرائح البصل في الزيت ١٠–١٥ دقيقة حتى تتكرمل، وارفع نصفها للتزيين.",
+        "أضف الرز المغسول والماش والبهارات والملح والفلفل، وقلّب، ثم أضف ٣٫٥ أكواب من الماء المغلي.",
+        "اتركه يغلي حتى ينخفض الماء، ثم غطّه واطبخه على نار هادئة ٢٠–٢٥ دقيقة.",
+        "قدّمه مع البصل المحمّر على الوجه، ومع اللبن أو رشّة من دبس التمر."
+      ],
+      "tr": [
+        "Maşı mümkünse iki saat ıslatın, sonra dağılmadan yumuşayana kadar 30–40 dakika haşlayıp süzün.",
+        "Piyazlık soğanı yağda 10–15 dakika karamelize olana kadar kavurun, yarısını süslemek için ayırın.",
+        "Yıkanmış pirinç, maş, baharat, tuz ve karabiberi ekleyip karıştırın, ardından 3,5 su bardağı kaynar su ilave edin.",
+        "Su çekilene kadar kaynatın, sonra kapağı kapatıp kısık ateşte 20–25 dakika pişirin.",
+        "Üzerine kızarmış soğan koyarak yoğurt veya biraz hurma pekmeziyle servis edin."
+      ],
+      "en": [
+        "Soak the mung beans for 2 hours if you can, then boil for 30–40 minutes until tender but not mushy; drain.",
+        "Fry the sliced onions in the oil for 10–15 minutes until caramelised; set half aside for garnish.",
+        "Add the rinsed rice, beans, spices, salt and pepper, stir, then add 3½ cups of boiling water.",
+        "Boil until the water drops, then cover and cook on low for 20–25 minutes.",
+        "Serve topped with the fried onions, with yogurt or a drizzle of date syrup."
+      ]
+    },
+    "tips": {
+      "ar": ["طبق جنوبي شعبي، ويُحضَّر أيضاً طبقات «ماش مطبّق»."],
+      "tr": ["Güney Irak'ın halk yemeğidir; katmanlı 'maş mutabbak' olarak da yapılır."],
+      "en": ["A southern Iraqi home dish, also made in layers as 'mash mtubbaq'."]
+    },
+    "tags": ["budget", "comfort_food", "basra"],
+    "sources": [
+      "https://maryamsculinarywonders.blogspot.com/2016/05/935-iraqi-mung-bean-rice.html",
+      "https://iraqithistle.com/2018/04/07/iraqi-mung-bean-rice/",
+      "https://www.food.com/recipe/iraqi-mung-beans-and-rice-mash-mtubuq-420012"
+    ]
+  },
+  {
+    "id": "irq-kichri",
+    "name": {
+      "ar": "كجري",
+      "tr": "Kırmızı Mercimekli Pilav (Kiçri)",
+      "en": "Kichri (Iraqi Rice & Red Lentils)",
+      "native": "كِچري"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "بسمتي", "tr": "Basmati", "en": "basmati" }
+      },
+      { "ingredient_id": "lentils_red", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "شرائح", "tr": "Piyazlık", "en": "sliced" }
+      },
+      { "ingredient_id": "garlic", "amount": 4, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 4,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مغلي", "tr": "Kaynar", "en": "boiling" }
+      },
+      { "ingredient_id": "salt", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "yogurt", "amount": 1, "unit": "cup", "optional": true, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 4,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "مقلي للتقديم", "tr": "Servis için sahanda", "en": "fried, to serve" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "اغسل الرز والعدس وصفّهما.",
+        "سخّن ملعقة زيت في قدر، وأضف الرز والعدس والملح (ورب الطماطم إن أردت) وقلّب نصف دقيقة.",
+        "أضف الماء المغلي واتركه يغلي، ثم غطّه واطبخه على نار هادئة ٢٠–٢٥ دقيقة، واتركه مغطى ١٠ دقائق.",
+        "في مقلاة حمّر البصل في باقي الزيت حتى يذهّب، وأضف الثوم والكمون دقيقة أو دقيقتين.",
+        "اسكب زيت الثوم والكمون فوق الرز وقلّبه بلطف، وقدّمه مع اللبن والبيض المقلي وسلطة الطماطم."
+      ],
+      "tr": [
+        "Pirinç ve mercimeği yıkayıp süzün.",
+        "Tencerede bir kaşık yağı ısıtın; pirinç, mercimek ve tuzu (isterseniz salçayı) ekleyip yarım dakika çevirin.",
+        "Kaynar suyu ekleyip kaynatın, sonra kapağı kapatıp kısık ateşte 20–25 dakika pişirin ve 10 dakika demlendirin.",
+        "Bir tavada soğanı kalan yağda altın rengi olana kadar kavurun, sarımsak ve kimyonu ekleyip 1–2 dakika çevirin.",
+        "Sarımsaklı kimyonlu yağı pilavın üzerine döküp nazikçe karıştırın; yoğurt, sahanda yumurta ve domates salatasıyla servis edin."
+      ],
+      "en": [
+        "Rinse the rice and lentils and drain.",
+        "Heat 1 tbsp oil in a pot, add the rice, lentils and salt (and tomato paste if using) and stir for 30 seconds.",
+        "Add the boiling water, bring back to a boil, then cover and cook on low for 20–25 minutes; rest, covered, for 10 minutes.",
+        "In a pan, fry the onion in the remaining oil until golden, then add the garlic and cumin for 1–2 minutes.",
+        "Pour the garlic-cumin oil over the rice, fold gently, and serve with yogurt, fried eggs and tomato salad."
+      ]
+    },
+    "tips": {
+      "ar": ["أكلة الأيام النباتية عند العراقيين، واسمها قريب من «الكشري» المصري و«الكتشري» الهندي."],
+      "tr": ["Irak evlerinin etsiz gün yemeğidir; adı Mısır koşarisi ve Hint kiçrisiyle akrabadır."],
+      "en": ["The Iraqi 'meatless night' supper; its name is a cousin of Egyptian koshari and Indian khichri."]
+    },
+    "tags": ["budget", "quick", "comfort_food"],
+    "sources": [
+      "https://www.jewishfoodsociety.org/recipes/kichree-iraqi-rice-and-red-lentils",
+      "http://habibadance.blogspot.com/2014/02/kichree-iraqi-rice-and-lentils-with.html",
+      "https://sephardicspicegirls.com/iraqi-lentils/"
+    ]
+  },
+  {
+    "id": "irq-makhlama",
+    "name": {
+      "ar": "مخلمة",
+      "tr": "Mahlama (Kıymalı Domatesli Yumurta)",
+      "en": "Makhlama (Iraqi Eggs with Meat & Tomato)",
+      "native": "مخلمة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "lunch"],
+    "course": "main",
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "servings": 3,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "minced_meat", "amount": 250, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "eggs", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.25, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "lemon", "amount": 0.5, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "pita_bread", "amount": 3, "unit": "piece", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ليّن البصل المفروم في الزيت ٣–٥ دقائق، ثم أضف اللحم وفتّته بالملعقة حتى يتحمّر حبيبات صغيرة، وأضف الكركم والملح والفلفل.",
+        "أضف الطماطم المقطّعة والبقدونس وعصرة الليمون، واتركها ٣–٥ دقائق.",
+        "اصنع حفراً في الخليط واكسر فيها البيض، ورشّ عليه الملح، وغطِّ المقلاة على نار متوسطة إلى هادئة حتى يجمد البياض ويبقى الصفار طرياً.",
+        "قدّمها في المقلاة مع الخبز الحار."
+      ],
+      "tr": [
+        "Doğranmış soğanı yağda 3–5 dakika yumuşatın, kıymayı ekleyip kaşıkla ufalayarak kızartın; zerdeçal, tuz ve karabiberi ekleyin.",
+        "Doğranmış domates, maydanoz ve biraz limon suyunu ekleyip 3–5 dakika pişirin.",
+        "Karışımda çukurlar açıp yumurtaları kırın, üzerlerine tuz serpin; beyazı pişip sarısı akışkan kalana kadar tavayı kapatıp orta-kısık ateşte pişirin.",
+        "Tavada, sıcak ekmekle servis edin."
+      ],
+      "en": [
+        "Soften the chopped onion in the oil for 3–5 minutes, add the meat and break it into small crumbs as it browns; add the turmeric, salt and pepper.",
+        "Add the chopped tomatoes, parsley and a squeeze of lemon and cook for 3–5 minutes.",
+        "Make wells in the mixture and crack in the eggs, sprinkle with salt, cover and cook on medium-low until the whites set and the yolks are still soft.",
+        "Serve from the pan with warm bread."
+      ]
+    },
+    "tips": {
+      "ar": ["فطور عراقي كلاسيكي، والكركم هو بهاره الأساسي."],
+      "tr": ["Klasik bir Irak kahvaltısıdır; ana baharatı zerdeçaldır."],
+      "en": ["A classic Iraqi breakfast; turmeric is its signature spice."]
+    },
+    "tags": ["breakfast_classic", "quick"],
+    "sources": [
+      "https://www.nigella.com/recipes/guests/makhlama-lahm---iraqi-eggs",
+      "https://www.saveur.com/article/recipes/makhlama-lahm-iraqi-eggs-with-lamb-and-tomatoes",
+      "http://www.addalittlelemon.com/blog/2016/9/13/iraqi-breakfast-101-makhlama"
+    ]
+  },
+  {
+    "id": "irq-bagila-bil-dihin",
+    "name": {
+      "ar": "باقلاء بالدهن",
+      "tr": "Bakla bil Dihin (Yumurtalı Bakla Tiridi)",
+      "en": "Bagila bil Dihin (Fava Beans, Bread & Eggs)",
+      "native": "باگلة بالدهن"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast"],
+    "course": "main",
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "fava_beans",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "باقلاء يابسة كبيرة منقوعة ليلة",
+          "tr": "Bir gece ıslatılmış iri kuru bakla",
+          "en": "large dried fava, soaked overnight"
+        }
+      },
+      {
+        "ingredient_id": "pita_bread",
+        "amount": 4,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "خبز تنور", "tr": "Tandır ekmeği", "en": "Iraqi tannour bread" }
+      },
+      { "ingredient_id": "eggs", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ghee",
+        "amount": 4,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "أو زيت", "tr": "veya sıvı yağ", "en": "or oil" }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مفروم ناعماً للتقديم", "tr": "Servis için ince doğranmış", "en": "finely chopped, to serve" }
+      },
+      { "ingredient_id": "parsley", "amount": 0.25, "unit": "bunch", "optional": true, "note": "" },
+      { "ingredient_id": "dried_mint", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع الباقلاء ليلة كاملة، ثم اسلقها في ماء جديد ٤٥–٦٠ دقيقة حتى تطرى، وملّحها، وأبقِ ماء السلق ساخناً.",
+        "قطّع الخبز واغمسه بسرعة في ماء الباقلاء الساخن ليطرى دون أن يتفتّت، وافرده في صحن كبير.",
+        "وزّع الباقلاء مع قليل من مائها فوق الخبز.",
+        "اقلِ البيض في السمن، وسخّن ما تبقّى من السمن حتى يصبح حارّاً جداً.",
+        "ضع البيض فوق الباقلاء واسكب السمن الحار، ورشّ البصل والبقدونس والبطنج، وقدّمه مع الليمون."
+      ],
+      "tr": [
+        "Baklayı bir gece ıslatın, sonra taze suda 45–60 dakika yumuşayana kadar haşlayıp tuzlayın; haşlama suyunu sıcak tutun.",
+        "Ekmeği doğrayıp sıcak bakla suyuna hızlıca batırın, dağılmadan yumuşasın; büyük bir tabağa yayın.",
+        "Baklayı biraz suyuyla ekmeğin üzerine paylaştırın.",
+        "Yumurtaları sade yağda pişirin, kalan yağı iyice kızdırın.",
+        "Yumurtaları baklanın üzerine koyup kızgın yağı gezdirin; soğan, maydanoz ve kuru nane serpip limonla servis edin."
+      ],
+      "en": [
+        "Soak the fava beans overnight, then boil in fresh water for 45–60 minutes until tender; salt them and keep the cooking liquid hot.",
+        "Tear the bread and dip it quickly in the hot bean liquid so it softens without falling apart; spread it on a large plate.",
+        "Spoon the beans and a little of their liquid over the bread.",
+        "Fry the eggs in ghee, then heat the remaining ghee until very hot.",
+        "Set the eggs on the beans, pour over the hot ghee, sprinkle with onion, parsley and dried mint, and serve with lemon."
+      ]
+    },
+    "tips": {
+      "ar": ["فطور العمّال الشعبي في بغداد، يُؤكل باكراً في مطاعم الباقلاء."],
+      "tr": ["Bağdat'ta işçilerin halk kahvaltısıdır; sabah erkenden baklacılarda yenir."],
+      "en": ["Baghdad's working breakfast, eaten early at dedicated bagila shops."]
+    },
+    "tags": ["breakfast_classic", "street_food", "budget", "baghdad"],
+    "sources": [
+      "https://www.measuringcupsoptional.com/iraqi-breakfast-bagila-bil-dihin-fried-eggs-broad-beans/",
+      "https://scoopempire.com/the-recipe-bagila-bil-dihin-the-ultimate-iraqi-breakfast/",
+      "https://visit-iraq.com/en/food/bagila-bil-dihin"
+    ]
+  },
+  {
+    "id": "irq-lablabi",
+    "name": {
+      "ar": "لبلبي",
+      "tr": "Leblebi (Irak Usulü Limonlu Sıcak Nohut)",
+      "en": "Lablabi (Iraqi Hot Chickpeas with Lemon)",
+      "native": "لبلبي"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "snack"],
+    "course": "soup",
+    "prep_minutes": 5,
+    "cook_minutes": 90,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chickpeas",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "يابس منقوع ليلة", "tr": "Kuru, bir gece ıslatılmış", "en": "dried, soaked overnight" }
+      },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "lemon", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع الحمص ليلة كاملة ثم صفّه.",
+        "اسلقه في ماء جديد ساعة إلى ساعة ونصف حتى يطرى تماماً مع إزالة الرغوة، وأضف الملح والكركم في النصف الثاني من الطبخ.",
+        "اغرف الحمص مع قليل من مائه في أكواب أو صحون صغيرة.",
+        "اعصر عليه الليمون ورشّ الكمون والفلفل، وكُله ساخناً."
+      ],
+      "tr": [
+        "Nohudu bir gece ıslatıp süzün.",
+        "Taze suda köpüğünü alarak 1–1,5 saat tamamen yumuşayana kadar haşlayın; tuz ve zerdeçalı pişirmenin ikinci yarısında ekleyin.",
+        "Nohudu biraz suyuyla birlikte bardaklara veya küçük kaselere alın.",
+        "Üzerine limon sıkıp kimyon ve karabiber serpin, sıcak yiyin."
+      ],
+      "en": [
+        "Soak the chickpeas overnight and drain.",
+        "Boil in fresh water for 1–1½ hours, skimming, until completely soft; add the salt and turmeric in the second half of cooking.",
+        "Ladle the chickpeas with some of their liquid into cups or small bowls.",
+        "Squeeze over lemon, sprinkle with cumin and pepper, and eat hot."
+      ]
+    },
+    "tips": {
+      "ar": ["تباع على عربات الشارع في ليالي الشتاء، وتختلف عن «اللبلابي» التونسي الذي يُقدَّم شوربة حارّة بالخبز."],
+      "tr": ["Kış gecelerinde seyyar arabalarda satılır; ekmekli acı çorba olan Tunus leblebisinden farklıdır."],
+      "en": ["Sold from street carts on winter nights; different from Tunisian lablabi, a spicy soup over bread."]
+    },
+    "tags": ["street_food", "winter", "budget"],
+    "sources": [
+      "https://maryamsculinarywonders.blogspot.com/2012/11/250-lablabi-iraqi-chickpea-soup.html",
+      "https://www.crsricebowl.org/recipes/lablabi-soup-iraq",
+      "https://baghdadcuisine.wordpress.com/2022/08/10/lablabi-chickpea-iraqi-snack/"
+    ]
+  },
+  {
+    "id": "irq-sambusak-btawa",
+    "name": {
+      "ar": "سمبوسك بالتاوة",
+      "tr": "Nohutlu Tava Sambuseki",
+      "en": "Sambusak b'Tawa (Chickpea Turnovers)",
+      "native": "سمبوسك بالتاوة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "snack"],
+    "course": "pastry",
+    "prep_minutes": 90,
+    "cook_minutes": 20,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "فاتر", "tr": "Ilık", "en": "lukewarm" }
+      },
+      {
+        "ingredient_id": "chickpeas",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مسلوق", "tr": "Haşlanmış", "en": "cooked" }
+      },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "curry_powder", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "ملعقتان للحشوة والباقي للقلي",
+          "tr": "2 yemek kaşığı iç için, kalanı kızartmak için",
+          "en": "2 tbsp for the filling, the rest for frying"
+        }
+      },
+      { "ingredient_id": "salt", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الطحين والخميرة والسكر، وأضف الماء تدريجياً ثم الملح، واعجنه ١٠ دقائق حتى يصبح ليّناً لامعاً، واتركه يختمر ساعة.",
+        "حمّر البصل المفروم في ملعقتي زيت حتى يذهّب (نحو ٨ دقائق)، وأضف الكركم والكاري والكمون والملح والفلفل دقيقة.",
+        "أضف الحمص واهرسه أو افرمه فرماً خشناً، واترك الحشوة تبرد.",
+        "قسّم العجين كرات بحجم الجوزة، ومدّ كل كرة دائرة رقيقة بقطر ١٠ سم، واحشها بملعقة وأغلقها نصف دائرة واضغط الأطراف.",
+        "اقلها في طبقة زيت بعمق نصف سم على نار متوسطة دقيقة إلى دقيقتين لكل جهة حتى تذهّب.",
+        "قدّمها دافئة مع العمبة أو الشاي."
+      ],
+      "tr": [
+        "Un, maya ve şekeri karıştırın, suyu azar azar sonra tuzu ekleyip 10 dakika yumuşak ve parlak olana kadar yoğurun; bir saat mayalandırın.",
+        "Doğranmış soğanı iki kaşık yağda altın rengi olana kadar (yaklaşık 8 dakika) kavurun; zerdeçal, köri, kimyon, tuz ve karabiberi ekleyip bir dakika çevirin.",
+        "Nohudu ekleyip iri iri ezin veya robotta çekin, içi soğutun.",
+        "Hamuru ceviz büyüklüğünde toplara bölün, her birini 10 cm çapında ince açın, bir kaşık iç koyup yarım ay şeklinde kapatın ve kenarlarını bastırın.",
+        "Yarım cm yağda orta ateşte her yüzünü 1–2 dakika altın rengi olana kadar kızartın.",
+        "Amba veya çayla ılık servis edin."
+      ],
+      "en": [
+        "Mix the flour, yeast and sugar, add the water gradually and then the salt, and knead for 10 minutes into a soft, shiny dough; let rise for an hour.",
+        "Fry the chopped onion in 2 tbsp oil until golden (about 8 minutes), then add the turmeric, curry powder, cumin, salt and pepper for a minute.",
+        "Add the chickpeas, mash or pulse to a coarse mixture and let the filling cool.",
+        "Divide the dough into walnut-sized balls, stretch each into a thin 10 cm (4 in) circle, add a spoonful of filling, fold into a half-moon and press the edges.",
+        "Shallow-fry in ½ cm of oil over medium heat for 1–2 minutes per side until golden.",
+        "Serve warm with amba or tea."
+      ]
+    },
+    "tips": {
+      "ar": ["«التاوة» هي المقلاة؛ وهي من أكلات يهود العراق للأعياد وصباح السبت."],
+      "tr": ["'Tava' kızartma tavası demektir; Iraklı Yahudilerin bayram ve cumartesi sabahı yiyeceğidir."],
+      "en": ["'Tawa' means frying pan; a holiday and Saturday-morning favourite of Iraqi Jewish families."]
+    },
+    "tags": ["fried", "street_food", "ramadan"],
+    "sources": [
+      "https://www.jewishfoodsociety.org/recipes/sambousak-btawa-iraqi-fried-turnovers-with-chickpeas-and-turmeric",
+      "https://veredguttman.com/sambousak-btawa-iraqi-chickpea-filled-turnovers/",
+      "https://foodish.anumuseum.org.il/en/community-recipe/sambusak-btawa/"
+    ]
+  }
+]

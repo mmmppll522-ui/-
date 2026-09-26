@@ -1,0 +1,990 @@
+[
+  {
+    "id": "irq-amba",
+    "name": {
+      "ar": "عمبة",
+      "tr": "Amba (Irak Usulü Mango Turşusu Sosu)",
+      "en": "Amba (Iraqi Pickled Mango Sauce)",
+      "native": "عمبة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "sauce",
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "servings": 12,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "mango",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "خضراء غير ناضجة", "tr": "Yeşil, olgunlaşmamış", "en": "green, unripe" }
+      },
+      { "ingredient_id": "salt", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "fenugreek",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مطحونة", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "hot_pepper", "amount": 1, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "garlic", "amount": 3, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "vinegar", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 0.5, "unit": "cup", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "قشّر المانجو وقطّع لبّها مكعبات صغيرة، واخلطها بالملح، وغطّها واتركها في الثلاجة يوماً (حتى ٣ أيام)، ثم تخلّص من السائل الزائد.",
+        "سخّن الزيت وقلّب الثوم والفلفل الحار دقيقة، ثم أضف الكركم والحلبة والكمون نصف دقيقة.",
+        "أضف المانجو والخل والماء، واتركها على نار هادئة ١٠–١٥ دقيقة حتى تطرى قليلاً.",
+        "اهرسها جزئياً أو اخلطها بالخلاط لتصبح صلصة ناعمة.",
+        "عبّئها في مرطبان نظيف واحفظها في الثلاجة؛ تبقى ٢–٣ أسابيع."
+      ],
+      "tr": [
+        "Mangoları soyup etini küçük küpler halinde doğrayın, tuzla karıştırın, üzerini kapatıp bir gün (en fazla 3 gün) buzdolabında bekletin; fazla suyunu dökün.",
+        "Yağı ısıtıp sarımsak ve acı biberi bir dakika çevirin, ardından zerdeçal, çemen ve kimyonu ekleyip yarım dakika kavurun.",
+        "Mango, sirke ve suyu ekleyip biraz yumuşayana kadar kısık ateşte 10–15 dakika pişirin.",
+        "Kısmen ezin veya pürüzsüz bir sos için blenderdan geçirin.",
+        "Temiz bir kavanoza koyup buzdolabında saklayın; 2–3 hafta dayanır."
+      ],
+      "en": [
+        "Peel the mangoes, dice the flesh small, toss with the salt, cover and refrigerate for a day (up to 3), then pour off the excess liquid.",
+        "Heat the oil and fry the garlic and chili for a minute, then add the turmeric, fenugreek and cumin for 30 seconds.",
+        "Add the mango, vinegar and water and simmer for 10–15 minutes until slightly softened.",
+        "Mash partly, or blend for a smooth sauce.",
+        "Spoon into a clean jar and refrigerate; it keeps for 2–3 weeks."
+      ]
+    },
+    "tips": {
+      "ar": ["وصلت العمبة إلى البصرة من الهند عبر التجارة، وصارت رفيقة الكباب والفلافل والعروق والسمك.", "مدة التمليح لا تُحسب في وقت التحضير."],
+      "tr": [
+        "Amba, ticaret yoluyla Hindistan'dan Basra'ya gelmiş; kebap, falafel, uruk ve balığın vazgeçilmez eşlikçisi olmuştur.",
+        "Tuzlama süresi hazırlık süresine dahil değildir."
+      ],
+      "en": [
+        "Amba reached Basra from India through trade and became the go-to partner for kebab, falafel, uruq and fish.",
+        "The salting time isn't included in the prep time."
+      ]
+    },
+    "tags": ["preserve", "make_ahead", "basra"],
+    "sources": [
+      "http://www.sarakhudairy.com/historically-hungry/Amba",
+      "https://www.myjewishlearning.com/the-nosher/your-new-favorite-israeli-condiment-amba-a-pickled-mango-sauce/",
+      "https://cardamomandtea.com/42/amba/"
+    ]
+  },
+  {
+    "id": "irq-samoon",
+    "name": { "ar": "صمون", "tr": "Samun Ekmeği", "en": "Samoon (Iraqi Diamond Bread)", "native": "صمّون" },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "lunch", "dinner"],
+    "course": "bread",
+    "prep_minutes": 120,
+    "cook_minutes": 12,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "yeast", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "فاتر", "tr": "Ilık", "en": "lukewarm" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "sesame_seeds", "amount": 1, "unit": "tbsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ذوّب الخميرة والسكر في الماء الفاتر ٥ دقائق، ثم اخلط الطحين والملح والزيت وأضف ماء الخميرة، واعجنه ١٠ دقائق حتى يصبح ناعماً.",
+        "غطّه واتركه يختمر ساعة إلى ساعة ونصف حتى يتضاعف حجمه.",
+        "قسّمه ٨ قطع، وشكّل كل قطعة بيضاوية ثم اسحب طرفيها المتقابلين ورقّقهما ليصبح شكلها معيّناً بطول ١٨ سم، واشرط سطحها، واتركها ترتاح ٢٠ دقيقة، ثم ادهنها بالماء ورشّ السمسم.",
+        "اخبزها على حجر أو صينية مسخّنة في فرن ٢٤٠ درجة مئوية ١٠–١٢ دقيقة حتى تذهّب.",
+        "غطّها بمنشفة وهي تبرد لتبقى قشرتها طرية."
+      ],
+      "tr": [
+        "Maya ve şekeri ılık suda 5 dakika eritin; un, tuz ve yağı karıştırıp mayalı suyu ekleyin ve 10 dakika pürüzsüz olana kadar yoğurun.",
+        "Üzerini örtüp iki katına çıkana kadar 1–1,5 saat mayalandırın.",
+        "8 parçaya bölün, her birini oval şekillendirip karşılıklı iki ucunu çekip inceltin ve 18 cm'lik baklava dilimi şekli verin; üstüne çizik atın, 20 dakika dinlendirin, suyla fırçalayıp susam serpin.",
+        "Önceden ısıtılmış taş veya tepside 240°C fırında 10–12 dakika altın rengi olana kadar pişirin.",
+        "Kabuğu yumuşak kalsın diye soğurken üzerini bezle örtün."
+      ],
+      "en": [
+        "Dissolve the yeast and sugar in the warm water for 5 minutes; mix the flour, salt and oil, add the yeast water and knead for 10 minutes until smooth.",
+        "Cover and let rise for 1–1½ hours until doubled.",
+        "Divide into 8, shape each into an oval, then pull the opposite ends out and taper them into an 18 cm (7 in) diamond; slash the top, rest for 20 minutes, brush with water and sprinkle with sesame.",
+        "Bake on a preheated stone or tray at 240°C (465°F) for 10–12 minutes until golden.",
+        "Cover with a towel as they cool so the crust stays soft."
+      ]
+    },
+    "tips": {
+      "ar": ["خبز الفطور العراقي مع القيمر، ويُحشى بالكباب والفلافل والعروق."],
+      "tr": ["Kaymaklı Irak kahvaltısının ekmeğidir; kebap, falafel ve uruk ile doldurulur."],
+      "en": ["Iraq's breakfast bread with geymar, and the go-to roll for kebab, falafel and uruq."]
+    },
+    "tags": ["baked", "breakfast_classic"],
+    "sources": [
+      "https://www.196flavors.com/iraq-samoon/",
+      "https://www.mycookingjourney.com/samoon-iraqi-flatbread/",
+      "https://www.habibiwhatscooking.com/recipeblog/iraqi-samoon-bread"
+    ]
+  },
+  {
+    "id": "irq-khubz-tannour",
+    "name": {
+      "ar": "خبز تنور عراقي",
+      "tr": "Irak Tandır Ekmeği",
+      "en": "Iraqi Khubz Tannour (Flatbread)",
+      "native": "خبز تنّور"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "lunch", "dinner"],
+    "course": "bread",
+    "prep_minutes": 120,
+    "cook_minutes": 30,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 1, "unit": "kg", "optional": false, "note": "" },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 600,
+        "unit": "ml",
+        "optional": false,
+        "note": { "ar": "فاتر، تقريباً", "tr": "Ilık, yaklaşık", "en": "lukewarm, approximately" }
+      },
+      { "ingredient_id": "nigella_seeds", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "sesame_seeds", "amount": 1, "unit": "tbsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الطحين والملح والخميرة، وأضف الماء تدريجياً واعجنه ١٠ دقائق حتى يصبح ليّناً، ثم اتركه يختمر ساعة إلى ساعتين.",
+        "قسّمه ٨ كرات واتركها ترتاح ١٥ دقيقة.",
+        "سخّن الفرن على ٢٥٠ درجة مئوية مع حجر بيتزا أو صينية ثقيلة على الرف السفلي ٣٠ دقيقة.",
+        "افرد كل كرة رغيفاً رقيقاً بقطر ٢٥ سم، ورشّ عليه حبة البركة أو السمسم، واخبزه على الحجر ٤–٦ دقائق حتى تظهر عليه بقع ذهبية.",
+        "لفّ الأرغفة بمنشفة، وكُلها طازجة."
+      ],
+      "tr": [
+        "Un, tuz ve mayayı karıştırın, suyu azar azar ekleyip 10 dakika yumuşak olana kadar yoğurun; 1–2 saat mayalandırın.",
+        "8 topa bölüp 15 dakika dinlendirin.",
+        "Fırını alt rafta pizza taşı veya kalın bir tepsiyle 250°C'de 30 dakika ısıtın.",
+        "Her topu 25 cm çapında ince açın, çörek otu veya susam serpin ve taşın üzerinde altın benekler çıkana kadar 4–6 dakika pişirin.",
+        "Ekmekleri bir beze sarın ve taze tüketin."
+      ],
+      "en": [
+        "Mix the flour, salt and yeast, add the water gradually and knead for 10 minutes into a soft dough; let rise for 1–2 hours.",
+        "Divide into 8 balls and rest for 15 minutes.",
+        "Heat the oven to 250°C (480°F) with a pizza stone or heavy tray on the bottom rack for 30 minutes.",
+        "Stretch each ball into a thin 25 cm (10 in) round, sprinkle with nigella or sesame, and bake on the stone for 4–6 minutes until spotted golden.",
+        "Wrap the breads in a towel and eat fresh."
+      ]
+    },
+    "tips": {
+      "ar": ["يُسمّى أيضاً «خبز الماي» لأنه بلا دهن، ويُلصق تقليدياً على جدار التنور الطيني."],
+      "tr": ["Yağsız olduğu için 'su ekmeği' de denir; geleneksel olarak kil tandırın duvarına yapıştırılır."],
+      "en": ["Also called 'water bread' because it has no fat; traditionally slapped onto the wall of a clay tannour."]
+    },
+    "tags": ["baked", "breakfast_classic"],
+    "sources": [
+      "https://hildaskitchenblog.com/recipe/iraqi-khubz-kuboos/",
+      "https://www.iraqicookbook.com/recipes/bread",
+      "https://shosholuv.com/khubz-traditional-iraqi-bread/"
+    ]
+  },
+  {
+    "id": "irq-kahi-geymar",
+    "name": {
+      "ar": "كاهي وقيمر",
+      "tr": "Kahi ve Kaymak",
+      "en": "Kahi & Geymar (Flaky Pastry with Clotted Cream)",
+      "native": "كاهي وگيمر"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast"],
+    "course": "pastry",
+    "prep_minutes": 60,
+    "cook_minutes": 20,
+    "servings": 8,
+    "difficulty": "hard",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "كوب للعجين ونصف كوب للقطر",
+          "tr": "1 bardak hamur, yarım bardak şurup için",
+          "en": "1 cup for the dough, ½ cup for the syrup"
+        }
+      },
+      { "ingredient_id": "salt", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ghee",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مذوّبة", "tr": "Eritilmiş", "en": "melted" }
+      },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 0.5, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "ashta",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "قيمر", "tr": "Kaymak", "en": "geymar (clotted cream)" }
+      },
+      { "ingredient_id": "date_syrup", "amount": null, "unit": "to_taste", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اعجن الطحين والملح وكوب الماء عجيناً ناعماً ليّناً، واتركه يرتاح ٣٠ دقيقة.",
+        "قسّمه ٨ كرات، وافرد كل كرة رقيقة جداً وادهنها بالسمن، وضع أربع طبقات فوق بعضها، ثم لفّها أسطوانة ولفّ الأسطوانة حلزوناً، واتركها ١٥ دقيقة.",
+        "افرد كل حلزون مربعاً أو دائرة بعرض ١٥ سم، وضعه في صينية وادهنه بالسمن.",
+        "اخبزه في فرن ٢٢٠ درجة مئوية ١٥–٢٠ دقيقة حتى ينتفخ ويذهّب.",
+        "اغلِ السكر مع نصف كوب الماء ٥ دقائق وأضف عصير الليمون، واسكب القطر الدافئ فوق الكاهي الساخن.",
+        "قدّمه مع القيمر ودبس التمر للتغميس."
+      ],
+      "tr": [
+        "Un, tuz ve bir bardak suyu yumuşak ve pürüzsüz bir hamur olacak şekilde yoğurup 30 dakika dinlendirin.",
+        "8 topa bölün, her birini çok ince açıp sade yağla fırçalayın, dört katı üst üste koyup rulo yapın, ruloyu salyangoz gibi sarın ve 15 dakika bekletin.",
+        "Her salyangozu 15 cm'lik kare veya daire şeklinde açıp tepsiye koyun ve sade yağ sürün.",
+        "220°C fırında kabarıp altın rengi olana kadar 15–20 dakika pişirin.",
+        "Şekeri yarım bardak suyla 5 dakika kaynatıp limon suyunu ekleyin; ılık şurubu sıcak kahilerin üzerine dökün.",
+        "Kaymak ve banmak için hurma pekmeziyle servis edin."
+      ],
+      "en": [
+        "Knead the flour, salt and 1 cup of water into a soft, smooth dough and rest for 30 minutes.",
+        "Divide into 8 balls, roll each very thin and brush with ghee; stack four layers, roll them into a log, coil the log like a snail and rest for 15 minutes.",
+        "Roll each coil into a 15 cm (6 in) square or round, place on a tray and brush with ghee.",
+        "Bake at 220°C (430°F) for 15–20 minutes until puffed and golden.",
+        "Boil the sugar with ½ cup water for 5 minutes and add the lemon juice; pour the warm syrup over the hot kahi.",
+        "Serve with geymar, and date syrup for dipping."
+      ]
+    },
+    "tips": {
+      "ar": ["فطور الجمعة البغدادي؛ القيمر العراقي يُصنع تقليدياً من حليب الجاموس.", "للاختصار استعمل رقائق الفيلو المدهونة بالسمن."],
+      "tr": ["Bağdat'ın cuma kahvaltısıdır; Irak kaymağı geleneksel olarak manda sütünden yapılır.", "Kısa yol için sade yağla fırçalanmış yufka kullanın."],
+      "en": ["Baghdad's Friday breakfast; Iraqi geymar is traditionally made from water-buffalo milk.", "For a shortcut, use sheets of filo brushed with ghee."]
+    },
+    "tags": ["breakfast_classic", "baked", "sweet", "baghdad"],
+    "sources": [
+      "https://www.196flavors.com/iraq-kahi/",
+      "https://maryamsculinarywonders.blogspot.com/2018/12/1200-iraqi-kahi.html",
+      "https://www.hungrypaprikas.com/kaymak-geymar-with-kahi/"
+    ]
+  },
+  {
+    "id": "irq-kleicha",
+    "name": {
+      "ar": "كليجة",
+      "tr": "Kleiça (Irak Usulü Hurmalı Kurabiye)",
+      "en": "Kleicha (Iraqi Date Cookies)",
+      "native": "كليچة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 45,
+    "cook_minutes": 20,
+    "servings": 30,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "butter",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "مذوّبة، مع ملعقة للحشوة",
+          "tr": "Eritilmiş, bir kaşığı iç için",
+          "en": "melted, plus 1 tbsp for the filling"
+        }
+      },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 2,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "milk",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "دافئ", "tr": "Ilık", "en": "warm" }
+      },
+      { "ingredient_id": "date_paste", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "cinnamon", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "eggs",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "للدهن", "tr": "Üzeri için", "en": "for brushing" }
+      },
+      { "ingredient_id": "sesame_seeds", "amount": 2, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "nigella_seeds", "amount": 1, "unit": "tsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الطحين والزبدة المذوّبة والخميرة والسكر وملعقة هيل والملح، وأضف الحليب الدافئ واعجنه عجيناً طرياً، واتركه ٣٠ دقيقة.",
+        "للحشوة: سخّن معجون التمر مع ملعقة الزبدة وباقي الهيل والقرفة، واهرسه حتى ينعم، واتركه يبرد.",
+        "افرد العجين بسماكة نصف سم، وافرد عليه طبقة رقيقة من التمر، ولفّه أسطوانة وقطّعه شرائح بعرض ١٫٥ سم (أو قطّعه دوائر واحشها واضغطها في القالب).",
+        "رتّبها في صينية، وادهنها بالبيض المخفوق، ورشّ السمسم وحبة البركة.",
+        "اخبزها على ١٨٠ درجة مئوية ١٨–٢٢ دقيقة حتى يذهّب أسفلها قليلاً.",
+        "اتركها تبرد واحفظها في علبة محكمة حتى أسبوعين."
+      ],
+      "tr": [
+        "Un, eritilmiş tereyağı, maya, şeker, bir kaşık kakule ve tuzu karıştırın; ılık sütü ekleyip yumuşak bir hamur yoğurun ve 30 dakika bekletin.",
+        "İç için hurma ezmesini bir kaşık tereyağı, kalan kakule ve tarçınla ısıtıp pürüzsüz olana kadar ezin, soğutun.",
+        "Hamuru yarım cm kalınlığında açıp üzerine ince bir kat hurma yayın; rulo yapıp 1,5 cm'lik dilimler kesin (veya daireler kesip doldurun ve kalıpta bastırın).",
+        "Tepsiye dizip çırpılmış yumurta sürün, susam ve çörek otu serpin.",
+        "180°C'de altları hafif kızarana kadar 18–22 dakika pişirin.",
+        "Soğutup kapalı kapta iki haftaya kadar saklayın."
+      ],
+      "en": [
+        "Mix the flour, melted butter, yeast, sugar, 1 tsp cardamom and salt, add the warm milk and knead into a soft dough; rest for 30 minutes.",
+        "For the filling, warm the date paste with 1 tbsp butter, the remaining cardamom and the cinnamon, mashing until smooth; let cool.",
+        "Roll the dough ½ cm thick, spread with a thin layer of dates, roll up into a log and cut into 1.5 cm slices (or cut circles, fill and press into a mould).",
+        "Arrange on a tray, brush with beaten egg and sprinkle with sesame and nigella.",
+        "Bake at 180°C (350°F) for 18–22 minutes until lightly golden underneath.",
+        "Cool and store airtight for up to two weeks."
+      ]
+    },
+    "tips": {
+      "ar": ["الكليجة كعك العيد الوطني في العراق، وتُحشى أيضاً بالجوز والسكر أو بجوز الهند."],
+      "tr": ["Kleiça Irak'ın milli bayram kurabiyesidir; cevizli-şekerli veya hindistancevizli de yapılır."],
+      "en": ["Kleicha is Iraq's national holiday cookie; it's also filled with walnuts and sugar or coconut."]
+    },
+    "tags": ["eid", "baked", "sweet", "celebration"],
+    "sources": [
+      "https://www.carolinescooking.com/kleicha-iraqi-date-cookies/",
+      "https://www.unicornsinthekitchen.com/kleicha-iraqi-date-cookies/",
+      "https://www.middleeasteye.net/discover/how-make-sweet-cookies-kleicha-recipe-iraq"
+    ]
+  },
+  {
+    "id": "irq-zarda",
+    "name": {
+      "ar": "زردة",
+      "tr": "Zerde (Irak Usulü Safranlı Pirinç Tatlısı)",
+      "en": "Zarda (Iraqi Saffron Rice Pudding)",
+      "native": "زردة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "قصير الحبة، منقوع ساعة",
+          "tr": "Kısa taneli, bir saat ıslatılmış",
+          "en": "short-grain, soaked for an hour"
+        }
+      },
+      { "ingredient_id": "water", "amount": 6, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      { "ingredient_id": "rose_water", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Toz", "en": "ground" }
+      },
+      { "ingredient_id": "almonds", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": null,
+        "unit": "to_taste",
+        "optional": true,
+        "note": { "ar": "للتزيين", "tr": "Süslemek için", "en": "to garnish" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "اغسل الرز وانقعه ساعة.",
+        "اسلقه في الماء على نار متوسطة مع التحريك حتى يتهرّى الرز ويثخن الماء (نحو ٤٠ دقيقة).",
+        "انقع الزعفران في ماء الورد ٣٠ دقيقة.",
+        "أضف السكر والهيل ومنقوع الزعفران، واتركه ١٠–١٥ دقيقة مع التحريك حتى يثخن ويلمع.",
+        "اسكبه في صحون وزيّنه باللوز والقرفة، وقدّمه دافئاً أو بارداً."
+      ],
+      "tr": [
+        "Pirinci yıkayıp bir saat ıslatın.",
+        "Pirinç dağılıp su koyulaşana kadar orta ateşte karıştırarak yaklaşık 40 dakika haşlayın.",
+        "Safranı gül suyunda 30 dakika bekletin.",
+        "Şeker, kakule ve safranlı gül suyunu ekleyip koyulaşıp parlayana kadar karıştırarak 10–15 dakika pişirin.",
+        "Kaselere paylaştırıp badem ve tarçınla süsleyin; ılık veya soğuk servis edin."
+      ],
+      "en": [
+        "Rinse the rice and soak for an hour.",
+        "Simmer it in the water over medium heat, stirring, until the grains break down and the liquid thickens (about 40 minutes).",
+        "Steep the saffron in the rose water for 30 minutes.",
+        "Add the sugar, cardamom and saffron water and cook for 10–15 minutes, stirring, until thick and glossy.",
+        "Pour into bowls, garnish with almonds and cinnamon, and serve warm or cold."
+      ]
+    },
+    "tips": {
+      "ar": ["تُطبخ نذراً في المناسبات الدينية، وتُقدَّم غالباً بجانب «الحليب» (رز بالحليب) في صحن واحد: «زردة وحليب»."],
+      "tr": ["Dini günlerde adak olarak pişirilir; çoğu zaman sütlaçla aynı tabakta 'zerde ve süt' olarak sunulur."],
+      "en": ["Made as a votive offering on religious occasions, and often served alongside rice pudding in one dish as 'zarda w haleeb'."]
+    },
+    "tags": ["muharram", "sweet", "celebration"],
+    "sources": [
+      "https://mawdoo3.com/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%B2%D8%B1%D8%AF%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9",
+      "https://sahhawhana.com/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%B9%D9%85%D9%84_%D8%A7%D9%84%D8%B2%D8%B1%D8%AF%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9",
+      "https://cookpad.com/jo/%D9%88%D8%B5%D9%81%D8%A7%D8%AA/3768563"
+    ]
+  },
+  {
+    "id": "irq-halawat-shiriya",
+    "name": {
+      "ar": "حلاوة شعرية",
+      "tr": "Şehriye Helvası",
+      "en": "Halawat Sha'riyya (Sweet Golden Vermicelli)",
+      "native": "حلاوة شعريّة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 5,
+    "cook_minutes": 25,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "vermicelli",
+        "amount": 250,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "أعشاش مفتّتة", "tr": "Kuş yuvası, ufalanmış", "en": "nests, crushed" }
+      },
+      { "ingredient_id": "butter", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ساخن", "tr": "Sıcak", "en": "hot" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "pinch", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "walnuts", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      {
+        "ingredient_id": "pistachios",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "مطحون", "tr": "Çekilmiş", "en": "ground" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "ذوّب الزبدة مع الزيت، وفتّت الشعرية فيها وقلّبها باستمرار حتى تصبح ذهبية داكنة (نحو ٥ دقائق).",
+        "أضف الماء الساخن بحذر والملح، واتركه يغلي ثم خفّف النار وغطّه ٤–٥ دقائق حتى تبدأ الشعرية بالطراوة.",
+        "أضف السكر والهيل وماء الورد والجوز، وقلّب حتى يذوب السكر، ثم غطّه على نار متوسطة إلى هادئة ١٢–١٥ دقيقة مع التحريك مرتين أو ثلاثاً حتى يتشرّب السائل وتلمع الشعرية.",
+        "افردها في صحن ورشّ عليها الفستق المطحون، وقدّمها دافئة أو بحرارة الغرفة."
+      ],
+      "tr": [
+        "Tereyağını sıvı yağla eritin, şehriyeyi ufalayıp ekleyin ve koyu altın rengi olana kadar (yaklaşık 5 dakika) sürekli karıştırarak kavurun.",
+        "Sıcak suyu dikkatle ve tuzu ekleyin, kaynayınca ateşi kısıp kapağı kapalı 4–5 dakika şehriye yumuşamaya başlayana kadar pişirin.",
+        "Şeker, kakule, gül suyu ve cevizi ekleyip şeker eriyene kadar karıştırın; kapağı kapalı orta-kısık ateşte 2–3 kez karıştırarak su çekilip şehriye parlayana kadar 12–15 dakika pişirin.",
+        "Tabağa yayıp çekilmiş fıstık serpin; ılık veya oda sıcaklığında servis edin."
+      ],
+      "en": [
+        "Melt the butter with the oil, crush in the vermicelli and stir constantly until deep golden (about 5 minutes).",
+        "Carefully add the hot water and salt, bring to a boil, then lower the heat and cook covered for 4–5 minutes until the noodles begin to soften.",
+        "Add the sugar, cardamom, rose water and walnuts and stir until the sugar dissolves; cover and cook on medium-low for 12–15 minutes, stirring 2–3 times, until the liquid is absorbed and the noodles look glossy.",
+        "Spread on a platter, sprinkle with ground pistachios and serve warm or at room temperature."
+      ]
+    },
+    "tips": {
+      "ar": ["حلوى سريعة للضيوف والعيد، قريبة من «البلاليط» الخليجي لكنها تُؤكل وحدها."],
+      "tr": ["Misafir ve bayram için pratik bir tatlıdır; Körfez'in balalitine benzer ama tek başına yenir."],
+      "en": ["A quick sweet for guests and Eid, related to Gulf balaleet but eaten on its own."]
+    },
+    "tags": ["sweet", "quick", "eid"],
+    "sources": [
+      "https://www.196flavors.com/iraq-halawat-shariyya/",
+      "https://www.dimasharif.com/recipes/halawat-shariyya/",
+      "https://nawalcooking.blogspot.com/2014/12/halawat-shariyya-sweet-ngolden.html"
+    ]
+  },
+  {
+    "id": "irq-halawat-tamur",
+    "name": {
+      "ar": "حلاوة تمر",
+      "tr": "Hurma Helvası (Cevizli Susamlı)",
+      "en": "Halawat Tamur (Date Halwa with Walnuts & Sesame)",
+      "native": "حلاوة تمر"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "servings": 12,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "dates",
+        "amount": 500,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "منزوعة النوى", "tr": "Çekirdeksiz", "en": "pitted" }
+      },
+      { "ingredient_id": "ghee", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "walnuts",
+        "amount": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "محمّص", "tr": "Kavrulmuş", "en": "toasted" }
+      },
+      {
+        "ingredient_id": "sesame_seeds",
+        "amount": 0.33,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "محمّص", "tr": "Kavrulmuş", "en": "toasted" }
+      },
+      { "ingredient_id": "cardamom", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "flour",
+        "amount": 0.25,
+        "unit": "cup",
+        "optional": true,
+        "note": { "ar": "محمّص", "tr": "Kavrulmuş", "en": "toasted" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "قطّع التمر واطبخه في قدر ثقيل مع السمن على نار متوسطة مع التحريك والهرس حتى يصبح عجينة طرية (٥–٨ دقائق)، وأضف الهيل (والطحين المحمّص إن أردت).",
+        "افرد نصف التمر في صينية مدهونة، واضغط عليه قطع الجوز، ثم غطّه بباقي التمر.",
+        "رشّ السمسم المحمّص على الوجه واضغطه قليلاً.",
+        "اتركها تبرد، ثم قطّعها مربعات أو معيّنات واحفظها في علبة محكمة."
+      ],
+      "tr": [
+        "Hurmaları doğrayıp kalın tabanlı bir tencerede sade yağla orta ateşte karıştırıp ezerek yumuşak bir macun olana kadar (5–8 dakika) pişirin; kakuleyi (isterseniz kavrulmuş unu) ekleyin.",
+        "Hurmanın yarısını yağlanmış tepsiye yayıp üzerine ceviz parçalarını bastırın, kalan hurmayla kapatın.",
+        "Üzerine kavrulmuş susam serpip hafifçe bastırın.",
+        "Soğuyunca kare veya baklava dilimi kesip kapalı kapta saklayın."
+      ],
+      "en": [
+        "Chop the dates and cook them in a heavy pan with the ghee over medium heat, stirring and mashing, until they form a soft paste (5–8 minutes); add the cardamom (and toasted flour if using).",
+        "Spread half the dates in a greased tray, press in the walnut pieces and cover with the remaining dates.",
+        "Sprinkle over the toasted sesame and press lightly.",
+        "Let cool, cut into squares or diamonds and store airtight."
+      ]
+    },
+    "tips": {
+      "ar": ["تُقدَّم مع الشاي، وتُحضَّر كثيراً في رمضان."],
+      "tr": ["Çayın yanında sunulur; Ramazan'da sık yapılır."],
+      "en": ["Served with tea and often made during Ramadan."]
+    },
+    "tags": ["sweet", "ramadan", "make_ahead"],
+    "sources": ["https://www.food.com/recipe/iraqi-date-sweetmeat-holwah-tamar-gluten-free-387297", "https://www.pccmarkets.com/recipe/holwah-tamar-iraqi-date-sweets/"]
+  },
+  {
+    "id": "irq-halawat-timman",
+    "name": {
+      "ar": "حلاوة تمن",
+      "tr": "Pirinç Unu Helvası",
+      "en": "Halawat Timman (Toasted Rice Flour Halwa)",
+      "native": "حلاوة تمّن"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 5,
+    "cook_minutes": 25,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "rice_flour", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 0.33,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "أو سمن", "tr": "veya sade yağ", "en": "or ghee" }
+      },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "saffron", "amount": 1, "unit": "pinch", "optional": true, "note": "" },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "pistachios", "amount": 2, "unit": "tbsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغلِ السكر مع الماء والهيل (والزعفران) ٥ دقائق، وأبقِ القطر ساخناً، وأضف ماء الورد.",
+        "حمّص طحين الرز في الزيت على نار متوسطة إلى هادئة مع التحريك المستمر ١٠–١٥ دقيقة حتى يصبح ذهبياً بنياً وتفوح رائحته.",
+        "اسكب القطر الساخن تدريجياً مع التحريك القوي (سيفور بقوة، فانتبه) حتى يثخن الخليط ويترك جوانب القدر.",
+        "افرده في صحن وسوِّ سطحه وزيّنه بالفستق، وقطّعه حين يتماسك."
+      ],
+      "tr": [
+        "Şekeri su ve kakuleyle (ve safranla) 5 dakika kaynatın, şurubu sıcak tutup gül suyunu ekleyin.",
+        "Pirinç ununu yağda orta-kısık ateşte sürekli karıştırarak 10–15 dakika altın kahverengi olup kokusu çıkana kadar kavurun.",
+        "Sıcak şurubu güçlü bir şekilde karıştırarak azar azar ekleyin (çok köpürür, dikkat edin); karışım koyulaşıp tencerenin kenarlarından ayrılana kadar devam edin.",
+        "Tabağa yayıp düzeltin, fıstıkla süsleyin ve katılaşınca kesin."
+      ],
+      "en": [
+        "Boil the sugar with the water and cardamom (and saffron) for 5 minutes; keep the syrup hot and add the rose water.",
+        "Toast the rice flour in the oil over medium-low heat, stirring constantly, for 10–15 minutes until golden brown and nutty.",
+        "Pour in the hot syrup gradually while stirring hard (it will spatter, so take care) until the mixture thickens and pulls away from the sides.",
+        "Spread on a plate, smooth the top, decorate with pistachios and cut once set."
+      ]
+    },
+    "tips": {
+      "ar": ["حلاوة قديمة تُوزَّع في المناسبات والعزاء، وهي خالية من الغلوتين."],
+      "tr": ["Özel günlerde ve taziyelerde dağıtılan eski bir helvadır; glütensizdir."],
+      "en": ["An old halwa handed out at gatherings and wakes; naturally gluten-free."]
+    },
+    "tags": ["sweet", "ramadan"],
+    "sources": ["https://butfirstchai.com/halawat-timman-iraqi-toasted-rice-flour-halwa/", "https://www.thebigsweettooth.com/halawat-timman-iraqi-roasted-rice-flour-sweet/"]
+  },
+  {
+    "id": "irq-madgooga",
+    "name": {
+      "ar": "مدقوقة",
+      "tr": "Madguga (Susamlı Hurma Topları)",
+      "en": "Madgooga (Date & Sesame Balls)",
+      "native": "مدگوگة"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "servings": 15,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "dates",
+        "amount": 250,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "طرية منزوعة النوى", "tr": "Yumuşak, çekirdeksiz", "en": "soft, pitted" }
+      },
+      { "ingredient_id": "tahini", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "sesame_seeds",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "محمّص", "tr": "Kavrulmuş", "en": "toasted" }
+      },
+      { "ingredient_id": "cardamom", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "walnuts", "amount": 0.25, "unit": "cup", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "افرم التمر والطحينة (والجوز) في محضّرة الطعام حتى تصبح عجينة كثيفة، وأضف الهيل.",
+        "شكّلها كرات صغيرة بحجم حبة الجوز.",
+        "دحرجها في السمسم المحمّص، واحفظها في الثلاجة."
+      ],
+      "tr": [
+        "Hurma ve tahini (ve cevizi) mutfak robotunda koyu bir macun olana kadar çekin, kakuleyi ekleyin.",
+        "Ceviz büyüklüğünde küçük toplar yapın.",
+        "Kavrulmuş susama bulayıp buzdolabında saklayın."
+      ],
+      "en": [
+        "Pulse the dates and tahini (and walnuts) in a food processor into a thick paste, then add the cardamom.",
+        "Shape into small walnut-sized balls.",
+        "Roll in the toasted sesame and keep in the fridge."
+      ]
+    },
+    "tips": {
+      "ar": ["اسمها يعني «المدقوقة» لأن التمر والسمسم كانا يُدقّان في الهاون؛ وهي من حلويات البصرة."],
+      "tr": ["Adı 'dövülmüş' demektir; hurma ve susam havanda dövülürdü. Basra'ya özgüdür."],
+      "en": ["The name means 'pounded', as dates and sesame were once pounded in a mortar; a Basra speciality."]
+    },
+    "tags": ["sweet", "quick", "kids", "basra"],
+    "sources": [
+      "https://maryamsculinarywonders.blogspot.com/2012/09/163-iraqi-madgooga-date-sesame-truffles.html",
+      "https://nawalcooking.blogspot.com/2012/08/madgooga-iraqi-dateconfection-madgoogd.html",
+      "https://feastinthemiddleeast.com/2019/10/16/madgooga-madkooka-the-ancient-energy-bar-of-iraq-vegan-dairy-and-gluten-free/"
+    ]
+  },
+  {
+    "id": "irq-dibis-rashi",
+    "name": {
+      "ar": "دبس وراشي",
+      "tr": "Tahin Pekmez (Hurma Pekmezli)",
+      "en": "Dibis w'Rashi (Date Syrup & Tahini)",
+      "native": "دبس وراشي"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["breakfast", "snack"],
+    "course": "sauce",
+    "prep_minutes": 2,
+    "cook_minutes": 0,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "date_syrup", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "tahini", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "pita_bread", "amount": 4, "unit": "piece", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": ["اسكب دبس التمر في صحن مسطّح، واسكب فوقه الطحينة (الراشي).", "حرّكهما قليلاً أو اخلطهما تماماً حسب الرغبة.", "غمّس الخبز فيه فطوراً أو مع الشاي."],
+      "tr": ["Hurma pekmezini düz bir tabağa dökün, üzerine tahini gezdirin.", "Hafifçe veya tamamen karıştırın.", "Kahvaltıda veya çayın yanında ekmekle banarak yiyin."],
+      "en": [
+        "Pour the date syrup into a shallow dish and drizzle the tahini over it.",
+        "Swirl lightly or mix completely, as you like.",
+        "Scoop up with bread for breakfast or with tea."
+      ]
+    },
+    "tips": {
+      "ar": ["هو «زبدة الفول السوداني بالمربى» عند الأطفال العراقيين."],
+      "tr": ["Iraklı çocukların 'fıstık ezmeli reçeli' gibidir."],
+      "en": ["It's the Iraqi child's peanut-butter-and-jelly."]
+    },
+    "tags": ["breakfast_classic", "quick", "kids"],
+    "sources": [
+      "http://morselsandmusings.blogspot.com/2012/05/dibis-wrashi-iraqi-date-tahini-spread_29.html",
+      "https://maryamsculinarywonders.blogspot.com/2013/06/400-date-molasses-and-tahini-spread.html",
+      "https://www.food.com/recipe/tahini-and-date-syrup-dip-dibis-wrashi-190396"
+    ]
+  },
+  {
+    "id": "irq-shalgham",
+    "name": {
+      "ar": "شلغم بالدبس",
+      "tr": "Hurma Pekmezli Şalgam",
+      "en": "Shalgham (Turnips Simmered in Date Syrup)",
+      "native": "شلغم"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["snack"],
+    "course": "side",
+    "prep_minutes": 10,
+    "cook_minutes": 150,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "turnip",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "صغير", "tr": "Küçük", "en": "small" }
+      },
+      { "ingredient_id": "date_syrup", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغسل اللفت ونظّفه، واتركه كاملاً إن كان صغيراً أو قطّع الكبير نصفين.",
+        "ضعه في قدر مع الماء ودبس التمر واتركه يغلي.",
+        "اتركه على نار هادئة ساعتين إلى ثلاث حتى يطرى جداً ويصبح لونه بنياً داكناً، مع إضافة الماء عند الحاجة.",
+        "قدّمه ساخناً في صحون مع قليل من مائه، ويرشّ عليه الملح لمن يحب."
+      ],
+      "tr": [
+        "Şalgamları yıkayıp temizleyin; küçükse bütün bırakın, büyükleri ikiye kesin.",
+        "Tencereye su ve hurma pekmeziyle koyup kaynatın.",
+        "Gerektikçe su ekleyerek çok yumuşayıp koyu kahverengi olana kadar kısık ateşte 2–3 saat pişirin.",
+        "Biraz suyuyla kaselerde sıcak servis edin; isteyen tuz serpebilir."
+      ],
+      "en": [
+        "Wash and trim the turnips; leave small ones whole and halve larger ones.",
+        "Put them in a pot with the water and date syrup and bring to a boil.",
+        "Simmer for 2–3 hours, topping up with water as needed, until very tender and deep brown.",
+        "Serve hot in bowls with a little of the liquid; sprinkle with salt if you like."
+      ]
+    },
+    "tips": {
+      "ar": ["أكلة شارع شتوية تباع من عربات بقدور كبيرة في المساء."],
+      "tr": ["Akşamları büyük kazanlı arabalardan satılan bir kış sokak lezzetidir."],
+      "en": ["A winter street snack sold from carts with huge simmering pots in the evening."]
+    },
+    "tags": ["winter", "street_food", "budget"],
+    "sources": ["https://www.jidlonacestach.cz/en/shalgam/", "https://flavorsofdiaspora.com/2016/06/23/turnips-with-date-molasses-shalgham-helu/"]
+  },
+  {
+    "id": "irq-chai",
+    "name": {
+      "ar": "شاي عراقي بالهيل",
+      "tr": "Irak Çayı (Kakuleli İstikan Çayı)",
+      "en": "Iraqi Chai (Cardamom Tea)",
+      "native": "چاي"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["drink"],
+    "course": "drink",
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "servings": 8,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "black_tea",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "سائب", "tr": "Dökme", "en": "loose-leaf" }
+      },
+      {
+        "ingredient_id": "cardamom",
+        "amount": 5,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "مرضوض", "tr": "Ezilmiş", "en": "lightly crushed" }
+      },
+      { "ingredient_id": "water", "amount": 6, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اغلِ الماء في الإبريق السفلي.",
+        "ضع الشاي والهيل في القوري الصغير واسكب عليهما كوبين من الماء المغلي، وضعه فوق الإبريق على نار هادئة ليتخدّر ١٠–١٥ دقيقة دون أن يغلي.",
+        "اسكب قليلاً من الشاي المركّز في الإستكان وأكمله بالماء الساخن حسب القوة المطلوبة.",
+        "حلِّه بالسكر وقدّمه مع الكليجة."
+      ],
+      "tr": [
+        "Alttaki demlikte suyu kaynatın.",
+        "Çay ve kakuleyi küçük demliğe koyup üzerine iki bardak kaynar su dökün; kaynatmadan kısık ateşte büyük demliğin üstünde 10–15 dakika demlendirin.",
+        "İstikana biraz demli çay koyup istediğiniz koyulukta sıcak suyla tamamlayın.",
+        "Şekerle tatlandırıp kleiça ile servis edin."
+      ],
+      "en": [
+        "Boil the water in the bottom kettle.",
+        "Put the tea and cardamom in the small teapot, pour over 2 cups of boiling water and set it on top of the kettle over low heat to steep for 10–15 minutes without boiling.",
+        "Pour a little of the concentrate into an istikan glass and top up with hot water to the strength you like.",
+        "Sweeten with sugar and serve with kleicha."
+      ]
+    },
+    "tips": {
+      "ar": ["يُقدَّم في «الإستكان» الزجاجي الصغير المخصّر، وهو حاضر في كل بيت ومقهى."],
+      "tr": ["Belli ince 'istikan' bardakta sunulur; her evde ve kahvehanede vardır."],
+      "en": ["Served in the small waisted istikan glass, it's in every Iraqi home and café."]
+    },
+    "tags": ["quick", "family"],
+    "sources": [
+      "https://iraqifamilycookbook.blogspot.com/2012/04/iraqi-tea-chai.html",
+      "https://maryamsculinarywonders.blogspot.com/2013/01/305-iraqi-tea-chai-istikan.html",
+      "https://www.jidlonacestach.cz/en/iraqi-tea/"
+    ]
+  },
+  {
+    "id": "irq-noomi-basra",
+    "name": {
+      "ar": "شاي نومي بصرة",
+      "tr": "Kuru Limon Çayı (Nümi Basra)",
+      "en": "Chai Noomi Basra (Dried Lime Tea)",
+      "native": "چاي حامض"
+    },
+    "cuisine": "iraqi",
+    "region": "iraq",
+    "meal_type": ["drink"],
+    "course": "drink",
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "dried_lime", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": ["اكسر حبات النومي وأزل بذورها لأنها مُرّة.", "اغلها مع الماء، ثم اتركها على نار هادئة ١٥–٢٠ دقيقة.", "صفّها في الإستكانات وحلِّها بالسكر حسب الذوق."],
+      "tr": [
+        "Kuru limonları kırıp acı olan çekirdeklerini çıkarın.",
+        "Suyla kaynatın, sonra kısık ateşte 15–20 dakika pişirin.",
+        "İstikanlara süzüp damak zevkine göre şekerle tatlandırın."
+      ],
+      "en": [
+        "Crack the dried limes and remove the seeds, which are bitter.",
+        "Bring to a boil with the water, then simmer for 15–20 minutes.",
+        "Strain into istikan glasses and sweeten to taste."
+      ]
+    },
+    "tips": {
+      "ar": ["يُشرب ساخناً بعد الأكلات الدسمة ولنزلات البرد، واسمه من ميناء البصرة الذي وصل منه الليمون المجفف."],
+      "tr": ["Ağır yemeklerden sonra ve soğuk algınlığında sıcak içilir; adını kuru limonun geldiği Basra limanından alır."],
+      "en": ["Drunk hot after heavy meals and for colds; it's named after the port of Basra, where the dried limes arrived."]
+    },
+    "tags": ["winter", "quick", "basra"],
+    "sources": [
+      "https://hildaskitchenblog.com/recipe/drying-limes-to-make-noomi-basra-chai/",
+      "https://maryamsculinarywonders.blogspot.com/2014/01/555-iraqi-noomi-tea.html",
+      "https://app.ckbk.com/recipe/deli98836c16s001ss002r001/dried-lime-tea"
+    ]
+  }
+]

@@ -23,5 +23,9 @@
   "aleppo": { "ar": "حلبي", "tr": "Halep usulü", "en": "Aleppo style" },
   "homs_hama": { "ar": "حمصي/حموي", "tr": "Humus-Hama usulü", "en": "Homs & Hama" },
   "lent": { "ar": "صيامي", "tr": "Perhiz yemeği", "en": "Lent (fasting) dish" },
-  "celebration": { "ar": "مناسبات", "tr": "Kutlama", "en": "Celebration" }
+  "celebration": { "ar": "مناسبات", "tr": "Kutlama", "en": "Celebration" },
+  "baghdad": { "ar": "بغداد", "tr": "Bağdat", "en": "Baghdad" },
+  "mosul": { "ar": "الموصل", "tr": "Musul", "en": "Mosul" },
+  "basra": { "ar": "البصرة", "tr": "Basra", "en": "Basra" },
+  "muharram": { "ar": "محرّم وعاشوراء", "tr": "Muharrem ve Aşure", "en": "Muharram & Ashura" }
 }

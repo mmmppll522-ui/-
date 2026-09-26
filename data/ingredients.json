@@ -122,7 +122,7 @@
     "id": "eggplant",
     "names": { "ar": "باذنجان", "tr": "patlıcan", "en": "eggplant" },
     "synonyms": {
-      "ar": ["بتنجان", "بدنجان", "برنجان", "باذنجان صغير", "باذنجان مكدوس"],
+      "ar": ["بتنجان", "بدنجان", "برنجان", "باذنجان صغير", "باذنجان مكدوس", "بيتنجان", "بيذنجان"],
       "tr": ["közlük patlıcan", "bostan patlıcanı"],
       "en": ["aubergine", "baby eggplant"]
     },
@@ -151,7 +151,7 @@
   {
     "id": "potato",
     "names": { "ar": "بطاطس", "tr": "patates", "en": "potato" },
-    "synonyms": { "ar": ["بطاطا", "بطاطة"], "tr": [], "en": ["potatoes"] },
+    "synonyms": { "ar": ["بطاطا", "بطاطة", "بتيتة", "بتيته", "پتيته"], "tr": [], "en": ["potatoes"] },
     "category": "vegetables",
     "pantry_staple": false,
     "basic_spice": false,
@@ -675,9 +675,9 @@
     "id": "ashta",
     "names": { "ar": "قشطة", "tr": "kaymak", "en": "clotted cream (ashta)" },
     "synonyms": {
-      "ar": ["قشطة عربية", "قشطة بلدية", "قيمر", "قيمق"],
+      "ar": ["قشطة عربية", "قشطة بلدية", "قيمر", "قيمق", "كيمر"],
       "tr": [],
-      "en": ["ashta", "qashta", "clotted cream"]
+      "en": ["ashta", "qashta", "clotted cream", "geymar", "gaimar", "kaymak"]
     },
     "category": "dairy",
     "pantry_staple": false,
@@ -871,8 +871,8 @@
     "id": "pita_bread",
     "names": { "ar": "خبز عربي", "tr": "Arap ekmeği", "en": "pita bread" },
     "synonyms": {
-      "ar": ["خبز", "خبز شامي", "خبز لبناني", "خبز صاج", "خبز مرقوق", "كماج", "خبز بيتا", "عيش شامي"],
-      "tr": ["lavaş", "pide ekmeği", "pita"],
+      "ar": ["خبز", "خبز شامي", "خبز لبناني", "خبز صاج", "خبز مرقوق", "كماج", "خبز بيتا", "عيش شامي", "خبز تنور", "خبز عراقي", "صمون"],
+      "tr": ["lavaş", "pide ekmeği", "pita", "tandır ekmeği"],
       "en": ["flatbread", "arabic bread", "lebanese bread", "bread"]
     },
     "category": "grains",
@@ -943,7 +943,7 @@
     "id": "chickpeas",
     "names": { "ar": "حمص", "tr": "nohut", "en": "chickpeas" },
     "synonyms": {
-      "ar": ["حمص حب", "حمص يابس", "حمص معلب", "حمّص", "حمص مسلوق"],
+      "ar": ["حمص حب", "حمص يابس", "حمص معلب", "حمّص", "حمص مسلوق", "لبلبي"],
       "tr": ["haşlanmış nohut", "konserve nohut"],
       "en": ["garbanzo beans", "garbanzos"]
     },
@@ -1015,7 +1015,7 @@
     "id": "fava_beans",
     "names": { "ar": "فول مدمس", "tr": "ful medames", "en": "fava beans" },
     "synonyms": {
-      "ar": ["فول", "فول حب", "فول معلب", "فول مدمّس"],
+      "ar": ["فول", "فول حب", "فول معلب", "فول مدمّس", "باقلاء", "باقلاء يابسة", "باكلة"],
       "tr": ["kuru bakla", "bakla", "fül"],
       "en": ["ful medames", "foul"]
     },
@@ -1227,7 +1227,7 @@
   {
     "id": "dried_mint",
     "names": { "ar": "نعناع يابس", "tr": "kuru nane", "en": "dried mint" },
-    "synonyms": { "ar": ["نعنع ناشف", "نعناع مجفف", "نعنع يابس"], "tr": [], "en": [] },
+    "synonyms": { "ar": ["نعنع ناشف", "نعناع مجفف", "نعنع يابس", "بطنج", "بطنيج"], "tr": [], "en": [] },
     "category": "spices",
     "pantry_staple": false,
     "basic_spice": false,
@@ -1579,7 +1579,7 @@
     "id": "ghee",
     "names": { "ar": "سمنة", "tr": "sade yağ", "en": "ghee" },
     "synonyms": {
-      "ar": ["سمن", "سمنة عربية", "سمن بلدي", "سمنة حيوانية", "زبدة مصفاة"],
+      "ar": ["سمن", "سمنة عربية", "سمن بلدي", "سمنة حيوانية", "زبدة مصفاة", "دهن حر", "دهن حرّ"],
       "tr": ["ghee"],
       "en": ["clarified butter"]
     },
@@ -1800,9 +1800,9 @@
     "id": "fish",
     "names": { "ar": "سمك", "tr": "balık", "en": "fish" },
     "synonyms": {
-      "ar": ["سمكة", "فيليه سمك", "سمك أبيض", "سمك فيليه", "لقز", "سلطان إبراهيم", "هامور", "بلطي"],
-      "tr": ["balık fileto", "levrek", "çipura", "beyaz balık"],
-      "en": ["white fish", "fish fillets", "sea bass", "sea bream", "cod"]
+      "ar": ["سمكة", "فيليه سمك", "سمك أبيض", "سمك فيليه", "لقز", "سلطان إبراهيم", "هامور", "بلطي", "شبوط", "سمك كارب", "سمك نهري", "كطان"],
+      "tr": ["balık fileto", "levrek", "çipura", "beyaz balık", "sazan"],
+      "en": ["white fish", "fish fillets", "sea bass", "sea bream", "cod", "carp", "river fish"]
     },
     "category": "seafood",
     "pantry_staple": false,
@@ -1938,7 +1938,7 @@
     "id": "fava_fresh",
     "names": { "ar": "فول أخضر", "tr": "taze bakla", "en": "fresh fava beans" },
     "synonyms": {
-      "ar": ["فول أخضر مقشر", "فول مقلى", "فول بقرونه"],
+      "ar": ["فول أخضر مقشر", "فول مقلى", "فول بقرونه", "باقلاء خضراء", "باقلاء مقشرة"],
       "tr": ["iç bakla"],
       "en": ["broad beans", "green fava beans"]
     },
@@ -2137,7 +2137,7 @@
     "id": "raisins",
     "names": { "ar": "زبيب", "tr": "kuru üzüm", "en": "raisins" },
     "synonyms": {
-      "ar": ["زبيب أشقر", "زبيب أسود"],
+      "ar": ["زبيب أشقر", "زبيب أسود", "كشمش"],
       "tr": ["çekirdeksiz kuru üzüm"],
       "en": ["golden raisins", "sultanas"]
     },
@@ -2236,7 +2236,7 @@
   {
     "id": "dill",
     "names": { "ar": "شبت", "tr": "dereotu", "en": "dill" },
-    "synonyms": { "ar": ["شبث", "شبت أخضر", "سلطانة", "شبت طازج"], "tr": ["taze dereotu"], "en": ["fresh dill"] },
+    "synonyms": { "ar": ["شبث", "شبت أخضر", "سلطانة", "شبت طازج", "شبنت"], "tr": ["taze dereotu"], "en": ["fresh dill"] },
     "category": "herbs",
     "pantry_staple": false,
     "basic_spice": false,
@@ -2572,5 +2572,149 @@
       "de": "getrockneter Thymian",
       "fr": "thym séché"
     }
+  },
+  {
+    "id": "dried_lime",
+    "names": { "ar": "نومي بصرة", "tr": "kuru limon", "en": "dried lime" },
+    "synonyms": {
+      "ar": ["لومي", "ليمون أسود", "ليمون مجفف", "نومي", "نومي أسود", "لومي أسود"],
+      "tr": ["limon amani", "kara limon"],
+      "en": ["loomi", "black lime", "noomi basra", "limoo omani"]
+    },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["lemon"],
+    "search_term": {
+      "ar": "لومي",
+      "tr": "kuru limon",
+      "en": "dried lime loomi",
+      "de": "getrocknete Limette",
+      "fr": "citron noir séché"
+    }
+  },
+  {
+    "id": "date_syrup",
+    "names": { "ar": "دبس التمر", "tr": "hurma pekmezi", "en": "date syrup" },
+    "synonyms": {
+      "ar": ["دبس", "دبس تمر", "سيلان", "عسل التمر"],
+      "tr": ["hurma şurubu"],
+      "en": ["date molasses", "silan", "dibis", "date honey"]
+    },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["honey", "pomegranate_molasses"],
+    "search_term": {
+      "ar": "دبس تمر",
+      "tr": "hurma pekmezi",
+      "en": "date syrup",
+      "de": "Dattelsirup",
+      "fr": "sirop de dattes"
+    }
+  },
+  {
+    "id": "mango",
+    "names": { "ar": "مانجو", "tr": "mango", "en": "mango" },
+    "synonyms": {
+      "ar": ["منجا", "مانغا", "مانجا", "مانجو خضراء", "عنبة"],
+      "tr": ["yeşil mango"],
+      "en": ["green mango", "unripe mango", "mangoes"]
+    },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "مانجو", "tr": "mango", "en": "mango", "de": "Mango", "fr": "mangue" }
+  },
+  {
+    "id": "mung_beans",
+    "names": { "ar": "ماش", "tr": "maş fasulyesi", "en": "mung beans" },
+    "synonyms": {
+      "ar": ["فاصولياء ماش", "حب الماش", "ماش أخضر"],
+      "tr": ["maş"],
+      "en": ["green gram", "moong beans", "mung"]
+    },
+    "category": "legumes",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["lentils_brown"],
+    "search_term": { "ar": "ماش", "tr": "maş fasulyesi", "en": "mung beans", "de": "Mungbohnen", "fr": "haricots mungo" }
+  },
+  {
+    "id": "curry_powder",
+    "names": { "ar": "بهارات كاري", "tr": "köri", "en": "curry powder" },
+    "synonyms": {
+      "ar": ["كاري", "كري", "مسحوق الكاري"],
+      "tr": ["köri baharatı", "köri tozu"],
+      "en": ["curry", "madras curry powder"]
+    },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["baharat", "turmeric"],
+    "search_term": { "ar": "بهارات كاري", "tr": "köri", "en": "curry powder", "de": "Currypulver", "fr": "curry en poudre" }
+  },
+  {
+    "id": "lamb_head",
+    "names": { "ar": "رأس غنم", "tr": "kuzu kelle", "en": "lamb's head" },
+    "synonyms": {
+      "ar": ["رأس خروف", "راس غنم", "كلة"],
+      "tr": ["koyun kellesi", "kelle"],
+      "en": ["sheep's head", "sheep head", "lamb head"]
+    },
+    "category": "meat",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["meat"],
+    "substitutes": [],
+    "search_term": { "ar": "رأس غنم", "tr": "kuzu kelle", "en": "lamb head", "de": "Lammkopf", "fr": "tête d'agneau" }
+  },
+  {
+    "id": "lamb_trotters",
+    "names": { "ar": "كوارع غنم", "tr": "kuzu paça", "en": "lamb trotters" },
+    "synonyms": {
+      "ar": ["كوارع", "مقادم", "أكارع", "كراعين", "مقادم غنم"],
+      "tr": ["paça", "koyun paça"],
+      "en": ["sheep's feet", "lamb feet", "trotters"]
+    },
+    "category": "meat",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["meat"],
+    "substitutes": [],
+    "search_term": { "ar": "مقادم غنم", "tr": "kuzu paça", "en": "lamb trotters", "de": "Lammfüße", "fr": "pieds d'agneau" }
+  },
+  {
+    "id": "tripe",
+    "names": { "ar": "كرشة", "tr": "işkembe", "en": "tripe" },
+    "synonyms": { "ar": ["كرش", "كرشة غنم", "فوارغ", "كروش"], "tr": ["kuzu işkembe"], "en": ["lamb tripe", "beef tripe"] },
+    "category": "meat",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["meat"],
+    "substitutes": [],
+    "search_term": { "ar": "كرشة", "tr": "işkembe", "en": "lamb tripe", "de": "Kutteln", "fr": "tripes" }
   }
 ]
