@@ -21,5 +21,7 @@
   "winter": { "ar": "شتوي", "tr": "Kış yemeği", "en": "Winter" },
   "damascus": { "ar": "دمشقي", "tr": "Şam usulü", "en": "Damascene" },
   "aleppo": { "ar": "حلبي", "tr": "Halep usulü", "en": "Aleppo style" },
-  "homs_hama": { "ar": "حمصي/حموي", "tr": "Humus-Hama usulü", "en": "Homs & Hama" }
+  "homs_hama": { "ar": "حمصي/حموي", "tr": "Humus-Hama usulü", "en": "Homs & Hama" },
+  "lent": { "ar": "صيامي", "tr": "Perhiz yemeği", "en": "Lent (fasting) dish" },
+  "celebration": { "ar": "مناسبات", "tr": "Kutlama", "en": "Celebration" }
 }

@@ -138,11 +138,7 @@
   {
     "id": "zucchini",
     "names": { "ar": "كوسا", "tr": "kabak", "en": "zucchini" },
-    "synonyms": {
-      "ar": ["كوسة", "كوسى", "قرع", "شجر"],
-      "tr": ["sakız kabağı", "dolmalık kabak"],
-      "en": ["courgette", "squash"]
-    },
+    "synonyms": { "ar": ["كوسة", "كوسى", "شجر"], "tr": ["sakız kabağı", "dolmalık kabak"], "en": ["courgette", "squash"] },
     "category": "vegetables",
     "pantry_staple": false,
     "basic_spice": false,
@@ -1021,7 +1017,7 @@
     "synonyms": {
       "ar": ["فول", "فول حب", "فول معلب", "فول مدمّس"],
       "tr": ["kuru bakla", "bakla", "fül"],
-      "en": ["ful medames", "broad beans", "foul"]
+      "en": ["ful medames", "foul"]
     },
     "category": "legumes",
     "pantry_staple": false,
@@ -1799,5 +1795,389 @@
     "contains": [],
     "substitutes": ["pomegranate_molasses"],
     "search_term": { "ar": "تمر هندي", "tr": "demirhindi", "en": "tamarind", "de": "Tamarinde", "fr": "tamarin" }
+  },
+  {
+    "id": "fish",
+    "names": { "ar": "سمك", "tr": "balık", "en": "fish" },
+    "synonyms": {
+      "ar": ["سمكة", "فيليه سمك", "سمك أبيض", "سمك فيليه", "لقز", "سلطان إبراهيم", "هامور", "بلطي"],
+      "tr": ["balık fileto", "levrek", "çipura", "beyaz balık"],
+      "en": ["white fish", "fish fillets", "sea bass", "sea bream", "cod"]
+    },
+    "category": "seafood",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["seafood"],
+    "substitutes": [],
+    "search_term": {
+      "ar": "سمك فيليه",
+      "tr": "balık fileto",
+      "en": "white fish fillets",
+      "de": "Fischfilet",
+      "fr": "filet de poisson blanc"
+    }
+  },
+  {
+    "id": "kishk",
+    "names": { "ar": "كشك", "tr": "keşk", "en": "kishk" },
+    "synonyms": {
+      "ar": ["كشك بلدي", "كشك ناشف", "كشك مطحون", "كشكة"],
+      "tr": ["tarhana", "kışkı"],
+      "en": ["kishik", "keshk", "fermented yogurt bulgur"]
+    },
+    "category": "dairy",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["dairy", "gluten"],
+    "substitutes": [],
+    "search_term": { "ar": "كشك", "tr": "tarhana", "en": "kishk", "de": "Kishk", "fr": "kishk" }
+  },
+  {
+    "id": "sujuk",
+    "names": { "ar": "سجق", "tr": "sucuk", "en": "sujuk" },
+    "synonyms": { "ar": ["سجق أرمني", "مقانق حارة", "سجوق"], "tr": [], "en": ["sucuk", "spicy beef sausage", "soujouk"] },
+    "category": "meat",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["meat"],
+    "contains": ["meat"],
+    "substitutes": [],
+    "search_term": { "ar": "سجق", "tr": "sucuk", "en": "sujuk sausage", "de": "Sucuk", "fr": "soujouk" }
+  },
+  {
+    "id": "kawarma",
+    "names": { "ar": "قاورما", "tr": "kavurma", "en": "awarma (lamb confit)" },
+    "synonyms": {
+      "ar": ["قورمة", "قاورمة", "لحم محفوظ بالدهن"],
+      "tr": ["kavurma et"],
+      "en": ["awarma", "qawarma", "preserved lamb"]
+    },
+    "category": "meat",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": ["meat"],
+    "contains": ["meat"],
+    "substitutes": ["minced_meat"],
+    "search_term": { "ar": "قاورما", "tr": "kavurma", "en": "awarma lamb confit", "de": "Kavurma", "fr": "confit d'agneau" }
+  },
+  {
+    "id": "swiss_chard",
+    "names": { "ar": "سلق", "tr": "pazı", "en": "Swiss chard" },
+    "synonyms": {
+      "ar": ["سلق أخضر", "سلقة", "ورق سلق", "سلق بلدي"],
+      "tr": ["pazı yaprağı"],
+      "en": ["chard", "silverbeet"]
+    },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["spinach"],
+    "search_term": { "ar": "سلق", "tr": "pazı", "en": "swiss chard", "de": "Mangold", "fr": "blettes" }
+  },
+  {
+    "id": "cabbage",
+    "names": { "ar": "ملفوف", "tr": "lahana", "en": "cabbage" },
+    "synonyms": {
+      "ar": ["كرنب", "لهانة", "ملفوفة", "ملفوف أبيض"],
+      "tr": ["beyaz lahana", "sarmalık lahana"],
+      "en": ["white cabbage"]
+    },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "ملفوف", "tr": "beyaz lahana", "en": "cabbage", "de": "Weißkohl", "fr": "chou blanc" }
+  },
+  {
+    "id": "pumpkin",
+    "names": { "ar": "يقطين", "tr": "bal kabağı", "en": "pumpkin" },
+    "synonyms": {
+      "ar": ["قرع", "قرع عسلي", "لقطين", "قرع أحمر", "دبا"],
+      "tr": ["kabak (bal)"],
+      "en": ["butternut squash", "winter squash"]
+    },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "يقطين", "tr": "bal kabağı", "en": "pumpkin", "de": "Kürbis", "fr": "potiron" }
+  },
+  {
+    "id": "dandelion_greens",
+    "names": { "ar": "هندباء", "tr": "karahindiba", "en": "dandelion greens" },
+    "synonyms": {
+      "ar": ["هندبة", "هندبه", "طرخشقون", "شيكوريا"],
+      "tr": ["hindiba", "radika"],
+      "en": ["chicory", "wild chicory", "endive greens"]
+    },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["swiss_chard", "spinach"],
+    "search_term": { "ar": "هندباء", "tr": "hindiba", "en": "dandelion greens", "de": "Löwenzahn", "fr": "pissenlit" }
+  },
+  {
+    "id": "fava_fresh",
+    "names": { "ar": "فول أخضر", "tr": "taze bakla", "en": "fresh fava beans" },
+    "synonyms": {
+      "ar": ["فول أخضر مقشر", "فول مقلى", "فول بقرونه"],
+      "tr": ["iç bakla"],
+      "en": ["broad beans", "green fava beans"]
+    },
+    "category": "vegetables",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "فول أخضر",
+      "tr": "taze bakla",
+      "en": "fresh fava beans",
+      "de": "dicke Bohnen",
+      "fr": "fèves fraîches"
+    }
+  },
+  {
+    "id": "white_beans",
+    "names": { "ar": "فاصوليا بيضاء", "tr": "kuru fasulye", "en": "white beans" },
+    "synonyms": {
+      "ar": ["فاصولياء بيضاء", "فاصوليا ناشفة", "فاصوليا حب", "فاصوليا بيضا"],
+      "tr": ["beyaz fasulye", "konserve kuru fasulye"],
+      "en": ["cannellini beans", "butter beans", "navy beans"]
+    },
+    "category": "legumes",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "فاصوليا بيضاء",
+      "tr": "kuru fasulye",
+      "en": "white beans",
+      "de": "weiße Bohnen",
+      "fr": "haricots blancs"
+    }
+  },
+  {
+    "id": "moghrabieh",
+    "names": { "ar": "مغربية", "tr": "iri kuskus", "en": "moghrabieh (pearl couscous)" },
+    "synonyms": {
+      "ar": ["مفتول لبناني", "كسكس لؤلؤي", "مغربيه"],
+      "tr": ["inci kuskus", "mograbiye"],
+      "en": ["pearl couscous", "giant couscous", "lebanese couscous"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": [],
+    "search_term": {
+      "ar": "مغربية",
+      "tr": "iri kuskus",
+      "en": "pearl couscous",
+      "de": "Perlcouscous",
+      "fr": "couscous perlé"
+    }
+  },
+  {
+    "id": "kataifi_dough",
+    "names": { "ar": "عجينة كنافة", "tr": "kadayıf", "en": "kataifi dough" },
+    "synonyms": {
+      "ar": ["شعر الكنافة", "كنافة خشنة", "كنافة ناعمة", "عجين كنافة"],
+      "tr": ["tel kadayıf", "künefelik kadayıf"],
+      "en": ["shredded phyllo", "kunafa dough"]
+    },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": [],
+    "search_term": {
+      "ar": "عجينة كنافة",
+      "tr": "tel kadayıf",
+      "en": "kataifi dough",
+      "de": "Kadayif Teig",
+      "fr": "pâte kadaïf"
+    }
+  },
+  {
+    "id": "toast_bread",
+    "names": { "ar": "خبز توست", "tr": "tost ekmeği", "en": "white sandwich bread" },
+    "synonyms": { "ar": ["توست", "خبز فينو", "خبز أبيض"], "tr": ["tost ekmek"], "en": ["toast bread", "sliced bread"] },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": ["gluten"],
+    "substitutes": ["breadcrumbs"],
+    "search_term": {
+      "ar": "خبز توست",
+      "tr": "tost ekmeği",
+      "en": "white sandwich bread",
+      "de": "Toastbrot",
+      "fr": "pain de mie"
+    }
+  },
+  {
+    "id": "rice_flour",
+    "names": { "ar": "طحين رز", "tr": "pirinç unu", "en": "rice flour" },
+    "synonyms": { "ar": ["دقيق أرز", "طحين الأرز", "رز مطحون"], "tr": [], "en": [] },
+    "category": "grains",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["cornstarch"],
+    "search_term": { "ar": "طحين أرز", "tr": "pirinç unu", "en": "rice flour", "de": "Reismehl", "fr": "farine de riz" }
+  },
+  {
+    "id": "anise",
+    "names": { "ar": "يانسون", "tr": "anason", "en": "anise" },
+    "synonyms": { "ar": ["يانسون مطحون", "حبة حلوة", "آنسون"], "tr": ["toz anason"], "en": ["aniseed", "ground anise"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "يانسون", "tr": "anason", "en": "anise seed", "de": "Anis", "fr": "anis" }
+  },
+  {
+    "id": "caraway",
+    "names": { "ar": "كراوية", "tr": "karaman kimyonu", "en": "caraway" },
+    "synonyms": { "ar": ["كراويا", "كراوية مطحونة"], "tr": [], "en": ["ground caraway"] },
+    "category": "spices",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "كراوية", "tr": "karaman kimyonu", "en": "caraway", "de": "Kümmel", "fr": "carvi" }
+  },
+  {
+    "id": "basil",
+    "names": { "ar": "ريحان", "tr": "fesleğen", "en": "basil" },
+    "synonyms": { "ar": ["حبق", "ريحان أخضر"], "tr": ["reyhan"], "en": ["fresh basil"] },
+    "category": "herbs",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["mint"],
+    "search_term": { "ar": "ريحان", "tr": "fesleğen", "en": "basil", "de": "Basilikum", "fr": "basilic" }
+  },
+  {
+    "id": "coconut",
+    "names": { "ar": "جوز هند", "tr": "hindistan cevizi", "en": "desiccated coconut" },
+    "synonyms": {
+      "ar": ["جوز الهند", "جوز هند مبشور", "هند مبشور"],
+      "tr": ["rende hindistan cevizi"],
+      "en": ["coconut", "shredded coconut"]
+    },
+    "category": "nuts",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": {
+      "ar": "جوز هند مبشور",
+      "tr": "hindistan cevizi",
+      "en": "desiccated coconut",
+      "de": "Kokosraspeln",
+      "fr": "noix de coco râpée"
+    }
+  },
+  {
+    "id": "cashews",
+    "names": { "ar": "كاجو", "tr": "kaju", "en": "cashews" },
+    "synonyms": { "ar": ["كاشو", "كاجو محمص"], "tr": [], "en": ["cashew nuts"] },
+    "category": "nuts",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["almonds"],
+    "search_term": { "ar": "كاجو", "tr": "kaju", "en": "cashews", "de": "Cashewkerne", "fr": "noix de cajou" }
+  },
+  {
+    "id": "raisins",
+    "names": { "ar": "زبيب", "tr": "kuru üzüm", "en": "raisins" },
+    "synonyms": {
+      "ar": ["زبيب أشقر", "زبيب أسود"],
+      "tr": ["çekirdeksiz kuru üzüm"],
+      "en": ["golden raisins", "sultanas"]
+    },
+    "category": "fruits",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "زبيب", "tr": "kuru üzüm", "en": "raisins", "de": "Rosinen", "fr": "raisins secs" }
+  },
+  {
+    "id": "jallab_syrup",
+    "names": { "ar": "شراب جلاب", "tr": "cellap şurubu", "en": "jallab syrup" },
+    "synonyms": {
+      "ar": ["جلاب", "دبس جلاب", "شراب الجلاب"],
+      "tr": ["cellab"],
+      "en": ["jallab", "date and grape molasses syrup"]
+    },
+    "category": "sauces",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": [],
+    "search_term": { "ar": "جلاب", "tr": "cellap şurubu", "en": "jallab syrup", "de": "Jallab Sirup", "fr": "sirop jallab" }
+  },
+  {
+    "id": "sahlab_powder",
+    "names": { "ar": "سحلب", "tr": "salep", "en": "sahlab powder" },
+    "synonyms": { "ar": ["بودرة سحلب", "مسحوق السحلب", "سحلب مطحون"], "tr": ["toz salep"], "en": ["salep", "sahlab"] },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["cornstarch"],
+    "search_term": { "ar": "سحلب", "tr": "salep", "en": "sahlab powder", "de": "Salep", "fr": "sahlab" }
   }
 ]

@@ -88,3 +88,16 @@ Matching semantics (Phase 2):
 2. Add new ingredients to `data/ingredients.json` first (all names, dialect synonyms, search terms).
 3. Create `data/recipes/<cuisine>-NN.json` with at most 25 recipes.
 4. `npm run format && npm run check`, then update `PROGRESS.md`.
+
+## Authoring helpers (optional)
+
+`scripts/authoring/` holds two small Python helpers used to write batches faster.
+The generated JSON in `data/` stays the source of truth.
+
+- `ingredients.py` — `I(id, category, ar, ar_synonyms, tr, tr_synonyms, en, en_synonyms, (search ar,tr,en,de,fr), subs=…, parents=…, contains=…)` then `save()`.
+- `dsl.py` — `cuisine("lebanese")`, then one `R(...)` call per recipe with compact
+  ingredient lines (`<id> <amount|-> <unit> [?] [| note ar | note tr | note en]`),
+  then `emit("lebanese")` to write `lebanese-01.json`, `lebanese-02.json`, … (25 per file).
+  Diet flags are derived automatically from the ingredients' `contains` flags.
+
+Always finish with `npm run format && npm run check`.

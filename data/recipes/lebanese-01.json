@@ -1,0 +1,2046 @@
+[
+  {
+    "id": "leb-riz-a-djej",
+    "name": {
+      "ar": "رز على دجاج",
+      "tr": "Tavuklu Kıymalı Pilav (Riz a Djej)",
+      "en": "Lebanese Chicken and Rice (Riz a Djej)",
+      "native": "رز عَ دجاج"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 100,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chicken",
+        "amount": 1.5,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "دجاجة كاملة", "tr": "Bütün tavuk", "en": "a whole chicken" }
+      },
+      { "ingredient_id": "rice", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 250, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": {
+          "ar": "عودان من القرفة + رشة مطحونة",
+          "tr": "2 çubuk tarçın + biraz toz",
+          "en": "2 sticks + a pinch ground"
+        }
+      },
+      { "ingredient_id": "bay_leaves", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "butter",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "أو سمنة", "tr": "veya sade yağ", "en": "or ghee" }
+      },
+      { "ingredient_id": "water", "amount": 10, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "almonds", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "cashews", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق الدجاجة في الماء مع البصلة وعيدان القرفة وورق الغار والملح، وأزل الرغوة، واتركها على نار متوسطة ساعة إلى ساعة ونصف.",
+        "ارفع الدجاجة واحتفظ بثلاثة أكواب من المرق، ثم انزع الجلد والعظم وقطّع اللحم نسائل.",
+        "حمّر اللحم المفروم في ملعقة زبدة مع البهارات والملح والفلفل حتى يتفتت ويتحمّر.",
+        "أضف الرز المغسول وقلّبه دقيقتين، ثم أضف المرق الساخن واتركه يغلي، وغطِّه واطبخه على نار هادئة ٢٠ دقيقة.",
+        "حمّص المكسرات في باقي الزبدة حتى تصبح ذهبية.",
+        "افرد الرز في طبق كبير، وضع فوقه الدجاج ثم المكسرات، ورشّ قليلاً من القرفة. قدّمه مع اللبن أو السلطة."
+      ],
+      "tr": [
+        "Tavuğu su, soğan, çubuk tarçın, defne yaprağı ve tuzla haşlayın; köpüğünü alıp orta ateşte 1–1,5 saat pişirin.",
+        "Tavuğu çıkarın, üç su bardağı suyunu ayırın; derisini ve kemiklerini ayıklayıp etini didikleyin.",
+        "Kıymayı bir kaşık tereyağında baharat, tuz ve karabiberle dağılıp kızarana kadar kavurun.",
+        "Yıkanmış pirinci ekleyip 2 dakika çevirin, sıcak tavuk suyunu ekleyin; kaynayınca kapağını kapatıp kısık ateşte 20 dakika pişirin.",
+        "Kuruyemişleri kalan tereyağında altın rengi olana kadar kavurun.",
+        "Pilavı geniş bir tabağa yayın, üzerine tavuk ve kuruyemişleri koyup biraz tarçın serpin. Yoğurt veya salatayla servis edin."
+      ],
+      "en": [
+        "Simmer the chicken in the water with the onion, cinnamon sticks, bay leaves and salt, skimming the foam, for 1–1½ hours.",
+        "Lift out the chicken and keep 3 cups of broth; remove skin and bones and shred the meat.",
+        "Brown the minced meat in a spoon of butter with the baharat, salt and pepper until crumbly.",
+        "Add the rinsed rice and stir for 2 minutes, pour in the hot broth, bring to the boil, then cover and cook on low for 20 minutes.",
+        "Toast the nuts in the remaining butter until golden.",
+        "Spread the rice on a large platter, top with the chicken and nuts and dust with a little cinnamon. Serve with yogurt or salad."
+      ]
+    },
+    "tips": {
+      "ar": ["طبق أساسي في الأعياد والعزائم اللبنانية."],
+      "tr": ["Lübnan'da bayram ve davet sofralarının vazgeçilmezidir."],
+      "en": ["A centrepiece of Lebanese holiday and family tables."]
+    },
+    "tags": ["feast", "family", "eid"],
+    "sources": [
+      "https://thematbakh.com/lebanese-chicken-and-rice/",
+      "https://feelgoodfoodie.net/recipe/lebanese-chicken-and-rice/",
+      "https://zaatarandzaytoun.com/lebanese-chicken-rice/"
+    ]
+  },
+  {
+    "id": "leb-kafta-mashwiyeh",
+    "name": {
+      "ar": "كفتة مشوية",
+      "tr": "Izgara Kafta (Lübnan Köftesi)",
+      "en": "Grilled Kafta Skewers",
+      "native": "كفتة مشوية"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 80,
+    "cook_minutes": 15,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "minced_meat",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "بقر أو غنم مع قليل من الدهن",
+          "tr": "Biraz yağlı dana veya kuzu",
+          "en": "beef or lamb with some fat"
+        }
+      },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 1, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "pita_bread", "amount": 4, "unit": "piece", "optional": true, "note": "" },
+      {
+        "ingredient_id": "tomato",
+        "amount": 3,
+        "unit": "piece",
+        "optional": true,
+        "note": { "ar": "للشوي", "tr": "Közlemek için", "en": "to grill" }
+      },
+      {
+        "ingredient_id": "sumac",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": true,
+        "note": { "ar": "مع شرائح بصل للتقديم", "tr": "Soğan piyazı için", "en": "with sliced onion to serve" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "افرم البصل والبقدونس في المحضّرة ناعماً جداً، ثم اعصرهما من الماء الزائد.",
+        "اعجن اللحم مع البصل والبقدونس والبهارات والملح والفلفل حتى يتماسك.",
+        "غطِّ الخليط وبرّده ساعة على الأقل.",
+        "شكّل الكفتة أصابع طويلة مفلطحة على الأسياخ بيدين مبللتين.",
+        "اشوِها على نار متوسطة ٥ دقائق لكل جهة (مع البندورة إن رغبت).",
+        "قدّمها مع الخبز والبندورة المشوية وبصل بالسماق، ومع الحمص أو الطحينة."
+      ],
+      "tr": [
+        "Soğan ve maydanozu robotta çok ince çekin, fazla suyunu sıkın.",
+        "Kıymayı soğan, maydanoz, baharat, tuz ve karabiberle bağlanana kadar yoğurun.",
+        "Karışımın üzerini kapatıp en az bir saat buzdolabında dinlendirin.",
+        "Islak ellerle şişlere uzun, yassı köfteler şeklinde geçirin.",
+        "Orta ateşte her yüzünü 5 dakika pişirin (isterseniz domatesleri de közleyin).",
+        "Ekmek, közlenmiş domates ve sumaklı soğanla; humus veya tahin sosuyla servis edin."
+      ],
+      "en": [
+        "Blitz the onion and parsley very finely in a food processor, then squeeze out the excess liquid.",
+        "Knead the meat with the onion, parsley, baharat, salt and pepper until it binds.",
+        "Cover and chill for at least an hour.",
+        "With wet hands, shape long flat fingers onto skewers.",
+        "Grill over medium heat for about 5 minutes per side (with tomatoes if you like).",
+        "Serve with bread, grilled tomatoes and sumac onions, plus hummus or tahini sauce."
+      ]
+    },
+    "tips": {
+      "ar": ["يمكن تشكيلها أقراصاً وطهيها في مقلاة مخددة إن لم يتوفر شواء."],
+      "tr": ["Mangal yoksa köfte şeklinde ızgara tavada pişirebilirsiniz."],
+      "en": ["No grill? Shape patties and cook them in a griddle pan."]
+    },
+    "tags": ["grilled", "kids", "family"],
+    "sources": [
+      "https://maureenabood.com/lebanese-grilled-kafta/",
+      "https://zaatarandzaytoun.com/kafta/",
+      "https://mamaslebanesekitchen.com/meats/grilled-kafta-kabob-recipe-kafta-mishwiyyeh/"
+    ]
+  },
+  {
+    "id": "leb-kafta-bil-sanieh",
+    "name": {
+      "ar": "كفتة بالصينية",
+      "tr": "Fırında Patatesli Kafta",
+      "en": "Baked Kafta with Potatoes and Tomatoes",
+      "native": "كفتة بالصينية"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "minced_meat", "amount": 750, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "potato", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "tomato_paste", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اعجن اللحم مع البصل والبقدونس المفرومين ناعماً والبهارات والملح، وشكّله أقراصاً صغيرة.",
+        "قطّع البطاطا شرائح بسماكة نصف سنتيمتر، واخلطها بالزيت والملح، واشوها في الفرن ١٠ دقائق.",
+        "رتّب في صينية طبقات من البطاطا وأقراص الكفتة وشرائح البندورة.",
+        "ذوّب معجون الطماطم في الماء مع الملح والفلفل، واسكبه فوق الصينية.",
+        "اخبزها في فرن ٢٠٠ درجة مئوية ٣٠–٤٠ دقيقة حتى تنضج البطاطا وتتكاثف الصلصة.",
+        "قدّمها مع الرز بالشعيرية أو الخبز والسلطة."
+      ],
+      "tr": [
+        "Kıymayı ince kıyılmış soğan, maydanoz, baharat ve tuzla yoğurup küçük köfteler yapın.",
+        "Patatesleri yarım santim kalınlığında dilimleyin, yağ ve tuzla karıştırıp fırında 10 dakika pişirin.",
+        "Tepsiye kat kat patates, köfte ve domates dilimleri dizin.",
+        "Salçayı tuz ve karabiberle suda eritip tepsinin üzerine dökün.",
+        "200°C fırında patatesler pişip sos koyulaşana kadar 30–40 dakika pişirin.",
+        "Şehriyeli pilav veya ekmek ve salatayla servis edin."
+      ],
+      "en": [
+        "Knead the meat with finely chopped onion and parsley, the baharat and salt, and shape small patties.",
+        "Slice the potatoes ½ cm thick, toss with the oil and salt and roast for 10 minutes.",
+        "Layer potatoes, kafta patties and tomato slices in a baking dish.",
+        "Dissolve the tomato paste in the water with salt and pepper and pour it over.",
+        "Bake at 200°C (400°F) for 30–40 minutes until the potatoes are tender and the sauce thickens.",
+        "Serve with vermicelli rice or bread and a salad."
+      ]
+    },
+    "tips": {
+      "ar": ["شوي البطاطا مسبقاً يضمن نضجها مع الكفتة في الوقت نفسه."],
+      "tr": ["Patatesleri önceden pişirmek köfteyle aynı anda pişmelerini sağlar."],
+      "en": ["Pre-roasting the potatoes makes sure they finish at the same time as the meat."]
+    },
+    "tags": ["family", "baked", "comfort_food"],
+    "sources": [
+      "https://thematbakh.com/kafta-bil-sanieh/",
+      "https://zaatarandzaytoun.com/kafta-bil-sanieh-lebanese-baked-kafta/",
+      "https://www.177milkstreet.com/recipes/lebanese-baked-kafta-potatoes-tomatoes"
+    ]
+  },
+  {
+    "id": "leb-samke-harra",
+    "name": {
+      "ar": "سمكة حرّة (طرابلسية)",
+      "tr": "Acılı Tahinli Balık (Samke Harra)",
+      "en": "Samke Harra (Spicy Fish in Tahini Sauce)",
+      "native": "سمكة حرّة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 4,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": {
+          "ar": "سمكة كاملة أو فيليه أبيض",
+          "tr": "Bütün balık veya beyaz fileto",
+          "en": "whole white fish or fillets"
+        }
+      },
+      { "ingredient_id": "tahini", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 6, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "coriander_fresh", "amount": 1, "unit": "bunch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "hot_pepper",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "أو فلفل حلبي", "tr": "veya pul biber", "en": "or Aleppo pepper" }
+      },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 4, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "walnuts", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 2, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "تبّل السمك بالملح والكمون وعصير نصف ليمونة، واخبزه في فرن ٢٠٠ درجة مئوية ١٥–٢٠ دقيقة (والسمكة الكاملة ٢٥–٣٠ دقيقة).",
+        "اخفق الطحينة مع باقي عصير الليمون والماء تدريجياً حتى تصبح صلصة كريمية.",
+        "قلّب الثوم المهروس والفلفل الحار المفروم والكزبرة في زيت الزيتون دقيقتين.",
+        "أضف صلصة الطحينة إلى المقلاة، وحرّكها ٣–٥ دقائق حتى تتكاثف، ثم أضف الجوز المجروش.",
+        "اسكب الصلصة فوق السمك وأعده إلى الفرن ١٠ دقائق.",
+        "زيّنه بالصنوبر المحمّص، وقدّمه ساخناً أو بارداً مع الخبز."
+      ],
+      "tr": [
+        "Balığı tuz, kimyon ve yarım limon suyuyla tatlandırıp 200°C fırında 15–20 dakika (bütün balıksa 25–30 dakika) pişirin.",
+        "Tahini kalan limon suyu ve suyu azar azar ekleyerek kremsi bir sos olana kadar çırpın.",
+        "Ezilmiş sarımsak, doğranmış acı biber ve kişnişi zeytinyağında 2 dakika çevirin.",
+        "Tahinli sosu tavaya ekleyip koyulaşana kadar 3–5 dakika karıştırın, ardından kırılmış cevizi ekleyin.",
+        "Sosu balığın üzerine döküp 10 dakika daha fırında pişirin.",
+        "Kavrulmuş çam fıstığıyla süsleyip sıcak veya soğuk olarak ekmekle servis edin."
+      ],
+      "en": [
+        "Season the fish with salt, cumin and the juice of half a lemon and bake at 200°C (400°F) for 15–20 minutes (25–30 for a whole fish).",
+        "Whisk the tahini with the remaining lemon juice and the water, added gradually, until creamy.",
+        "Fry the crushed garlic, chopped chilli and coriander in the olive oil for 2 minutes.",
+        "Add the tahini sauce to the pan and stir for 3–5 minutes until it thickens, then add the crushed walnuts.",
+        "Pour the sauce over the fish and return to the oven for 10 minutes.",
+        "Garnish with toasted pine nuts and serve hot or cold with bread."
+      ]
+    },
+    "tips": {
+      "ar": ["في طرابلس تُقدَّم أيضاً في سندويشة مع الخس والبندورة."],
+      "tr": ["Trablus'ta marul ve domatesle sandviç olarak da yenir."],
+      "en": ["In Tripoli it is also eaten in a sandwich with lettuce and tomato."]
+    },
+    "tags": ["feast", "summer"],
+    "sources": [
+      "https://www.tasteofbeirut.com/spiced-fish-samke-harra/",
+      "https://www.unicornsinthekitchen.com/samke-harra/",
+      "https://food-heritage.org/samke-harra-spiced-fish/"
+    ]
+  },
+  {
+    "id": "leb-sayadieh",
+    "name": {
+      "ar": "صيّادية",
+      "tr": "Sayadiye (Balıklı Soğanlı Pilav)",
+      "en": "Sayadieh (Fish with Caramelised Onion Rice)",
+      "native": "صيّاديّة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "servings": 5,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "fish",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "فيليه سمك أبيض", "tr": "Beyaz balık fileto", "en": "white fish fillets" }
+      },
+      { "ingredient_id": "rice", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "water", "amount": 4.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "almonds", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 2, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "قطّع البصل شرائح رفيعة واقلِه في الزيت على نار متوسطة ٢٥–٣٠ دقيقة حتى يصبح بنياً غامقاً، وارفع ثلثه للتزيين.",
+        "أضف الماء إلى باقي البصل مع الكمون والبهارات والكركم والملح، واتركه يغلي ١٠ دقائق حتى يصبح المرق بنياً.",
+        "تبّل السمك بالملح والكمون وعصير الليمون، واقلِه أو اخبزه حتى ينضج.",
+        "أضف الرز المغسول إلى المرق، واتركه يغلي ثم غطِّه واطبخه على نار هادئة ٢٠ دقيقة.",
+        "حمّص اللوز والصنوبر.",
+        "افرد الرز في طبق، وضع السمك فوقه، وزيّنه بالبصل المقرمش والمكسرات، وقدّمه مع الليمون."
+      ],
+      "tr": [
+        "Soğanları ince doğrayıp yağda orta ateşte 25–30 dakika koyu kahverengi olana kadar kızartın; üçte birini süs için ayırın.",
+        "Kalan soğana su, kimyon, baharat, zerdeçal ve tuz ekleyip et suyu kahverengileşene kadar 10 dakika kaynatın.",
+        "Balığı tuz, kimyon ve limon suyuyla tatlandırıp kızartın veya fırında pişirin.",
+        "Yıkanmış pirinci suya ekleyin; kaynayınca kapağını kapatıp kısık ateşte 20 dakika pişirin.",
+        "Badem ve çam fıstığını kavurun.",
+        "Pilavı tabağa yayın, balığı üzerine koyun; çıtır soğan ve kuruyemişle süsleyip limonla servis edin."
+      ],
+      "en": [
+        "Thinly slice the onions and fry them in the oil over medium heat for 25–30 minutes until deep brown; set a third aside for garnish.",
+        "Add the water to the remaining onions with the cumin, baharat, turmeric and salt and boil for 10 minutes until the broth turns brown.",
+        "Season the fish with salt, cumin and lemon juice and fry or bake until cooked.",
+        "Add the rinsed rice to the broth, bring to the boil, then cover and cook on low for 20 minutes.",
+        "Toast the almonds and pine nuts.",
+        "Spread the rice on a platter, lay the fish on top, garnish with the crispy onions and nuts and serve with lemon."
+      ]
+    },
+    "tips": {
+      "ar": ["لون الرز يأتي من البصل؛ إذا بقي البصل فاتحاً سيكون الرز باهتاً."],
+      "tr": ["Pilavın rengi soğandan gelir; soğan açık kalırsa pilav soluk olur."],
+      "en": ["The colour comes from the onions; pale onions give pale, flat-tasting rice."]
+    },
+    "tags": ["feast", "summer"],
+    "sources": ["https://feelgoodfoodie.net/recipe/sayadieh/", "https://www.simplyleb.com/recipe/sayadieh-lebanese-rice-fish/", "https://www.asaucykitchen.com/sayadieh/"]
+  },
+  {
+    "id": "leb-djej-w-batata",
+    "name": {
+      "ar": "دجاج وبطاطا بالفرن",
+      "tr": "Fırında Limonlu Sarımsaklı Tavuk ve Patates",
+      "en": "Lemon Garlic Chicken and Potatoes (Djej w Batata)",
+      "native": "دجاج وبطاطا"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 15,
+    "cook_minutes": 70,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "chicken",
+        "amount": 1.5,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "أفخاذ أو قطع بالعظم", "tr": "Kemikli but veya parçalar", "en": "bone-in legs or pieces" }
+      },
+      { "ingredient_id": "potato", "amount": 1, "unit": "kg", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 10, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "paprika", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "water", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "قطّع البطاطا أصابع أو شرائح سميكة، والبصل حلقات، وافردها في صينية مع الملح.",
+        "تبّل الدجاج بالبهارات والبابريكا والملح والفلفل، ورصّه فوق البطاطا والجلد للأعلى.",
+        "اخفق عصير الليمون مع الثوم المهروس وزيت الزيتون، واسكبه فوق الدجاج، ثم أضف الماء.",
+        "غطِّ الصينية بورق الألمنيوم واخبزها في فرن ٢٠٠ درجة مئوية ٣٠ دقيقة.",
+        "أزل الغطاء وأكمل الخَبز ٣٠–٤٠ دقيقة حتى يتحمّر الدجاج وتطرى البطاطا.",
+        "قدّمه مع الثومية والخبز والسلطة."
+      ],
+      "tr": [
+        "Patatesleri parmak veya kalın dilim, soğanı halka doğrayıp tuzla birlikte tepsiye yayın.",
+        "Tavuğu baharat, kırmızı biber, tuz ve karabiberle tatlandırıp derisi üstte kalacak şekilde patateslerin üzerine dizin.",
+        "Limon suyunu ezilmiş sarımsak ve zeytinyağıyla çırpıp tavuğun üzerine dökün, ardından suyu ekleyin.",
+        "Tepsinin üzerini alüminyum folyoyla kapatıp 200°C fırında 30 dakika pişirin.",
+        "Folyoyu alıp tavuk kızarıp patatesler yumuşayana kadar 30–40 dakika daha pişirin.",
+        "Sarımsak sosu, ekmek ve salatayla servis edin."
+      ],
+      "en": [
+        "Cut the potatoes into wedges or thick slices and the onion into rings, and spread them in a roasting tin with salt.",
+        "Season the chicken with baharat, paprika, salt and pepper and arrange it skin side up over the potatoes.",
+        "Whisk the lemon juice with the crushed garlic and olive oil, pour over the chicken, then add the water.",
+        "Cover with foil and bake at 200°C (400°F) for 30 minutes.",
+        "Uncover and bake for another 30–40 minutes until the chicken is golden and the potatoes tender.",
+        "Serve with toum, bread and salad."
+      ]
+    },
+    "tips": {
+      "ar": ["كلما زاد الثوم والليمون كانت أقرب إلى الطريقة اللبنانية."],
+      "tr": ["Sarımsak ve limon ne kadar bolsa Lübnan usulüne o kadar yakındır."],
+      "en": ["The more garlic and lemon, the more Lebanese it tastes."]
+    },
+    "tags": ["family", "baked", "kids", "one_pot"],
+    "sources": [
+      "https://www.simplyleb.com/recipe/lemon-chicken-potato-bake-djej-w-batata/",
+      "https://mamaslebanesekitchen.com/poultry/garlic-baked-chicken-potatoes-recipe/",
+      "https://www.mediterraneanliving.com/lebanese-lemon-chicken-and-potatoes-djej-w-batata/"
+    ]
+  },
+  {
+    "id": "leb-moghrabieh",
+    "name": {
+      "ar": "مغربية بالدجاج",
+      "tr": "Tavuklu Mograbiye (İri Kuskus)",
+      "en": "Moghrabieh (Pearl Couscous with Chicken)",
+      "native": "مغربيّة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 20,
+    "cook_minutes": 75,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "moghrabieh", "amount": 500, "unit": "g", "optional": false, "note": "" },
+      {
+        "ingredient_id": "chicken",
+        "amount": 1.2,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "قطع", "tr": "Parçalar", "en": "pieces" }
+      },
+      {
+        "ingredient_id": "onion",
+        "amount": 15,
+        "unit": "piece",
+        "optional": false,
+        "note": {
+          "ar": "١٢–١٥ بصلة صغيرة + بصلة للمرق",
+          "tr": "12–15 arpacık soğan + 1 soğan et suyu için",
+          "en": "12–15 small pearl onions + 1 for the broth"
+        }
+      },
+      { "ingredient_id": "chickpeas", "amount": 1, "unit": "can", "optional": false, "note": "" },
+      { "ingredient_id": "caraway", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "cinnamon",
+        "amount": 1,
+        "unit": "tsp",
+        "optional": false,
+        "note": {
+          "ar": "مطحونة + عود للمرق",
+          "tr": "Toz + 1 çubuk et suyu için",
+          "en": "ground, plus 1 stick for the broth"
+        }
+      },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "bay_leaves", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "butter", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 8, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اسلق الدجاج في الماء مع بصلة وعود القرفة وورق الغار والملح ٤٥ دقيقة، مع إزالة الرغوة، ثم ارفعه واحتفظ بالمرق.",
+        "قشّر البصل الصغير وحمّره في ملعقة زبدة ٥ دقائق، ثم اسلقه في قليل من المرق حتى يطرى.",
+        "اسلق المغربية في ماء مملّح ١٥–٢٠ دقيقة حتى تطرى، ثم صفّها.",
+        "قلّب المغربية في باقي الزبدة مع الكراوية والقرفة والبهارات والفلفل دقيقتين.",
+        "أضف البصل والحمص وبضع مغارف من المرق، واتركها على نار هادئة ١٠ دقائق حتى تتشرب النكهة.",
+        "قدّم المغربية وفوقها الدجاج، ومعها وعاء من المرق المتبّل بالكراوية."
+      ],
+      "tr": [
+        "Tavuğu soğan, çubuk tarçın, defne yaprağı ve tuzla suda köpüğünü alarak 45 dakika haşlayın; tavuğu çıkarıp suyunu saklayın.",
+        "Arpacık soğanları soyup bir kaşık tereyağında 5 dakika kızartın, sonra biraz et suyunda yumuşayana kadar pişirin.",
+        "Mograbiyeyi tuzlu suda 15–20 dakika yumuşayana kadar haşlayıp süzün.",
+        "Mograbiyeyi kalan tereyağında karaman kimyonu, tarçın, baharat ve karabiberle 2 dakika çevirin.",
+        "Soğan, nohut ve birkaç kepçe et suyu ekleyip lezzeti çekmesi için kısık ateşte 10 dakika pişirin.",
+        "Mograbiyeyi tavukla servis edin; yanında karaman kimyonlu et suyu verin."
+      ],
+      "en": [
+        "Simmer the chicken in the water with an onion, the cinnamon stick, bay leaves and salt for 45 minutes, skimming; lift it out and keep the broth.",
+        "Peel the pearl onions, brown them in a spoon of butter for 5 minutes, then simmer in a little broth until tender.",
+        "Boil the moghrabieh in salted water for 15–20 minutes until tender, then drain.",
+        "Toss the moghrabieh in the remaining butter with the caraway, cinnamon, baharat and pepper for 2 minutes.",
+        "Add the onions, chickpeas and a few ladles of broth and simmer on low for 10 minutes so it absorbs the flavour.",
+        "Serve the moghrabieh topped with the chicken, with a bowl of caraway-scented broth on the side."
+      ]
+    },
+    "tips": {
+      "ar": ["الكراوية هي النكهة المميزة للمغربية فلا تستغنِ عنها."],
+      "tr": ["Karaman kimyonu mograbiyenin imza lezzetidir."],
+      "en": ["Caraway is the signature flavour; don't leave it out."]
+    },
+    "tags": ["family", "winter", "comfort_food"],
+    "sources": [
+      "https://www.simplyleb.com/recipe/moghrabieh/",
+      "https://zaatarandzaytoun.com/moghrabieh/",
+      "https://urbanfarmandkitchen.com/moghrabieh-lebanese-pearl-couscous-and-chicken-stew/"
+    ]
+  },
+  {
+    "id": "leb-shawarma-lahme",
+    "name": {
+      "ar": "شاورما لحمة بالطراطور",
+      "tr": "Tahinli Et Döner (Et Şavurma)",
+      "en": "Beef Shawarma with Tarator",
+      "native": "شاورما لحمة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "main",
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "beef",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "شرائح رفيعة", "tr": "İnce şeritler", "en": "thin strips" }
+      },
+      { "ingredient_id": "vinegar", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 5, "unit": "clove", "optional": false, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": {
+          "ar": "واحدة مبشورة للتتبيلة وواحدة شرائح",
+          "tr": "Biri marine için rendelenmiş, biri piyaz",
+          "en": "1 grated for marinade, 1 sliced"
+        }
+      },
+      { "ingredient_id": "baharat", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cardamom", "amount": 0.25, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "tahini", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "sumac", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "tomato", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "pickles", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "pita_bread", "amount": 4, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الخل وعصير ليمونة و٣ فصوص ثوم والبصلة المبشورة والزيت والبهارات والهيل والملح والفلفل، وتبّل شرائح اللحم واتركها ٤ ساعات على الأقل في الثلاجة.",
+        "للطراطور: اخفق الطحينة مع عصير الليمونة الثانية وفصّي ثوم مهروسين والملح، وأضف الماء تدريجياً حتى تصبح كريمية.",
+        "اخلط شرائح البصل مع السماق والبقدونس المفروم.",
+        "سخّن مقلاة واسعة جداً واطبخ اللحم على دفعات ٣–٤ دقائق حتى يتحمّر.",
+        "افرد الخبز، وضع اللحم والبصل بالسماق والبندورة والمخلل، واسكب الطراطور، ثم لفّه وقدّمه."
+      ],
+      "tr": [
+        "Sirke, bir limonun suyu, 3 diş sarımsak, rendelenmiş soğan, yağ, baharat, kakule, tuz ve karabiberi karıştırın; eti bu karışımla marine edip en az 4 saat buzdolabında bekletin.",
+        "Tarator: tahini ikinci limonun suyu, 2 diş ezilmiş sarımsak ve tuzla çırpın; kremsi olana kadar azar azar su ekleyin.",
+        "Doğranmış soğanı sumak ve kıyılmış maydanozla karıştırın.",
+        "Geniş bir tavayı çok iyi kızdırıp eti partiler hâlinde 3–4 dakika kızarana kadar pişirin.",
+        "Ekmeği açın; et, sumaklı soğan, domates ve turşu koyup taratoru gezdirin, sarıp servis edin."
+      ],
+      "en": [
+        "Mix the vinegar, juice of one lemon, 3 garlic cloves, grated onion, oil, baharat, cardamom, salt and pepper; coat the beef and marinate for at least 4 hours in the fridge.",
+        "For the tarator: whisk the tahini with the juice of the second lemon, 2 crushed garlic cloves and salt, adding water gradually until creamy.",
+        "Toss the sliced onion with the sumac and chopped parsley.",
+        "Heat a large pan until very hot and sear the beef in batches for 3–4 minutes until browned.",
+        "Fill the bread with beef, sumac onions, tomato and pickles, drizzle with tarator, roll up and serve."
+      ]
+    },
+    "tips": {
+      "ar": ["لا تزدحم المقلاة باللحم حتى يتحمّر بدلاً من أن يُسلق."],
+      "tr": ["Et haşlanmasın, kızarsın diye tavayı doldurmayın."],
+      "en": ["Don't crowd the pan, so the beef sears instead of stewing."]
+    },
+    "tags": ["street_food", "make_ahead"],
+    "sources": [
+      "https://www.simplyleb.com/recipe/beef-shawarma-with-tahini-sauce/",
+      "https://cookingtheglobe.com/beef-shawarma/",
+      "https://thesaltandsweet.com/lebanese-beef-shawarma/"
+    ]
+  },
+  {
+    "id": "leb-kibbeh-nayyeh",
+    "name": {
+      "ar": "كبة نيّة",
+      "tr": "Çiğ Kibbe (Kibbe Nayye)",
+      "en": "Kibbeh Nayyeh (Raw Kibbeh)",
+      "native": "كبّة نيّة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "appetizer",
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "lamb",
+        "amount": 500,
+        "unit": "g",
+        "optional": false,
+        "note": {
+          "ar": "فخذ طازجة جداً بلا دهن ولا عروق",
+          "tr": "Çok taze, yağsız ve sinirsiz kuzu but",
+          "en": "very fresh lean leg, trimmed of fat and sinew"
+        }
+      },
+      { "ingredient_id": "bulgur_fine", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "onion",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "صغيرة", "tr": "Küçük", "en": "small" }
+      },
+      { "ingredient_id": "cumin", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "dried_mint", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "basil",
+        "amount": 5,
+        "unit": "leaf",
+        "optional": true,
+        "note": { "ar": "ورقات لخلطة الكمونة", "tr": "Kamune karışımı için yaprak", "en": "leaves for the kamouneh" }
+      },
+      { "ingredient_id": "allspice", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مثلّجة", "tr": "Buzlu", "en": "ice-cold" }
+      },
+      { "ingredient_id": "olive_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "mint",
+        "amount": 0.25,
+        "unit": "bunch",
+        "optional": true,
+        "note": { "ar": "للتزيين", "tr": "Süs için", "en": "to garnish" }
+      },
+      { "ingredient_id": "green_onion", "amount": 4, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.25, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع البرغل في ماء بارد ١٠ دقائق، ثم اعصره جيداً.",
+        "للكمّونة: افرم البصل مع الكمون والنعناع اليابس والريحان والبهار الحلو والفلفل وملعقة من البرغل حتى تصبح معجوناً.",
+        "اطحن اللحم البارد جداً في المحضّرة مع الملح والماء المثلّج حتى يصبح عجينة ناعمة (٣–٥ دقائق).",
+        "اعجن اللحم مع البرغل والكمّونة بيدين مبللتين بالماء المثلّج حتى يتجانس.",
+        "افرده في صحن، واصنع خطوطاً على سطحه بالملعقة، واسكب زيت الزيتون، وزيّنه بالنعناع.",
+        "قدّمه فوراً بارداً مع البصل الأخضر والنعناع والخبز."
+      ],
+      "tr": [
+        "Bulguru soğuk suda 10 dakika bekletip iyice sıkın.",
+        "Kamune için: soğanı kimyon, kuru nane, fesleğen, yenibahar, karabiber ve bir kaşık bulgurla macun kıvamına gelene kadar çekin.",
+        "Çok soğuk eti robotta tuz ve buzlu suyla pürüzsüz bir hamur olana kadar (3–5 dakika) çekin.",
+        "Eti bulgur ve kamuneyle, elleri buzlu suyla ıslatarak homojen olana kadar yoğurun.",
+        "Tabağa yayıp kaşıkla yüzeyine çizgiler yapın, zeytinyağı gezdirip naneyle süsleyin.",
+        "Yeşil soğan, nane ve ekmekle soğuk olarak hemen servis edin."
+      ],
+      "en": [
+        "Soak the bulgur in cold water for 10 minutes, then squeeze it dry.",
+        "For the kamouneh: blitz the onion with the cumin, dried mint, basil, allspice, pepper and a spoon of the bulgur to a paste.",
+        "Process the very cold meat with the salt and ice water until it forms a smooth paste (3–5 minutes).",
+        "Knead the meat with the bulgur and kamouneh, wetting your hands with iced water, until uniform.",
+        "Spread on a plate, make ridges with a spoon, drizzle with olive oil and garnish with mint.",
+        "Serve cold straight away with spring onions, mint and bread."
+      ]
+    },
+    "tips": {
+      "ar": ["اشترِ اللحم في اليوم نفسه من ملحمة موثوقة وأبقِه مبرّداً طوال الوقت.", "لا يُنصح بتقديمه للحوامل والأطفال وكبار السن لأنه لحم نيء."],
+      "tr": ["Eti aynı gün güvenilir bir kasaptan alın ve sürekli soğuk tutun.", "Çiğ et olduğu için hamile, çocuk ve yaşlılara önerilmez."],
+      "en": [
+        "Buy the meat the same day from a trusted butcher and keep it cold throughout.",
+        "Being raw meat, it is not recommended for pregnant women, young children or the elderly."
+      ]
+    },
+    "tags": ["mezze", "feast"],
+    "sources": [
+      "https://feelgoodfoodie.net/recipe/kibbeh-nayyeh/",
+      "https://zaatarandzaytoun.com/kibbeh-nayeh/",
+      "https://www.sbs.com.au/food/the-cook-up-with-adam-liaw/recipe/kibbeh-nayyeh/ssi8n1wej"
+    ]
+  },
+  {
+    "id": "leb-malfouf-mahshi",
+    "name": {
+      "ar": "ملفوف محشي",
+      "tr": "Etli Lahana Sarması",
+      "en": "Stuffed Cabbage Rolls (Malfouf Mahshi)",
+      "native": "ملفوف محشي"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "main",
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "servings": 6,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "cabbage",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "رأس كبير", "tr": "Büyük bir baş", "en": "1 large head" }
+      },
+      { "ingredient_id": "rice", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 15, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 3, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "dried_mint", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cumin", "amount": 0.5, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "pomegranate_molasses", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انزع قلب الملفوف، واسلقه كاملاً في ماء مغلي، وافصل الأوراق كلما طريت.",
+        "أزل العرق السميك من كل ورقة، واقطع الأوراق الكبيرة نصفين.",
+        "اخلط الرز المغسول مع اللحم والبهارات والكمون وزيت الزيتون والملح والفلفل.",
+        "ضع ملعقة من الحشوة على طرف الورقة ولفّها بإحكام، ورصّ الأصابع في القدر مع فصوص الثوم بين الطبقات.",
+        "أضف الماء وعصير ليمونة والملح ودبس الرمان، وضع صحناً فوقها، واتركها تغلي ثم اطبخها على نار هادئة ٤٥–٦٠ دقيقة.",
+        "في آخر ١٠ دقائق أضف ثوماً مهروساً مع النعناع اليابس وباقي عصير الليمون. قدّمه مع اللبن."
+      ],
+      "tr": [
+        "Lahananın göbeğini çıkarıp bütün olarak kaynar suda haşlayın, yumuşadıkça yaprakları ayırın.",
+        "Her yaprağın kalın damarını çıkarın, büyük yaprakları ikiye kesin.",
+        "Yıkanmış pirinci kıyma, baharat, kimyon, zeytinyağı, tuz ve karabiberle karıştırın.",
+        "Yaprağın ucuna bir kaşık iç koyup sıkıca sarın; sarmaları tencereye, aralarına sarımsak dişleri koyarak dizin.",
+        "Su, bir limonun suyu, tuz ve nar ekşisi ekleyin, üzerine tabak kapatın; kaynayınca kısık ateşte 45–60 dakika pişirin.",
+        "Son 10 dakikada ezilmiş sarımsak, kuru nane ve kalan limon suyunu ekleyin. Yoğurtla servis edin."
+      ],
+      "en": [
+        "Core the cabbage, boil it whole and peel off the leaves as they soften.",
+        "Cut out the thick rib from each leaf and halve the large ones.",
+        "Mix the rinsed rice with the meat, baharat, cumin, olive oil, salt and pepper.",
+        "Put a spoon of filling at one edge of a leaf and roll tightly; pack the rolls into a pot with garlic cloves between the layers.",
+        "Add the water, juice of one lemon, salt and pomegranate molasses, weigh down with a plate, bring to the boil and simmer for 45–60 minutes.",
+        "For the last 10 minutes add crushed garlic with the dried mint and the remaining lemon juice. Serve with yogurt."
+      ]
+    },
+    "tips": {
+      "ar": ["الثوم والنعناع اليابس والليمون هي نكهة الملفوف اللبناني الأساسية."],
+      "tr": ["Sarımsak, kuru nane ve limon Lübnan lahana sarmasının temel lezzetidir."],
+      "en": ["Garlic, dried mint and lemon are the defining flavours."]
+    },
+    "tags": ["family", "winter", "one_pot"],
+    "sources": [
+      "https://zaatarandzaytoun.com/malfouf/",
+      "https://feelgoodfoodie.net/recipe/stuffed-cabbage-rolls/",
+      "https://www.simplyleb.com/recipe/lebanese-stuffed-cabbage-rolls/"
+    ]
+  },
+  {
+    "id": "leb-baba-ghanoush",
+    "name": {
+      "ar": "بابا غنوج",
+      "tr": "Baba Gannuş (Tahinsiz)",
+      "en": "Baba Ghanoush (Levantine, without Tahini)",
+      "native": "بابا غنّوج"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "appetizer",
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "eggplant",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "كبيرة", "tr": "Büyük", "en": "large" }
+      },
+      { "ingredient_id": "tomato", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "bell_pepper",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "خضراء", "tr": "Yeşil", "en": "green" }
+      },
+      { "ingredient_id": "onion", "amount": 0.5, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.25, "unit": "bunch", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 1, "unit": "clove", "optional": false, "note": "" },
+      { "ingredient_id": "pomegranate_molasses", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "olive_oil", "amount": 3, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "pomegranate", "amount": 2, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اشوِ الباذنجان على لهب مباشر حتى تتفحّم قشرته ويطرى تماماً، ثم قشّره وصفِّه.",
+        "افرم لب الباذنجان فرماً خشناً بالسكين.",
+        "قطّع البندورة والفليفلة والبصل مكعبات صغيرة جداً، وافرم البقدونس.",
+        "اخلط الباذنجان مع الثوم المهروس وعصير الليمون ودبس الرمان وزيت الزيتون والملح.",
+        "أضف الخضار المفرومة وقلّب بلطف، وزيّنه بحب الرمان."
+      ],
+      "tr": [
+        "Patlıcanları doğrudan ateşte kabukları kararıp tamamen yumuşayana kadar közleyin, soyup süzün.",
+        "Patlıcan içini bıçakla iri iri kıyın.",
+        "Domates, biber ve soğanı çok küçük küpler hâlinde doğrayın, maydanozu kıyın.",
+        "Patlıcanı ezilmiş sarımsak, limon suyu, nar ekşisi, zeytinyağı ve tuzla karıştırın.",
+        "Doğranmış sebzeleri ekleyip nazikçe karıştırın ve nar taneleriyle süsleyin."
+      ],
+      "en": [
+        "Char the eggplants over an open flame until blackened and completely soft, then peel and drain.",
+        "Roughly chop the flesh with a knife.",
+        "Dice the tomato, pepper and onion very small and chop the parsley.",
+        "Mix the eggplant with the crushed garlic, lemon juice, pomegranate molasses, olive oil and salt.",
+        "Fold in the chopped vegetables and garnish with pomegranate seeds."
+      ]
+    },
+    "tips": {
+      "ar": ["في لبنان يُسمّى الطبق بالطحينة «متبّل»، أما البابا غنوج فبالخضار ودبس الرمان."],
+      "tr": ["Lübnan'da tahinlisine mutabbel denir; baba gannuş sebzeli ve nar ekşilidir."],
+      "en": ["In Lebanon the tahini version is mutabbal; baba ghanoush is the vegetable and pomegranate one."]
+    },
+    "tags": ["mezze", "summer"],
+    "sources": [
+      "https://thematbakh.com/baba-ganoush-recipe-lebanese-baba-ghanouj/",
+      "https://immigrantstable.com/lebanese-baba-ganoush-recipe/",
+      "https://silkroadrecipes.com/traditional-baba-ganoush-recipe/"
+    ]
+  },
+  {
+    "id": "leb-hummus-bil-lahme",
+    "name": {
+      "ar": "حمص باللحمة",
+      "tr": "Kıymalı Humus",
+      "en": "Hummus with Spiced Meat and Pine Nuts",
+      "native": "حمّص باللحمة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "appetizer",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 4,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "chickpeas", "amount": 2, "unit": "can", "optional": false, "note": "" },
+      { "ingredient_id": "tahini", "amount": 0.33, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 1, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "garlic", "amount": 1, "unit": "clove", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مثلّجة", "tr": "Buzlu", "en": "ice-cold" }
+      },
+      {
+        "ingredient_id": "minced_meat",
+        "amount": 250,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "أو مكعبات غنم صغيرة", "tr": "veya küçük kuzu küpleri", "en": "or small lamb cubes" }
+      },
+      { "ingredient_id": "onion", "amount": 0.5, "unit": "piece", "optional": true, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ghee",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "أو زبدة", "tr": "veya tereyağı", "en": "or butter" }
+      },
+      { "ingredient_id": "olive_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "parsley", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": null, "unit": "to_taste", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الحمص المصفّى مع الثوم وعصير الليمون والملح حتى ينعم، ثم أضف الطحينة والماء المثلّج واخلط حتى يصبح كريمياً.",
+        "حمّر اللحم في السمنة مع البصل المفروم والبهارات والملح حتى ينضج ويتحمّر.",
+        "حمّص الصنوبر في المقلاة نفسها دقيقة أو دقيقتين.",
+        "افرد الحمص في صحن واصنع تجويفاً في وسطه.",
+        "ضع اللحم الساخن والصنوبر في الوسط، واسكب زيت الزيتون، ورشّ البقدونس. قدّمه مع الخبز."
+      ],
+      "tr": [
+        "Süzülmüş nohudu sarımsak, limon suyu ve tuzla pürüzsüz olana kadar çekin; tahin ve buzlu suyu ekleyip kremsi olana kadar çekin.",
+        "Kıymayı sade yağda doğranmış soğan, baharat ve tuzla pişip kızarana kadar kavurun.",
+        "Aynı tavada çam fıstığını 1–2 dakika kavurun.",
+        "Humusu tabağa yayıp ortasını çukurlaştırın.",
+        "Sıcak kıymayı ve çam fıstığını ortaya koyun, zeytinyağı gezdirip maydanoz serpin. Ekmekle servis edin."
+      ],
+      "en": [
+        "Blend the drained chickpeas with the garlic, lemon juice and salt until smooth, then add the tahini and ice water and blend until creamy.",
+        "Brown the meat in the ghee with the chopped onion, baharat and salt until cooked.",
+        "Toast the pine nuts in the same pan for 1–2 minutes.",
+        "Spread the hummus on a plate and make a well in the centre.",
+        "Spoon the hot meat and pine nuts into the well, drizzle with olive oil and sprinkle with parsley. Serve with bread."
+      ]
+    },
+    "tips": {
+      "ar": ["قدّم اللحم ساخناً فوق الحمص البارد للحصول على أفضل تباين."],
+      "tr": ["En iyi tat için sıcak eti soğuk humusun üzerine koyun."],
+      "en": ["Hot meat over cool hummus gives the best contrast."]
+    },
+    "tags": ["mezze", "quick"],
+    "sources": ["https://www.simplyleb.com/recipe/hummus-with-beef/", "https://littlesunnykitchen.com/hummus-meat/", "https://forksandfoliage.com/hummus-with-meat/"]
+  },
+  {
+    "id": "leb-toum",
+    "name": {
+      "ar": "ثومية (توم)",
+      "tr": "Lübnan Sarımsak Sosu (Tum)",
+      "en": "Toum (Lebanese Garlic Sauce)",
+      "native": "توم"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner"],
+    "course": "sauce",
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "servings": 12,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "garlic",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "نحو رأسين مقشّرين", "tr": "Yaklaşık 2 baş, soyulmuş", "en": "about 2 heads, peeled" }
+      },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "زيت محايد وليس زيت زيتون",
+          "tr": "Zeytinyağı değil, nötr yağ",
+          "en": "neutral oil, not olive oil"
+        }
+      },
+      { "ingredient_id": "lemon", "amount": 1.5, "unit": "piece", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مثلّجة", "tr": "Buzlu", "en": "ice-cold" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اقسم فصوص الثوم وأزل البرعم الأخضر من وسطها.",
+        "اطحن الثوم مع الملح في المحضّرة حتى يصبح ناعماً جداً، وامسح الجوانب.",
+        "والمحضّرة تعمل، أضف ملعقتين من الزيت خيطاً رفيعاً جداً، ثم ملعقة من عصير الليمون، وكرّر بالتناوب.",
+        "استمر ١٠ دقائق تقريباً حتى تنتهي الكمية ويصبح الخليط أبيض كثيفاً كالمايونيز، وأضف الماء المثلّج في النهاية.",
+        "احفظه في علبة مغلقة في الثلاجة حتى شهر."
+      ],
+      "tr": [
+        "Sarımsak dişlerini ikiye bölüp ortasındaki yeşil filizi çıkarın.",
+        "Sarımsağı tuzla robotta çok ince olana kadar çekin, kenarları sıyırın.",
+        "Robot çalışırken iki kaşık yağı çok ince bir iplik gibi ekleyin, ardından bir kaşık limon suyu; dönüşümlü devam edin.",
+        "Yağ bitip karışım mayonez gibi beyaz ve koyu olana kadar yaklaşık 10 dakika sürdürün, sonunda buzlu suyu ekleyin.",
+        "Kapalı bir kapta buzdolabında bir aya kadar saklayın."
+      ],
+      "en": [
+        "Halve the garlic cloves and remove any green germ.",
+        "Process the garlic with the salt until very finely minced, scraping down the sides.",
+        "With the motor running, add 2 tbsp of oil in a very thin stream, then 1 tbsp lemon juice, and keep alternating.",
+        "Continue for about 10 minutes until all the oil is in and the sauce is thick and white like mayonnaise; add the ice water at the end.",
+        "Store in a sealed jar in the fridge for up to a month."
+      ]
+    },
+    "tips": {
+      "ar": ["إن انفصلت الصلصة ابدأ بفص ثوم جديد وأضف الخليط المنفصل ببطء."],
+      "tr": ["Sos kesilirse yeni bir diş sarımsakla başlayıp kesilmiş karışımı yavaşça ekleyin."],
+      "en": ["If it splits, start again with a fresh clove and slowly add the broken mixture."]
+    },
+    "tags": ["make_ahead", "mezze"],
+    "sources": [
+      "https://www.themediterraneandish.com/toum-garlic-sauce-recipe/",
+      "https://maureenabood.com/toum-lebanese-garlic-sauce/",
+      "https://feelgoodfoodie.net/recipe/lebanese-garlic-sauce/"
+    ]
+  },
+  {
+    "id": "leb-labneh",
+    "name": { "ar": "لبنة بيتية", "tr": "Ev Yapımı Labne", "en": "Homemade Labneh", "native": "لبنة" },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["breakfast", "dinner"],
+    "course": "appetizer",
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "servings": 8,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "yogurt",
+        "amount": 1,
+        "unit": "kg",
+        "optional": false,
+        "note": { "ar": "كامل الدسم", "tr": "Tam yağlı", "en": "full-fat" }
+      },
+      { "ingredient_id": "salt", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "olive_oil",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "للتقديم", "tr": "Servis için", "en": "to serve" }
+      },
+      { "ingredient_id": "zaatar", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "mint", "amount": 5, "unit": "leaf", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط اللبن مع الملح جيداً.",
+        "بطّن مصفاة بقطعتين من الشاش وضعها فوق وعاء عميق.",
+        "اسكب اللبن في الشاش، واربط أطرافه، وضعه في الثلاجة.",
+        "اتركه يتصفّى ٢٤–٤٨ ساعة؛ كلما طالت المدة أصبحت اللبنة أكثف.",
+        "انقل اللبنة إلى صحن، وقدّمها مع زيت الزيتون والزعتر والنعناع والخبز."
+      ],
+      "tr": [
+        "Yoğurdu tuzla iyice karıştırın.",
+        "Bir süzgeci iki kat tülbentle kaplayıp derin bir kabın üzerine yerleştirin.",
+        "Yoğurdu tülbente dökün, uçlarını bağlayıp buzdolabına koyun.",
+        "24–48 saat süzülmeye bırakın; süre uzadıkça labne koyulaşır.",
+        "Labneyi tabağa alıp zeytinyağı, zahter, nane ve ekmekle servis edin."
+      ],
+      "en": [
+        "Mix the yogurt well with the salt.",
+        "Line a sieve with two layers of cheesecloth and set it over a deep bowl.",
+        "Pour in the yogurt, tie up the cloth and refrigerate.",
+        "Leave to drain for 24–48 hours; the longer it drains, the thicker the labneh.",
+        "Transfer to a plate and serve with olive oil, za'atar, mint and bread."
+      ]
+    },
+    "tips": {
+      "ar": ["لعمل كرات اللبنة صفّها ثلاثة أيام، ثم كوّرها واحفظها مغمورة بزيت الزيتون."],
+      "tr": ["Labne topları için 3 gün süzün, top yapıp zeytinyağı içinde saklayın."],
+      "en": ["For labneh balls, drain for 3 days, roll into balls and keep them covered in olive oil."]
+    },
+    "tags": ["breakfast_classic", "make_ahead", "mezze"],
+    "sources": ["https://www.simplyleb.com/recipe/labneh/", "https://feelgoodfoodie.net/recipe/labneh/", "https://www.themediterraneandish.com/homemade-labneh-recipe/"]
+  },
+  {
+    "id": "leb-knefe-bi-jibn",
+    "name": {
+      "ar": "كنافة بالجبن",
+      "tr": "Peynirli Künefe (Lübnan Usulü)",
+      "en": "Knefeh bi Jibn (Cheese Kunafa)",
+      "native": "كنافة بالجبنة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["breakfast", "dessert"],
+    "course": "dessert",
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "servings": 10,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "kataifi_dough", "amount": 500, "unit": "g", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ghee",
+        "amount": 0.75,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مذابة", "tr": "Eritilmiş", "en": "melted" }
+      },
+      {
+        "ingredient_id": "akkawi_cheese",
+        "amount": 500,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "منقوعة لإزالة الملح", "tr": "Tuzu alınmış", "en": "desalted" }
+      },
+      { "ingredient_id": "mozzarella", "amount": 250, "unit": "g", "optional": true, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 0.25, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "orange_blossom_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "pistachios", "amount": 2, "unit": "tbsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "حضّر القطر: اغلِ السكر مع الماء ١٠ دقائق، وأضف الليمون وماء الزهر، واتركه يبرد.",
+        "انقع الجبنة عدة ساعات مع تغيير الماء، ثم جففها وابشرها واخلطها مع الموزاريلا.",
+        "افرم عجينة الكنافة ناعماً في المحضّرة أو بالسكين، واخلطها جيداً بالسمنة المذابة.",
+        "اضغط نصف العجينة في صينية مستديرة، ووزّع الجبنة فوقها، ثم غطّها بباقي العجينة واضغطها.",
+        "اخبزها في فرن ١٨٠ درجة مئوية ٣٠–٤٠ دقيقة حتى يصبح أسفلها ذهبياً.",
+        "اقلبها في طبق التقديم، واسقها بالقطر، وزيّنها بالفستق. قدّمها ساخنة (وفي لبنان داخل كعكة بالسمسم)."
+      ],
+      "tr": [
+        "Şerbet: şekeri suyla 10 dakika kaynatın, limon ve portakal çiçeği suyunu ekleyip soğutun.",
+        "Peyniri birkaç saat suyunu değiştirerek bekletin, kurulayıp rendeleyin ve mozzarellayla karıştırın.",
+        "Kadayıfı robotta veya bıçakla ince kıyın, eritilmiş sade yağla iyice karıştırın.",
+        "Kadayıfın yarısını yuvarlak tepsiye bastırın, peyniri yayın, kalan kadayıfla kapatıp bastırın.",
+        "180°C fırında altı altın rengi olana kadar 30–40 dakika pişirin.",
+        "Servis tabağına ters çevirin, şerbeti dökün, fıstıkla süsleyin. Sıcak servis edin (Lübnan'da susamlı kaak ekmeği içinde yenir)."
+      ],
+      "en": [
+        "Make the syrup: boil the sugar and water for 10 minutes, add the lemon juice and orange blossom water and let cool.",
+        "Soak the cheese for a few hours, changing the water, then dry, grate and mix with the mozzarella.",
+        "Chop the kataifi finely in a food processor or with a knife and mix thoroughly with the melted ghee.",
+        "Press half the dough into a round tin, spread the cheese over it, cover with the rest of the dough and press down.",
+        "Bake at 180°C (350°F) for 30–40 minutes until the bottom is golden.",
+        "Invert onto a platter, pour over the syrup and garnish with pistachios. Serve hot (in Lebanon, inside a sesame ka'ak bread)."
+      ]
+    },
+    "tips": {
+      "ar": ["قدّمها فور خروجها من الفرن حتى تبقى الجبنة ممطوطة."],
+      "tr": ["Peynirin uzaması için fırından çıkar çıkmaz servis edin."],
+      "en": ["Serve straight from the oven so the cheese stays stretchy."]
+    },
+    "tags": ["sweet", "breakfast_classic", "ramadan"],
+    "sources": [
+      "https://maureenabood.com/lebanese-knafeh-jibneh-with-orange-blossom-syrup/",
+      "https://homemade-recipes.blogspot.com/2019/01/lebanese-knafeh-jibneh-with-orange.html",
+      "https://www.nosaibasfood.com/recipes/lebanese/121/kunafa-bil-jibn-kunafa-with-cheese_18"
+    ]
+  },
+  {
+    "id": "leb-sfouf",
+    "name": {
+      "ar": "صفوف",
+      "tr": "Sfuf (Zerdeçallı İrmik Keki)",
+      "en": "Sfouf (Turmeric Semolina Cake)",
+      "native": "صفوف"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "servings": 16,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "semolina",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ناعم", "tr": "İnce", "en": "fine" }
+      },
+      { "ingredient_id": "flour", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "turmeric", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "anise", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "baking_powder", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "milk", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "vegetable_oil", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tahini",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "لدهن الصينية", "tr": "Tepsiyi yağlamak için", "en": "to grease the pan" }
+      },
+      {
+        "ingredient_id": "pine_nuts",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": true,
+        "note": { "ar": "أو لوز أو سمسم", "tr": "veya badem ya da susam", "en": "or almonds or sesame" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "سخّن الفرن إلى ١٨٠ درجة مئوية وادهن صينية مربعة (٢٣ سم) بالطحينة.",
+        "اخلط السميد والطحين والسكر والكركم واليانسون والبيكنج باودر.",
+        "أضف الزيت والحليب الدافئ واخلط حتى يتجانس دون إفراط.",
+        "اسكب الخليط في الصينية ووزّع الصنوبر على السطح.",
+        "اخبزه ٣٥–٤٠ دقيقة حتى يتحمّر وتخرج العود نظيفة، ثم اتركه يبرد وقطّعه مربعات."
+      ],
+      "tr": [
+        "Fırını 180°C'ye ısıtın, kare bir tepsiyi (23 cm) tahinle yağlayın.",
+        "İrmik, un, şeker, zerdeçal, anason ve kabartma tozunu karıştırın.",
+        "Yağı ve ılık sütü ekleyip fazla çırpmadan homojen olana kadar karıştırın.",
+        "Karışımı tepsiye döküp üzerine çam fıstığı serpin.",
+        "Kızarıp kürdan temiz çıkana kadar 35–40 dakika pişirin; soğuyunca kare kesin."
+      ],
+      "en": [
+        "Heat the oven to 180°C (350°F) and grease a 23 cm square tin with tahini.",
+        "Mix the semolina, flour, sugar, turmeric, anise and baking powder.",
+        "Add the oil and warm milk and mix just until smooth.",
+        "Pour into the tin and scatter the pine nuts over the top.",
+        "Bake for 35–40 minutes until golden and a skewer comes out clean; cool and cut into squares."
+      ]
+    },
+    "tips": {
+      "ar": ["دهن الصينية بالطحينة يعطي قاع الصفوف نكهة محمّصة مميزة."],
+      "tr": ["Tepsiyi tahinle yağlamak kekin altına kavrulmuş bir lezzet verir."],
+      "en": ["Greasing the tin with tahini gives the base a toasty flavour."]
+    },
+    "tags": ["sweet", "baked", "make_ahead", "kids"],
+    "sources": ["https://www.simplyleb.com/recipe/sfouf/", "https://feelgoodfoodie.net/recipe/sfouf/", "https://maureenabood.com/lebanese-sfouf-cake/"]
+  },
+  {
+    "id": "leb-meghli",
+    "name": {
+      "ar": "مغلي",
+      "tr": "Meğli (Karaman Kimyonlu Muhallebi)",
+      "en": "Meghli (Spiced Rice Pudding)",
+      "native": "مغلي"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": true, "gluten_free": true },
+    "ingredients": [
+      { "ingredient_id": "rice_flour", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "caraway", "amount": 1.5, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "anise", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "cinnamon", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 7, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "coconut", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "walnuts", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "almonds", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "pistachios", "amount": 0.25, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 2, "unit": "tbsp", "optional": true, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "انقع المكسرات في ماء بارد عدة ساعات (اختياري) لتصبح طرية.",
+        "في قدر كبير اخلط طحين الرز مع السكر والكراوية واليانسون والقرفة وهو جاف.",
+        "أضف الماء البارد تدريجياً مع الخفق حتى لا يتكتل.",
+        "ضعه على نار متوسطة إلى هادئة وحرّك باستمرار ٣٠–٤٥ دقيقة حتى يتكاثف ويغطي الملعقة.",
+        "اسكبه في أكواب واتركه يبرد، ثم زيّنه بجوز الهند المبشور والمكسرات."
+      ],
+      "tr": [
+        "İsterseniz kuruyemişleri birkaç saat soğuk suda bekleterek yumuşatın.",
+        "Büyük bir tencerede pirinç unu, şeker, karaman kimyonu, anason ve tarçını kuru olarak karıştırın.",
+        "Topaklanmaması için soğuk suyu çırparak azar azar ekleyin.",
+        "Orta-kısık ateşte sürekli karıştırarak kaşığı kaplayacak kıvama gelene kadar 30–45 dakika pişirin.",
+        "Kaselere paylaştırıp soğutun; rendelenmiş hindistan cevizi ve kuruyemişle süsleyin."
+      ],
+      "en": [
+        "Soak the nuts in cold water for a few hours if you like, so they soften.",
+        "In a large pot, mix the rice flour, sugar, caraway, anise and cinnamon while dry.",
+        "Whisk in the cold water gradually so no lumps form.",
+        "Cook over medium-low heat, stirring constantly, for 30–45 minutes until it thickens enough to coat the spoon.",
+        "Pour into cups, let cool, then top with desiccated coconut and the nuts."
+      ]
+    },
+    "tips": {
+      "ar": ["يُحضَّر تقليدياً احتفالاً بولادة طفل وفي عيد الميلاد."],
+      "tr": ["Geleneksel olarak doğum ve Noel kutlamalarında hazırlanır."],
+      "en": ["Traditionally made to celebrate a new baby and at Christmas."]
+    },
+    "tags": ["sweet", "celebration", "make_ahead"],
+    "sources": ["https://www.simplyleb.com/recipe/meghli/", "https://thematbakh.com/meghli-caraway-pudding/", "https://littlesunnykitchen.com/meghli-caraway-rice-pudding/"]
+  },
+  {
+    "id": "leb-riz-bi-haleeb",
+    "name": {
+      "ar": "رز بحليب",
+      "tr": "Sütlaç (Lübnan Usulü)",
+      "en": "Riz bi Haleeb (Rice Pudding)",
+      "native": "رز بحليب"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert", "breakfast"],
+    "course": "dessert",
+    "prep_minutes": 5,
+    "cook_minutes": 35,
+    "servings": 6,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": true },
+    "ingredients": [
+      {
+        "ingredient_id": "rice",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "قصير الحبة", "tr": "Kısa taneli", "en": "short-grain" }
+      },
+      { "ingredient_id": "water", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "milk", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "sugar", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "cornstarch", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "orange_blossom_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tsp", "optional": true, "note": "" },
+      { "ingredient_id": "pistachios", "amount": 2, "unit": "tbsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اطبخ الرز مع الماء على نار متوسطة إلى هادئة ٥–٧ دقائق حتى يتشرب الماء.",
+        "أضف الحليب (مع الاحتفاظ بربع كوب) والسكر، واطبخه ٢٠–٢٥ دقيقة مع التحريك حتى ينضج الرز.",
+        "ذوّب النشاء في ربع كوب الحليب، وأضفه مع التحريك حتى يتكاثف.",
+        "ارفعه عن النار وأضف ماء الزهر وماء الورد.",
+        "اسكبه في أكواب، واتركه يبرد ثم ضعه في الثلاجة، وزيّنه بالفستق."
+      ],
+      "tr": [
+        "Pirinci suyla orta-kısık ateşte suyunu çekene kadar 5–7 dakika pişirin.",
+        "Sütü (çeyrek bardağını ayırarak) ve şekeri ekleyin; pirinç pişene kadar karıştırarak 20–25 dakika pişirin.",
+        "Nişastayı ayırdığınız sütte eritip karıştırarak ekleyin, koyulaşana kadar pişirin.",
+        "Ocaktan alıp portakal çiçeği ve gül suyunu ekleyin.",
+        "Kaselere paylaştırın, soğuyunca buzdolabına koyun ve fıstıkla süsleyin."
+      ],
+      "en": [
+        "Cook the rice with the water over medium-low heat for 5–7 minutes until absorbed.",
+        "Add the milk (keeping back ¼ cup) and the sugar and cook for 20–25 minutes, stirring, until the rice is soft.",
+        "Dissolve the cornstarch in the reserved milk and stir it in until thickened.",
+        "Remove from the heat and add the orange blossom and rose water.",
+        "Pour into cups, cool, chill and garnish with pistachios."
+      ]
+    },
+    "tips": {
+      "ar": ["لا تغسل الرز، فنشاؤه يساعد على كثافة الحلوى."],
+      "tr": ["Pirinci yıkamayın; nişastası tatlının koyulaşmasına yardım eder."],
+      "en": ["Don't rinse the rice; its starch helps thicken the pudding."]
+    },
+    "tags": ["sweet", "kids", "make_ahead"],
+    "sources": [
+      "https://www.simplyleb.com/recipe/lebanese-rice-pudding-riz-bi-haleeb/",
+      "https://maureenabood.com/orange-blossom-rice-pudding-its-going-to-calm-you-down-too/",
+      "https://feelgoodfoodie.net/recipe/lebanese-rice-pudding/"
+    ]
+  },
+  {
+    "id": "leb-layali-lubnan",
+    "name": {
+      "ar": "ليالي لبنان",
+      "tr": "Leyali Lübnan (İrmikli Kaymaklı Tatlı)",
+      "en": "Layali Lubnan (Semolina Pudding with Ashta)",
+      "native": "ليالي لبنان"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 8,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "milk", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "semolina",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ناعم", "tr": "İnce", "en": "fine" }
+      },
+      {
+        "ingredient_id": "sugar",
+        "amount": 1.33,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "ثلث كوب للمهلبية والباقي للقطر",
+          "tr": "Üçte biri muhallebi, kalanı şerbet için",
+          "en": "⅓ cup for the pudding, the rest for the syrup"
+        }
+      },
+      { "ingredient_id": "water", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 0.25, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "orange_blossom_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ashta",
+        "amount": 1.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "أو كريمة مخفوقة", "tr": "veya çırpılmış krema", "en": "or whipped cream" }
+      },
+      { "ingredient_id": "pistachios", "amount": 0.25, "unit": "cup", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "حضّر القطر: اغلِ كوب سكر مع الماء ١٠ دقائق، وأضف الليمون، واتركه يبرد.",
+        "سخّن الحليب مع ثلث كوب سكر، ثم أضف السميد مع الخفق المستمر.",
+        "حرّك ٥–٨ دقائق حتى يتكاثف كالمهلبية، ثم أضف ماء الزهر.",
+        "اسكبه في صينية أو أكواب واتركه يبرد تماماً.",
+        "افرد القشطة فوقه ورشّ الفستق، وبرّده ٣ ساعات. قدّمه مع القطر."
+      ],
+      "tr": [
+        "Şerbet: bir su bardağı şekeri suyla 10 dakika kaynatın, limonu ekleyip soğutun.",
+        "Sütü üçte bir su bardağı şekerle ısıtın, irmiği sürekli çırparak ekleyin.",
+        "Muhallebi kıvamına gelene kadar 5–8 dakika karıştırın, portakal çiçeği suyunu ekleyin.",
+        "Tepsiye veya kaselere döküp tamamen soğutun.",
+        "Üzerine kaymağı yayıp fıstık serpin, 3 saat buzdolabında bekletin. Şerbetle servis edin."
+      ],
+      "en": [
+        "Make the syrup: boil 1 cup sugar with the water for 10 minutes, add the lemon juice and let cool.",
+        "Heat the milk with ⅓ cup sugar, then add the semolina while whisking constantly.",
+        "Stir for 5–8 minutes until thick like a pudding, then add the orange blossom water.",
+        "Pour into a dish or cups and let it cool completely.",
+        "Spread the ashta on top, sprinkle with pistachios and chill for 3 hours. Serve with the syrup."
+      ]
+    },
+    "tips": {
+      "ar": ["يمكن استبدال القشطة بكريمة مخفوقة مع قليل من السكر."],
+      "tr": ["Kaymak yerine biraz şekerle çırpılmış krema kullanılabilir."],
+      "en": ["Whipped cream with a little sugar can stand in for ashta."]
+    },
+    "tags": ["sweet", "make_ahead", "ramadan"],
+    "sources": [
+      "https://feelgoodfoodie.net/recipe/semolina-pudding/",
+      "https://www.cookinwithmima.com/lebanese-nights-dessert/",
+      "https://www.fufuskitchen.com/layali-lubnan-semolina-pudding/"
+    ]
+  },
+  {
+    "id": "leb-aish-el-saraya",
+    "name": {
+      "ar": "عيش السرايا",
+      "tr": "Ayş es-Saraya (Kaymaklı Ekmek Tatlısı)",
+      "en": "Aish el Saraya (Palace Bread Pudding)",
+      "native": "عيش السرايا"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "servings": 8,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "toast_bread",
+        "amount": 12,
+        "unit": "slice",
+        "optional": false,
+        "note": { "ar": "بلا أطراف", "tr": "Kenarları alınmış", "en": "crusts removed" }
+      },
+      { "ingredient_id": "sugar", "amount": 1.5, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 0.25, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "rose_water", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "orange_blossom_water", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "ashta",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "جاهزة أو منزلية", "tr": "Hazır veya ev yapımı kaymak", "en": "ready-made or homemade" }
+      },
+      { "ingredient_id": "pistachios", "amount": 0.25, "unit": "cup", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "حمّص شرائح الخبز في الفرن حتى تصبح ذهبية غامقة وجافة، ثم فتّتها.",
+        "ذوّب نصف كوب سكر في قدر حتى يصبح كراميلاً ذهبياً، ثم أضف الماء بحذر مع باقي السكر واتركه يغلي ١٠ دقائق.",
+        "أضف الليمون وماء الورد وماء الزهر.",
+        "ضع الخبز في صينية، واسكب القطر الساخن تدريجياً مع الضغط حتى يتشرّبه ويصبح طبقة متماسكة، واتركه يبرد.",
+        "افرد القشطة فوقه وزيّنه بالفستق، وبرّده ٣ ساعات قبل التقديم."
+      ],
+      "tr": [
+        "Ekmek dilimlerini fırında koyu altın rengi ve kuru olana kadar kızartıp ufalayın.",
+        "Yarım su bardağı şekeri tencerede altın rengi karamel olana kadar eritin; suyu dikkatle kalan şekerle ekleyip 10 dakika kaynatın.",
+        "Limon, gül suyu ve portakal çiçeği suyunu ekleyin.",
+        "Ekmeği tepsiye koyun, sıcak şerbeti azar azar bastırarak dökün; şerbeti çekip bütünleşince soğumaya bırakın.",
+        "Üzerine kaymağı yayıp fıstıkla süsleyin, servisten önce 3 saat buzdolabında bekletin."
+      ],
+      "en": [
+        "Toast the bread slices in the oven until deep golden and dry, then break them up.",
+        "Melt ½ cup sugar in a pan to a golden caramel, carefully add the water with the rest of the sugar and boil for 10 minutes.",
+        "Add the lemon juice, rose water and orange blossom water.",
+        "Put the bread in a dish and pour the hot syrup over gradually, pressing, until it soaks in and forms a firm layer; let it cool.",
+        "Spread the ashta over the top, garnish with pistachios and chill for 3 hours before serving."
+      ]
+    },
+    "tips": {
+      "ar": ["التحميص الجيد للخبز يمنع الطبقة من أن تصبح عجينية."],
+      "tr": ["Ekmeği iyi kızartmak tabanın hamurlaşmasını önler."],
+      "en": ["Toasting the bread well stops the base from turning soggy."]
+    },
+    "tags": ["sweet", "make_ahead"],
+    "sources": [
+      "https://thematbakh.com/aish-el-saraya/",
+      "https://littlesunnykitchen.com/aish-el-saraya/",
+      "https://www.internationalcuisine.com/lebanese-milk-and-bread-pudding/"
+    ]
+  },
+  {
+    "id": "leb-namoura",
+    "name": {
+      "ar": "نمّورة",
+      "tr": "Nammura (Şerbetli İrmik Tatlısı)",
+      "en": "Namoura (Semolina Syrup Cake)",
+      "native": "نمّورة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert", "snack"],
+    "course": "dessert",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 16,
+    "difficulty": "easy",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "semolina",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "خشن", "tr": "İri", "en": "coarse" }
+      },
+      {
+        "ingredient_id": "ghee",
+        "amount": 0.5,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مذابة، أو زبدة", "tr": "Eritilmiş; veya tereyağı", "en": "melted, or butter" }
+      },
+      {
+        "ingredient_id": "sugar",
+        "amount": 2,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "نصف كوب للعجينة والباقي للقطر",
+          "tr": "Yarım bardağı hamur, kalanı şerbet için",
+          "en": "½ cup for the batter, the rest for the syrup"
+        }
+      },
+      { "ingredient_id": "yogurt", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "coconut", "amount": 0.5, "unit": "cup", "optional": true, "note": "" },
+      { "ingredient_id": "baking_powder", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "water", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "lemon", "amount": 0.25, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "orange_blossom_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "tahini",
+        "amount": 1,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "لدهن الصينية", "tr": "Tepsiyi yağlamak için", "en": "to grease the pan" }
+      },
+      {
+        "ingredient_id": "almonds",
+        "amount": 30,
+        "unit": "piece",
+        "optional": false,
+        "note": { "ar": "كاملة مقشرة", "tr": "Bütün, kabuksuz", "en": "whole, blanched" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "حضّر القطر: اغلِ ١٫٥ كوب سكر مع الماء ١٠ دقائق، وأضف الليمون وماء الزهر، واتركه يبرد.",
+        "افرك السميد بالسمنة، ثم أضف نصف كوب السكر وجوز الهند والبيكنج باودر واللبن واخلط حتى يتجانس، واتركه ساعة.",
+        "ادهن صينية بالطحينة، وافرد الخليط فيها وملّس سطحه.",
+        "قطّعه معيّنات بالسكين وضع حبة لوز في وسط كل قطعة.",
+        "اخبزه في فرن ١٨٠ درجة مئوية ٣٠–٣٥ دقيقة حتى يتحمّر، وحمّر سطحه دقيقة تحت الشواية إن لزم.",
+        "اسكب القطر البارد فوق النمّورة الساخنة فور خروجها، واتركها ساعة قبل التقديم."
+      ],
+      "tr": [
+        "Şerbet: 1,5 su bardağı şekeri suyla 10 dakika kaynatın, limon ve portakal çiçeği suyunu ekleyip soğutun.",
+        "İrmiği sade yağla ovun; yarım bardak şeker, hindistan cevizi, kabartma tozu ve yoğurdu ekleyip homojen olana kadar karıştırın, bir saat dinlendirin.",
+        "Tepsiyi tahinle yağlayıp karışımı yayın ve yüzeyini düzeltin.",
+        "Bıçakla baklava dilimleri kesin, her dilimin ortasına bir badem koyun.",
+        "180°C fırında 30–35 dakika kızarana kadar pişirin; gerekirse üst ızgarada 1 dakika renk verin.",
+        "Fırından çıkar çıkmaz sıcak tatlının üzerine soğuk şerbeti dökün, servisten önce bir saat bekletin."
+      ],
+      "en": [
+        "Make the syrup: boil 1½ cups sugar with the water for 10 minutes, add the lemon juice and orange blossom water and let cool.",
+        "Rub the semolina with the ghee, then add ½ cup sugar, the coconut, baking powder and yogurt and mix until smooth; rest for an hour.",
+        "Grease a baking tin with tahini, spread in the batter and smooth the top.",
+        "Score into diamonds and press an almond into the centre of each.",
+        "Bake at 180°C (350°F) for 30–35 minutes until golden, grilling the top for a minute if needed.",
+        "Pour the cool syrup over the hot cake as soon as it comes out and let it rest for an hour before serving."
+      ]
+    },
+    "tips": {
+      "ar": ["القاعدة: قطر بارد على حلوى ساخنة حتى لا تصبح طرية أكثر من اللازم."],
+      "tr": ["Kural: sıcak tatlıya soğuk şerbet, böylece tatlı fazla yumuşamaz."],
+      "en": ["The rule: cold syrup on hot cake, so it doesn't turn mushy."]
+    },
+    "tags": ["sweet", "ramadan", "eid", "baked"],
+    "sources": ["https://feelgoodfoodie.net/recipe/namoura/", "https://zaatarandzaytoun.com/namoura/", "https://www.cookinwithmima.com/namoura/"]
+  },
+  {
+    "id": "leb-atayef",
+    "name": {
+      "ar": "قطايف عصافيري بالقشطة",
+      "tr": "Ataif (Kaymaklı Katayif)",
+      "en": "Atayef Asafiri (Cream-Filled Pancakes)",
+      "native": "قطايف"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["dessert"],
+    "course": "dessert",
+    "prep_minutes": 45,
+    "cook_minutes": 30,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 5,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "semolina",
+        "amount": 1,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "ناعم", "tr": "İnce", "en": "fine" }
+      },
+      { "ingredient_id": "yeast", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "baking_powder", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "sugar",
+        "amount": 1.6,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "ملعقة للعجينة والباقي للقطر",
+          "tr": "Bir kaşığı hamur, kalanı şerbet için",
+          "en": "1 tbsp for the batter, the rest for the syrup"
+        }
+      },
+      {
+        "ingredient_id": "water",
+        "amount": 3.5,
+        "unit": "cup",
+        "optional": false,
+        "note": {
+          "ar": "٢٫٥ كوب دافئ للعجينة و١ للقطر",
+          "tr": "2,5 bardak ılık su hamur, 1 bardak şerbet için",
+          "en": "2½ cups warm for the batter, 1 for the syrup"
+        }
+      },
+      { "ingredient_id": "lemon", "amount": 0.25, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "orange_blossom_water", "amount": 1, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "ashta", "amount": 2, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "pistachios",
+        "amount": 0.25,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "مطحون", "tr": "Çekilmiş", "en": "ground" }
+      }
+    ],
+    "steps": {
+      "ar": [
+        "حضّر القطر: اغلِ ١٫٥ كوب سكر مع كوب ماء ١٠ دقائق، وأضف الليمون وماء الزهر، واتركه يبرد.",
+        "اخلط الطحين والسميد والخميرة والبيكنج باودر وملعقة سكر، وأضف الماء الدافئ مع الخفق حتى تصبح عجينة سائلة ناعمة، واتركها ٣٠ دقيقة حتى تنتفخ.",
+        "سخّن مقلاة غير لاصقة على نار متوسطة، واسكب ملعقتين من العجينة لتكوين أقراص صغيرة.",
+        "اطبخها من جهة واحدة فقط دون قلب حتى يمتلئ سطحها بالثقوب ويجف، ثم ضعها تحت منشفة لتبقى طرية.",
+        "اطوِ كل قرص نصفين واضغط نصف الحافة لتصبح كالمخروط، واحشُها بالقشطة واغمس الطرف المفتوح بالفستق.",
+        "قدّمها مع القطر."
+      ],
+      "tr": [
+        "Şerbet: 1,5 su bardağı şekeri bir bardak suyla 10 dakika kaynatın, limon ve portakal çiçeği suyunu ekleyip soğutun.",
+        "Un, irmik, maya, kabartma tozu ve bir kaşık şekeri karıştırın; ılık suyu çırparak ekleyip akışkan, pürüzsüz bir hamur yapın ve kabarması için 30 dakika bekletin.",
+        "Yapışmaz tavayı orta ateşte ısıtın, iki kaşık hamur dökerek küçük yuvarlaklar yapın.",
+        "Çevirmeden, yüzeyi delik delik olup kuruyana kadar tek taraflı pişirin; yumuşak kalmaları için bezin altına alın.",
+        "Her birini ikiye katlayıp kenarın yarısını bastırarak külah yapın, kaymakla doldurun ve açık ucunu fıstığa batırın.",
+        "Şerbetle servis edin."
+      ],
+      "en": [
+        "Make the syrup: boil 1½ cups sugar with 1 cup water for 10 minutes, add the lemon juice and orange blossom water and let cool.",
+        "Mix the flour, semolina, yeast, baking powder and 1 tbsp sugar, then whisk in the warm water to a smooth, runny batter; rest for 30 minutes until bubbly.",
+        "Heat a non-stick pan over medium heat and pour 2 tbsp of batter per pancake.",
+        "Cook on one side only, without flipping, until the surface is covered in holes and dry; keep them under a towel so they stay soft.",
+        "Fold each in half and pinch half the edge closed to make a cone, pipe in ashta and dip the open end in pistachios.",
+        "Serve with the syrup."
+      ]
+    },
+    "tips": {
+      "ar": ["للنسخة المقلية: احشُها بالجوز والقرفة والسكر، وأغلقها كاملة، واقلها ثم اغمسها بالقطر."],
+      "tr": ["Kızartmalık için ceviz, tarçın ve şekerle doldurup tamamen kapatın, kızartıp şerbete batırın."],
+      "en": ["For the fried kind, fill with walnuts, cinnamon and sugar, seal completely, fry and dip in syrup."]
+    },
+    "tags": ["sweet", "ramadan"],
+    "sources": [
+      "https://www.simplyleb.com/recipe/atayef/",
+      "https://littlesunnykitchen.com/regular-atayef-middle-eastern-pancakes/",
+      "https://thematbakh.com/qatayef-atayef-deep-fried-stuffed-pancakes/"
+    ]
+  },
+  {
+    "id": "leb-sambousek",
+    "name": { "ar": "سمبوسك باللحمة", "tr": "Etli Sambusek", "en": "Meat Sambousek", "native": "سمبوسك لحمة" },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "appetizer",
+    "prep_minutes": 60,
+    "cook_minutes": 30,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": false, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 3, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "cornstarch", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 1,
+        "unit": "l",
+        "optional": false,
+        "note": {
+          "ar": "ربع كوب للعجين والباقي للقلي",
+          "tr": "Çeyrek bardağı hamur, kalanı kızartma için",
+          "en": "¼ cup for the dough, the rest for frying"
+        }
+      },
+      { "ingredient_id": "water", "amount": 0.75, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "minced_meat", "amount": 400, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "onion", "amount": 2, "unit": "piece", "optional": false, "note": "" },
+      { "ingredient_id": "pine_nuts", "amount": 0.25, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "baharat", "amount": 1, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "pomegranate_molasses", "amount": 1, "unit": "tbsp", "optional": true, "note": "" },
+      { "ingredient_id": "salt", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اخلط الطحين والنشاء ونصف ملعقة ملح وربع كوب زيت، وأضف الماء تدريجياً واعجن عجينة متماسكة، واتركها ترتاح ٣٠ دقيقة.",
+        "للحشوة: قلّب البصل المفروم في ملعقة زيت، أضف اللحم حتى يتحمّر، ثم البهارات والملح والفلفل والصنوبر المحمّص ودبس الرمان، واتركها تبرد.",
+        "افرد العجينة رقيقة واقطعها دوائر بقطر ٨ سم.",
+        "ضع ملعقة صغيرة من الحشوة، واطوِ الدائرة على شكل هلال، واضغط الحافة بالشوكة أو اجدلها.",
+        "اقلها في زيت ساخن (١٧٥ درجة مئوية) ٣–٤ دقائق حتى تتحمّر، أو ادهنها بالزيت واخبزها في فرن ٢٠٠ درجة مئوية ٢٠ دقيقة."
+      ],
+      "tr": [
+        "Un, nişasta, yarım tatlı kaşığı tuz ve çeyrek bardak yağı karıştırın; suyu azar azar ekleyerek sıkı bir hamur yoğurun ve 30 dakika dinlendirin.",
+        "İç: doğranmış soğanı bir kaşık yağda kavurun, kıymayı ekleyip kızartın; baharat, tuz, karabiber, kavrulmuş çam fıstığı ve nar ekşisini ekleyip soğutun.",
+        "Hamuru ince açıp 8 cm çapında daireler kesin.",
+        "Bir tatlı kaşığı iç koyun, yarım ay şeklinde katlayıp kenarını çatalla bastırın veya kıvırın.",
+        "175°C sıcak yağda 3–4 dakika kızartın ya da yağlayıp 200°C fırında 20 dakika pişirin."
+      ],
+      "en": [
+        "Mix the flour, cornstarch, ½ tsp salt and ¼ cup oil, add the water gradually and knead a firm dough; rest for 30 minutes.",
+        "For the filling: fry the chopped onion in a spoon of oil, add the meat and brown it, then the baharat, salt, pepper, toasted pine nuts and pomegranate molasses; let cool.",
+        "Roll the dough thinly and cut out 8 cm rounds.",
+        "Put a teaspoon of filling on each, fold into a half-moon and seal the edge with a fork or crimp it.",
+        "Fry in hot oil (175°C / 350°F) for 3–4 minutes until golden, or brush with oil and bake at 200°C (400°F) for 20 minutes."
+      ]
+    },
+    "tips": {
+      "ar": ["تُجمَّد نيئة وتُقلى مباشرة عند الحاجة."],
+      "tr": ["Çiğ olarak dondurulup gerektiğinde doğrudan kızartılabilir."],
+      "en": ["Freeze them uncooked and fry straight from the freezer."]
+    },
+    "tags": ["mezze", "ramadan", "fried", "make_ahead"],
+    "sources": [
+      "https://www.simplyleb.com/recipe/beef-sambousek/",
+      "https://thematbakh.com/sambousek-meat-pastries-sambousek-lahme/",
+      "https://zaatarandzaytoun.com/sambousek-lahme/"
+    ]
+  },
+  {
+    "id": "leb-rakakat",
+    "name": {
+      "ar": "رقاقات بالجبنة",
+      "tr": "Peynirli Sigara Böreği (Rakakat)",
+      "en": "Rakakat (Crispy Cheese Rolls)",
+      "native": "رقاقات جبنة"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "course": "appetizer",
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "servings": 8,
+    "difficulty": "easy",
+    "popularity": 4,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      {
+        "ingredient_id": "phyllo_dough",
+        "amount": 20,
+        "unit": "sheet",
+        "optional": false,
+        "note": { "ar": "أو رقائق سبرينغ رول", "tr": "veya yufka / börek yaprağı", "en": "or spring roll sheets" }
+      },
+      {
+        "ingredient_id": "akkawi_cheese",
+        "amount": 250,
+        "unit": "g",
+        "optional": false,
+        "note": { "ar": "منقوعة لإزالة الملح", "tr": "Tuzu alınmış", "en": "desalted" }
+      },
+      { "ingredient_id": "mozzarella", "amount": 250, "unit": "g", "optional": false, "note": "" },
+      { "ingredient_id": "feta_cheese", "amount": 150, "unit": "g", "optional": true, "note": "" },
+      { "ingredient_id": "parsley", "amount": 0.5, "unit": "bunch", "optional": false, "note": "" },
+      {
+        "ingredient_id": "flour",
+        "amount": 2,
+        "unit": "tbsp",
+        "optional": false,
+        "note": { "ar": "مع ماء للّصق", "tr": "Yapıştırmak için suyla", "en": "mixed with water to seal" }
+      },
+      {
+        "ingredient_id": "vegetable_oil",
+        "amount": 1,
+        "unit": "l",
+        "optional": false,
+        "note": { "ar": "للقلي", "tr": "Kızartmak için", "en": "for frying" }
+      },
+      { "ingredient_id": "black_pepper", "amount": 0.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "ابشر الجبن واخلطه مع البقدونس المفروم والفلفل.",
+        "اخلط الطحين مع قليل من الماء لتصنع عجينة لاصقة.",
+        "قطّع الرقائق مستطيلات، وضع ملعقتين من الجبن في أسفل كل واحدة.",
+        "اطوِ الجانبين ثم لفّها بإحكام كالسيجار، وألصق الطرف بعجينة الطحين.",
+        "اقلها في زيت ساخن دقيقة أو دقيقتين حتى تصبح ذهبية، أو ادهنها بالزيت واخبزها في فرن ٢٠٠ درجة مئوية ١٥ دقيقة. قدّمها ساخنة."
+      ],
+      "tr": [
+        "Peynirleri rendeleyip kıyılmış maydanoz ve karabiberle karıştırın.",
+        "Unu biraz suyla karıştırıp yapıştırıcı bir macun yapın.",
+        "Yaprakları dikdörtgenler hâlinde kesin, her birinin alt ucuna iki kaşık peynir koyun.",
+        "Kenarları içe katlayıp sigara gibi sıkıca sarın, ucunu unlu macunla yapıştırın.",
+        "Sıcak yağda 1–2 dakika altın rengi olana kadar kızartın ya da yağlayıp 200°C fırında 15 dakika pişirin. Sıcak servis edin."
+      ],
+      "en": [
+        "Grate the cheeses and mix with the chopped parsley and pepper.",
+        "Mix the flour with a little water to make a paste for sealing.",
+        "Cut the sheets into rectangles and place 2 tbsp of cheese at the bottom of each.",
+        "Fold in the sides and roll up tightly like a cigar, sealing the end with the flour paste.",
+        "Fry in hot oil for 1–2 minutes until golden, or brush with oil and bake at 200°C (400°F) for 15 minutes. Serve hot."
+      ]
+    },
+    "tips": {
+      "ar": ["جمّدها ساعة قبل القلي حتى لا تتسرب الجبنة."],
+      "tr": ["Peynir akmasın diye kızartmadan önce bir saat dondurun."],
+      "en": ["Freeze for an hour before frying so the cheese doesn't leak."]
+    },
+    "tags": ["mezze", "ramadan", "kids", "fried"],
+    "sources": [
+      "https://feelgoodfoodie.net/recipe/crispy-cheese-rolls/",
+      "https://www.simplyleb.com/recipe/cheeserolls/",
+      "https://zaatarandzaytoun.com/lebanese-fried-cheese-rolls-rekakat-jibneh"
+    ]
+  },
+  {
+    "id": "leb-kaak",
+    "name": {
+      "ar": "كعك بالسمسم (كعكة عصرونية)",
+      "tr": "Susamlı Kaak Ekmeği (Beyrut Simidi)",
+      "en": "Ka'ak (Beirut Sesame Street Bread)",
+      "native": "كعك"
+    },
+    "cuisine": "lebanese",
+    "region": "levant",
+    "meal_type": ["breakfast", "snack"],
+    "course": "bread",
+    "prep_minutes": 100,
+    "cook_minutes": 10,
+    "servings": 8,
+    "difficulty": "medium",
+    "popularity": 3,
+    "diet": { "halal": true, "vegetarian": true, "vegan": false, "gluten_free": false },
+    "ingredients": [
+      { "ingredient_id": "flour", "amount": 4, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "yeast", "amount": 2, "unit": "tsp", "optional": false, "note": "" },
+      {
+        "ingredient_id": "sugar",
+        "amount": 3,
+        "unit": "tbsp",
+        "optional": false,
+        "note": {
+          "ar": "ملعقة للعجين وملعقتان للدهن",
+          "tr": "Bir kaşığı hamur, ikisi üstü için",
+          "en": "1 tbsp for the dough, 2 for the glaze"
+        }
+      },
+      { "ingredient_id": "milk", "amount": 0.5, "unit": "cup", "optional": false, "note": "" },
+      {
+        "ingredient_id": "water",
+        "amount": 1.25,
+        "unit": "cup",
+        "optional": false,
+        "note": { "ar": "دافئ", "tr": "Ilık", "en": "warm" }
+      },
+      { "ingredient_id": "vegetable_oil", "amount": 2, "unit": "tbsp", "optional": false, "note": "" },
+      { "ingredient_id": "sesame_seeds", "amount": 1, "unit": "cup", "optional": false, "note": "" },
+      { "ingredient_id": "salt", "amount": 1.5, "unit": "tsp", "optional": false, "note": "" }
+    ],
+    "steps": {
+      "ar": [
+        "اعجن الطحين مع الخميرة وملعقة سكر والملح والحليب والزيت والماء الدافئ ١٠ دقائق حتى تصبح العجينة ناعمة، واتركها تتخمر ساعة.",
+        "قسّمها ٨ كرات، وافرد كل كرة على شكل بيضاوي بطول ٢٠ سم تقريباً.",
+        "اصنع فتحة كبيرة قرب أحد الطرفين لتصبح كالحقيبة ذات المقبض.",
+        "ذوّب ملعقتي سكر في نصف كوب ماء، وادهن الوجه ثم اغمسه في السمسم، واتركها ١٥ دقيقة.",
+        "اخبزها في فرن ٢٣٠ درجة مئوية على صينية ساخنة ٨–١٠ دقائق حتى تصبح ذهبية. قدّمها مع الزعتر أو الجبنة أو اللبنة."
+      ],
+      "tr": [
+        "Unu maya, bir kaşık şeker, tuz, süt, yağ ve ılık suyla 10 dakika pürüzsüz olana kadar yoğurun, bir saat mayalandırın.",
+        "8 bezeye bölün, her birini yaklaşık 20 cm uzunluğunda oval açın.",
+        "Bir ucuna yakın büyük bir delik açarak saplı çanta şekli verin.",
+        "İki kaşık şekeri yarım bardak suda eritin, üstünü bu suyla ıslatıp susama bastırın, 15 dakika bekletin.",
+        "230°C fırında sıcak tepside 8–10 dakika altın rengi olana kadar pişirin. Zahter, peynir veya labneyle servis edin."
+      ],
+      "en": [
+        "Knead the flour with the yeast, 1 tbsp sugar, salt, milk, oil and warm water for 10 minutes until smooth; let rise for an hour.",
+        "Divide into 8 balls and roll each into an oval about 20 cm long.",
+        "Cut a large hole near one end so it looks like a handbag with a handle.",
+        "Dissolve 2 tbsp sugar in ½ cup water, brush the tops, dip them in sesame and rest for 15 minutes.",
+        "Bake at 230°C (450°F) on a hot tray for 8–10 minutes until golden. Serve with za'atar, cheese or labneh."
+      ]
+    },
+    "tips": {
+      "ar": ["في بيروت تُحشى الكعكة بالزعتر أو بالكنافة أو بالجبنة."],
+      "tr": ["Beyrut'ta kaak zahter, künefe veya peynirle doldurulur."],
+      "en": ["In Beirut the ka'ak is stuffed with za'atar, knafeh or cheese."]
+    },
+    "tags": ["street_food", "breakfast_classic", "baked"],
+    "sources": [
+      "https://breadtopia.com/lebanese-purse-bread-kaak-alasreya-kaakit-al-asroniyeh/",
+      "https://www.karenskitchenstories.com/2017/06/kaak-beirut-street-bread.html",
+      "https://hadiaslebanesecuisine.com/blog/kaak-kaak-alasreya/"
+    ]
+  }
+]
