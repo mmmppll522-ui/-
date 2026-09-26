@@ -801,7 +801,7 @@
     },
     "cuisine": "saudi",
     "region": "gulf",
-    "also_cuisines": ["emirati", "kuwaiti", "qatari", "bahraini"],
+    "also_cuisines": ["emirati", "kuwaiti", "qatari", "bahraini", "omani"],
     "meal_type": ["breakfast", "dinner", "snack"],
     "course": "pastry",
     "prep_minutes": 70,

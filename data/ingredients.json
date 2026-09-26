@@ -3019,9 +3019,9 @@
     "id": "salted_fish",
     "names": { "ar": "سمك مالح", "tr": "tuzlu balık", "en": "salted fish" },
     "synonyms": {
-      "ar": ["مالح", "ملّيح", "سمك مملح", "مالح إماراتي", "فسيخ"],
+      "ar": ["مالح", "ملّيح", "سمك مملح", "مالح إماراتي", "فسيخ", "عوال", "قرش مجفف", "قاشع"],
       "tr": ["salamura balık"],
-      "en": ["maleh", "malleh", "salt fish", "salted dried fish"]
+      "en": ["maleh", "malleh", "salt fish", "salted dried fish", "awal", "dried shark", "dried fish"]
     },
     "category": "seafood",
     "pantry_staple": false,
@@ -3135,6 +3135,25 @@
       "en": "rolled oats",
       "de": "Haferflocken",
       "fr": "flocons d'avoine"
+    }
+  },
+  {
+    "id": "coconut_milk",
+    "names": { "ar": "حليب جوز الهند", "tr": "hindistan cevizi sütü", "en": "coconut milk" },
+    "synonyms": { "ar": ["حليب النارجيل", "نارجيل", "كريمة جوز الهند", "حليب هند"], "tr": [], "en": ["coconut cream"] },
+    "category": "other",
+    "pantry_staple": false,
+    "basic_spice": false,
+    "generic": false,
+    "parents": [],
+    "contains": [],
+    "substitutes": ["heavy_cream"],
+    "search_term": {
+      "ar": "حليب جوز الهند",
+      "tr": "hindistan cevizi sütü",
+      "en": "coconut milk",
+      "de": "Kokosmilch",
+      "fr": "lait de coco"
     }
   }
 ]
